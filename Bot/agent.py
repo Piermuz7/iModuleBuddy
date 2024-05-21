@@ -5,14 +5,21 @@ from langchain.agents import AgentExecutor, create_react_agent
 
 from llm import llm
 
-from tools.finetuned import cypher_qa
+from tools.modules import cypher_qa
+from tools.jobassistant import job_assistant
 
 # tag::tools[]
 tools = [
     Tool.from_function(
-        name="Cypher QA",
-        description="Provide information about movies questions using Cypher",
+        name="Modules Assistant",
+        description="Provide information about modules and lecturers questions using Cypher",
         func = cypher_qa,
+        return_direct=True
+    ),
+    Tool.from_function(
+        name="Job Assistant",
+        description="Provide information about job roles and competencies questions using Cypher",
+        func = job_assistant,
         return_direct=True
     ),
 ]
@@ -48,7 +55,7 @@ Thought: Do I need to use a tool? Yes
 
 Action: the action to take, should be one of [{tool_names}]
 
-Action Input: the input to the action
+Action Input: the input to the action, should be very close to the original input
 
 Observation: the result of the action
 
