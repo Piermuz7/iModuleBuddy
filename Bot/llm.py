@@ -4,7 +4,7 @@ from langchain_anthropic import ChatAnthropic
 
 llm = ChatAnthropic(temperature=0, 
                     anthropic_api_key=st.secrets["ANTHROPIC_KEY"], 
-                    model_name="claude-3-haiku-20240307")
+                    model_name="claude-3-sonnet-20240229")
 # end::llm[]
 
 # tag::embedding[]

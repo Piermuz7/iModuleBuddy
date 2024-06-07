@@ -30,10 +30,32 @@ WHERE m.hasName = 'Data Science'
 RETURN j
 ```
 
+3. How to distinguish between same entities with different characteristics, in this case, modules offered in Spring and modules offered in Autumn:
+```
+MATCH (m:Module)
+WHERE m.isOfferedIn IN ['Autumn']
+RETURN m.isOfferedIn, m.hasName
+
+UNION
+
+MATCH (m:Module)
+WHERE m.isOfferedIn IN ['Spring']
+RETURN m.isOfferedIn, m.hasName
+```
+
+3. Modules which don't require collaboration for any Assessment:
+```
+MATCH (m:Module)
+WHERE NOT EXISTS{
+    MATCH (m)-[:isAssessedThrough]->(j)
+    WHERE j.hasCollaboration = true
+}
+RETURN m.hasName
+```
 
 Your answers should be concise and to the point. Do not include any additional information that is not requested.
 Answer with only the generated Cypher statement.
-
+Don't add unnecessary information to the answer.
 
 
 Schema:
@@ -56,6 +78,7 @@ cypher_qa = GraphCypherQAChain.from_llm(
     llm,
     graph=graph,
     verbose=True,
+    top_k=100,
     cypher_prompt=cypher_prompt
 )
 # tag::cypher-qa[]

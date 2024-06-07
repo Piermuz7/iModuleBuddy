@@ -35,7 +35,7 @@ def handle_submit(message):
     # Handle the response
     with st.spinner('Thinking...'):
         response = generate_response(message)
-        write_message('assistant', response['result'])
+        write_message('assistant', response)
 # end::submit[]
 
 

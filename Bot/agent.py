@@ -94,10 +94,12 @@ def generate_response(prompt):
     Create a handler that calls the Conversational agent
     and returns a response to be rendered in the UI
     """
+    try:
+        response = agent_executor.invoke({"input": prompt})
 
-    response = agent_executor.invoke({"input": prompt})
-
-    return response['output']
+        return response['output']['result']
+    except :
+        return f"An error occured while processing the request. Please try again."
 # end::generate_response[]
 
 
