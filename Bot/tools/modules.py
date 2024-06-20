@@ -19,43 +19,39 @@ Example Cypher Statements:
 1. How to find which modules are taught by a lecturer:
 ```
 MATCH (l:Lecturer)-[:teaches]->(m:Module)
-WHERE l.hasFirstName = 'Maja'
+WHERE l.hasFirstName = ['Maja']
 RETURN m.hasName
 ```
 
 2. Subjects treated in a module:
 ```
 MATCH (j)-[:isTreatedIn]->(m:Module)
-WHERE m.hasName = 'Data Science'
+WHERE m.hasName = ['Data Science']
 RETURN j
 ```
 
 3. How to distinguish between same entities with different characteristics, in this case, modules offered in Spring and modules offered in Autumn:
 ```
 MATCH (m:Module)
-WHERE m.isOfferedIn IN ['Autumn']
+WHERE ANY (item IN m.isOfferedIn WHERE item = 'Autumn')
 RETURN m.isOfferedIn, m.hasName
 
 UNION
 
 MATCH (m:Module)
-WHERE m.isOfferedIn IN ['Spring']
+WHERE ANY (item IN m.isOfferedIn WHERE item = 'Spring')
 RETURN m.isOfferedIn, m.hasName
 ```
 
 3. Modules which don't require collaboration for any Assessment:
 ```
 MATCH (m:Module)
-WHERE NOT EXISTS{
-    MATCH (m)-[:isAssessedThrough]->(j)
-    WHERE j.hasCollaboration = true
-}
+WHERE NOT EXISTS {{ MATCH (m)-[:isAssessedThrough]->(j) WHERE j.hasCollaboration = [true] }}
 RETURN m.hasName
 ```
 
 Your answers should be concise and to the point. Do not include any additional information that is not requested.
 Answer with only the generated Cypher statement.
-Don't add unnecessary information to the answer.
 
 
 Schema:
