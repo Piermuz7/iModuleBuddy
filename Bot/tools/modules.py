@@ -43,11 +43,26 @@ WHERE ANY (item IN m.isOfferedIn WHERE item = 'Spring')
 RETURN m.isOfferedIn, m.hasName
 ```
 
-3. Modules which don't require collaboration for any Assessment:
+4. Modules which don't require collaboration for any Assessment:
 ```
 MATCH (m:Module)
 WHERE NOT EXISTS {{ MATCH (m)-[:isAssessedThrough]->(j) WHERE j.hasCollaboration = [true] }}
 RETURN m.hasName
+```
+
+5. Given a student called 'Mario' which has a already taken some modules, find the modules that he has not taken yet:
+```
+MATCH (s:Student {{hasFirstName: ['Mario']}})-[:hasTaken]->(m:Module)
+WITH collect(m) AS takenModules
+MATCH (m:Module)
+WHERE NOT m IN takenModules
+RETURN m.hasName
+```
+
+6. Get general information about a module called 'Data Science':
+```
+MATCH (a:Module {{hasName: ['Challenging International Managers And Leaders']}})-[r]-(b)
+RETURN a, r, b
 ```
 
 Your answers should be concise and to the point. Do not include any additional information that is not requested.

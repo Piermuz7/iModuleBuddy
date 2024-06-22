@@ -47,6 +47,7 @@ cypher_prompt = PromptTemplate.from_template(JOB_ASSISTANT_TEMPLATE)
 job_assistant = GraphCypherQAChain.from_llm(
     llm,
     graph=graph,
+    validate_cypher=True,
     verbose=True,
     cypher_prompt=cypher_prompt
 )

@@ -4,7 +4,6 @@ from langchain.tools import Tool
 from langchain.agents import AgentExecutor, create_react_agent
 
 from llm import llm
-
 from tools.modules import cypher_qa
 from tools.jobassistant import job_assistant
 
@@ -101,24 +100,3 @@ def generate_response(prompt):
     except :
         return f"An error occured while processing the request. Please try again."
 # end::generate_response[]
-
-
-"""
-
-The `generate_response()` method can be called from the `handle_submit()` method in `bot.py`:
-
-# tag::import[]
-from agent import generate_response
-# end::import[]
-
-# tag::submit[]
-# Submit handler
-def handle_submit(message):
-    # Handle the response
-    with st.spinner('Thinking...'):
-
-        response = generate_response(message)
-        write_message('assistant', response)
-# end::submit[]
-
-"""
