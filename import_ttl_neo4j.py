@@ -17,7 +17,7 @@ config = Neo4jStoreConfig(auth_data=auth_data,
                           handle_multival_strategy=HANDLE_MULTIVAL_STRATEGY.ARRAY,
                           batching=True)
 
-file_path = 'FILEPATH'
+file_path = 'ModuleSelection.ttl'
 
 # Create the RDF Graph, parse & ingest the data to Neo4j, and close the store(If the field batching is set to True in the Neo4jStoreConfig, remember to close the store to prevent the loss of any uncommitted records.)
 neo4j_aura = Graph(store=Neo4jStore(config=config))
