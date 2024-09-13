@@ -1,17 +1,20 @@
 import requests
 
-API_BASE_URL = 'https://ec.europa.eu/esco/api/resource/occupation'
+API_OCCUPATION_URL = 'https://ec.europa.eu/esco/api/resource/occupation'
+API_SKILL_URL = 'https://ec.europa.eu/esco/api/resource/skill'
 SELECTED_VERSION = 'v1.2.0'
 
 
 class Skill:
-    def __init__(self, title, uri, skill_type):
+    def __init__(self, title, uri, skill_type, description=""):
         self.uri = uri
         self.title = title
         self.skill_type = skill_type
+        self.description = description
 
     def __repr__(self):
-        return f'Skill(uri={self.uri!r}, title={self.title!r}, skill_type={self.skill_type!r})'
+        return (f'Skill(uri={self.uri!r}, title={self.title!r}, skill_type={self.skill_type!r}, '
+                f'description={self.description!r})')
 
 
 class Occupation:
@@ -24,7 +27,7 @@ class Occupation:
 
     def __repr__(self):
         return (f'Occupation(uri={self.uri!r}, title={self.title!r}, description={self.description!r}, '
-                f'skills={self.skills!r}, 'f'optional_skills={self.optional_skills!r}, )')
+                f'skills={self.skills!r}, optional_skills={self.optional_skills!r})')
 
 
 def fetch_occupation_json(uri):
@@ -33,11 +36,26 @@ def fetch_occupation_json(uri):
         'selectedVersion': SELECTED_VERSION
     }
     try:
-        response = requests.get(API_BASE_URL, params=params)
+        response = requests.get(API_OCCUPATION_URL, params=params)
         response.raise_for_status()
         return response.json()
     except requests.RequestException as e:
         print(f"Error fetching data for URI {uri}: {e}")
+        return {}
+
+
+def fetch_skill_json(uri):
+    """Fetch skill details from the API_SKILL_URL."""
+    params = {
+        'uri': uri,
+        'selectedVersion': SELECTED_VERSION
+    }
+    try:
+        response = requests.get(API_SKILL_URL, params=params)
+        response.raise_for_status()
+        return response.json()
+    except requests.RequestException as e:
+        print(f"Error fetching skill data for URI {uri}: {e}")
         return {}
 
 
@@ -48,10 +66,15 @@ def extract_skills(json_data, link_key):
         skill_name = skill.get('title')
         skill_uri = skill.get('uri')
         skill_category = skill.get('skillType')
+
+        # Fetch the description of the skill from the API
+        skill_description_json = fetch_skill_json(skill_uri)
+        skill_description = skill_description_json.get('description', {}).get('en', {}).get('literal', '')
+
         if skill_category == 'http://data.europa.eu/esco/skill-type/skill':
-            skills.append(Skill(skill_name, skill_uri, 'skill'))
+            skills.append(Skill(skill_name, skill_uri, 'skill', description=skill_description))
         elif skill_category == 'http://data.europa.eu/esco/skill-type/knowledge':
-            skills.append(Skill(skill_name, skill_uri, 'knowledge'))
+            skills.append(Skill(skill_name, skill_uri, 'knowledge', description=skill_description))
 
     return skills
 
@@ -87,3 +110,4 @@ def gather_occupations(uri):
         occupations.append(occupation)
 
     return occupations
+
