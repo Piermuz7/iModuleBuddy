@@ -1,8 +1,8 @@
 from neo4j import GraphDatabase
 from esco import gather_occupations
 
-URI = 'db_uri'
-AUTH = ('neo4j', 'password')
+URI_NEO4J = 'URI'
+AUTH = ('USER', 'PASSWORD')
 URI_ESCO_GROUP = 'http://data.europa.eu/esco/isco/C25'
 
 
@@ -19,10 +19,10 @@ def add_occupation(driver, occupation):
 def add_skill(driver, skill):
     driver.execute_query(
         '''
-        MERGE (n:Skill {skillType: $skill_type, title: $title, uri: $uri})
+        MERGE (n:Skill {skillType: $skill_type, title: $title, uri: $uri, description: $description})
         RETURN n
         ''',
-        skill_type=skill.skill_type, title=skill.title, uri=skill.uri, database_="neo4j"
+        skill_type=skill.skill_type, title=skill.title, uri=skill.uri, description=skill.description, database_="neo4j"
     )
 
 
@@ -53,7 +53,7 @@ def process_occupation(driver, occupation):
         link_occupation_skill(driver, occupation.uri, skill.uri, 'optional')
 
 
-with GraphDatabase.driver(URI, auth=AUTH) as d:
+with GraphDatabase.driver(URI_NEO4J, auth=AUTH) as d:
     try:
         occupations = gather_occupations(URI_ESCO_GROUP)
         for o in occupations:
