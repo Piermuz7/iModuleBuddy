@@ -1,0 +1,425 @@
+index,knowledge
+K1,3D lighting
+K2,3D modelling
+K3,3D texturing
+K4,ABAP
+K5,Adobe Illustrator
+K6,Adobe Photoshop
+K7,Agile development
+K8,Agile project management
+K9,Aircrack (penetration testing tool)
+K10,AJAX
+K11,Ajax Framework
+K12,algorithms
+K13,Android (mobile operating systems)
+K14,Angular
+K15,Ansible
+K16,Apache Maven
+K17,Apache Tomcat
+K18,APL
+K19,application usability
+K20,artificial neural networks
+K21,ASP.NET
+K22,Assembly (computer programming)
+K23,assessment of risks and threats
+K24,attack vectors
+K25,audit techniques
+K26,augmented reality
+K27,authoring software
+K28,Backbox (penetration testing tool)
+K29,battery management systems
+K30,behavioural science
+K31,BlackArch
+K32,BlackBerry
+K33,blockchain
+K34,blockchain application areas
+K35,blockchain applications
+K36,blockchain applications security principles
+K37,blockchain architecture
+K38,blockchain components
+K39,blockchain concept application
+K40,blockchain consensus mechanisms
+K41,blockchain design patterns
+K42,blockchain history
+K43,blockchain mining principles
+K44,blockchain openness
+K45,blockchain platforms
+K46,blockchain signature schemes
+K47,blockchain terminology
+K48,blockchain-based business models
+K49,blockchain-based services regulation
+K50,blueprints
+K51,building systems monitoring technology
+K52,business analytics
+K53,business ICT systems
+K54,business intelligence
+K55,business process modelling
+K56,business processes
+K57,business requirements techniques
+K58,business strategy concepts
+K59,C#
+K60,C++
+K61,CA Datacom/DB
+K62,CAD software
+K63,Cain and Abel (penetration testing tool)
+K64,check methods
+K65,Chef (tools for software configuration management)
+K66,Cisco
+K67,cloud monitoring and reporting
+K68,cloud security and compliance
+K69,cloud technologies
+K70,COBOL
+K71,Codenvy
+K72,CoffeeScript
+K73,cognitive computing
+K74,cognitive psychology
+K75,Common Lisp
+K76,computational biology
+K77,computer engineering
+K78,computer forensics
+K79,computer graphics
+K80,computer programming
+K81,computer science
+K82,computer simulation
+K83,computer technology
+K84,computer vision
+K85,consultation methods
+K86,content development processes
+K87,content marketing strategy
+K88,control objectives for information and related technology
+K89,copyright legislation
+K90,core banking software
+K91,corporate sustainability
+K92,crowdsourcing strategy
+K93,cryptocurrency
+K94,CSS
+K95,cyber attack counter-measures
+K96,cyber security
+K97,data analytics
+K98,data engineering
+K99,data ethics
+K100,"data extraction, transformation and loading tools"
+K101,data mining
+K102,data models
+K103,data protection
+K104,data quality assessment
+K105,data science
+K106,data security principles
+K107,data storage
+K108,data visualisation software
+K109,data warehouse
+K110,database
+K111,database development tools
+K112,database management systems
+K113,database quality standards
+K114,DB2
+K115,decentralised identifiers
+K116,decentralized application frameworks
+K117,decision support systems
+K118,deep learning
+K119,defence standard procedures
+K120,design thinking
+K121,DevOps
+K122,digital curation
+K123,digital game genres
+K124,digital identity management
+K125,digital image processing
+K126,digital marketing techniques
+K127,digital systems
+K128,digital twin technology
+K129,digitization
+K130,distributed computing
+K131,distributed ledger technologies consensus protocols
+K132,distributed ledger technologies vulnerabilities
+K133,distributed ledger technology
+K134,documentation types
+K135,domain name service
+K136,Drupal
+K137,Eclipse (integrated development environment software)
+K138,electrical engineering
+K139,embedded systems
+K140,emergent technologies
+K141,empirical analysis
+K142,engineering control theory
+K143,engineering principles
+K144,engineering processes
+K145,Erlang
+K146,ethical hacking principles
+K147,ethics
+K148,field-programmable gate arrays
+K149,Filemaker (database management systems)
+K150,forensic intelligence
+K151,game theory
+K152,GDPR
+K153,GIMP (graphics editor software)
+K154,graphics editor software
+K155,green building standards
+K156,Groovy
+K157,Hadoop
+K158,hardware architectures
+K159,hardware components
+K160,hardware components suppliers
+K161,hardware platforms
+K162,hardware testing methods
+K163,Haskell
+K164,healthcare analytics
+K165,human-computer interaction
+K166,hybrid model
+K167,IBM Informix
+K168,IBM InfoSphere DataStage
+K169,IBM InfoSphere Information Server
+K170,IBM WebSphere
+K171,ICT accessibility standards
+K172,ICT architectural frameworks
+K173,ICT capacity planning strategies
+K174,ICT communications protocols
+K175,ICT debugging tools
+K176,ICT encryption
+K177,ICT environmental policies
+K178,ICT infrastructure
+K179,ICT market
+K180,ICT network routing
+K181,ICT network security risks
+K182,ICT network simulation
+K183,ICT networking hardware
+K184,ICT performance analysis methods
+K185,ICT power consumption
+K186,ICT problem management techniques
+K187,ICT process quality models
+K188,ICT project management
+K189,ICT project management methodologies
+K190,ICT quality policy
+K191,ICT recovery techniques
+K192,ICT sales methodologies
+K193,ICT security legislation
+K194,ICT security standards
+K195,ICT software specifications
+K196,ICT system integration
+K197,ICT system programming
+K198,ICT system user requirements
+K199,image formation
+K200,image recognition
+K201,incidents and accidents recording
+K202,incremental development
+K203,industrial software
+K204,Informatica PowerCenter
+K205,information architecture
+K206,information categorisation
+K207,information confidentiality
+K208,information extraction
+K209,information governance compliance
+K210,information security strategy
+K211,information structure
+K212,innovation processes
+K213,insourcing strategy
+K214,integrated development environment software
+K215,inter-organisational middleware system
+K216,interactive media
+K217,interfacing techniques
+K218,internal risk management policy
+K219,internet governance
+K220,Internet of Things
+K221,investment analysis
+K222,iOS
+K223,Iterative development
+K224,Java (computer programming)
+K225,JavaScript
+K226,JavaScript Framework
+K227,Jenkins (tools for software configuration management)
+K228,John The Ripper (penetration testing tool)
+K229,Joomla
+K230,JSSS
+K231,Kali Linux
+K232,KDevelop
+K233,keywords in digital content
+K234,labour legislation
+K235,lathe machine parts
+K236,LDAP
+K237,leadership principles
+K238,lean project management
+K239,legal requirements of ICT products
+K240,LESS
+K241,levels of software testing
+K242,LINQ
+K243,Lisp
+K244,machine learning
+K245,Maltego
+K246,manufacturing processes
+K247,marketing analytics
+K248,MarkLogic
+K249,mathematical modelling
+K250,mathematical physics
+K251,mathematics
+K252,MATLAB
+K253,MDX
+K254,mechanics
+K255,mechatronics
+K256,Metasploit
+K257,Microsoft Access
+K258,Microsoft Visio
+K259,Microsoft Visual C++
+K260,ML (computer programming)
+K261,mobile device management
+K262,mobile device software frameworks
+K263,mobile marketing
+K264,mobile operating systems
+K265,model based system engineering
+K266,multidisciplinary research
+K267,MySQL
+K268,N1QL
+K269,natural language processing
+K270,Nessus
+K271,network engineering
+K272,network management system tools
+K273,network standards
+K274,Nexpose
+K275,NoSQL
+K276,object-oriented modelling
+K277,Objective-C
+K278,ObjectStore
+K279,Octopus Deploy
+K280,online analytical processing
+K281,online moderation techniques
+K282,Open source model
+K283,OpenEdge Advanced Business Language
+K284,OpenEdge Database
+K285,operating systems
+K286,operational research
+K287,operational tactics for emergency responses
+K288,Oracle Application Development Framework
+K289,Oracle Data Integrator
+K290,Oracle Relational Database
+K291,Oracle Warehouse Builder
+K292,Oracle WebLogic
+K293,organisational policies
+K294,organisational resilience
+K295,Outsourcing model
+K296,outsourcing strategy
+K297,OWASP ZAP
+K298,Parrot Security OS
+K299,Pascal (computer programming)
+K300,penetration testing tool
+K301,Pentaho Data Integration
+K302,Perl
+K303,PHP
+K304,PostgreSQL
+K305,principles of animation
+K306,principles of artificial intelligence
+K307,Process-based management
+K308,procurement of ICT network equipment
+K309,product data management
+K310,product life-cycle
+K311,product usage risks analysis
+K312,project configuration management
+K313,project management
+K314,Prolog (computer programming)
+K315,Prototyping development
+K316,proxy servers
+K317,publishing strategy
+K318,Puppet (tools for software configuration management)
+K319,Python (computer programming)
+K320,QlikView Expressor
+K321,quality and cycle time optimisation
+K322,quality assurance methodologies
+K323,quality standards
+K324,quantitative analysis
+K325,quantum computing
+K326,query languages
+K327,R
+K328,Rapid application development
+K329,real-time computing
+K330,research design
+K331,resource description framework query language
+K332,resource-efficient technologies
+K333,risk management
+K334,Ruby (computer programming)
+K335,safety engineering
+K336,sales strategies
+K337,Salt (tools for software configuration management)
+K338,Samurai Web Testing Framework
+K339,SAP Data Services
+K340,SAP R3
+K341,SAS Data Management
+K342,SAS language
+K343,Sass
+K344,Scala
+K345,scientific computing
+K346,scientific literature
+K347,scientific research methodology
+K348,Scratch (computer programming)
+K349,screen reader
+K350,security engineering
+K351,security threats
+K352,service-oriented modelling
+K353,signal processing
+K354,SketchBook Pro
+K355,Smalltalk (computer programming)
+K356,smart contract
+K357,smart contract programming languages
+K358,social media marketing techniques
+K359,social network analysis
+K360,software anomalies
+K361,software architecture models
+K362,software components libraries
+K363,software components suppliers
+K364,software design methodologies
+K365,software frameworks
+K366,software interaction design
+K367,software metrics
+K368,software UI design patterns
+K369,Solidity
+K370,solution deployment
+K371,SPARK
+K372,SPARQL
+K373,Spiral development
+K374,SQL
+K375,SQL Server
+K376,SQL Server Integration Services
+K377,STAF
+K378,state estimation
+K379,statistical analysis system software
+K380,statistical modeling techniques
+K381,statistical process control
+K382,statistics
+K383,style sheet languages
+K384,sustainability consulting
+K385,sustainable technologies
+K386,Swift (computer programming)
+K387,Synfig
+K388,system backup best practice
+K389,system design
+K390,systems development life-cycle
+K391,systems theory
+K392,task algorithmisation
+K393,technical drawings
+K394,telecom regulations
+K395,Teradata Database
+K396,THC Hydra
+K397,tools for ICT test automation
+K398,tools for software configuration management
+K399,trading software
+K400,trigonometry
+K401,TripleStore
+K402,TypeScript
+K403,unified modelling language
+K404,unstructured data
+K405,usability engineering
+K406,Vagrant
+K407,VBScript
+K408,Visual Basic
+K409,visual presentation techniques
+K410,Vyper
+K411,Waterfall development
+K412,web analytics
+K413,web application security threats
+K414,web based collaborative platforms
+K415,web programming
+K416,web services
+K417,WebCMS
+K418,WhiteHat Sentinel
+K419,WildFly
+K420,Wireshark
+K421,WordPress
+K422,World Wide Web Consortium standards
+K423,Xcode
+K424,XQuery
