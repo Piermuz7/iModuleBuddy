@@ -1,0 +1,860 @@
+Individual Name,Course_Link,Course_Title,Course_Description,Course_Type,Course_Prerequisite,Course_Comment,Course_Competency_to_be_achieved,Course_Content,has_Course_as_Prerequisite
+Course_Agile_Business_Analysis,https://modulbeschreibungen.webapps.fhnw.ch/detail/23HS_9319045,Agile Business Analysis,"Business analysts perform work for many different types of initiatives across an enterprise. The practice of business analysis is applied within the boundaries of a self-chosen project based on the BABOK reference guide. In this project-based module, the competencies, knowledge and skills needed for performing business analysis tasks will be acquired and used. A clear focus is on applying agile approaches for business analysis and on exploring their advantages and disadvantages.
+Core competencies:
+Self managementCommunication capabilities
+Analytical capabilities",elective,,,"Knowledge and Understanding: Students ...
+
+    get an understanding of the BABOK knowledge areas and how to apply them in an agile project. The BABOK knowledge areas are (Obj. 1.2, Obj, 1.3).
+    Business Analysis Planning and Monitoring, Elicitation and Collaboration Requirements,Life Cycle Management, Strategy Analysis, Requirements Analysis and Design Definition Solution Evaluation
+
+Applying Knowledge and Understanding: Students ...
+
+    are able to select and apply appropriate techniques for business analysis as described in the BABOK guide and the agile Extension to the BABOK Guide.
+    learn to apply the BABOK guide within an agile project (e.g. Scrumbased). (Obj. 3.1, Obj, 3.2).
+
+Making Judgements: Students ...
+
+    should decide which BABOK KAs / tasks and agile methods are appropriate for their project (Obj. 2.3).
+    are able to analyse a project and decide if a project should run as ""agile"" project.
+
+Communications Skills: Students ...
+
+    are able to communicate within the project team and can present the project results to the other students.
+
+Learning Skills: Students ...
+
+    Basis for the project are the BABOK guide and the agile Extension to the BABOK Guide. The studentswill be able to acquire detailed knowledge about the techniques in order to apply them in their project.","​Lectures:Introduction into Business Analysis
+•Introduction to agile collaboration
+•Introduction into BABOK (Knowledge areas and tasks)
+•How to apply Babok in an agile context (e.g. linking with Scrum)
+•BABOK case study
+•Scaling agile",
+Course_Alignment_of_Business_and_IT,https://modulbeschreibungen.webapps.fhnw.ch/detail/23HS_9173437,Alignment of Business and IT,"With the advancement of digitalization, information systems gain increasing strategic relevance for enterprises. This module deals with the ongoing alignment of business and IT during business transformations on all levels of the enterprise:business modelstrategyorganisation and processesapplicationsIT infrastructure
+In order to deal with complexity and change, modeling is identified as a core competence for business analysis, decision making and enterprise architecture management.",mandatory,,"Links to other modules: Relation to Business Process Management, where business processes are modeled, which are also part of the enterprise architecture, and to Strategic Business Innovation for strategic alignment.","Knowledge and Understanding: Students ...
+
+    understand businessIT alignment as the interaction of business model generation, strategic planning, business planning and IT planning
+    understnd the role of enterprise architectures for the alignment of business and IT.
+    understand the success factors for enterprise architecture management and will be able to deploy enterprise architecturethe importance and the role of models for communication between stakeholders from business and IT
+
+Applying Knowledge and Understanding: Students ...
+
+    are able todetermine and model business model, digital business strategy, business architecture and application architecture using standard modeling methods in order to support the alignment of business and IT (Obj. 1.2) [design skills]
+    identify and realize architecture principles, in particular for sharing data and reusing services and functions (Obj. 3.2) [resultoriented acting]
+
+Making Judgements: Students ...
+
+    analyze appropriateness of enterprise architecture modelsjudge governance and organization of enterprise architecture management
+    can analyze business situations in order to make decisions about business transformation and change projects [analytical skills, decision making]
+
+Communications Skills: Students ...
+
+    can use models for communication between stakeholders from business and IT (Obj. 3.2) [systematicmethodoloical thinking]]
+
+Learning Skills: Students ...
+
+    prepare individually for lectures. They learn the methods and are able to apply them in exercises during lectures.","Lectures cover the following areas:
+•Introduction to Business- IT Alignment
+•Digital Business Strategy
+•Business Model Generation
+•Enterprise Architecture Frameworks
+•Modelling an Enterprise Architecture with Archi
+•MateBusiness Motivation Modeling
+•Conceptual Modelling
+•Architecture Principles and Business Rules
+•In addition, students work on an assignment for creating a new business model, develop an appropriate enterprise architecture and plan a change project. The case study will be a group work, coaching sessions are offered during the semester.",
+Course_Applied_Computational_Intelligence,https://modulbeschreibungen.webapps.fhnw.ch/detail/23FS_9329854,Applied Computational Intelligence,"In general, the guiding principle of this module is as follows: (1) Take a real-world problem, (2) derive a simplified computational problem model (following the proposed 'optimization problem approach'), (3) apply a particular optimization method (belonging to Artificial respectively Computational Intelligence), (4) compute optimized solutions, and (5) discuss the results.
+The objectives of the module are to enable the students to numerically solve 'nasty' real-world optimization problems by using special methods belonging to Artificial Intelligence (AI) - particularly nature-inspired methods, called Computational Intelligence (CI). This given numerical approach is applied for solving and optimizing complex problems in business (e.g. logistics, finance), computer science (e.g. game strategies) and engineering (e.g. bioinformatics, robotics).
+The students learn about AI with a focus on CI as well as how to model, numerically simulate and optimize real-world problems on the computer. The following CI topics are particularly emphasized:Evolutionary Computation, Swarm Intelligence, Neural Networks, Fuzzy Logic, Meta-Heuristics, Robotics, and future AI developments and consequences
+The front classroom teaching is reduced to only short inputs to the topics and the module project. Using most of the learning time of this module, the students conduct their own research project including the modelling of an application problem, the development (i.e. coding, implementing, customizing) of a software prototype (artefact) based on design science research.
+This project within this module (i.e. in-semester research project) is based on Computational Science projects. The students take a (rather complex) real-world problem, derive a simplified computational model problem abstracting the real-world problem while referring to the state-of-the-art in literature. Then, they implement (i.e. code, customize) this model together with an optimization method (preferably a CI-related method) into a software prototype. Afterwards, the students run computational experiments (simulations on the computer), take the numerically optimized solutions, and discuss the obtained results with respect to their contribution to the real-world problem.
+This module project comprises the development (e.g. coding, implementation or at least the usage and customization) of a small software prototype and the writing of a short research paper. The process of writing a research paper in style of a scientific conference paper will also be explained during the module.
+The benefits of the module for the students are the following:The students learn about Computational Intelligence (natured-inspired AI and meta-heuristics) and different disruptive application areas, e.g. robotics.They improve their knowledge about how to conduct small research projects and how to write research papers (like in Research Methods for Information Systems or the Master thesis).They get background knowledge of design science research (and they may want to further pursue it in a Master thesis or even in a PhD research).With respect to the practice- respectively application-orientation, the students learn to numerically model, simulate and solve complex real-world problems by applying modelling, simulation and optimization techniques in a design-science-based approach. (i.e. a software prototype respectively artefact is built).Finally, the students understand and differentiate what optimization means and how it works. They apply selected CI (nature-inspired AI) methods and meta-heuristics.
+Important requirements are sufficient programming/coding experiences or at least a strong interest in computational thinking and the ability to search and customize a suitable optimization software. Different optimization platforms will be proposed in the module as a potential basis for the implementation of the software prototype in this research project. Nevertheless, many other optimization codes or platforms are suited as well.
+The core competencies of this module are (a) 'problem solving' by applying numerical optimization to solve an application problem, 'design capability' by applying design science research, and 'analytical thinking' by applying modelling, simulation, and optimization to solve a real-world problem numerically on the computer.",elective,"Important requirements for participating satisfyingly in this module are sufficient programming respectively coding skills in a common programming language, such as Java, Python, C, C++ etc. Or, at least a very strong interest in computational thinking and the ability to customize a software, as described above. Otherwise, an extensive effort in obtaining coding skills in additional self-study must be considered. Further examples of valuable pre-knowledge additionally to coding experiences are: Skills in using a software platform suitable for optimization, such as MATLAB, R, NetLogo, GNU Octave etc. Interest in integrating, using, customizing, and updating existing optimization platforms and libraries, such as OpenCI, jMetal, TensorFlow etc. Ability to search open-source optimization frameworks from other projects in the Internet, to install, run and customize them, such as old ACI projects, Google OR-Tools etc.","Depending on the Covid situation or other circumstances (energy situation etc.) the lectures and the coaching are sensibly organized onsite or online. Details will be communicated in class.
+Links to other modules: Research Methods for Information Systems (Writing of scientific publications)
+Knowledge Processing for Decision Making (alternative methods for knowledge processing)","Knowledge and Understanding: Students ...
+
+    Model a realworld problem as a numerical optimization problem.Understand the optimization problem by identifying the problem model and the optimization method.Correctly define the optimization problem and its objectives for numerically finding optimized solutions as well as feasible search alternatives.Explain and differentiate the foundations and concepts of Computational Intelligence (CI) - thus, natureinspired AI - and other related methods used for numerical optimization.
+
+Applying Knowledge and Understanding: Students ...
+
+    Analyse the optimization problem by modelling the problem model and the optimization method.Create a computational optimization experiment to generate optimization results.Apply selected methods of Computational Intelligence in order to understand and practise selected optimization techniques.Execute modelling, simulation and optimization techniques for problem solving.Apply, develop, and implement software components in order to compute optimization problems (i.e. do Computational Science).
+
+Making Judgements: Students ...
+
+    Evaluate the computational optimization results.Draw (create) conclusions based on the computational optimization experiment and the computational results.Apply and evaluate optimization principles and methods to solve problems e.g. in management, logistics, engineering, information systems, and robotics in order to handle upcoming challenges in business and society as well as in research.
+
+Communications Skills: Students ...
+
+    Write a research paper related to an optimization problem and its solution.Present intermediate and final results within short presentations.
+
+Learning Skills: Students ...
+
+    Plan and conduct a small research project including modelling, simulation, and optimization as well as the implementation of a prototype.","Application areas, where CI is supportive and provides a potential impact: logistics, business, engineering, finance, economics, management, computer science, robotics, computer games, bioinformatics etc.
+•Foundations of modelling, simulation, and optimization
+•Numerical optimization problems consisting of problem models and optimization methods: Defining, assessing, and solving optimization problems (objectives, constraints, parameter sets, etc.)
+•Foundations of Computational Intelligence, nature- inspired AI, particular AI methods, and meta- heuristics
+•Particular Computational Intelligence (CI) optimization methods: Evolutionary computation (e.g. genetic algorithm, evolution strategy), swarm intelligence, neural networks, fuzzy logic, meta- heuristics, open- ended systems, computational creativity etc.
+•Foundations of robotics and other application areas
+•Computational Science: Applying software engineering and programming for modelling, simulating and optimizing problems, using software platforms and optimization platforms
+•Researching, identifying, assessing, and discussing new trends, developments, and innovations, e.g. the rise of robotics",
+Course_Artificial_Intelligence_for_Business_Processes,https://modulbeschreibungen.webapps.fhnw.ch/detail/23HS_9466957,Artificial Intelligence for Business Processes,"The focus is on the question of what possibilities AI (e.g., machine learning, automated decision support, voice assistants) offers to further advance the digitalisation of business processes. In doing so, it is important to think carefully about what should best be carried out by humans, what artificial intelligence is good at and where clever interaction leads to the best result.
+In this module, students acquire the know-how and skills to decide what is feasible with AI. For this purpose, not only theory is taught, but the students can gain practical experience by applying our problem-based learning method.
+Key topics:
+Hyperautomation and intelligent process automationData-/ knowledge driven decision supportAI-service integration, orchestration and intelligent interfaces",elective,Core module: Business Process Management Basic programming or scripting skills as taught in the premaster Information Systems.,"Links to other modules: Business Process Management
+Digitalisation of Business Processes
+Digitalisation of Healthcare Processes","Knowledge and Understanding: Students ...
+
+    Understand which processrelated problems can be solved with AI (and which cannot).
+    Describe how an ideal interaction of natural and artificial intelligence in an organisational environment can be achieved.
+    Understand the relationship between enterprise/process models and knowledge graphs.
+    Understand the challenges of process mining. 
+
+Applying Knowledge and Understanding: Students ...
+
+    Combine and integrate APIs offering artificial intelligence (AI) and machine learning (ML) services.
+    Design and integrate various user interfaces such as textdialoguebased (chatbots) or voicedialoguebased (virtual assistants) user interfaces.
+    Anticipate future changes that AI technologies will bring to processes and identify opportunities for their application.
+    Apply the methods of design thinking and rapid prototyping with processAI.
+    Apply ontologybased enterprise/process modelling.
+
+Making Judgements: Students ...
+
+    Select adequate intelligent components such as AI or ML services or intelligent user interfaces.
+    Assess the possibilities and limitations of artificial intelligence in process automation.
+    Assess and critically evaluate the possibilities of AIsupported data or knowledgebased decisionmaking in process automation.
+
+Communications Skills: Students ...
+
+    Describe prototypes and the findings in portfolio.
+    Present solutions convincingly in very short presentations (pitches).
+
+Learning Skills: Students ...
+
+    Develop solutions in a labstyle environment using case studies.
+    Identify knowledge need regarding required AI tools.
+    Research, discuss and correctly cite relevant AI literature.","Hyperautomation and artificial intelligence (AI)
+•AutoML, managed machine learning platforms and AI from the cloud (AI/ML as a Service)
+•Machine learning- based predictive modelling for business decision making
+•Knowledge- based process decision support
+•Decision support with deep learning
+•Natural language processing, knowledge / information extraction from documents in document- centric workflows
+•Data sources & data quality for ML- processes
+•Intelligent workflow interfaces with dialogue systems, voice assistants, conversational AI
+•Ontology- aided meta- modelling with AOAME
+•AI- based process mining for decision support, compliance and quality assurance
+•Design thinking, project management, prototyping and pitching for process- AI",Course_Business_Process_Management
+Course_Business_Analytics_Quantitative_Methods,https://modulbeschreibungen.webapps.fhnw.ch/detail/23FS_9179929,Business Analytics: Quantitative Methods,"Business Analytics uses the increasing amount of available data to gain insight into business problems and propose competitive solutions. Thus the module deals with the use of quantitative methods to support managerial work. Evidence based management must take into account the quality of data and the uncertainty in results and predictions.The Students acquire knowledge and skills in statistical data collection and procurement, data preparation, analysis, modelling,prediction and simulation. The methods come from probability, simulation, exploratory and inferential statistics including multiple regression. The application areas range from supply to operations, marketing, strategy and competitiveness analysis.The Students carry out hands-on exercises with up-to-date software and with business data.",elective,"Basic algebra (solving equations in one variable) and calculus (analysis of the features of functions and notion of derivative), basic probability theory, descriptive statistics (measures of location and dispersion, tables and graphs), confidence interval and t-test for a mean and for a proportion. Treatment-Control experiment design and two-sample t-test. This material is normally covered in a Bachelor of Business Administration curriculum.",The course uses the statistical environment R with the graphical user interface R-Studio.,"Knowledge and Understanding: Students ...
+
+    understand the properties and the quality of data for statistical analysis. They know measurement levels and understand which methods are appropriate for them. They understand the concept and importance of random sampling and random assignment for trials. They understand uncertainty and know how to discuss it. Focus: Medium
+
+Applying Knowledge and Understanding: Students ...
+
+    are able to apply exploratory, simulation and inferential methods to data using appropriate software. Focus: High
+    Focus competencies of this module are problem solving and the development of analytical skills.
+
+Making Judgements: Students ...
+
+    can interpret and critically evaluate the results of an analysis in their business context. They take into account quality and, in particular, uncertainty and assess conditions and limitations. Focus: High
+
+Communications Skills: Students ...
+
+    are able to formulate the results of an analysis and to discuss the quality of data, methods and results. They can explain the relevance of an analysis for a business problem. Focus: Medium
+
+Learning Skills: Students ...
+
+    are able to learn new methods on their own. Focus: Medium","Statistical methods: Data acquisition, collection and data preparation, in particular survey research methods, and the quality of data are discussed.
+•The concepts of decision making under uncertainty and statistical knowledge formation are introduced. Estimation and Hypotheses testing are reviewed. Statistical data analysis, model building and assessment with linear models (multiple regression) are central to the course. Extensions are, for example, multivariate statistics or time series analysis.
+•Queueing and simulation: An introduction to queuing theory and discrete event simulation is given including thier application to business cases.",
+Course_Business_Intelligence,https://modulbeschreibungen.webapps.fhnw.ch/detail/23HS_9373052,Business Intelligence,"Business Intelligence is concerned with supporting business decisions with facts or, put another way, with helping business actors in turning data into knowledge that helps to make the right decisions. The module looks at different kinds of decisions (and hence requirements), at different kinds of data and different kinds of tools required to distill knowledge out of data.The Students learn to model problems for correct data extraction, design meaningful reports, build predictive models and text mining applications.
+The main competencies addressed in this course are analytical, problem solving and communication skills.",mandatory,,,"Knowledge and Understanding: Students ...
+
+    understand why factbased decision making is usefulbe able to explain what business performance management is and how it can be implemented understand the whole diversity of requirements of the business towards BI analysis tools understand the potential value and application areas of big data technologies (including text mining), describe their potential to improve/innovate businesses (Objective 3.1) understand success factors and barriers for projects that introduce BI
+
+Applying Knowledge and Understanding: Students ...
+
+    be able to design meaningful and informative reports and dashboards that satisfy business information needs (Objective 1.5) know and be able to apply instruments for data exploration and visualisation, such as online analytical processing
+    be able to derive multidimensional models from a description of business information needs (Objective 1.5)
+    be able to apply information extraction methods for ETL with unstructured data; understand the potential of such methods e.g. for analysis of customer feedback on social mediabe able to formulate problems as data mining tasks and to derive and interpret results (Objective 1.5)
+
+Making Judgements: Students ...
+
+    be able to recognise and discuss potential risks of applying business performance management (e.g. consequences of measuring with suboptimal KPIs)be able to judge and select appropriate Big Data technologies for given business scenarios be able to identify ethical and legal issues for BI projects
+    be able to judge the potential that predictive analytics techniques have for improving effectiveness and efficiency of decisionmaking (Objective 3.1)
+
+Communications Skills: Students ...
+
+    be able to design a Balanced Scorecard for a company, including meaningful key performance indicators; be able to use a Balanced Scorecard as a means of communication for goals and measurements. be able to elicit analytical requirements, e.g. based on interviews with business stakeholders (Objective 1.1) be able to discuss ethical and legal issues for BI projects
+
+Learning Skills: Students ...
+
+    be able to develop strategies for successful communication and cooperation with business partners to achieve BI objectives","Introduction to Business Intelligence
+•Requirements for BI systems
+•Business Performance Management
+•Reporting and dashboarding
+•Multidimensional analyses
+•Multidimensional modeling (Data warehousing)
+•Data Mining: predictive analytics (classification + regression)
+•Big DataIntroduction + architectures
+•Variety: information extraction and text mining
+•Velocity: complex event processing
+•Management of BI: Success factors of BI projects
+•Ethical and legal issues of BI",
+Course_Business_Process_Management,https://modulbeschreibungen.webapps.fhnw.ch/detail/23HS_9108988,Business Process Management,"As a holistic approach, business process management (BPM) covers various factors, including strategic alignment, governance, lean management, modeling, people, and culture for operating, improving, and innovating business processes. The course introduces fundamental frameworks, models, and methods in BPM and applies them to real-world cases.",mandatory,,Links to other modules: recommended prior to this module: Pre-Master Business Process Management,"Knowledge and Understanding: Students ...
+
+    Know the foundations of BPM and understand the relevance of BPM for organizational performance (focus: medium / competence: expertise in BPM, interdisciplinary knowledge)Know key frameworks, models, and methods of BPM and understand when to apply them (focus: high / competence: expertise in BPM, interdisciplinary knowledge)
+
+Applying Knowledge and Understanding: Students ...
+
+    Know the foundations of BPM and understand the relevance of BPM for organizational performance (focus: medium / competence: expertise in BPM, interdisciplinary knowledge)Know key frameworks, models, and methods of BPM and understand when to apply them (focus: high / competence: expertise in BPM, interdisciplinary knowledge)
+
+Making Judgements: Students ...
+
+    Assess options for process improvement and innovation (focus: high / competence: problem solving, innovativeness)Assess BPMrelated decisions in organizations (focus: medium / competence: decisionmaking capacity)
+
+Communications Skills: Students ...
+
+    Present solutions to BPM cases in a compelling manner (focus: medium / competence: communication skills)
+
+Learning Skills: Students ...
+","Strategic alignment
+•Process governance
+•Process improvement
+•Process innovation
+•Process and Case Modeling
+•Processes and Decisions
+•Workflowmanagement
+•BPM skills and roles
+•BPM culture
+•BPM cases",
+Course_Challenging_International_Managers_and_Leaders,https://modulbeschreibungen.webapps.fhnw.ch/detail/23HS_9144298,Challenging International Managers and Leaders,"This elective module is based on inputs (lectures, case studies) provided by top managers and leaders from international companies and assignments on the content provided during the class. The lecture present cases from real-world and the students are asked to challenge the leaders’ work, develop solutions/recommendation and engage with a reflective process to encourage professional and personal development.",elective,,,"Knowledge and Understanding: Students ...
+
+    are ableto identify and describe key challenges of topmanagers and leaders (Descionmaking ability / Entscheidungsfähigkeit)
+
+Applying Knowledge and Understanding: Students ...
+
+    are able to incorporate scientific findings for improved leadership and change management in a complex and dynamic world (Crossdisciplinary knowledge / Fachübergreifende Kenntnisse)
+
+Making Judgements: Students ...
+
+    are able to critically reflect upon their mental models and their impact on the identified leadership challenges (Systems thinking / Ganzheitliches Denken)
+
+Communications Skills: Students ...
+
+    are able present work articulately and convincingly
+
+Learning Skills: Students ...
+
+    are able to develop and to corroborate concrete plans for future action to develop their leadership skills (Design capability / Gestaltungsfähigkeit)","This elective module aims at the very much advanced student seeking to be challenged
+•by real- world cases from different areas, be it mergers & acquisitions, digitalization,
+•turning companies around, managing change, coping with a crisis or another topic of
+•general interest.
+•During the class, the students will get an introduction on challenges organizations are
+•facing while adapting to an increasingly complex and uncertain world (incl. technological, economic, political, and cultural changes). Of special interest is how organizational development and disruptive information technologies can be linked.
+•A typical class structure will consist of an introduction from the guest manager's side
+•followed by student group works. The lectures would provide their professional
+•background and talk about one to three occurrences of importance (change process,
+•merger or acquisition, crisis, turn- around, major project, digital transformations etc.) that
+•they have witnessed or led up- front ('This is what I found and had to cope with.'). They
+•will offer these 'stories' as case studies that the students will later have to deal with in
+•groups. The students will diagnose the situation and develop a shared understanding of
+•how to plan and implement the change. The students will compete against each other in
+•terms of innovative solutions including a sound implementation plan. Dealing with cases
+•will also involve role- play.
+•Finally, the students' solutions will be complimented by the real- case scenario ('This is
+•how I or others actually did in order to cope with the challenge. And this is what
+•happened.') presented by the guest manager in class.​
+•The module is based on inputs (lecture, case studies) provided by 9 top managers and leaders from international companies and assignments on the content provided during the class. Dealing with challenging cases, students will learn interactively by developing solutions and having them challenged by the lecturing manager.
+•Various topics covering a number of areas related to international management and organization development (the topics depend on the guest managers’ areas of expertise and experience).
+•The class structure and teaching methods employed will be interactive in nature, and participants will be required to present their solutions both orally (as presentations) and in a written format to complement the learning outcomes.​",
+Course_Cloud_Computing,https://modulbeschreibungen.webapps.fhnw.ch/detail/23FS_9330772,Cloud Computing,"Cloud Computimg is gaining more and more importance in companies and today forms an essential part of the modernization of IT, which enables the digitalization of the company. The guiding principle of the module is to provide participants with the technical and management cloud skills of the future to help companies evaluate and use the cloud. The participants can thus play an important role in the transformation of IT.",elective,,Links to other modules: Core Module IT Management & Cloud where some cloud basics are discussed,"Knowledge and Understanding: Students ...
+
+    understand the different cloud service and deployment models
+    the cloud challenges of security and integration with focus on hybrid and multi cloudsthe process of the definition of the cloud strategyhow the cloud selection takes place and how the companies get prepared for the cloud usagehow cloud influences the application development with focus on Microservices and DevOpshow the automatization of the IT takes placewhy cloud services are enabler of the digitalisationhow cloud transforms the IT
+
+Applying Knowledge and Understanding: Students ...
+
+    are able to use and work with services from the azure plattformdefine the cloud strategy of an organizationidentify how an enterprise get prepared for the cloud usageselect and evaluate cloud servicesidentify how cloud transforms the enterprise IT
+
+Making Judgements: Students ...
+
+    can analyse appropriateness of clouds services for which areasjudge the risks and benefits of a cloud usage
+
+Communications Skills: Students ...
+
+    can use models for communication between stakeholders from business and IT (Obj. 3.2)
+
+Learning Skills: Students ...
+","​Part 1: Get to Know Cloud (inkl. Hands- On) - Defining cloud - the different faces of cloud
+•Cloud maturity models and cloud challenges
+•Hybrid and multiclouds - the big shift of the enterprise IT and the challenges
+•Cloud hands on with the Microsoft azure Stack - IaaS and PaaS
+•Part 2: The Way in to the Cloud
+•Defining the cloud strategy
+•Service quality & service selection
+•Cloud security and cyber security
+•Cloud market overview & cloud certificates
+•Part 3: Cloud and Transformation Application development and cloud - DevOps containers & microservices
+•The internal IT as a broker
+•Cloud and digital transformation (innovation)
+•Cloud und digital transformation (IoT, Machine Learning, Edge Computing )
+•Conclusion",
+Course_Cyber_Security_and_Cyber_Resilience,https://modulbeschreibungen.webapps.fhnw.ch/detail/23FS_9244980,Cyber Security and Cyber Resilience,"As threats to cyber security become increasingly ominous, sophisticated and unpredictable, CEOs, CIOs and other decision makers must address related risks. Large organizations must also manage complex networks of service providers and many of whom have access to customers, sensitive data and critical technology. Under these circumstances, many organizations struggle to maintain the continuous vigilance and end-to-end visibility across the entire service delivery chain that is essential to a viable cybersecurity strategy and the resulting operationalization.
+In this course, we derive key challenges of cybersecurity and how effectively address them by adopting relevant frameworks, best practices as well as governance mechanisms claimed as 'cyber resilience'. Where appropriate, we also touch on areas of information or information security. Main areas discussed are aligned with the NIST framework:
+
+    IDENTIFY, organizational understanding/awareness to managing cybersecurity risk to systems, people, assets, data, and capabilities
+    PROTECT, safeguards based on standards (ISO 27K), frameworks (NIST, COBIT, CSX) and best practices (selective white papers, recommendations)
+
+    DETECT, appropriate activities to identify the occurrence of a cybersecurity event
+    RESPOND, indispensable actions after a cybersecurity event
+    RECOVER, restore any capabilities or services that were impaired due to a cybersecurity event and future resistance plans
+
+
+Special emphasis will be placed on ´Data Privacy and Protection´ and ´Technical Insights´.
+There will also be a view on the specifics and experiences of external parties, the ´Service Providers´. Therefore, an essential part of the course are the guest lectures by cyber security experts from the field and their solutions. The course does not focus on very technical aspects but on the systemic, governance and management level in dealing with cyber risks.
+The most relevant competences that can be achieved with the content, as well as with the assignments to be completed in this module are:
+Assuming the role of a responsible leader, the following competences.
+
+    Systematic approach (decision-making ability, systematic-methodical approach)
+    Result-oriented action (effectiveness of action, success orientation, output orientation) Awareness and classification of CSR as a dynamic discipline
+
+    Learning and professional competence (professional knowledge, professional orientation and perfection, knowledge of technology and methods)
+
+    Knowledge of the necessity of continuous learning on the topic Sense of responsibility
+
+    Analytical skills (exactness, precision, accuracy)",elective,Basic IT management and governance mechanisms,Links to other modules: Compliance Management and Governance of IT (ITGCM) -> recommended as preparation (ex ante) or as supplement (ex post),"Knowledge and Understanding: Students ...
+
+    High: Participants are able to explain comprehensively cyberspace risks and impacts facing CIOs as well as other decision makers in (large) enterprises and/or other environments. In addition, they know most relevant mechanisms to assess, protect, react and mitigate cyberrisks. Medium: Participants understand the rapidly increasing requirements in terms of transforming regulatory provisions, risk posture, balancing global and local requirements, managing data, and applying relevant frameworks and metrics.
+
+Applying Knowledge and Understanding: Students ...
+
+    Medium: Participants are able to apply selective cyber security related concepts and/or mechanisms in their own working context or in cases. The participants understand the (economic) necessity for organizations (and individuals) to consider cyberspace risks of ""everything"", e.g. supply chain, IoT. I4.0.
+
+Making Judgements: Students ...
+
+    High: Participants know most of the ""standard"" cyberrelated risks and foundational mitigation concepts; based on this they are able to conduct an awareness assessment within there working situation or in a case. The results give them the opportunity to come with prioritized recommendations.
+
+Communications Skills: Students ...
+
+    Medium: Participants, will be able to discuss the obligation to establish a cyberresilient organization, to discuss a draft cyber security / resilience concept for enterprises based on NIST framework or others, including appropriate measurement indicators, or to discuss a selective topic around cyber security / resilience, and will be able to conduct a discussion about ""ethical hacking"" and take up a critical position.
+
+Learning Skills: Students ...
+
+    Selfdirected learning with presentations, reference models, best practices, and other material. Instructed exercises by use of a “hacking lab”.","Part I - Organizational Insights
+•Introduction - Context, Impacts, UncertaintiesRelevance - Complexity of Security, CERT perspective in Switzerland and moreover
+•Resilience - The Role of Organizational Cybersecurity Culture
+•International / National Institutions to Address Cyber Threats
+•Best Practices and Frameworks (NIST, ISO 27K, COBIT)
+•Part II - Technical Insights
+•Threats to digital system and Fundamentals
+•Exploiting I: Basics of Software Weaknesses
+•Exploiting II: Advanced topics in Software Weaknesses
+•Security Testing and Security Mechanisms
+•Concepts for building reliable software without manually proving the functionality
+•Part IV - Practitioner Insights
+•CSR from a Service Provider perspective
+•CSR from Big Corporate perspectiveCSR from Life Science perspective",
+Course_Data_Governance_and_Information_Management,https://modulbeschreibungen.webapps.fhnw.ch/detail/24HS_9505092,Data Governance and Information Management,"Data constitute an asset for companies enabling the digitalization, data-driven
+innovations and the use of new technologies like AI. They need to be carefully
+managed to ensure compliance requirements, especially regarding data protection.
+Adequate data governance enables even the emergence of new business models.
+The module starts with some definitions (Define), followed by the usual concerns
+dealing with data (Use), then the introdcution of new technologies (Transform and
+Innovate) and at the end the use of Metaverse (Elaborate).",elective,,,"Knowledge and Understanding: Students understand ...
+the value of data as an asset for a company
+the challenges of a good data management for a company in terms of
+improving existing products and services
+the need of data governance to enable data-driven innovations and process
+optimization
+existing data regulations to be applied within com-panies
+the importance of data to steer a company and to take business decisions
+risks related to data protection
+Focus: Alignment between data management practices and business priorities
+Applying Knowledge: Students are able to ...
+identify saving potentials by better managing data
+insure compliance requirements
+set up a data quality management program
+make proposals to improve internal processes
+improve service to customers with the digitalization
+build new digital products and services
+make proposals to transform business models
+Focus: Identification of data-driven business opportunities, including risks and
+regulation requirements
+Making judgments: Students can ...
+provide the necessary steps to have a good data management in place
+give the necessary conditions to have a successful use of big data
+assess the domain of use of coming data-driven technologies (AI, Block
+chain)
+Focus: use of Critical Success Factors for “good” data governance practices
+Communication: Students can ...
+show analytical skills to assess the use of data, to de-fine the necessary
+conditions and to solve problems to be encountered
+give insights in a specific business area about the best practices and critical
+success factors to have a “good” data governance in place
+Focus: Presenting the relevance of data management to the Management of a
+Company","The 2 first lessons deal with Definitions about Data.
+Then 6 lessons present the “ordinary” data management topics in companies.
+The 3rd part deals with the transformation of organizations and innovation aspects
+such as Digitalization or AI.
+The final part is elaborating the future based on data universes.",
+Course_Data_Science,https://modulbeschreibungen.webapps.fhnw.ch/detail/23HS_9364681,Data Science,"More and more companies are going to understand that insights out of their data are crucial for their business success. Some people say, data is the new oil in a digitalized economy.
+But how do we get insights from data? How do we discover the knowledge hidden in data? For this purpose, many different techniques and algorithms were developed. This module explores the prominent representatives from the artificial intelligence and machine learning area - including prominently the very popular neural networks. We will understand how the algorithms work and how to adjust them - in order to be able to apply them in practice. We apply them on realistic data sets and will get knowledge about their strengths and weaknesses.
+This module will include exercises in the programming language 'R'. It will be taught with a mixture of online and onsite lectures while onsite lectures are prefered.",elective,,"This modules will include exercises in the programming language 'R' which is claimed to be easier to learn and applied in statistics and data science. 
+Links to other modules: Knowledge Processing and Decision Making: In that module it will be discussed how the extracted knowledge can be processed.This module focus on the knowledge acqusition via machine learning.
+Business Intelligence (core): Business perspective of Data Science. This module focus the algorithms and techniques.","Knowledge and Understanding: Students ...
+
+    learn how to extract knowledge out of data.
+    They will understand the basic principles of selected machine learning algorithms applied by data scientists. Neural Networks will also be investigated.
+
+Applying Knowledge and Understanding: Students ...
+
+    will learn how to apply the discussed algorithms in a practical setting. They are able to design the data science process (problem solving) including the data preprocessing for real data (analytical skills).
+
+Making Judgements: Students ...
+
+    can apply, evaluate and interpret the discussed machine learning algorithms (descision support), in particular supervised and unsupervised learning. They can compare the results of different models for selected machine learning tasks such as classification or clustering.
+
+Communications Skills: Students ...
+
+Learning Skills: Students ...
+","This module will include the following topics
+
+    Data Preprocessing including Data Cleaning, Data Transformation and Data Discretization
+    Overfitting/Underfitting, Resampling and Model Selection
+    Supervised Learning including different forms of regression, classification and decision tree learner
+    Unsupervised Learning including agglomerative and divisive clustering
+    Artificial Neural Networks
+    Feed forward networks with different optimisers and activation functions
+    Other types of ANN including Convolution Networks, Recurrent Networks, Long Short- Term Memories (LSTM), and Kohonen Maps
+    Reinforcement Learning
+    Transfer Learning",
+Course_Digitalization_of_Business_Processes,https://modulbeschreibungen.webapps.fhnw.ch/detail/23FS_9179933,Digitalization of Business Processes,"Digitalisation is reorganising entire industries, transforming business models and processes through the availability of digital data, the intelligent automation of work, the connectivity of things (internet of things) and value chains, and the creation of digital interfaces for users (user interfaces) and applications (application programming interfaces).
+This module investigates how the digitalisation affects (business) information systems supporting business processes in an enterprise, and how cooperation and partnership among humans and technology can result in an adequate business process execution. This investigation will be realised by application, implementation and demonstration of real prototypical instantiations.",elective,Business Process Management is a prerequisite. Basic programming or scripting skills as taught in the premaster Information Systems.,"Links to other modules:
+Business Process Management
+Artificial Intelligence for Business Processes","Knowledge and Understanding: Students ...
+
+    Recognize and explain how the digitalisation affects (business) information systems supporting business processes in an enterprise. [Focus: high | AoL: 1.2]Express and defend how cooperation and partnership among humans and technology can result in an adequate business process execution. [Focus: high | AoL: 1.4]Understand concepts of cyberphysical systems (CPSs). [Focus: medium | AoL: 3.2]
+
+Applying Knowledge and Understanding: Students ...
+
+    Design and implement workflows to automate business processes and decision tasks. [Focus: high | AoL: 1.2 | problemsolving, analytical skills]Compose and use existing APIs (application programming interfaces) to integrate microservices or automationservices for a structured and nonstructured part of a business process. [Focus: high | AoL: 1.2 | problemsolving, analytical skills]Design and integrate adequate user interfaces such as webforms. [Focus: medium | AoL: 3.2 | problemsolving, analytical skills]Prototype cyberphysical systems through a modelbased approach. [Focus: medium | AoL: 3.2 | problemsolving, analytical skills]
+
+Making Judgements: Students ...
+
+    Select adequate digital components such as a workflow system, APIs or user interfaces. [Focus: high | AoL: 1.2 | decision support]Select an adequate level of workflow automation. [Focus: high | AoL: 1.2 | decision support]
+
+Communications Skills: Students ...
+
+    Describe a prototype and the findings in a report. [Focus: low]Demonstrate and present the final results within a short presentation. [Focus: low]
+
+Learning Skills: Students ...
+
+    Identify knowledge need regarding required APIs or technical skills such as programming languages, frameworks or methods. [Focus: low]Schedule, plan and conduct a digitalisation project (group work) and the implementation of a prototype. [Focus: low]","Digitalisation of business processes
+•Workflow management systems
+•Digital Data and Decision Modelling (DMN for Process Automation)
+•Design Thinking, Prototyping & Pitching for Process Digitalisation
+•Agile Project Management for Process Digitalisation
+•Process Digitalisation Cloud, APIs, and Platforms
+•Low- vs. Pro- Code Approaches & Platforms
+•Service Integration and Integration Software as a Service (iSaaS)
+•Distributed Systems, Messaging and Streaming
+•Error Handling in Digital Processes
+•Conversational and Form- based Digital User Interfaces and PWA
+•Cyber- physical Systems & BPMN
+•Digital Twin & IoT
+•Hyperautomation Foundation with Robotic Process Automation
+•Process Mining and Analytics",Course_Business_Process_Management
+Course_E-Business_and_Mobile_Business,https://modulbeschreibungen.webapps.fhnw.ch/detail/23FS_9120569,E-Business and Mobile Business,"E-Business and Mobile Business build the core pillars of digital transformation. The e-business perspective highlights the various impacts of inter-organisational information systems on strategies and value chains. The two views of e-commerce and e-procurement include topics like fulfillment services, personalization, multichannel, direct to consumer (D2C), digital platforms, catalogue-based e-procurement and B2B integration. Mobile business specifically addresses the growing significance of mobile commerce and mobile business ecosystems in the digital economy. It analyses the economic benefit and impact, e.g. of networks and augmented reality. Case studies show how the concepts and theory are applied in practical situations.",elective,,"Links to other modules: The module 'Alignment of Business and IT' would be a good preparation because e-business and mobile business are about aligning and supporting business goals, strategies, relations and processes with IT. The module 'Supply Chain Management' could be a useful continuation as SCM will be touched but not deepened in the E-Business and Mobile Business module.
+The module provides some fundamental preparation for the master's theses format New Business.","Knowledge and Understanding: Students ...
+
+    get an overview of the terminology of business software, ebusiness, digitalisation, mobile business, and business applications.
+    learn how ebusiness and mobile applications support and change the way of doing business.
+    gain knowledge of the kind and functioning of relationships between organisational requirements regarding ebusiness and mobile business and their technical support.
+
+Applying Knowledge and Understanding: Students ...
+
+    are able to align strategic and organizational goals with ebusiness and mobile applications and to identify their potential in the value chain. They apply theorie and concepts step by step in an exemplary case.
+
+Making Judgements: Students ...
+
+    a$nalyse and understand the trends in ebusiness and mobile business and their impact on business development.
+
+Communications Skills: Students ...
+
+    train their communication abilities with discussions and presentations.
+
+Learning Skills: Students ...
+
+    do online research on recent developments of specific topics. They learn using existing tutorials and templates about certain software applications to develop their individual solutions.","Overview: Significance of e- business and mobile business in the age of digital transformation, current developments in e- business and mobile- business and their impact on industries and organisations
+•Management approach: Strategic e- business management, e- business systems in the value chain, taxonomy of business software terms and business applications, innovative business models based on e- business and mobile business
+•E- commerce: Transaction phases, business models, payment systems (established systems, payment service providers), personalization (building and using customer profiles, recommender systems), multichannel commerce, direct to consumer (D2C), digital platforms
+•E- procurement: Supplier relationship management, procurement portfolio, procurement processes and functions like e- sourcing and contract management, Purchase- to- Pay Process including e- purchasing and B2B integration
+•Mobile Business: Global development and relevance, mobile e- business concepts, creating business value with mobile devices, mobile communication technology, with a focus topic on augmented reality (AR) exploring technical and commercial aspects",
+Course_Emerging_Topics_for_Business_Information_Systems,https://modulbeschreibungen.webapps.fhnw.ch/detail/23FS_9329864,Emerging Topics for Business Information Systems,"This module provides the opportunity to learn about new trends in information systems.The Students familiarise themselves with innovative topics and discuss their potential. Concrete content may change, depending on recent developments. The module is offered by topic-based teaching.",elective,,,"Knowledge and Understanding: Students ...
+
+    get introduced into six topics which are not taught in the MSC BIS so far. They are going to understand the knowledge background and will get first insights in innovative, probably disruptive areas.
+
+Applying Knowledge and Understanding: Students ...
+
+    For each topic the students will get some insight how to apply the topics in their practical work
+
+Making Judgements: Students ...
+
+Communications Skills: Students ...
+
+    are involded actively in the teaching parts. For each topic a group of students will be associated. Every student will be associated to exactly one topic. Each member of the topic group will answer an individual research question provided by the topic supervisor. Based on the research question they may prepare workshops, discussions, and/or presentations held at the day when the topic is teached. This will also strengten their skills to acquire and to teach knowledge.
+
+Learning Skills: Students ...",The six topics of this module are proposed on a yearly basis. The proposed topics are relevant to the discipline of business information systems and are hypes in both research and industry.,
+Course_Innovation_in_the_Digital_Age,https://modulbeschreibungen.webapps.fhnw.ch/detail/23HS_9364966,Innovation in the Digital Age,"The Innovation of Digital Age is a project-based module that aims to conceive an innovative idea that has a significant impact on the business environment. The idea should lead to a business opportunity, create the basis for a new business model, or to developments with the potential of disrupting current business models.The Students are expected to collaborate and co-work in small groups for the creation of a user-centric, specific, innovative, and tangible solution. As such, the solution shall be framed into a prototype and tested with potential customers. This innovation process is supported by Design Thinking, which provides methodological support in the problem/solution fit. Hence, students will learn how to apply each phase of Design Thinking, stressing the problem space and the solution space. The Design Sprint method will be supplemented to support further the Define and Ideate phases. Students are also expected to conduct exhaustive research about the feasibility of the solution, i.e. its economic viability and technological realisability.
+The main competencies that will be developed by the students in this course are the following:
+1) Innovativeness, which is supported by the application of diverging and converging techniques that focus on the problem and solution spaces.
+2) Communication skills, which are supported by both the frequent presentations and the collaboration and co-work in groups.
+3) Systematic-methodical approach, which is supported by the application of the Design Thinking methodology and the Design Sprint method.",elective,,"Links to other modules: The module is open for all students, except for students who already did the Manager's Shadow Project - Disruption Innovation.","Knowledge and Understanding: Students ...
+
+    Understand entrepreneurship from an early stage, by focusing on the problem/solution fit (focus: high).Understand the relevance of innovation processes through the Design Thinking and the Design Sprint (focus: high).
+
+Applying Knowledge and Understanding: Students ...
+
+    Apply innovation processes, innovative thinking, entrepreneurial knowledge, and skills in a real environment beyond classroom and office (focus: high).Apply innovation techniques from both Design Thinking and Design Sprint in the presentation of the innovative idea (focus: high).
+
+Making Judgements: Students ...
+
+    Assess the fitting between a problem and a solution (problemsolution fit) (focus: high).Assess the economic viability and technology feasibility of a solution (focus: high).
+
+Communications Skills: Students ...
+
+    Present and discuss problems and business ideas in classroom activities (focus: high).Be able to present an innovative idea in a pitching session with few minutes. (focus: high)
+
+Learning Skills: Students ...
+
+    Learn how to :investigate existing human problems/needs (focus: high),investigate new business ideas (focus: high), refine communication and pitching skills (focus: medium).",​The Innovation in the Digital Age module gives the opportunity to students to conceive and conceptualize a user- centric and innovative idea with a business impact. Techniques from the Design Thinking and the Design Sprint will be taught and additional input will be provided by industry or startup experts. Students are expected to implement the most appropriate techniques to the project work. The project work is a group work but can also be individual upon request. Students will be supported and supervised through coaching sessions by the lecturers. Students will also train communication skills by presenting the outcome of each phase of the Design Thinking methodology in class.,
+Course_International_Field_Trip,https://modulbeschreibungen.webapps.fhnw.ch/detail/23HS_9452826,International Field Trip,"Field trips to Silicon Valley and South Africa open up opportunities for developing a global mindset. Understanding other countries’ economic, social, political and cultural systems and imprints is key. During the field trips the students have the opportunity to talk with managers of various companies and visit universities.The field trip to Silicon Valley has a special focus on innovation; the field trip to South Africa deals primarily with diversity.",elective,,"Links to other modules: The module is open for all students, except for students who already did a field trip during their Manager's Shadow Project.","Knowledge and Understanding: Students ...
+
+    Understand other countries’ economic, social, political and cultural systems and imprints. During the field trip to Silicon Valley the students understand the differences in culture, investment and use of IT with respect to innovation. During the field trip in South Africa the students learn hwo to deal with people from different cultural background both as employees and customers and how to different types of economies in the country interact.
+
+Applying Knowledge and Understanding: Students ...
+
+    are able to reflect and on the differences in the realities of different countries.
+    can analyse and determine value propositions and business models that are consistent with the cultural and economic business environment.
+
+Making Judgements: Students ...
+
+    are able to make decisions on how to start a business. The field trip to South Africa provides insights on how to lead people with different cultural background.
+    understand commonalities and differences of the way of doing business. After the field trip to Silicon Valley
+
+Communications Skills: Students ...
+
+    Discuss with managers and academians.
+
+Learning Skills: Students ...
+
+    Make opportunities and collect information and combine them to a consolidated argumentation about a specific research objective.","​The field trip in Autumn Semester is to Silicon Valley. In 2020 it is organized as a virtual trip with online sessions with company managers.
+•The module consists of
+•a predeparture seminar about the country and companies to be visited
+•company visits with the opportunity to talk with managers
+•a de-briefing session after each company visit
+•writing a report about a related topic",
+Course_IT_Governance_Risk_and_Compliance,https://modulbeschreibungen.webapps.fhnw.ch/detail/23HS_9321258,"IT Governance, Risk and Compliance","To run a business efficiently requires a coordinated strategic and operational approach. Various standards, frameworks and so-called 'best practices' offer recommendations for action on a variety of topics and, not least, on dealing with regulatory requirements that have to be mapped in an entrepreneurial context.
+The course focuses on strategic and operational methods and is organized in four interrelated themes - with a particular focus on the needs of digitization and information technology:
+(1) Compliance in the context of specific industries and different company sizes.
+(2) Risk identification, assessment and related actions.
+(3) Governance as (top) management activity and monitoring duties .
+(4) Audit as a control, coaching and monitoring duty.
+An important and dedicated topic of the course is data privacy compliance; we discuss the new European Data Protection Regulation (GDPR), its impact on business processes and the required data management.
+The practical part of this course will be the application of a selected software solution for the operationalization and auditing of Internal Control Systems (ICS). Using this software, participants can select and compile reference models and standards and schedule and execute related audits.",elective,Core module Business Process Management,"The module 'Cyber Security and Resilience' is a perfect complement to the contents of this course.
+Links to other modules: Business Process Management","Knowledge and Understanding: Students ...
+
+    High: knowledge about the challenges and opportunities facing decision makers in (large) enterprises with ITrelated regulations and the transformation in decisions, at least in processes and activities (Problemsolving competence). Understanding (analytical skills) about the rapidly increasing requirements in terms of compliance, governance and risk management (based on practical cases and experience). Good understanding about the relationship between (IT) governance, risk and compliance as well as the role of (IT) audit . Privacy requirements as a special expertise focused on the EU GDPR.
+
+Applying Knowledge and Understanding: Students ...
+
+    High: application of certain areas of a selected reference model (e.g. COBIT 2019) to a selected company/ use case (decisionmaking ability); performing a systematic gap analysis/audit with associated reports (using a software solution) (analytical skills).
+
+Making Judgements: Students ...
+
+    ability to propose necessary activities or controls based on a systematic and welldocumented gap analysis/audit (resultsoriented action).
+
+Communications Skills: Students ...
+
+    ability to prepare and present short presentations and write a report about topics in the field of IT governance, compliance and/or risk management, inclusive an assessment of consequences and/or value proposition tradeoff (communication skills).
+
+Learning Skills: Students ...
+
+    learn and work independently, recognize gaps in their knowledge and fill these gaps independently. They are able to reflect work resp. thought processes, and develop possible courses of action. In addition, they are able to reflect and challenge personal and external judgments and develop these with regard to the assignment.","The course starts by showing and discussing which current regulatory requirements are relevant to (large) companies and how they can be systematically translated into an entrepreneurial context.
+•We discuss the approaches of (regulatory) audits and quality assurance assessments. In addition, we analyse well- established 'tools' (e.g. COBIT 2019, ISO 38500, 31000, 20000 (ITIL)) and their benefits in different settings. We work with a dedicated software solution to learn and analyze the application and combination of different reference models. Practically, we audit the effectiveness of 'internal controls' in selected companies.
+•During the classroom sessions, there is the possibility to discuss with invited practitioners and to benefit from their experiences.",Course_Business_Process_Management
+Course_Knowledge_Processing_and_Decision_Making,https://modulbeschreibungen.webapps.fhnw.ch/detail/23FS_9179940,Knowledge Processing and Decision Making,"Knowledge-Intensive Processes are more unstructured processes with a lot of involvements of users with their experience. Users need experience and knowledge at different levels for their work and decision making, e.g. automatically derive and suggest possible solutions to the current problem. Supporting such tasks requires modelling and enacting several different forms of knowledge. In Artificial Intelligence several representation formalismen including rules and fuzzy logic are developed. The advantage of these formalism is that the knowledge itself can be formally represented, i.e. they allow automated reasoning in order to support the human being.
+At the same time a lot of knowledge is hidden in the data source and is waiting for being extracted. This knowledge can also be used to support users in their knowledge-intensive tasks.
+After completion of this module, the participants will be able to assess which kind of knowledge representation and reasoning is adequate and are able to develop appropriate knowledge-based systems. They can value the advantages of knowledge-based systems with respect to their costs.",elective,,Links to other modules: There will be a new module focussing machine learning and data science. Therefore this module focus the explicit knowledge representation.,"Knowledge and Understanding: Students ...
+
+    will be able to learn how knowledge can explicitly acquired and represented in a formal knowledge representation formalism. The represented knowledge aims to make machines able to apply knowledge and support workers in their daily business.
+
+Applying Knowledge and Understanding: Students ...
+
+    With the assignement the student pick up a real world example from a company (e.g. in which they work). They analyse the problem (analytical skills), decide for the most appropriate knowledge representation formalism (decision support) and demonstrate how the problem can be solved by the techniques learnt in this module (problem solving).
+
+Making Judgements: Students ...
+
+    After that course the students are able to apply the right formalism or learning technique for a given problem (decision support).
+
+Communications Skills: Students ...
+
+Learning Skills: Students ...
+
+    During the assignment they will deepen their knowledge about the teached techniques and complement it with further material.","​This module is concerned with the acquisition, the representation and the inference of knowledge. Various forms of knowledge representation and inference techniques are analysed and discussed in detail. This course will include topics like
+•Introduction
+•Knowledge in processes
+•Classification of knowledge
+•inference principles
+•Time/Space, non- monotonic Reasoning
+•Knowledge representation
+•Decision Logic
+•OMG Decision Model and Notation Rules
+•Horn logic
+•Forward and backward chaining
+•Data- driven and Goal- oriented
+•Negation- as- failure
+•Object- centred Systems
+•Description Logics
+•Knowledge Graphs
+•Uncertainty / Non- monotonic Reasoning
+•Fuzzy: Subsymbolic: Machine Learning
+•Optional: Deep Neuronal Networks Combining Symbolic and Subsymbolic Reasoning",
+Course_Lean_Entrepreneurship,https://modulbeschreibungen.webapps.fhnw.ch/detail/23HS_9324401,Lean Entrepreneurship,"Most entrepreneurs go about things differently. Their natural inclination is to put thinking into immediate action to see if it works.
+Lean entrepreneurship emphasizes developing an understanding of entrepreneurial thought, mindset, and action, and then progresses through idea generation, and screening for patterns to predict success, and which underlie entrepreneurial decision making for enterprise creation and growth.",elective,,,"Knowledge and Understanding: Students ...
+
+    Understand entrepreneurship by doing entrepreneurship.Study, investigate, discuss, and experiment creative processes to generate and evaluate entrepreneurial ideas, then learn how to turn the idea into a real startup (early stage) or to develop (incept) a new business concept for an existing company with an omnidirectional scope, or to start one's own business.
+
+Applying Knowledge and Understanding: Students ...
+
+    areable to generate business ideasable to apply tools and instruments for data collectionable to design clear and informative surveys and reports that satisfy business information needsable to paraphrase and interpret information in one's own wordsable to apply the knowhow to convert business opportunities into workable and marketable products
+
+Making Judgements: Students ...
+
+    are able to identify problems needing a solutionable to validate and recognize business opportunitiesable to select, interpret, and judge information from stakeholdersable to identify ethical and legal issues of new business idea
+
+Communications Skills: Students ...
+
+    are able to work within multicultural teams and interact with other stakeholdersable to put in the practice active listening and humble inquiry as well as giving and receiving feedback
+
+Learning Skills: Students ...
+
+    are able to prepare independently for successful cooperation with teammates to achieve the goals of given projects.able to reflect on personal experience in crosscultural leadership development and learning","Part 1: Exploration
+•Unit 1: Introduction to lean entrepreneurship
+•Unit 2: Ideas generation and opportunites recognition
+Part 2: Formation
+•Unit 3: Key frameworks and models
+•Unit 4: Customer discovery
+Part 3: Validation
+•Unit 5: Customer validation
+•Unit 6: Entrepreneurial finance
+•Unit 7: Legal issues
+Part 4: Action
+•Unit 8: Business plan",
+Course_Master_Thesis,https://modulbeschreibungen.webapps.fhnw.ch/detail/23HS_9329851,Master Thesis,"In the master thesis the students deal with a concrete, practically relevant topic in the area of business information systems. There are two types of Master Thesis:
+•Application-oriented research: The topic of the master thesis must be research-based (generating new knowledge, applying research methods, and transparent presentation) and has to help answer questions of practical relevance for enterprises and demonstrate an impact on the business. Therefore the master thesis can be written in cooperation and/or in order for an enterprise located in Switzerland or all over the world.
+•New Business: The thesis deals with an innovation that can lead to the founding of a startup company. The thesis has to deal with both the technical innovation and the market research. There is the possibility to deal with technical innovation and market research in two linked master theses.",mandatory,The module Master Thesis Proposal has to be passed before.,,"Knowledge and Understanding: Students ...
+
+    know about appropriate methdologies and their application areas.
+    have a deep understanding of the domain.
+
+Applying Knowledge and Understanding: Students ...
+
+    can select, adapt and apply the appropriate methodology to solve the identified problem.
+
+Making Judgements: Students ...
+
+    can determine appropriate solutions for a research-worthy problem with a business impact that is either scientific or market relevant, depending on the type of thesis, and provide evidence that the solution is appropriate.
+
+Communications Skills: Students ...
+
+    are able to explain the work and defend it in a colloquium.
+
+Learning Skills: Students ...
+
+    are able to do explore a domain of interest based on relevant literature and collection of data.","The students are expected to bring together aspects of learning from previous modules as well as using this learning as the basis for planning, conducting and writing up a project.",Course_Master_Thesis_Proposal
+Course_Master_Thesis_Proposal,https://modulbeschreibungen.webapps.fhnw.ch/detail/23HS_9197999,Master Thesis Proposal,"In the master thesis the students deal with a concrete, practically relevant topic in the area of business information systems. There are two types of master thesis:
+•Application-oriented research: The topic of the master thesis must be research-based (generating new knowledge, applying research methods, and transparent presentation) and has to help answer questions of practical relevance for enterprises and demonstrate an impact on the business. Therefore the master thesis can be written in cooperation and/or in order for an enterprise located in Switzerland or all over the world.
+•New Business: The thesis deals with an innovation that can lead to the founding of a startup company. The thesis has to deal with both the technical innovation and the market research. There is the possibility to deal with technical innovation and market research in two linked master theses.
+The master thesis proposal is the first phase of the master thesis, in which the students familiarize themselves with and focus on a topic of their interest. They derive the research problem based on a literature review, determine the intended research contribution, identify the appropriate research strategy and make a plan of their research, including a specification of the data collection and analysis.",mandatory,Research Methods for Information Systems has be passed before starting the master thesis proposal.,,"Knowledge and Understanding: Students ...
+
+    know about appropriate methdologies and their application areas.
+    have an understanding of the domain deep enough to determine the problem description.
+
+Applying Knowledge and Understanding: Students ...
+
+    can select and adapt the appropriate methodology to solve the identified problem.
+
+Making Judgements: Students ...
+
+    can derive a research-worthy problem with a business impact and which is either scientific or market relevant, depending on the type of thesis.
+
+Communications Skills: Students ...
+
+    can write a convincing argumentation for the problem statement based on the review of relevant literature.
+
+Learning Skills: Students ...
+
+    are able to do identify relevant literature and analyse it with respect the topic.","During this module the students determine the research problem, based on practical relevance and a literature review, they define the thesis statement, concretize the research questions and determine the research methodology which is appropriate to do the research.
+The concrete topic and objective is agreed upon between student and supervisor at the beginning of the project. In a two-day Master Thesis Seminar the students are supported in setting up the master thesis project, phrasing the thesis statement, doing a literature review and specifying the research methodology. ",Course_Research_Methods_in_Information_Systems
+Course_Model-based_Design_of_Cyber-Physical_Solutions,https://modulbeschreibungen.webapps.fhnw.ch/detail/23FS_9530118,Model-based Design of Cyber-Physical Solutions,"This module deals with the design of business solutions which integrate the digital and the physical world. Conceptual modeling and metamodeling are core competences for designing complex solutions involving stakeholders with different backgrounds. Gaphical models can be created and interpreted by people which do not have any programming skills. They allow for discussions about advantages and disadvantages of alternative designs, which can be adapted and prototyped during creative workshop sessions.
+The module is offered in two modes:In the local mode the module is offered during the semester with weekly sessions.Eight students have the opportunity to attend this module in joint offer by three universities: FHNW, Cape Peninsula University of Technology, University of Pretoria. Eight students from each university participate in the course, which is taught within three weeks in South Africa and one week in Switzerland.",elective,,"Links to other modules: This module goes deeper in the Conceptual Modeling, which has been briefly dealt with in the modules Alignment of Business and IT andKnowledge Processing and Decision Making. It also shows a tool support for Design Thinking, which is taught in Innovation in the Digital Age.","Knowledge and Understanding: Students ...
+
+    Understand the distinction between modeling and metamodeling.
+    Know various approaches for conceptual modeling, in particular graphical modeling and ontological modeling.
+
+Applying Knowledge and Understanding: Students ...
+
+    Being able to design domainspecific metamodels and modeling languages by determining relevant concepts for a domain.
+    Use abstraction to deal with complex situations: create conceptuals models to represent relevant aspects for supporting decision making and designing solutions.
+
+Making Judgements: Students ...
+
+    Making decision based on conceptual models and reasoning.
+
+Communications Skills: Students ...
+
+    Communication between stakeholders with different background.
+    Collaborations for joint decision making
+    Interaction between people with different cultural and education background.
+
+Learning Skills: Students ...
+
+    In the projectbased setting, students need to acquire knowledge about applications domains by themselves in order to be able to create innovative solutions.","​The module will cover the following topics:
+
+    ​Enterprise Modeling
+    Metamodeling
+    Ontology-based and agile Metamodeling
+    Design Thinking
+    Prototyping
+    Cyber-physical Systems",
+Course_Qualitative_Decision_Making_and_Knowledge_Management,https://modulbeschreibungen.webapps.fhnw.ch/detail/23HS_9465658,Qualitative Decision Making and Knowledge Management,"Decision-making is based on data and knowledge. Decision-making (DM) processes are concerned with analytical approaches that help business actors in turning data into knowledge and action. Knowledge management (KM) processes are concerned with identification, storage, sharing, and effectively using knowledge, which can be explicit or implicit requiring different methods for managing it. The module explores decision-making and knowledge management processes that are driven by qualitative data and the required analytical approaches to exploit insight and sensemaking. A focus of the module is on knowledge-supported decision making which requires knowledge. As several people and roles are involved in the decision-making, it is a challenge that decisions in an enterprise are consistent - independent of the individual person. Another challenge is that decision criteria are adapted to changing situations. This is the reason to combine decision-making and knowledge management in a single module.",elective,"Elective, Competence Area / Module Group: Intelligent Information Systems",,"Knowledge and Understanding: Students ...
+
+    Understand the linkage between decision making and knowledge management
+    be able to explain decision making and knowledge management processes and how they can be exploited
+    understand different types of knowledge (tacit, implicit, explicit) and the building blocks for knowledge management
+
+Applying Knowledge and Understanding: Students ...
+
+    Be able to design meaningful and informative reports and dashboards that satisfy business decision needs (Objective 1.5)
+    be able to formulate problems as knowledge and data analysis tasks and interpret results (Objective 1.5)
+    Be able to apply information technology datadriven and knowledge-supported decision making and for knowledge sharing.
+
+Making Judgements: Students ...
+
+    Being able to determine the appropriate knowledge management strategies and approaches for knowledge management
+    being able to assess the decision maturity of an enterprise.
+    be able to identify relevant ethical and legal
+    be able to judge and select appropriate analytical tools forgiven specific business cases
+    be able to judge the potential that predictive analysis techniques have for improving the effectiveness and efficiency of decision making (Objective 3.1)
+
+Communications Skills: Students ...
+
+    Communicate and share knowledge for decision making.
+    be able to explain DM and KM related analyses and provide recommendations
+    be able to elicit analytical requirements, e.g. based on interviews with business stakeholders (Objective 1.1)
+    be able to set up a plan of action for innovative KM and DM initiatives
+
+Learning Skills: Students ...
+
+    be able to develop strategies for successful KM and DM","Introduction to decision making and knowledge management
+    Qualitative decision making (strategic, organisational, operational), requirement-based decision making
+    Decision management and decision maturity
+    Knowledge management(knowledge management strategies, knowledge management services, business-process-oriented knowledge management)
+    knowledge-driven decision making",
+Course_Research_Methods_in_Information_Systems,https://modulbeschreibungen.webapps.fhnw.ch/detail/23HS_9308772,Research Methods in Information Systems,"This is an advanced course on research design for business information systems research, including qualitative and quantitative approaches. It prepares students to undertake a piece of qualitative and/or quantitative business information systems research for their Masters project, by developing appropriate knowledge, understanding and transferable intellectual and practical skills. Emphasis is placed on applying the skills that lead to a successful closure of a research journey focused on a contemporary information systems problem identified by students in the role as either academic or practitioner researchers. Skills such as the ability to frame a research interest or problem, evaluate relevant literature, generate research questions or research objectives, the ability to understand a conceptual framework, the ability to select and justify a particular research design and methodology and the ability to act as an ethical researcher, will be developed.The Students will gain confidence in a range of cognitive and practical skills suitable to conducting research projects in a range of business contexts. They will understand and apply the important methods and techniques for collection and analysis of qualitative and quantitative empirical data. They will learn how to report critically on research outcomes",mandatory,,,"Knowledge and Understanding: Students ...
+
+    Explain different research designs and respective methodologies relevant to academic and practitioner researchers working within an international context.Differentiate qualitative and quantitative approaches and explain their potential and limitations for different cultural dimensions.
+
+Applying Knowledge and Understanding: Students ...
+
+    Organise and present a research project.Design a research project including research question, research methods, information gathering, scheduling and organisation that will affect the economy and society.
+
+Making Judgements: Students ...
+
+    Critically evaluate the literature relevant to their research aims while working in a group in order to develop a conceptual framework and critical stance.Interpret and critically evaluate research outcomes and their impact on business and/or international practices.Use appropriate methods and tools, including software to discuss scientific findings
+    Analyze quantitative and qualitative data and interpret the results in their context, while implying ethical aspects in decisionmaking. 
+
+Communications Skills: Students ...
+
+    Report on the design, methods, and results of a research project in critical, appropriate and concise way.
+
+Learning Skills: Students ...
+
+    Acting as an independent selflearner of new designs and methods. This is done in a group in the assignments as well as a subpart.","Overview of the research process / cycle
+•Identifying research foci and formulating research questions / objectives
+•Literature reviewing and developing a conceptual foundation
+•Introduction to research strategies for business information systems, especial focusing on design science/research
+•Qualitative research designs and methods for data collection
+•Analytical approaches for qualitative data
+•Quantitative research designs and methods for data collection
+•Analytical approaches for quantitative data
+•Presentation and evaluation and reporting of the results of data analysis",
+Course_Strategic_Business_Innovation,https://modulbeschreibungen.webapps.fhnw.ch/detail/23HS_9324404,Strategic Business Innovation,"On the one hand, the digital age opens a wide range of new business opportunities - on the other hand, we recognize that the existing management concepts have their origins in the industrial age and are hardly suitable for leading companies into the digital age.
+Therefore, this module provides new concepts for innovative and responsible managers to face the networked and dynamic digital age.",mandatory,Basic Knowledge in Business Administration,,"Knowledge and Understanding: Students ...
+
+    learnhow digitalization and globalization change the way we do business.
+    how to recognize future business opportunities in order to enable the development of products, services and business models in the digital economy from the legacy business perspective and from the nolegacy business perspective.
+    how to perceive relevant trends and how digital means can enable new business models from the legacy business perspective and from the nolegacy business perspective.
+    how to build on sustainability in the digital economy.
+    how to face innovations to create sustainable strategic advantages in the digital economy.
+
+Applying Knowledge and Understanding: Students ...
+
+    have to apply the learned knowledge in a real cases.
+
+Making Judgements: Students ...
+
+    have to find an innovative idea that does not exist in Europa up to now and evaluate it with regard to the digitalization of the society and economy, to business development, and to a possible uniqueness.
+
+Communications Skills: Students ...
+
+    have to explain and defend the innovative idea in front of the class and furthermore interested participants of the university.
+
+Learning Skills: Students ...
+
+    are guided to deepen the presented topics by themselves.","On the one hand, concepts are taught through plenary lectures and case studies. Covered topics are :
+
+    Digital Age of Today / Digital Economy in a Digital Society
+    Digital Disruption / Digital Transformation
+    Framing Digital Business Development
+    Digital Business Development
+    Digital Business Development Portfolio
+    Digital Maturity Model
+    Sociotechnical Framework
+    Agile Business
+    Digital Eco-System
+    System-FIT
+    Sustainability
+    Business Innovation
+    Digital Leadership / Management 4.0
+    Abili-Methodology
+
+On the other hand, the students have to select an environments, to deepen it in a workshop, to publish the final findings in an FHNW wiki page, and to embed an innovation in one of these environments. Details will be announced in the lecture.",
+Course_Supply_Chain_Management,https://modulbeschreibungen.webapps.fhnw.ch/detail/23HS_9109024,Supply Chain Management,"This module is about Supply Chain Management (SCM) and its transformation to data-driven value creation in networks. It is built around value co-creation with customers and suppliers, as well as supply chain analytics. It covers fundamental concepts, methods and instruments of Supply Chain Management and gears students towards mastering the supply chain crunch era.",elective,"Basic knowledge of supply chain, and analytics in Python.","The core literature will be provided via Moodle.
+Links to other modules: No.","Knowledge and Understanding: Students ...
+
+    know and understand fundamental concepts, methods, and instruments of Supply Chain Management (Obj. 1.1, resultsoriented approach).
+
+Applying Knowledge and Understanding: Students ...
+
+    can apply the fundamental concepts, methods, and instruments of Supply Chain Management (Obj. 1.1, resultsoriented approach).
+
+Making Judgements: Students ...
+
+    can analyze and prepare a teaching case on a current topic in Supply Chain Management (Obj. 3.1, innovationoriented problemsolving ability).
+    can evaluate the potential of Supply Chain Management innovations (Obj. 2.1, systematic / methodologic problemsolving ability).
+    can make quantified, multiperspective judgements on Supply Chain improvements using appropriate techniques (Obj. 1.1, resultsoriented approach).
+
+Communications Skills: Students ...
+
+    Communications skills are developed to be able to innovate in Supply Chain Management. Specific communication skills are required for the teaching case to be ready for publishing.
+
+Learning Skills: Students ...
+
+    For class preparation, exam preparation and teaching case writing, it is necessary to process specialized literature, and dive into Supply Chain problems, applications & technology.","Introduction & Organisation
+•Customer Management
+•Supplier Management
+•Warehosue & Inventories
+•Demand Management
+•Logistics Management",
