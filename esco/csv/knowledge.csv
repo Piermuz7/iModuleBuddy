@@ -1,425 +1,432 @@
-index,knowledge
-K1,3D lighting
-K2,3D modelling
-K3,3D texturing
-K4,ABAP
-K5,Adobe Illustrator
-K6,Adobe Photoshop
-K7,Agile development
-K8,Agile project management
-K9,Aircrack (penetration testing tool)
-K10,AJAX
-K11,Ajax Framework
-K12,algorithms
-K13,Android (mobile operating systems)
-K14,Angular
-K15,Ansible
-K16,Apache Maven
-K17,Apache Tomcat
-K18,APL
-K19,application usability
-K20,artificial neural networks
-K21,ASP.NET
-K22,Assembly (computer programming)
-K23,assessment of risks and threats
-K24,attack vectors
-K25,audit techniques
-K26,augmented reality
-K27,authoring software
-K28,Backbox (penetration testing tool)
-K29,battery management systems
-K30,behavioural science
-K31,BlackArch
-K32,BlackBerry
-K33,blockchain
-K34,blockchain application areas
-K35,blockchain applications
-K36,blockchain applications security principles
-K37,blockchain architecture
-K38,blockchain components
-K39,blockchain concept application
-K40,blockchain consensus mechanisms
-K41,blockchain design patterns
-K42,blockchain history
-K43,blockchain mining principles
-K44,blockchain openness
-K45,blockchain platforms
-K46,blockchain signature schemes
-K47,blockchain terminology
-K48,blockchain-based business models
-K49,blockchain-based services regulation
-K50,blueprints
-K51,building systems monitoring technology
-K52,business analytics
-K53,business ICT systems
-K54,business intelligence
-K55,business process modelling
-K56,business processes
-K57,business requirements techniques
-K58,business strategy concepts
-K59,C#
-K60,C++
-K61,CA Datacom/DB
-K62,CAD software
-K63,Cain and Abel (penetration testing tool)
-K64,check methods
-K65,Chef (tools for software configuration management)
-K66,Cisco
-K67,cloud monitoring and reporting
-K68,cloud security and compliance
-K69,cloud technologies
-K70,COBOL
-K71,Codenvy
-K72,CoffeeScript
-K73,cognitive computing
-K74,cognitive psychology
-K75,Common Lisp
-K76,computational biology
-K77,computer engineering
-K78,computer forensics
-K79,computer graphics
-K80,computer programming
-K81,computer science
-K82,computer simulation
-K83,computer technology
-K84,computer vision
-K85,consultation methods
-K86,content development processes
-K87,content marketing strategy
-K88,control objectives for information and related technology
-K89,copyright legislation
-K90,core banking software
-K91,corporate sustainability
-K92,crowdsourcing strategy
-K93,cryptocurrency
-K94,CSS
-K95,cyber attack counter-measures
-K96,cyber security
-K97,data analytics
-K98,data engineering
-K99,data ethics
-K100,"data extraction, transformation and loading tools"
-K101,data mining
-K102,data models
-K103,data protection
-K104,data quality assessment
-K105,data science
-K106,data security principles
-K107,data storage
-K108,data visualisation software
-K109,data warehouse
-K110,database
-K111,database development tools
-K112,database management systems
-K113,database quality standards
-K114,DB2
-K115,decentralised identifiers
-K116,decentralized application frameworks
-K117,decision support systems
-K118,deep learning
-K119,defence standard procedures
-K120,design thinking
-K121,DevOps
-K122,digital curation
-K123,digital game genres
-K124,digital identity management
-K125,digital image processing
-K126,digital marketing techniques
-K127,digital systems
-K128,digital twin technology
-K129,digitization
-K130,distributed computing
-K131,distributed ledger technologies consensus protocols
-K132,distributed ledger technologies vulnerabilities
-K133,distributed ledger technology
-K134,documentation types
-K135,domain name service
-K136,Drupal
-K137,Eclipse (integrated development environment software)
-K138,electrical engineering
-K139,embedded systems
-K140,emergent technologies
-K141,empirical analysis
-K142,engineering control theory
-K143,engineering principles
-K144,engineering processes
-K145,Erlang
-K146,ethical hacking principles
-K147,ethics
-K148,field-programmable gate arrays
-K149,Filemaker (database management systems)
-K150,forensic intelligence
-K151,game theory
-K152,GDPR
-K153,GIMP (graphics editor software)
-K154,graphics editor software
-K155,green building standards
-K156,Groovy
-K157,Hadoop
-K158,hardware architectures
-K159,hardware components
-K160,hardware components suppliers
-K161,hardware platforms
-K162,hardware testing methods
-K163,Haskell
-K164,healthcare analytics
-K165,human-computer interaction
-K166,hybrid model
-K167,IBM Informix
-K168,IBM InfoSphere DataStage
-K169,IBM InfoSphere Information Server
-K170,IBM WebSphere
-K171,ICT accessibility standards
-K172,ICT architectural frameworks
-K173,ICT capacity planning strategies
-K174,ICT communications protocols
-K175,ICT debugging tools
-K176,ICT encryption
-K177,ICT environmental policies
-K178,ICT infrastructure
-K179,ICT market
-K180,ICT network routing
-K181,ICT network security risks
-K182,ICT network simulation
-K183,ICT networking hardware
-K184,ICT performance analysis methods
-K185,ICT power consumption
-K186,ICT problem management techniques
-K187,ICT process quality models
-K188,ICT project management
-K189,ICT project management methodologies
-K190,ICT quality policy
-K191,ICT recovery techniques
-K192,ICT sales methodologies
-K193,ICT security legislation
-K194,ICT security standards
-K195,ICT software specifications
-K196,ICT system integration
-K197,ICT system programming
-K198,ICT system user requirements
-K199,image formation
-K200,image recognition
-K201,incidents and accidents recording
-K202,incremental development
-K203,industrial software
-K204,Informatica PowerCenter
-K205,information architecture
-K206,information categorisation
-K207,information confidentiality
-K208,information extraction
-K209,information governance compliance
-K210,information security strategy
-K211,information structure
-K212,innovation processes
-K213,insourcing strategy
-K214,integrated development environment software
-K215,inter-organisational middleware system
-K216,interactive media
-K217,interfacing techniques
-K218,internal risk management policy
-K219,internet governance
-K220,Internet of Things
-K221,investment analysis
-K222,iOS
-K223,Iterative development
-K224,Java (computer programming)
-K225,JavaScript
-K226,JavaScript Framework
-K227,Jenkins (tools for software configuration management)
-K228,John The Ripper (penetration testing tool)
-K229,Joomla
-K230,JSSS
-K231,Kali Linux
-K232,KDevelop
-K233,keywords in digital content
-K234,labour legislation
-K235,lathe machine parts
-K236,LDAP
-K237,leadership principles
-K238,lean project management
-K239,legal requirements of ICT products
-K240,LESS
-K241,levels of software testing
-K242,LINQ
-K243,Lisp
-K244,machine learning
-K245,Maltego
-K246,manufacturing processes
-K247,marketing analytics
-K248,MarkLogic
-K249,mathematical modelling
-K250,mathematical physics
-K251,mathematics
-K252,MATLAB
-K253,MDX
-K254,mechanics
-K255,mechatronics
-K256,Metasploit
-K257,Microsoft Access
-K258,Microsoft Visio
-K259,Microsoft Visual C++
-K260,ML (computer programming)
-K261,mobile device management
-K262,mobile device software frameworks
-K263,mobile marketing
-K264,mobile operating systems
-K265,model based system engineering
-K266,multidisciplinary research
-K267,MySQL
-K268,N1QL
-K269,natural language processing
-K270,Nessus
-K271,network engineering
-K272,network management system tools
-K273,network standards
-K274,Nexpose
-K275,NoSQL
-K276,object-oriented modelling
-K277,Objective-C
-K278,ObjectStore
-K279,Octopus Deploy
-K280,online analytical processing
-K281,online moderation techniques
-K282,Open source model
-K283,OpenEdge Advanced Business Language
-K284,OpenEdge Database
-K285,operating systems
-K286,operational research
-K287,operational tactics for emergency responses
-K288,Oracle Application Development Framework
-K289,Oracle Data Integrator
-K290,Oracle Relational Database
-K291,Oracle Warehouse Builder
-K292,Oracle WebLogic
-K293,organisational policies
-K294,organisational resilience
-K295,Outsourcing model
-K296,outsourcing strategy
-K297,OWASP ZAP
-K298,Parrot Security OS
-K299,Pascal (computer programming)
-K300,penetration testing tool
-K301,Pentaho Data Integration
-K302,Perl
-K303,PHP
-K304,PostgreSQL
-K305,principles of animation
-K306,principles of artificial intelligence
-K307,Process-based management
-K308,procurement of ICT network equipment
-K309,product data management
-K310,product life-cycle
-K311,product usage risks analysis
-K312,project configuration management
-K313,project management
-K314,Prolog (computer programming)
-K315,Prototyping development
-K316,proxy servers
-K317,publishing strategy
-K318,Puppet (tools for software configuration management)
-K319,Python (computer programming)
-K320,QlikView Expressor
-K321,quality and cycle time optimisation
-K322,quality assurance methodologies
-K323,quality standards
-K324,quantitative analysis
-K325,quantum computing
-K326,query languages
-K327,R
-K328,Rapid application development
-K329,real-time computing
-K330,research design
-K331,resource description framework query language
-K332,resource-efficient technologies
-K333,risk management
-K334,Ruby (computer programming)
-K335,safety engineering
-K336,sales strategies
-K337,Salt (tools for software configuration management)
-K338,Samurai Web Testing Framework
-K339,SAP Data Services
-K340,SAP R3
-K341,SAS Data Management
-K342,SAS language
-K343,Sass
-K344,Scala
-K345,scientific computing
-K346,scientific literature
-K347,scientific research methodology
-K348,Scratch (computer programming)
-K349,screen reader
-K350,security engineering
-K351,security threats
-K352,service-oriented modelling
-K353,signal processing
-K354,SketchBook Pro
-K355,Smalltalk (computer programming)
-K356,smart contract
-K357,smart contract programming languages
-K358,social media marketing techniques
-K359,social network analysis
-K360,software anomalies
-K361,software architecture models
-K362,software components libraries
-K363,software components suppliers
-K364,software design methodologies
-K365,software frameworks
-K366,software interaction design
-K367,software metrics
-K368,software UI design patterns
-K369,Solidity
-K370,solution deployment
-K371,SPARK
-K372,SPARQL
-K373,Spiral development
-K374,SQL
-K375,SQL Server
-K376,SQL Server Integration Services
-K377,STAF
-K378,state estimation
-K379,statistical analysis system software
-K380,statistical modeling techniques
-K381,statistical process control
-K382,statistics
-K383,style sheet languages
-K384,sustainability consulting
-K385,sustainable technologies
-K386,Swift (computer programming)
-K387,Synfig
-K388,system backup best practice
-K389,system design
-K390,systems development life-cycle
-K391,systems theory
-K392,task algorithmisation
-K393,technical drawings
-K394,telecom regulations
-K395,Teradata Database
-K396,THC Hydra
-K397,tools for ICT test automation
-K398,tools for software configuration management
-K399,trading software
-K400,trigonometry
-K401,TripleStore
-K402,TypeScript
-K403,unified modelling language
-K404,unstructured data
-K405,usability engineering
-K406,Vagrant
-K407,VBScript
-K408,Visual Basic
-K409,visual presentation techniques
-K410,Vyper
-K411,Waterfall development
-K412,web analytics
-K413,web application security threats
-K414,web based collaborative platforms
-K415,web programming
-K416,web services
-K417,WebCMS
-K418,WhiteHat Sentinel
-K419,WildFly
-K420,Wireshark
-K421,WordPress
-K422,World Wide Web Consortium standards
-K423,Xcode
-K424,XQuery
+index,title,description,uri
+K1,3D lighting,The arrangement or digital effect which simulates lighting in a 3D environment.,http://data.europa.eu/esco/skill/6e53fd99-b646-4327-9580-ac062ab21188
+K2,3D modelling,The process of developing a mathematical representation of any three-dimensional surface of an object via specialised software. The product is called a 3D model. It can be displayed as a two-dimensional image through a process called 3D rendering or used in a computer simulation of physical phenomena. The model can also be physically created using 3D printing devices.,http://data.europa.eu/esco/skill/97965983-0da4-4902-9daf-d5cd2693ef73
+K3,3D texturing,The process of applying a type of surface to a 3D image.,http://data.europa.eu/esco/skill/3e7516dc-0f7c-4686-8b2f-fade4e5d21be
+K4,ABAP,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in ABAP.",http://data.europa.eu/esco/skill/eb0e5615-1575-4a86-a1a2-7d39595033c5
+K5,Adobe Illustrator,The computer program Adobe Illustrator CC is a graphical ICT tool which enables digital editing and composition of graphics to generate both 2D raster or 2D vector graphics. It is developed by the software company Adobe.,http://data.europa.eu/esco/skill/27b913f0-3c52-448b-ad27-fc6ef08fb326
+K6,Adobe Photoshop,The computer program Adobe Photoshop is a graphical ICT tool which enables digital editing and composition of graphics to generate both 2D raster or 2D vector graphics. It is developed by the software company Adobe.,http://data.europa.eu/esco/skill/14ced458-5f4b-495f-bd3d-9c240614bda0
+K7,Agile development,The agile development model is a methodology to design software systems and applications.,http://data.europa.eu/esco/skill/dba46f87-0831-49cd-a1c7-340a653c0221
+K8,Agile project management,"The agile project management approach is a methodology for planning, managing and overseeing of ICT resources in order to meet specific goals and using project management ICT tools.",http://data.europa.eu/esco/skill/0a9acb6b-1139-4be9-b431-3a80a959f2f4
+K9,Aircrack (penetration testing tool),"The computer program Aircrack is a cracking program which recovers 802.11 WEP and WPA-PSK keys by making several network attacks such as FMS, KoreK and PTW attacks.",http://data.europa.eu/esco/skill/557e9247-1a2d-4497-aa7f-0cded7768da1
+K10,AJAX,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in AJAX.",http://data.europa.eu/esco/skill/b4dc6e4f-dc7d-445f-8ce2-d7b9d225e282
+K11,Ajax Framework,The Ajax software development environments which provide specific features and components that support and guide web applications development.,http://data.europa.eu/esco/skill/8c88d336-c249-4537-b26e-d679a85c4b9b
+K12,algorithms,"The self-contained step-by-step sets of operations that carry out calculations, data processing and automated reasoning, usually to solve problems.",http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38
+K13,Android (mobile operating systems),"The system software Android consists of features, restrictions, architectures and other characteristics of operating systems designed to run on mobile devices.",http://data.europa.eu/esco/skill/d8829a1d-dbde-435b-b921-29d6462f35c9
+K14,Angular,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Angular.",http://data.europa.eu/esco/skill/1ffac4ac-fda7-407d-8ed1-ca8f4a8dc146
+K15,Ansible,"The tool Ansible is a software program to perform configuration identification, control, status accounting and audit.",http://data.europa.eu/esco/skill/6f8a40d6-f9ce-43ec-a72f-d4213a53f3ed
+K16,Apache Maven,"The tool Apache Maven is a software program to perform configuration identification, control, status accounting and audit of software during its development and maintenance.",http://data.europa.eu/esco/skill/0d168770-4d9c-4096-b048-a6577818d306
+K17,Apache Tomcat,"The open-source web server Apache Tomcat provides a Java web server environment which uses a built in container where HTTP requests are loaded, allowing the Java web applications to run on local and server based systems.",http://data.europa.eu/esco/skill/0fb753a1-2ef2-4429-84d2-ecb2b24daf7a
+K18,APL,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in APL.",http://data.europa.eu/esco/skill/58d7a289-dafd-4363-833f-d1dc4140885e
+K19,application usability,"The process through which the learnability, efficiency, usefulness and ease of use of a software application can be defined and measured.",http://data.europa.eu/esco/skill/c4b626c1-e71c-44ec-9f88-042766f37fcc
+K20,artificial neural networks,A network of artificial neurons composed for solving artificial intelligence problems. These computing systems are inspired by the biological neural networks that constitute brains. Understanding of its general model and its  elements. Knowledge of its use possibilities for automation. ,http://data.europa.eu/esco/skill/5608d5a0-6d5e-43b7-be37-616501729bb4
+K21,ASP.NET,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in ASP.NET.",http://data.europa.eu/esco/skill/56a7f561-1d55-43c9-9cd7-36a0a9bc6c50
+K22,Assembly (computer programming),"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Assembly.",http://data.europa.eu/esco/skill/47b9bbcf-356c-4782-83a4-7f5a1b2b51a3
+K23,assessment of risks and threats,The security documentation and any security-related communications and information.,http://data.europa.eu/esco/skill/7f27f1ff-2e17-4b69-990e-c23334478313
+K24,attack vectors,"Paths or methods that threat actors use to exploit vulnerabilities in information networks or systems from a concrete organisation and impact its availability, integrity and confidentiality. Attack vectors may include social engineering tactics such as phishing mails or pretexting, technical exploits as SQL injection as well as buffer overflow attacks.",http://data.europa.eu/esco/skill/501537a7-9d63-491d-ae02-09f04767ff1e
+K25,audit techniques,"The techniques and methods that support a systematic and independent examination of data, policies, operations and performances using computer-assisted audit tools and techniques (CAATs) such as spreadsheets, databases, statistical analysis and business intelligence software.",http://data.europa.eu/esco/skill/6a536b36-c5c7-4d10-bf67-a4fb0f8549b2
+K26,augmented reality,"The process of adding diverse digital content (such as images, 3D objects, etc) on surfaces that exist in the real world. The user can interact in real-time with the technology by using devices such as mobile phones.",http://data.europa.eu/esco/skill/abdc7ac8-151f-40c6-bc1a-1e9b4b073290
+K27,authoring software,"The software that provides pre-programmed elements which allow the development of interactive multimedia applications in order to edit, structure and lay out content intended for publication.",http://data.europa.eu/esco/skill/d4789070-2ff7-4bbb-94ca-8bb1739826a9
+K28,Backbox (penetration testing tool),"The software BackBox is a Linux distribution which tests security weaknesses of the system for potentially unauthorised access to system information by information gathering, forensic, wireless and VoIP analysis, exploitation and reverse engineering.",http://data.europa.eu/esco/skill/58783f72-5098-4807-b1d1-954ec2ae94c4
+K29,battery management systems,The electronic system that manages and monitors the performance of a battery.,http://data.europa.eu/esco/skill/1cdd0afe-196f-4d8a-924f-4d7473cce3c7
+K30,behavioural science,The investigation and analysis of subject behaviour through regulated and lifelike observations and disciplined scientific experiments.,http://data.europa.eu/esco/skill/269b8734-fa1d-4c6f-a843-523fa3bbae6e
+K31,BlackArch,The BlackArch Linux distribution is a penetration testing tool which tests security weaknesses of the system for potentially unauthorised access to system information.,http://data.europa.eu/esco/skill/8a30eb28-eca0-4ab6-8c05-32c47d3e0dd6
+K32,BlackBerry,"The system software BlackBerry consists of features, restrictions, architectures and other characteristics of operating systems designed to run on mobile devices.",http://data.europa.eu/esco/skill/ba04b19b-0b18-4d5c-b799-4db31a98e58d
+K33,blockchain,"A decentralised, public and distributed digital ledger that is employed to record transactions between many computers. It guarantees that the records cannot be modified retroactively without the consensus of the entire network namely all of the subsequent blocks in the chain.",http://data.europa.eu/esco/skill/afa14e38-5973-4cce-a077-f796c1ced2cc
+K34,blockchain application areas,"The study of the areas in which blockchain is implemented. Banking and Finance, Businesses (Supply Chain Management, Healthcare, Real Estate, Media, Energy), and Government are some examples of this application areas.",http://data.europa.eu/esco/skill/668c3fd4-8443-4f27-bc1e-2d96205186b5
+K35,blockchain applications,"The knowledge of applications where blockchains can provide significant added value. They include applications in Banking and Finance (International Payments, Capital Markets, Trade Finance, Regulatory Finance and Audit, Money Laundering Protection, Insurance, Peer-to-Peer Transactions) and Business (Supply Chain Management, Healthcare, Real Estate, Media, Energy), Government (Identity Management, Voting, Taxes, Non-Profit Agencies, Compliance/Regulatory Oversight).",http://data.europa.eu/esco/skill/5ce5236e-93e2-4899-8971-fff526f85a01
+K36,blockchain applications security principles,"The essential security principles, methods and controls for blockchain applications. Identity and access management, key management, data privacy, secure communication, smart contract security, and transaction endorsement are included as part of these principles.",http://data.europa.eu/esco/skill/98a57799-0146-4849-a1d2-41021c4b7b8f
+K37,blockchain architecture,The design structure of a peer-to-peer network of computers that functions as backend for systems and applications The network is constructed as a virtual machine without a central system that manages interactions among the nodes.,http://data.europa.eu/esco/skill/296f6b56-de45-4aac-aa96-43e4a4864724
+K38,blockchain components,"The study of essential blockchain components and concepts such as peer networks, smart contracts, memberships, events, ledgers, system integration, wallets, and system management.",http://data.europa.eu/esco/skill/14062e1c-6540-4cb6-b343-ad419e3d10ac
+K39,blockchain concept application,"The process of transferring essential blockchain and, more generally, distributed ledger concepts to diverse application domains. For this, the domain-specific challenges, solutions, and consequences of introducing peer-to-peer transaction and consensus patterns need to be well understood.
+
+",http://data.europa.eu/esco/skill/699c949a-699a-4858-a02e-a63f66872d6f
+K40,blockchain consensus mechanisms,The different mechanisms and their characteristics that ensure a transaction is propagated correctly in the distributed ledger.,http://data.europa.eu/esco/skill/f7e051fc-8f7b-45b3-8911-8ffb9b951f4a
+K41,blockchain design patterns,"Re-usable blockchain solution approaches including non-blocking user interface design, asynchronous API design, secure synchronization , time stamping, enterprise business integration, simple assets, and assets with rules. ",http://data.europa.eu/esco/skill/c4ba511c-dc24-44bc-8bc5-10b2d4a191fb
+K42,blockchain history,Key historical facts and milestones in the blockchain technology as well as the implementations and applications that emerged on top of it.,http://data.europa.eu/esco/skill/b4057ecb-06d6-45db-a352-ce73e3fd991d
+K43,blockchain mining principles,"Essential blockchain and cryptocurrency mining types and principles include ASIC mining, GPU mining, CPU mining, Cloud mining, and Mining pools.",http://data.europa.eu/esco/skill/fc94266b-322d-4f1d-87a0-03f999e72344
+K44,blockchain openness,"The different levels of openness of a blockchain, their differences, and their advantages and disadvantages. Examples are permissionless, permissioned, and hybrid blockchains",http://data.europa.eu/esco/skill/3c2e6f38-42c1-46ec-b782-5854b2db330d
+K45,blockchain platforms,"The different integrated infrastructures, each with their own characteristics, that allow the development of blockchain applications. Examples are multichain, ehtereum, hyperledger, corda, ripple, openchain, etc.",http://data.europa.eu/esco/skill/9035afc4-5317-455d-ab60-f32e2ecc6bfc
+K46,blockchain signature schemes,"Essential digital signature schemes include the RSA scheme, the El-Gamal scheme, Hash functions, Birthday Attacks, the Digital Signature Standard.",http://data.europa.eu/esco/skill/07884056-a07a-40b7-bba3-1ceed61f529c
+K47,blockchain terminology,"The terms used in blockchain sector which include account, attestation, block, Byzantine fault, coin, consensus, crypto-, decentralized application (DApp), DeFi, digital identity, distributed ledger, encryption, ether, fork, hyperledger, Merkle tree, mining, node, NFT, Proof of Authority, Proof of Stake, Proof of Work, public/private blockchain, trustless, validity proof, 51% attack, etc.",http://data.europa.eu/esco/skill/8bbdb795-0deb-478f-91e4-5238867ed8ba
+K48,blockchain-based business models,"The study of diverse blockchain business models such as Blockchain-Based Software Products, Blockchain Development Platforms, Token Economy-Utility Token Business Model, P2P Blockchain Business Model, as well as Blockchain as a Service Business Model (BaaS).",http://data.europa.eu/esco/skill/d686f015-5568-4288-9135-74936cd7b655
+K49,blockchain-based services regulation,"Key legal regulations around the blockchain, both existing and emerging ones. In Europe, regulations around the Digital Euro and Crypt-Assets, as well as the Pan-European blockchain regulatory sandbox are considered most essential.",http://data.europa.eu/esco/skill/7c939ef4-adb2-4c0c-aa27-9cc1aefd7c81
+K50,blueprints,"Must be able to read and understand blueprints, drawings and plans and maintain simple written records.",http://data.europa.eu/esco/skill/d1072655-88ce-4445-8803-e6273da273e7
+K51,building systems monitoring technology,"Computer-based control systems that monitor mechanical and electrical equipment in a building such as HVAC, security and lighting systems.",http://data.europa.eu/esco/skill/0e8d16c9-e2db-4862-ac06-1567f01ef806
+K52,business analytics,The disciplines and technologies for solving business problems through employing quantitative methods such as data analysis and statistical models.,http://data.europa.eu/esco/skill/98a1dec3-8138-4f46-a596-5e2a83b884b9
+K53,business ICT systems,"The software packages, hardware devices and new technologies used in supporting business processes such as enterprise resource planning (ERP), customer relationship management (CRM), mobile devices and network solutions.",http://data.europa.eu/esco/skill/ccdbd9bb-4faf-403c-a968-e8bf487f8a53
+K54,business intelligence,The tools used to transform large amounts of raw data into relevant and helpful business information.,http://data.europa.eu/esco/skill/143769cb-b61e-47d8-a61e-eedfbec1016c
+K55,business process modelling,"The tools, methods and notations such as Business Process Model and Notation (BPMN) and Business Process Execution Language (BPEL), used to describe and analyse the characteristics of a business process and model its further development.",http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb
+K56,business processes,"Processes which an organisation applies to improve efficiency, set new objectives and reach goals in a profitable and timely manner.",http://data.europa.eu/esco/skill/9e84a506-df06-4be3-874a-fa01293e3dd5
+K57,business requirements techniques,The procedures required to identify and analyse business and organisational needs.,http://data.europa.eu/esco/skill/0ee94c0a-3716-494a-95a2-dcbab9e58be2
+K58,business strategy concepts,"The terminology related to the design and implementation of major trends and aims which are taken by an organisation's executives, while keeping in mind its resources, competition and environments.",http://data.europa.eu/esco/skill/bd698bbe-7003-4508-b422-46c2ff4d5e95
+K59,C#,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in C#.",http://data.europa.eu/esco/skill/4c016b68-4116-468c-9dc6-42710c239e4a
+K60,C++,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in C++.",http://data.europa.eu/esco/skill/b633eb55-8f1f-4ae6-ab4c-2022ffe2cb7f
+K61,CA Datacom/DB,"The computer program CA Datacom/DB is a tool for creating, updating and managing databases, currently developed by the software company CA Technologies.",http://data.europa.eu/esco/skill/c5ed451b-ef39-47a3-aee7-8f5be0aa8431
+K62,CAD software,"The computer-aided design (CAD) software for creating, modifying, analysing or optimising a design.",http://data.europa.eu/esco/skill/a2b5dcf3-5b6a-453d-876c-cff540c0faf1
+K63,Cain and Abel (penetration testing tool),"The software tool Cain and Abel is a password recovery tool which tests the Microsoft Operating System for security weaknesses and potentially unauthorised access to system information. The tool decodes, decrypts and uncovers passwords by means such as brute-force and cryptanalysis attacks, network sniffing and protocols analysis.",http://data.europa.eu/esco/skill/09cf2c34-6f93-4a19-a9f1-c0d866414bcc
+K64,check methods,"Procedures used for investigative purposes such as surveillance by physical and electronic means, interrogations of witnesses, collection of objects and data for assessment and analysis and physical and electronic research for collecting data.",http://data.europa.eu/esco/skill/1ff53c92-370d-414b-b758-b0a1b8026853
+K65,Chef (tools for software configuration management),"The tool Chef is a software program which performs infrastructure configuration identification, control and automation aiming to ease the applications deployment.",http://data.europa.eu/esco/skill/49f85a99-086c-45b6-a6fa-eb90305af7b1
+K66,Cisco,The products available from the network equipment provider Cisco and methods for selecting and procuring the equipment.,http://data.europa.eu/esco/skill/709ef32a-7435-48e2-8fa2-16e389ecab8a
+K67,cloud monitoring and reporting,"The metrics and alarms utilizing cloud monitoring services, in particular performance and availability metrics. ",http://data.europa.eu/esco/skill/8efa6a7a-6556-4cb8-908d-59d3b5c58d2f
+K68,cloud security and compliance,"Cloud security and compliance concepts, including shared responsibility model, cloud access management capabilities, and resources for security support.",http://data.europa.eu/esco/skill/1c2978b8-bb0d-4249-9c23-877571a4dffa
+K69,cloud technologies,"The technologies which enable access to hardware, software, data and services through remote servers and software networks irrespective of their location and architecture.",http://data.europa.eu/esco/skill/bd14968e-e409-45af-b362-3495ed7b10e0
+K70,COBOL,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in COBOL.",http://data.europa.eu/esco/skill/def007fa-5fed-4a5f-91a2-b0d7e3db1be1
+K71,Codenvy,The tool Codenvy is a platform used to create on-demand workspaces in the cloud where developers can collaborate on coding projects and work together before they merge their work to the main repository.,http://data.europa.eu/esco/skill/55c16653-343c-4d02-a9de-7d8e864a4592
+K72,CoffeeScript,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in CoffeeScript.",http://data.europa.eu/esco/skill/993b1e23-f2de-4bd8-b33f-f86dde1c8e9d
+K73,cognitive computing,The interdisciplinary field between cognitive science and computer science that involves simulating human thinking processes through a computerised approach. It makes use of algorithms for data mining and natural language processing to imitate the functioning of the human brain.,http://data.europa.eu/esco/skill/ca71c597-51c2-4ead-a7b0-b108bce89caf
+K74,cognitive psychology,"The human mental processes such as attention, memory, language use, perception, problem solving, creativity and thinking.",http://data.europa.eu/esco/skill/2618f336-8e71-4666-83b5-f368edb0906d
+K75,Common Lisp,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Common Lisp.",http://data.europa.eu/esco/skill/0cd6dcf1-5778-42a5-b685-4d01ae4a4871
+K76,computational biology,The interdisciplinary scientific field that focus on employing data analytics and theories to investigate biological systems obtained through experiments.,http://data.europa.eu/esco/skill/e464363b-8346-421d-9035-52118b76d8c8
+K77,computer engineering,"Engineering discipline that combines computer science with electrical engineering to develop computer hardware and software. Computer engineering occupies itself with electronics, software design, and the integration of hardware and software.",http://data.europa.eu/esco/skill/89f6560b-2194-45c9-9ece-d33049a73eef
+K78,computer forensics,The process of examining and recovering digital data from sources for legal evidence and crime investigation.,http://data.europa.eu/esco/skill/118a9b27-1c5a-4214-b685-1a4d9e6365ea
+K79,computer graphics,"The field that merges approaches from computer science and design. It involves the process of creating images, 3D models generation, as well as the rendering, texturing and lighting them. Its applications vary from digital photography, film and video games, and the display of images on electronic devices.",http://data.europa.eu/esco/skill/afda6ca0-7aa8-41ef-ba5e-8dc607839daf
+K80,computer programming,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms (e.g. object oriented programming, functional programming) and of programming languages.",http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97
+K81,computer science,"The scientific and practical study that deals with the foundations of information and computation, namely algorithms, data structures, programming, and data architecture. It deals with the practicability, structure and mechanisation of the methodical procedures that manage the acquisition, processing, and access to information.",http://data.europa.eu/esco/skill/7b5cce4d-c7fe-4119-b48f-70aa05391787
+K82,computer simulation,"A programme run on a computer that represents dynamic responses of a system to explore a mathematical model behaviour, using a model of a real system, composed of mathematical equations.  ",http://data.europa.eu/esco/skill/0823ccef-813f-4f22-afef-ac0d68615e8f
+K83,computer technology,"Computers, computer networks and other information technologies and equipment that can store, retrieve, transmit and manipulate data.",http://data.europa.eu/esco/skill/ddc3119d-1d6e-4324-9125-a3380d299ac5
+K84,computer vision,"The definition and functioning of computer vision. Computer vision tools to allow computers to extract information from digital images such as photographs or video. Areas of application to solve real-world problems like security, autonomous driving, robotic manufacturing and inspection, digital image classification, medical image processing and diagnosis, and others.",http://data.europa.eu/esco/skill/7b0d5000-00da-4864-b776-6de49a87a669
+K85,consultation methods,"Techniques used to facilitate clear and open communication and the provision of advice between individuals, communities or the government, such as discussion groups or one-on-one interviews.",http://data.europa.eu/esco/skill/38788a64-6271-40ff-9e0b-5644c38322ff
+K86,content development processes,"The specialised techniques used to design, write, compile, edit and organise digital content, such as text, graphics and videos for publishing purposes.",http://data.europa.eu/esco/skill/e74f4f21-8d45-412c-b5c3-652e6167ee32
+K87,content marketing strategy,The process of creation and share of media and publishing content in order to acquire customers.,http://data.europa.eu/esco/skill/b0560439-14eb-41d1-aa53-1938efc24123
+K88,control objectives for information and related technology,"The risk and controls framework such as Control Objectives for Information and Related Technology (COBIT), which supports decision makers to resolve the gap between business risks, requirements and technical issues.",http://data.europa.eu/esco/skill/9bb7a97a-1a16-431e-8ea6-ad0f9f59aa0a
+K89,copyright legislation,"Legislation describing the protection of the rights of original authors over their work, and how others can use it.",http://data.europa.eu/esco/skill/e2103a1d-4a84-47a9-b4f7-774787573449
+K90,core banking software,"The selection of software for core banking activities management (e.g. deposits, payments, loans, bank transactions, customer data) and other functions related to banking.",http://data.europa.eu/esco/skill/84f583f4-f32a-4202-9b92-e25f0c978410
+K91,corporate sustainability,"A business practice to conduct long-term sustainable growth by seeking environmental, economic, and social strategies as its three main pillars.",http://data.europa.eu/esco/skill/f5bf985b-ac78-4d23-881a-18a359234528
+K92,crowdsourcing strategy,"The high level planning for managing and optimising business processes, ideas or content by gathering contributions from a big community of people, including on-line groups.",http://data.europa.eu/esco/skill/694dc996-52f3-4afa-a802-672e19f061b7
+K93,cryptocurrency,"Digital and encrypted currency or medium of exchange with decentralized network grounded on blockchain technology, since the value of the cryptocurrency is not managed or maintained by central authorities, as is the case with the Euro.",http://data.europa.eu/esco/skill/2174c1b0-e13c-4850-8e4d-2bc6183018bf
+K94,CSS,"The computer language CSS is a style sheet language that conveys the presentation of structured documents. These documents have to adhere to style sheets, a set of stylistic rules such as font, color and layout.",http://data.europa.eu/esco/skill/e5d1f825-60ed-4bdd-872a-e748c387f777
+K95,cyber attack counter-measures,"Methods, technologies and techniques used to defend (detect, monitor and recover) against cyber attacks. These cyber attacks include several attack vectors such as malware, denial of service (DoS) attacks and phishing. 
+
+Intrusion prevention systems (IPS), firewall, antivirus, intrusion detection systems (IDS), cybersecurity training, backup, Information Security Management System (ISM), multi-factor authentication and employ awareness, are some examples of the methods used.",http://data.europa.eu/esco/skill/5898d99a-62a4-4e10-a2e3-0d815ce44248
+K96,cyber security,"The methods and best practices that protect ICT systems, networks, computers, devices, services, processes and people against unauthorised access, modification and/or denial of service of assets.",http://data.europa.eu/esco/skill/8088750d-8388-4170-a76f-48354c469c44
+K97,data analytics,The science of analysing and making decisions based on raw data collected from various sources. Includes knowledge of techniques using algorithms that derive insights or trends from that data to support decision-making processes.,http://data.europa.eu/esco/skill/97bd1c21-66b2-4b7e-ad0f-e3cda590e378
+K98,data engineering,The process of developing and constructing systems for implementing data collection and analysis at large scale.,http://data.europa.eu/esco/skill/48db96bf-3314-45c6-bad8-fdb6e20e5639
+K99,data ethics,"The subfield of ethics that assess whether data practices are considerable ethical. It assesses processes such as collecting, analysing and disseminating structured and unstructured data that might negatively impact the society.",http://data.europa.eu/esco/skill/e9575f7f-053a-439e-8074-f93df3334e92
+K100,"data extraction, transformation and loading tools","The tools for integration of information from multiple applications, created and maintained by organisations, into one consistent and transparent data structure.",http://data.europa.eu/esco/skill/9d0d89be-bffa-4393-b6f6-8d05bea49051
+K101,data mining,"The methods of artificial intelligence, machine learning, statistics and databases used to extract content from a dataset.",http://data.europa.eu/esco/skill/25f0ea33-b4a2-4f31-b7b4-7d20e827b180
+K102,data models,"The techniques and existing systems used for structuring data elements and showing relationships between them, as well as methods for interpreting the data structures and relationships.",http://data.europa.eu/esco/skill/fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5
+K103,data protection,"The principles, ethical issues, regulations and protocols of data protection.",http://data.europa.eu/esco/skill/a4346013-a967-4a58-a533-6b32ad1364c5
+K104,data quality assessment,"The process of revealing data issues using ​quality indicators, measures and metrics in order to plan data cleansing and data enrichment strategies according to data quality criteria.",http://data.europa.eu/esco/skill/cc7370dd-69fa-4c67-a96f-d4d135d38700
+K105,data science,The field of study that deals with big amount of data using AI techniques such as machine learning algorithms to predict patterns and obtain useful information to make business decisions,http://data.europa.eu/esco/skill/edebd83d-35f6-4ed5-a940-6c203d178c01
+K106,data security principles,"The principles of information and data security. They include, among others, confidentiality, integrity, and availability.",http://data.europa.eu/esco/skill/adcca622-b933-4ba3-bc43-bf371879edc3
+K107,data storage,"The physical and technical concepts of how digital data storage is organised in specific schemes both locally, such as hard-drives and random-access memories (RAM) and remotely, via network, internet or cloud.",http://data.europa.eu/esco/skill/a7f0fbe0-c546-4f30-8e41-34a58c64567e
+K108,data visualisation software,"A computer tool or application that creates a graphical and visual representation of data, allowing a better understanding and interpretation of complex data through visual elements such as maps, charts, infographics or graphs.",http://data.europa.eu/esco/skill/65e58886-bd1e-4c5b-8ca5-8d9b353c8aa1
+K109,data warehouse,The data storage system that analyses and reports on data such as a data mart.,http://data.europa.eu/esco/skill/3ec2e4d6-7000-4905-bf1a-c5b1679416de
+K110,database,"The classification of databases, that includes their purpose, characteristics, terminology, models and use such as XML databases, document-oriented databases and full text databases.",http://data.europa.eu/esco/skill/43ae58b9-5e56-4524-b45a-b422777a0576
+K111,database development tools,"The methodologies and tools used for creating logical and physical structure of databases, such as logical data structures, diagrams, modelling methodologies and entity-relationships.",http://data.europa.eu/esco/skill/9ef0f3a0-9ce2-4ef1-a987-0366b5cb2dbe
+K112,database management systems,"The tools for creating, updating and managing databases, such as Oracle, MySQL and Microsoft SQL Server.",http://data.europa.eu/esco/skill/ab1e97ed-2319-4293-a8b7-072d2648822f
+K113,database quality standards,"Techniques and methods of estimation and evaluation of system quality and overall database quality, as well as the set quality standards and regulations.",http://data.europa.eu/esco/skill/b5c7e0dc-dda3-4790-a7d1-d6d8023b3089
+K114,DB2,"The computer program IBM DB2 is a tool for creating, updating and managing databases, developed by the software company IBM.",http://data.europa.eu/esco/skill/3cee858e-79e8-4a4b-b99f-93c7f735d58b
+K115,decentralised identifiers,"The knowledge of decentralised identifiers (DIDs). DIDs enable verifiable and decentralised digital identity related to different subjects determined by the controllers of these descentralised identifiers (e.g. an organisation, individual person, data model, abstract entity).",http://data.europa.eu/esco/skill/4570a262-b51f-46a1-a834-13ff67bee1c8
+K116,decentralized application frameworks,"The different software frameworks, and their characteristics, advantages and disadvantages, that allow the development of decentralized applications on blockchain infrastructure. Examples are truffle, embark, epirus, openzeppelin, etc.",http://data.europa.eu/esco/skill/251b5528-693c-4ef9-a7f6-9924bb8d7ef8
+K117,decision support systems,The ICT systems that can be used to support business or organisational decision making.,http://data.europa.eu/esco/skill/3ce1fe19-7f9e-4070-941d-651673a5693b
+K118,deep learning,"The principles, methods and algorithms of deep learning, a subfield of artificial intelligence and machine learning. Common neural networks like perceptrons, feed-forward, backpropagation, and convolutional and recurrent neural networks.",http://data.europa.eu/esco/skill/ecc4552a-92c5-4222-b18d-faf5ac841080
+K119,defence standard procedures,"Methods and procedures typical for defence applications such as the NATO Standardization Agreements or STANAGs
+Standard definitions of the processes, procedures, terms, and conditions for common military or technical procedures or equipment. Guidelines for capability planners, programme managers and test managers to prescribe the necessary technical standards and profiles to achieve interoperability of Communications and Information Systems.",http://data.europa.eu/esco/skill/17924c75-45f4-4593-afac-eea0d51f04b5
+K120,design thinking,"The process used to identify creative solutions to problem solving, by putting the user at its core. The five stages approach-empathise, define, ideate, prototype and test-are meant to challenge assumptions and iterate solutions that are better suited to the needs of the user.",http://data.europa.eu/esco/skill/df64a7cc-2e96-4304-95d3-56fe0ac2dd39
+K121,DevOps,The DevOps development approach is a methodology to design software systems and applications focused on the collaboration and between software programmers and other ICT professionals and automation.,http://data.europa.eu/esco/skill/f0de4973-0a70-4644-8fd4-3a97080476f4
+K122,digital curation,"The field that deals with maintaining, preserving and adding value to digital research.",http://data.europa.eu/esco/skill/8f6ed69b-29d0-4c01-81ba-f05920a185f3
+K123,digital game genres,"The classification of video games based on their interaction with the game media, such as simulation games, strategy games, adventure games and arcade games.",http://data.europa.eu/esco/skill/0e361e34-c563-4892-b9d3-873a6a4fef8a
+K124,digital identity management,"The process of providing, managing, auditing and securing digital identities to facilitate and enable approved, authentic requests or connections to view company data, services, systems, networks, and assets.",http://data.europa.eu/esco/skill/33efa504-2f26-424d-b662-cee77e6e9c93
+K125,digital image processing,"The different aspects and practices of image processing and manipulation like image interpolation, aliasing, image enhancement, contrast stretching, histogram processing and equalization, singular value decomposition, singular value equalization, wavelets filtering and many others.",http://data.europa.eu/esco/skill/945b8655-5577-4c3a-946a-842d4527afa8
+K126,digital marketing techniques,"The marketing techniques used on the web to reach and engage with stakeholders, customers and clients.",http://data.europa.eu/esco/skill/43dfbe7f-9e10-4871-b171-e5076737b4cf
+K127,digital systems,"Systems to store, process and spread information in digital form. They are hardware, software and networks, as well as the ways in which these can be employed.",http://data.europa.eu/esco/skill/397da142-ab35-48fe-b154-7c38f447adfb
+K128,digital twin technology,"Model designed to generate a virtual representation of an object or system updated from real-time data. The virtual representation process is through the combination of data and technology simulation, using sensors to produce data of the physical object, such as temperature or energy to build its digital twin. Machine learning, simulation and reasoning are involved in this process. ",http://data.europa.eu/esco/skill/737f8895-46df-4283-8f38-13f3f0fc3b77
+K129,digitization,The process of transforming an object from its analogical form to a digital format. It creates a digital representation of the object without making in-kind changes to it.,http://data.europa.eu/esco/skill/aa0d8201-5a8e-417f-81f4-c04601139582
+K130,distributed computing,The software process in which computer components interact over a network and send messages to communicate on their actions.,http://data.europa.eu/esco/skill/897b393f-e7e0-4248-a40d-d77119694e83
+K131,distributed ledger technologies consensus protocols,"The knowledge of essential blockchain consensus protocols including Proof-of-Work (PoW), Proof-of-Stake (PoS), Delegated Proof-of-Stake (DPoS), Practical Byzantine Fault Tolerance (pBFT).",http://data.europa.eu/esco/skill/ee46e1d3-a52c-4113-aab9-38dbc907085d
+K132,distributed ledger technologies vulnerabilities,"The knowledge of the essential distributed ledger vulnerabilities including exchange hack, 51% attack, exitscam, extortion, DeFi, phishing, and drawing conclusions.",http://data.europa.eu/esco/skill/cdaf66a1-eaf3-4fef-af6e-2e9bbe2c326c
+K133,distributed ledger technology,"The distributed ledger theories, applied principles, architectures and systems, such as decentralization, consensus mechanisms, smart contracts, trust, etc.",http://data.europa.eu/esco/skill/3be79ccc-a455-49b9-8c65-55c50071ba5b
+K134,documentation types,The characteristics of internal and external documentation types aligned with the product life cycle and their specific content types.,http://data.europa.eu/esco/skill/327d15c8-29ff-4ad4-a4fe-6536d777a45f
+K135,domain name service,Naming database which maps internet domain names to Internet Protocol (IP) addresses. The Domain Name System allows internet users to utilise names such as website titles instead of remembering numeric IP addresses used by computers to locate a concrete website,http://data.europa.eu/esco/skill/071233c4-ad2b-4f50-b79f-768d2231163e
+K136,Drupal,"The open-source web-based software system written in PHP, used for creating, editing, publishing and archiving blogs, articles, web pages or press releases, which requires a higher level of technical understanding of HTML, CSS and PHP.",http://data.europa.eu/esco/skill/1de3942b-99d8-41e8-9ef0-fbc9e9f6307b
+K137,Eclipse (integrated development environment software),"The computer program Eclipse is a suite of software development tools for writing programs, such as compiler, debugger, code editor, code highlights, packaged in a unified user interface. It is developed by the Eclipse Foundation.",http://data.europa.eu/esco/skill/6b6a9252-2ed7-4862-a02f-1578f4a532ea
+K138,electrical engineering,"The field of engineering that deals with the study and application of electricity, electronics, and electromagnetism.",http://data.europa.eu/esco/skill/3e40c7d0-0e36-4b33-bc33-0aa87eda0561
+K139,embedded systems,"The computer systems and components with a specialised and autonomous function within a larger system or machine such as embedded systems software architectures, embedded peripherals, design principles and development tools.",http://data.europa.eu/esco/skill/2180bd8c-86de-4889-8165-adac902eee9d
+K140,emergent technologies,"The recent trends, developments and innovations in modern technologies such as biotechnology, artificial intelligence and robotics.",http://data.europa.eu/esco/skill/42cb7669-c371-4903-9c0b-13db67b2e4bb
+K141,empirical analysis,The evidence-based method that is used to analyse and interpret information with the aim of drawing conclusions about a specific issue.,http://data.europa.eu/esco/skill/f6ac6241-adb2-4ce2-b35f-09832cbb11ea
+K142,engineering control theory,The interdisciplinary branch of engineering that deals with the behaviour of dynamical systems with inputs and how their behaviour is modified by feedback.,http://data.europa.eu/esco/skill/3c42d13b-d6e4-4ed9-bdc4-991251461dc4
+K143,engineering principles,"The engineering elements like functionality, replicability, and costs in relation to the design and how they are applied in the completion of engineering projects.",http://data.europa.eu/esco/skill/209a5498-3449-4689-8ed9-bd08cab4fd78
+K144,engineering processes,The systematic approach to the development and maintenance of engineering systems.,http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919
+K145,Erlang,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Erlang.",http://data.europa.eu/esco/skill/034c29fa-c3ba-45ea-b8f3-bf8e3705e386
+K146,ethical hacking principles,The set of actions that are carried out to detect vulnerabilities within a computerised system in order to improve security within an organisation. They aim to identify and address data breaches and threats in a network.,http://data.europa.eu/esco/skill/0ffdb6ac-03b5-4f1c-bfcc-3d9cb874fdf9
+K147,ethics,"The philosophical study that deals with solving questions of human morality; it defines and systemises concepts such as right, wrong, and crime.",http://data.europa.eu/esco/skill/cef5c0f8-1e40-4c09-b6a7-aa7811849e5d
+K148,field-programmable gate arrays,"The integrated circuits that can be repurposed to desired application or functionality requirements after their manufacturing, which allow users to tailor microcontrollers to meet their own individual needs.",http://data.europa.eu/esco/skill/fb601189-afa9-4a7b-8430-21a906483072
+K149,Filemaker (database management systems),"The computer program FileMaker is a tool for creating, updating and managing databases, developed by the software company FileMaker Inc.",http://data.europa.eu/esco/skill/b8eb2517-37d8-43e6-9856-9c29d5c51fde
+K150,forensic intelligence,The procedures and methodology of gathering and analysing forensic intelligence and data for investigative purposes.,http://data.europa.eu/esco/skill/93f1caa3-df33-4de7-98da-40f5fc30fd52
+K151,game theory,"The study of mathematical models of strategic decisions among stakeholders. It has applications in all fields of social science, as well as in systems science, computer science and logic. Essential concepts are the Nash Equilibrium and the Prisoner's Dilemma.
+
+",http://data.europa.eu/esco/skill/8b0f73ff-d36b-4196-bb83-464c3a6ef07d
+K152,GDPR,The General Data Protection Regulation is the EU regulation on the protection of natural persons with regard to the processing of personal data and on the free movement of such data.,http://data.europa.eu/esco/skill/d3e9b00a-0891-4fa8-836d-8240ec3d2758
+K153,GIMP (graphics editor software),The computer program GIMP is a graphical ICT tool which enables digital editing and composition of graphics to generate both 2D raster or 2D vector graphics. It is developed by The GIMP Development Team.,http://data.europa.eu/esco/skill/4a466c62-db7d-4905-9a41-f23214810acb
+K154,graphics editor software,"The field of graphical ICT tools which enable digital editing and composition of graphics, such as GIMP, Adobe Photoshop and Adobe Illustrator, to develop both 2D raster or 2D vector graphics.",http://data.europa.eu/esco/skill/a71577b2-7550-4222-88ee-dcbd2d881516
+K155,green building standards,The guidelines on how to design and construct sustainable buildings. They follow the criterion of mitigating the environmental impact of buildings while promoting green practices among the occupants.  ,http://data.europa.eu/esco/skill/7f4d1dee-bc5a-495a-926b-17b383b8d8fd
+K156,Groovy,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Groovy.",http://data.europa.eu/esco/skill/52cf3037-ab53-4806-85ed-7fd21ea7f6a1
+K157,Hadoop,"The open-source data storing, analysis and processing framework which consists mainly in the MapReduce and Hadoop distributed file system (HDFS) components and it is used to provide support for managing and analysing large datasets.",http://data.europa.eu/esco/skill/e46291c7-52b9-4174-bd59-178884861038
+K158,hardware architectures,The designs laying out the physical hardware components and their interconnections.,http://data.europa.eu/esco/skill/e043aeeb-78f5-4049-afbf-12bba52225bc
+K159,hardware components,"The essential components that make up a hardware system, such as liquid-crystal displays (LCD), camera sensors, microprocessors, memories, modems, batteries and their interconnections.",http://data.europa.eu/esco/skill/4b51e76e-9e8a-455f-a289-5b48246345c4
+K160,hardware components suppliers,The suppliers who can deliver the required hardware components.,http://data.europa.eu/esco/skill/ed1fbdc3-1071-423c-9bb4-e3288ca6d1fe
+K161,hardware platforms,The characteristics of the hardware configuration required to process the applications software product.,http://data.europa.eu/esco/skill/117373c8-f04b-4fff-8683-aebe36edac81
+K162,hardware testing methods,"Those processes in which hardware components or systems are tested, such as the system test (ST), the ongoing reliability test (ORT), and the in-circuit test (ICT).",http://data.europa.eu/esco/skill/53456d90-8c0d-4bd2-9f1b-312619b6e2a6
+K163,Haskell,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Haskell.",http://data.europa.eu/esco/skill/000f1d3d-220f-4789-9c0a-cc742521fb02
+K164,healthcare analytics,"The use of qualitative and quantitative methods to analyse patterns in healthcare data to the aim of improving healthcare administration, quality in patient care and diseases diagnosis.",http://data.europa.eu/esco/skill/a1eef0f4-133f-464a-a8f1-68fe3e8cc1b4
+K165,human-computer interaction,The study of the behaviour and interaction between digital devices and human beings.,http://data.europa.eu/esco/skill/9136cbf1-7916-4f1c-bc9a-0318ee1d6016
+K166,hybrid model,"The hybrid model consists of principles and fundamentals of service-oriented modelling for business and software systems that allow the design and specification of service-oriented business systems within a variety of architectural styles, such as enterprise architecture.",http://data.europa.eu/esco/skill/67a118f4-8a5f-48f7-8e5f-de34b9ca2c37
+K167,IBM Informix,"The computer program IBM Informix is a tool for creating, updating and managing databases, developed by the software company IBM.",http://data.europa.eu/esco/skill/84251cb1-babf-4d17-a3cd-baa642c24c8d
+K168,IBM InfoSphere DataStage,"The computer program IBM InfoSphere DataStage is a tool for integration of information from multiple applications, created and maintained by organisations, into one consistent and transparent data structure, developed by the software company IBM.",http://data.europa.eu/esco/skill/14fdac88-6d4a-4e47-9df5-02c6d1e86fdd
+K169,IBM InfoSphere Information Server,"The software program IBM InfoSphere Information Server is a platform for integration of information from multiple applications, created and maintained by organisations, into one consistent and transparent data structure, developed by the software company IBM.",http://data.europa.eu/esco/skill/81b082fb-9a00-4660-976a-10c985979100
+K170,IBM WebSphere,The application server IBM WebSphere provides flexible and secure Java EE runtime environments to support application infrastructure and deployments.,http://data.europa.eu/esco/skill/a4e31589-3632-4926-91d0-15b889c90b9b
+K171,ICT accessibility standards,"The recommendations for making ICT content and applications more accessible to a wider range of people, mostly with disabilities, such as blindness and low vision, deafness and hearing loss and cognitive limitations. It includes standards such as Web Content Accessibility Guidelines (WCAG).",http://data.europa.eu/esco/skill/3e23db60-0c3d-498a-a6ac-ffbed0ecb033
+K172,ICT architectural frameworks,The set of requirements that describe an information system's architecture.,http://data.europa.eu/esco/skill/c453cf81-6197-428e-84c6-70c773b63f27
+K173,ICT capacity planning strategies,"The methods, techniques and ICT tools used for planning the maximum amount of work that an organisation is capable of completing in a given period, based on the number of machines, workers and shifts and taking into account constraints such as quality problems, delays and material handling.",http://data.europa.eu/esco/skill/60d48be0-4260-4b2e-85b9-aedff7a9b7d9
+K174,ICT communications protocols,The system of rules which allow the exchange of information between computers or other devices via computer networks.,http://data.europa.eu/esco/skill/6e4f75b4-c60f-4623-a9ba-760c8245753b
+K175,ICT debugging tools,"The ICT tools used to test and debug programs and software code, such as GNU Debugger (GDB), Intel Debugger (IDB), Microsoft Visual Studio Debugger, Valgrind and WinDbg.",http://data.europa.eu/esco/skill/6014921e-1d25-4039-adc2-04852d61880e
+K176,ICT encryption,"The conversion of electronic data into a format which is readable only by authorized parties which use key encryption techniques, such as Public Key Infrastructure (PKI) and Secure Socket Layer (SSL).",http://data.europa.eu/esco/skill/d32db06e-bd06-4415-a7ab-1b0ee68caa9a
+K177,ICT environmental policies,"The international and organisational policies which deal with the assessment of the environmental impact of innovations and developments in the field of ICT, as well as with methods for reducing negative impact and applying ICT innovations to aid the environment.",http://data.europa.eu/esco/skill/ee02393d-27dd-438a-8879-b8088ce45e79
+K178,ICT infrastructure,"The system, network, hardware and software applications and components, as well as devices and processes that are used in order to develop, test, deliver, monitor, control or support ICT services.",http://data.europa.eu/esco/skill/d0c6d77e-cb25-4770-bf77-2073fc5f7523
+K179,ICT market,"The processes, stakeholders and the dynamics of the chain of goods and services in the ICT market sector.",http://data.europa.eu/esco/skill/e5609f89-0daf-40bb-bd6b-94f5d7498131
+K180,ICT network routing,The processes and techniques for choosing the best paths within an ICT network through which a packet can travel.,http://data.europa.eu/esco/skill/0da6cab1-0ee9-4391-a299-f71fbf21db56
+K181,ICT network security risks,"The security risk factors, such as hardware and software components, devices, interfaces and policies in ICT networks, risk assessment techniques that can be applied to assess the severity and the consequences of security threats and contingency plans for each security risk factor.",http://data.europa.eu/esco/skill/2ddb1226-1117-4eb4-ae65-3a2f5a5a3c80
+K182,ICT network simulation,The methods and tools which enable modelling of the ICT network behaviour by calculating the data exchange among entities or capturing and reproducing characteristics from a functioning network.,http://data.europa.eu/esco/skill/f6424ebb-8401-446b-9f7e-10d7c854da02
+K183,ICT networking hardware,"The ICT network equipment or computer networking devices, such as UPS systems, electrical systems, networking facilities and structured cabling systems.",http://data.europa.eu/esco/skill/f9e788df-d68a-4f92-92c7-80e135fc35ff
+K184,ICT performance analysis methods,"The methods used to analyse software, ICT system and network performance which provide guidance to root causes of issues within information systems. The methods can analyse resource bottlenecks, application times, wait latencies and benchmarking results.",http://data.europa.eu/esco/skill/ed39edd3-44d0-4a16-9796-bfb99f92baf3
+K185,ICT power consumption,The energy consumption and types of models of software as well as hardware elements.,http://data.europa.eu/esco/skill/f88002a8-6355-4d33-9496-285c166ff375
+K186,ICT problem management techniques,The techniques related to identifying the solutions of the root cause of ICT incidents.,http://data.europa.eu/esco/skill/a3ce2bf7-5562-4639-9b52-fdb4850a3904
+K187,ICT process quality models,"The quality models for ICT services which address the maturity of the processes, the adoption of recommended practices and their definition and institutionalisation that allow the organisation to reliably and sustainably produce required outcomes. It includes models in a lot of ICT areas.",http://data.europa.eu/esco/skill/fafe0b9d-dbd9-46bd-b770-26299539ce66
+K188,ICT project management,"The methodologies for the planning, implementation, review and follow-up of ICT projects, such as the development, integration, modification and sales of ICT products and services, as well as projects relating technological innovation in the field of ICT.",http://data.europa.eu/esco/skill/94dd823c-148e-4614-a6e8-99249b16357d
+K189,ICT project management methodologies,"The methodologies or models for planning, managing and overseeing of ICT resources in order to meet specific goals, such methodologies are Waterfall, Incremental, V-Model, Scrum or Agile and using project management ICT tools.",http://data.europa.eu/esco/skill/bec4359e-cb92-468f-a997-8fb28e32fba9
+K190,ICT quality policy,"The quality policy of the organisation and its objectives, the acceptable level of quality and the techniques to measure it, its legal aspects and the duties of specific departments to ensure quality.",http://data.europa.eu/esco/skill/3be6b84a-fa78-42b9-a8df-150cdb40b9d7
+K191,ICT recovery techniques,"The techniques for recovering hardware or software components and data, after failure, corruption or damage.",http://data.europa.eu/esco/skill/c9e96450-421d-48af-9ee6-d9c50e29afc2
+K192,ICT sales methodologies,"The practices used in the ICT sector to promote and sell products, services or applications such as SPIN Selling, Conceptual Selling and SNAP Selling.",http://data.europa.eu/esco/skill/628664ec-a63b-4486-8d65-02aba81c82a0
+K193,ICT security legislation,"The set of legislative rules that safeguards information technology, ICT networks and computer systems and legal consequences which result from their misuse. Regulated measures include firewalls, intrusion detection, anti-virus software and encryption.",http://data.europa.eu/esco/skill/7814e88f-c133-4c3b-b27f-857afa145d42
+K194,ICT security standards,"Best practices and guidelines established for securing information and communication technology (ICT) systems and data. Standards as is the case of ISO 27000 series, provide a framework for implementing effective security controls, including access control, risk assessment and incident management, as well as to provide compliance of anorganisation.",http://data.europa.eu/esco/skill/3ff589b7-68df-4ea5-ae41-b395bdb2378f
+K195,ICT software specifications,"The characteristics, use and operations of various software products such as computer programmes and application software.",http://data.europa.eu/esco/skill/9ce670ec-318c-4a91-9179-03437db728dc
+K196,ICT system integration,"The principles of integrating ICT components and products from a number of sources to create an operational ICT system, techniques which ensure interoperability and interfaces between components and the system.",http://data.europa.eu/esco/skill/6fa1c2c0-a012-4ca0-9642-e01569ba322c
+K197,ICT system programming,"The methods and tools required to develop system software, specifications of system architectures and interfacing techniques between network and system modules and components.",http://data.europa.eu/esco/skill/b105ec9b-0857-41d6-8d07-a83e58b73d90
+K198,ICT system user requirements,"The process intended to match user and organisation's needs with system components and services, by taking into consideration the available technologies and the techniques required to elicit and specify requirements, interrogating users to establish symptoms of problem and analysing symptoms.",http://data.europa.eu/esco/skill/ca73ac82-867a-4afa-9732-834aebe896ff
+K199,image formation,"The principles and factors determining the formation of an image such as geometry, radiometry, photometry, sampling and analog to digital conversion.",http://data.europa.eu/esco/skill/734b6025-0d14-499d-8e95-fdf512058e77
+K200,image recognition,"A process designed to detect and identify a feature or object in an image or video. This process is used in medical imaging, security surveillance or defect detection, among other fields. Key technique for a wide range of applications such as automated driving, image classification, or visual inspection. ",http://data.europa.eu/esco/skill/45f1ae17-c20d-40fc-9307-7d33b6ca9213
+K201,incidents and accidents recording,The methods to report and record incidents and accidents in the workplace.,http://data.europa.eu/esco/skill/e8f80ec5-c423-4eb2-9f0f-805d22f844ae
+K202,incremental development,The incremental development model is a methodology to design software systems and applications.,http://data.europa.eu/esco/skill/00c04e40-35ea-4ed1-824c-82f936c8f876
+K203,industrial software,"The selection of software that aids in estimating, managing and scheduling industrial processes such as design, work flow and production improvement.",http://data.europa.eu/esco/skill/41ec47dd-08b3-464a-9c45-c706f3e74467
+K204,Informatica PowerCenter,"The computer program Informatica PowerCenter is a tool for integration of information from multiple applications, created and maintained by organisations, into one consistent and transparent data structure, developed by the software company Informatica.",http://data.europa.eu/esco/skill/0f00f63f-3ab4-4057-b92f-500584b51757
+K205,information architecture,"The methods through which information is generated, structured, stored, maintained, linked, exchanged and used.",http://data.europa.eu/esco/skill/1bba98a7-92b9-450b-9235-e0c905f8f3c4
+K206,information categorisation,The process of classifying the information into categories and showing relationships between the data for some clearly defined purposes.,http://data.europa.eu/esco/skill/93aaf65c-5aad-4e6f-a7ba-ce9bf7c0e6e6
+K207,information confidentiality,"The mechanisms and regulations which allow for selective access control and guarantee that only authorised parties (people, processes, systems and devices) have access to data, the way to comply with confidential information and the risks of non-compliance.",http://data.europa.eu/esco/skill/a56dec32-05ef-45de-a256-ee6741f356db
+K208,information extraction,The techniques and methods used for eliciting and extracting information from unstructured or semi-structured digital documents and sources.,http://data.europa.eu/esco/skill/696e3b5b-8b61-45af-ae4c-3ab700f197ec
+K209,information governance compliance,"The policies regarding processes and procedures for use of information, the balance between information availability and information security and IPR (Intellectual Property Rights) and personal data protection.",http://data.europa.eu/esco/skill/9a0d0abc-010d-440b-8242-7e31510471ba
+K210,information security strategy,"The plan defined by a company which sets the information security objectives and measures to mitigate risks, define control objectives, establish metrics and benchmarks while complying with legal, internal and contractual requirements.",http://data.europa.eu/esco/skill/11eebd42-44ab-401d-8a2c-bdb9fc9beb50
+K211,information structure,"The type of infrastructure which defines the format of data: semi-structured, unstructured and structured.",http://data.europa.eu/esco/skill/03ff0d53-573a-47a0-a0ad-1995815a4339
+K212,innovation processes,"The techniques, models, methods and strategies which contribute to the promotion of steps towards innovation.",http://data.europa.eu/esco/skill/2fb8480e-de3c-462b-b169-e8bbb344da68
+K213,insourcing strategy,"The high level planning for managing and optimising business processes internally, usually in order to maintain control of critical aspects of work.",http://data.europa.eu/esco/skill/eff1bb34-b454-4482-8c29-65f820619f3c
+K214,integrated development environment software,"The suite of software development tools for writing programs, such as compiler, debugger, code editor, code highlights, packaged in a unified user interface, such as Visual Studio or Eclipse.",http://data.europa.eu/esco/skill/925463a7-d51f-4d5b-9f79-4d28cf30acde
+K215,inter-organisational middleware system,"A software infrastructure that acts as an intermediary layer between applications to enable data exchange, interoperability and communication. It aims to provide standardised protocols and services between organisations to promote their interaction.",http://data.europa.eu/esco/skill/46e93774-7c6a-4dc5-bae9-be97cc461093
+K216,interactive media,"The method of communication that takes place through digital medias and is based on customers interactions with them. The interactions take place with computerised elements (e.g., moving graphics, digital text and sound).",http://data.europa.eu/esco/skill/123cf7c5-6a3b-419d-be4f-49a6cc020f9f
+K217,interfacing techniques,The techniques that relate to interfaces between models and components.,http://data.europa.eu/esco/skill/23b45aa6-a479-486d-9e6f-062cbab7c68a
+K218,internal risk management policy,"The internal risk management policies that identify, assess and prioritise risks in an IT environment. The methods used to minimise, monitor and control the possibility and the impact of disastrous events that affect the reaching of business goals.",http://data.europa.eu/esco/skill/0daaf096-1639-461c-bf1a-bbeea77e6b67
+K219,internet governance,"The principles, regulations, norms and programs that shape the evolution and use of internet, such as internet domain names management, registries and registrars, according to ICANN/IANA regulations and recommendations, IP addresses and names, name servers, DNS, TLDs and aspects of IDNs and DNSSEC.",http://data.europa.eu/esco/skill/5063a99f-975b-4a7c-85e3-69ecb375b4d3
+K220,Internet of Things,"The general principles, categories, requirements, limitations and vulnerabilities of smart connected devices (most of them with intended internet connectivity).",http://data.europa.eu/esco/skill/f049d050-12da-4e40-813a-2b5eb6df6b51
+K221,investment analysis,The methods and tools for analysis of an investment compared to its potential return. Identification and calculation of profitability ratio and financial indicators in relation to associated risks to guide decision on investment.,http://data.europa.eu/esco/skill/bf12b461-1c53-4d81-a395-8ba77f7483c4
+K222,iOS,"The system software iOS consists of features, restrictions, architectures and other characteristics of operating systems designed to run on mobile devices.",http://data.europa.eu/esco/skill/ce26e71f-2d47-474e-89b6-7920931ac4fc
+K223,Iterative development,The iterative development model is a methodology to design software systems and applications.,http://data.europa.eu/esco/skill/33d49d4f-31ec-473f-9b8a-b555aa5116bb
+K224,Java (computer programming),"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Java.",http://data.europa.eu/esco/skill/19a8293b-8e95-4de3-983f-77484079c389
+K225,JavaScript,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in JavaScript.",http://data.europa.eu/esco/skill/3cd569a2-4f88-4c1e-9995-8dce8c5e51a7
+K226,JavaScript Framework,"The JavaScript software development environments which provide specific features and components ( such as HTML generation tools, Canvas support or Visual design) that support and guide JavaScript web applications development.",http://data.europa.eu/esco/skill/9b9de2a4-d8af-4a7b-933a-a8334ae60067
+K227,Jenkins (tools for software configuration management),"The tool Jenkins is a software program to perform configuration identification, control, status accounting and audit of software during its development and maintenance.",http://data.europa.eu/esco/skill/f47a1998-0beb-43be-9f46-380aa4d183da
+K228,John The Ripper (penetration testing tool),The tool John the Ripper is a password recovery tool which tests security weaknesses of the systems for potentially unauthorised access to system information. The key features of this tool are the strength-checking code and password hash code.,http://data.europa.eu/esco/skill/7bf4539a-3f2e-4485-876b-1c9306b181af
+K229,Joomla,"The open-source web-based software system written in PHP, used for creating, editing, publishing and archiving blogs, articles, corporate or small business websites, social networking websites or press releases.",http://data.europa.eu/esco/skill/d2adb565-a865-424d-aeb5-9fbcbf2afe2a
+K230,JSSS,"The computer language JSSS is a style sheet language that conveys the presentation of structured documents. These documents have to adhere to style sheets, a set of stylistic rules such as font, color and layout.",http://data.europa.eu/esco/skill/8785ccda-6f9f-4cf3-9033-fda10653d0be
+K231,Kali Linux,"The Kali Linux tool is a penetration testing tool which tests security weaknesses of the systems for potentially unauthorised access to system information by information gathering, vulnerability analysis and wireless and passwords attacks.",http://data.europa.eu/esco/skill/625b57ee-29d4-425b-bf99-9fd54dd021fe
+K232,KDevelop,"The computer program KDevelop is a suite of software development tools for writing programs, such as compiler, debugger, code editor, code highlights, packaged in a unified user interface. It is developed by the software community KDE.",http://data.europa.eu/esco/skill/013441c1-1f13-47e9-80c4-9a53e8e1bc05
+K233,keywords in digital content,The digital tools to conduct keyword research. The information retrieval systems identify the content of a document guided by keywords and metadata.,http://data.europa.eu/esco/skill/06f33d6a-f7a7-4a2b-baa5-8c3c53bd1a9c
+K234,labour legislation,"Legislation, on a national or international level, that governs labour conditions in various fields between labour parties such as the government, employees, employers, and trade unions.",http://data.europa.eu/esco/skill/08fe5910-8c4c-4679-a988-eb2ded3c4909
+K235,lathe machine parts,"The different parts of a lathe machine and their applications, such as the compound, the bed, the sadle, the cross slide, the cutting tool, the lathe dog and more.",http://data.europa.eu/esco/skill/77980af4-bd9a-44c1-ae3b-9bcb98848ba5
+K236,LDAP,The computer language LDAP is a query language for retrieval of information from a database and of documents containing the needed information.,http://data.europa.eu/esco/skill/a57a54b6-2f2e-43e4-9621-b52f4a63cb08
+K237,leadership principles,"Set of traits and values which guide the actions of a leader with her/his employees and the company and provide direction throughout her/his career. These principles are also an important tool for self-evaluation to identify strengths and weaknesses, and seek self-improvement.",http://data.europa.eu/esco/skill/d5145a9a-602e-40bf-b3e1-f04cf9c3ef86
+K238,lean project management,"The lean project management approach is a methodology for planning, managing and overseeing of ICT resources in order to meet specific goals and using project management ICT tools.",http://data.europa.eu/esco/skill/da6393d5-a53c-4863-abc7-51f36281d74e
+K239,legal requirements of ICT products,The international regulations related to the development and use of ICT products.,http://data.europa.eu/esco/skill/a846cb9e-c152-41e7-bd34-45e7ff941e3b
+K240,LESS,"The computer language LESS is a style sheet language that conveys the presentation of structured documents. These documents have to adhere to style sheets, a set of stylistic rules such as font, color and layout.",http://data.europa.eu/esco/skill/26fa7a33-a426-4cd5-9792-33bf668612e1
+K241,levels of software testing,"The levels of testing in the software development process, such as unit testing, integration testing, system testing and acceptance testing.",http://data.europa.eu/esco/skill/85f46538-ae70-498a-bfbc-b8ddafe96c7d
+K242,LINQ,The computer language LINQ is a query language for retrieval of information from a database and of documents containing the needed information. It is developed by the software company Microsoft.,http://data.europa.eu/esco/skill/c7d24594-0c11-4b27-9039-fe0bb903da8e
+K243,Lisp,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Lisp.",http://data.europa.eu/esco/skill/0de61385-de6d-4146-ba32-1cc1bc102220
+K244,machine learning,"The principles, methods and algorithms of machine learning, a subfield of artificial intelligence. Common machine learning models such as supervised or unsupervised models, semi- supervised models and reinforcement learning models.",http://data.europa.eu/esco/skill/3a2d5b45-56e4-4f5a-a55a-4a4a65afdc43
+K245,Maltego,"The platform Maltego is a forensic application that uses data mining to deliver on overview of organisations' environment, testing security weaknesses of the system for potentially unauthorised access and demonstrates the complexity of infrastructure failures.",http://data.europa.eu/esco/skill/024037ca-96a9-4cb8-ba86-2cd5a209c90a
+K246,manufacturing processes,"The steps required through which a material is transformed into a product, its development and full-scale manufacturing.",http://data.europa.eu/esco/skill/3786b61f-f22e-48d1-af8d-ad4c354534db
+K247,marketing analytics,The set of processes for employing data to improve the effectiveness of marketing activities. It involves analysing metrics such as the Return on Investment (ROI) for identify opportunities of improvement.,http://data.europa.eu/esco/skill/11c56452-fcec-4b00-9695-cca4728e5048
+K248,MarkLogic,"The NoSQL enterprise non-relational database used for creating, updating and managing large amounts of unstructured data stored in the cloud and which provides features such as semantics, flexible data models and Hadoop integration.",http://data.europa.eu/esco/skill/e819cc1e-09d9-47f2-b418-93972852daef
+K249,mathematical modelling,"The process of establishing a mathematical representation problem, such as equations, of a real-word to provide insights, discover new features about the problematic scenario, better understand the original problem or to make predictions about it.",http://data.europa.eu/esco/skill/0760bfac-9a03-427a-ad84-ccd33a2f2ae8
+K250,mathematical physics,The interdisciplinary field between mathematics and physics that deals with the mathematical foundations of theoretical physics. It addresses issues in quantum mechanics and atomic and molecular physics.,http://data.europa.eu/esco/skill/7e5a7bec-0e19-4a35-b27b-1c4a6d9c4de0
+K251,mathematics,"Mathematics is the study of topics such as quantity, structure, space, and change. It involves the identification of patterns and formulating new conjectures based on them. Mathematicians strive to prove the truth or falsity of these conjectures. There are many fields of mathematics, some of which are widely used for practical applications.",http://data.europa.eu/esco/skill/4339176e-3acd-4f7f-a5d9-445bee3d23f2
+K252,MATLAB,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in MATLAB.",http://data.europa.eu/esco/skill/c3a03c5a-c260-4c26-9b9a-873abb396f4d
+K253,MDX,The computer language MDX is a query language for retrieval of information from a database and of documents containing the needed information. It is developed by the software company Microsoft.,http://data.europa.eu/esco/skill/1b7c716e-af95-4cda-a42f-6479c8b139f5
+K254,mechanics,Theoretical and practical applications of the science studying the action of displacements and forces on physical bodies to the development of machinery and mechanical devices.,http://data.europa.eu/esco/skill/efa141df-f382-418f-9121-bd88fd735669
+K255,mechatronics,"Multidisciplinary field of engineering that combines principles of electrical engineering, telecommunications engineering, control engineering, computer engineering, and mechanical engineering in the design of products and manufacturing processes. The combination of these areas of engineering allows for the design and development of ""smart"" devices and the achievement of an optimal balance between mechanical structure and control.",http://data.europa.eu/esco/skill/d88cb3f1-8e02-4618-bf32-4b0488066934
+K256,Metasploit,The framework Metasploit is a penetration testing tool which tests security weaknesses of the system for potentially unauthorised access to system information. The tool is based on the concept of 'exploit' which implies executing code on the target machine this way taking advantage of the bugs and vulnerabilities of the target machine.,http://data.europa.eu/esco/skill/50597e96-9b6a-4736-ac79-dd80f36c0269
+K257,Microsoft Access,"The computer program Access is a tool for creating, updating and managing databases, developed by the software company Microsoft.",http://data.europa.eu/esco/skill/3d03c40c-1b83-4793-8902-2523f40af59e
+K258,Microsoft Visio,The computer program Microsoft Visio is a graphical ICT tool which enables digital editing and composition of graphics to generate both 2D raster or 2D vector graphics. It is developed by the software company Microsoft.,http://data.europa.eu/esco/skill/86f7126d-97fd-4da5-be96-d1cf6ecd54e6
+K259,Microsoft Visual C++,"The computer program Visual C++ is a suite of software development tools for writing programs, such as compiler, debugger, code editor, code highlights, packaged in a unified user interface. It is developed by the software company Microsoft.",http://data.europa.eu/esco/skill/8369ede5-4200-4a44-be2e-bc60ef959259
+K260,ML (computer programming),"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in ML.",http://data.europa.eu/esco/skill/a4d336a6-9ffd-402a-91cc-f359716ba4e0
+K261,mobile device management,"The methods for managing the use of mobile devices within an organisation, while ensuring security.",http://data.europa.eu/esco/skill/cf532795-a1fd-43bd-8407-6e43f877e6e3
+K262,mobile device software frameworks,"The API (Application Program Interfaces), such as Android, iOS, windows phone which enables programmers to quickly and easily write applications for mobile devices.",http://data.europa.eu/esco/skill/b8c01891-e3df-4a4b-948d-95b45e1788f5
+K263,mobile marketing,"The study of marketing which uses mobile devices as a communication channel. This approach can provide potential customers with personalised information (using location or time context) which promotes products, services or ideas.",http://data.europa.eu/esco/skill/ef069fe6-305b-4452-8f7d-0c572e98effc
+K264,mobile operating systems,"The features, restrictions, architectures and other characteristics of operating systems designed to run on mobile devices, such as Android or iOS.",http://data.europa.eu/esco/skill/976455eb-5bbe-4493-ae64-ed16c3b009ea
+K265,model based system engineering,"Model-based systems engineering (MBSE) is a methodology for systems engineering that uses visual modelling as the primary means of communicating information. It is focused on creating and exploiting domain models as the primary means of information exchange between engineers and engineering technicians, rather than on document-based information exchange. Therefore, it eliminates the communication of unnecessary information by relying on abstract models that retain only the relevant data.",http://data.europa.eu/esco/skill/25df422a-bf0a-4f76-8631-d0be91cb8751
+K266,multidisciplinary research,The research technique where a common issue is investigated using approaches from different disciplines with the aim of finding a comprehensive solution to it.,http://data.europa.eu/esco/skill/9fc400ac-8ed2-4aff-915f-aa4f2609ec7b
+K267,MySQL,"The computer program MySQL is a tool for creating, updating and managing databases, currently developed by the software company Oracle.",http://data.europa.eu/esco/skill/4da171e5-779c-4983-a76f-91c16751e99f
+K268,N1QL,The computer language N1QL is a query language for retrieval of information from a database and of documents containing the needed information. It is developed by the software company Couchbase.,http://data.europa.eu/esco/skill/f597f772-24d3-4cec-813c-cf5a7027c794
+K269,natural language processing,The technologies which enable ICT devices to understand and interact with users through human language.,http://data.europa.eu/esco/skill/fff0e2cd-d0bd-4b02-9daf-158b79d9688a
+K270,Nessus,"The computer program Nessus is a specialised ICT tool which tests security weaknesses of the system for potentially unauthorised access to system information, developed by the software company Tenable Network Security.",http://data.europa.eu/esco/skill/2891f0dc-4426-4a9a-8fbb-db4fb0a66f91
+K271,network engineering,"The subfield of computer technology that concerns the managing the connectivity of networks through data, voice, calls and wireless network services.",http://data.europa.eu/esco/skill/02058de6-4b98-449f-8a45-8588b0eb2446
+K272,network management system tools,"The software or hardware tools which enable monitoring, analysis and supervision of individual network components or network parts within a larger network system.",http://data.europa.eu/esco/skill/0ab03c6c-281b-48f4-83e0-10eeb27a1bae
+K273,network standards,"Regulated standards that provide the technical guidelines, specifications, and requirements to ensure safe and efficient interoperability between devices, software, equipment, and organisations. Networking standards govern the software and hardware which uses them. ",http://data.europa.eu/esco/skill/d78dedfc-21d2-45fd-ba05-e56b7a8865e6
+K274,Nexpose,"The computer program Nexpose is a specialised ICT tool which tests security weaknesses of the system for potentially unauthorised access to system information, developed by the software company Rapid7.",http://data.europa.eu/esco/skill/f0010b93-5552-45cb-ad26-168c8168f319
+K275,NoSQL,"The Not Only SQL non-relational database used for creating, updating and managing large amounts of unstructured data stored in the cloud.",http://data.europa.eu/esco/skill/76ef6ed3-1658-4a1a-9593-204d799c6d0c
+K276,object-oriented modelling,"The object-oriented paradigm, which is based on classes, objects, methods and interfaces and their application in software design and analysis, programming organisation and techniques.",http://data.europa.eu/esco/skill/5be3d306-6cf1-4b49-aa1d-01651dd4ba4c
+K277,Objective-C,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Objective-C.",http://data.europa.eu/esco/skill/9973a5a2-7822-4161-99e9-95c781eb63f8
+K278,ObjectStore,"The computer program ObjectStore is a tool for creating, updating and managing databases, developed by the software company Object Design, Incorporated.",http://data.europa.eu/esco/skill/4959697d-3a24-4f46-af0c-b752318e6c54
+K279,Octopus Deploy,The tool Octopus Deploy is a software program used to automate ASP.NET applications deployment to local or on the cloud servers.,http://data.europa.eu/esco/skill/2f04bb71-d476-43b3-a60b-5df1d05f5681
+K280,online analytical processing,"The online tools which analyse, aggregate and present multi-dimensional data enabling users to interactively and selectively extract and view data from specific points of view.",http://data.europa.eu/esco/skill/b0a3bb25-a02f-43ed-ab1f-994fa66a424a
+K281,online moderation techniques,The strategies and methods used to interact online and moderate online users and groups.,http://data.europa.eu/esco/skill/c9b6aa32-6c42-4903-8e5a-23e43edf03fc
+K282,Open source model,"The open source model consists of principles and fundamentals of service-oriented modelling for business and software systems that allow the design and specification of service-oriented business systems within a variety of architectural styles, such as enterprise architecture.",http://data.europa.eu/esco/skill/b16200f4-4f39-4b8b-aa9d-3568054d6bdb
+K283,OpenEdge Advanced Business Language,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in OpenEdge Advanced Business Language.",http://data.europa.eu/esco/skill/300d432b-f457-4cd3-9cb1-1858c7d14954
+K284,OpenEdge Database,"The computer program OpenEdge Database is a tool for creating, updating and managing databases, developed by the software company Progress Software Corporation.",http://data.europa.eu/esco/skill/43ec6db6-33f7-449b-a566-5779a7e8997a
+K285,operating systems,"The features, restrictions, architectures and other characteristics of operating systems such Linux, Windows, MacOS, etc.",http://data.europa.eu/esco/skill/f9a6f35b-01a7-40c9-8b61-b6ee46f97272
+K286,operational research,"The application of scientific methods to provide solutions to administrative and management issues of organised systems as industrial, commercial, or governmental processes. ",http://data.europa.eu/esco/skill/726abd5a-d23c-44b9-abb0-f22bbe95f1d3
+K287,operational tactics for emergency responses,The characteristics and proceedings of operational tactics for emergency responses especially at major incidents and catastrophes.,http://data.europa.eu/esco/skill/4e5687e3-3d3a-4f5e-b76a-93da0124d453
+K288,Oracle Application Development Framework,"The Java framework software development environment which provide specific features and components (such as enhanced reusability features, visual and declarative programming) that support and guide enterprise applications development.",http://data.europa.eu/esco/skill/8764d4b1-e069-44f2-8baa-fb1eee1850ec
+K289,Oracle Data Integrator,"The computer program Oracle Data Integrator is a tool for integration of information from multiple applications, created and maintained by organisations, into one consistent and transparent data structure, developed by the software company Oracle.",http://data.europa.eu/esco/skill/3af687cb-8c7a-46ea-a730-32dbaed040c6
+K290,Oracle Relational Database,"The computer program Oracle Rdb is a tool for creating, updating and managing databases, developed by the software company Oracle.",http://data.europa.eu/esco/skill/de9f85ba-e77f-48fd-8c66-f5ebaf32d655
+K291,Oracle Warehouse Builder,"The computer program Oracle Warehouse Builder is a tool for integration of information from multiple applications, created and maintained by organisations, into one consistent and transparent data structure, developed by the software company Oracle.",http://data.europa.eu/esco/skill/23900e3d-06fa-424c-a5dc-c0ea42edde1e
+K292,Oracle WebLogic,The application server Oracle WebLogic is Java EE based application server which serves as a middle tier that links the back-end databases to the related applications.,http://data.europa.eu/esco/skill/70de94f5-9575-4edd-bca7-c797b023b9d6
+K293,organisational policies,The policies to achieve set of goals and targets regarding the development and maintenance of an organisation.,http://data.europa.eu/esco/skill/3a5231a0-8c30-48ee-b671-08e2debd4441
+K294,organisational resilience,"The strategies, methods and techniques that increase the organisation's capacity to protect and sustain the services and operations that fulfil the organisational mission and create lasting values by effectively addressing the combined issues of security, preparedness, risk and disaster recovery.",http://data.europa.eu/esco/skill/79f24a62-7718-46e1-9b41-37be0560a5ca
+K295,Outsourcing model,"The outsourcing model consists of principles and fundamentals of service-oriented modelling for business and software systems that allow the design and specification of service-oriented business systems within a variety of architectural styles, such as enterprise architecture.",http://data.europa.eu/esco/skill/63f0aa84-5e4c-4eb6-8e8c-876d9feedf1f
+K296,outsourcing strategy,The high level planning for managing and optimising external services of providers to execute business processes.,http://data.europa.eu/esco/skill/6f8baa62-bc2b-4cc1-942b-f540c837cfa2
+K297,OWASP ZAP,"The integrated testing tool OWASP Zed Attack Proxy (ZAP) is a specialised tool which tests web applications security weaknesses, replying on an automated scanner and a REST API.",http://data.europa.eu/esco/skill/1ce4cddd-4a74-458e-a2d4-152ca939475a
+K298,Parrot Security OS,"The operating system Parrot Security is a Linux distribution which performs penetration cloud testing, analysing security weaknesses for potentially unauthorised access.",http://data.europa.eu/esco/skill/afd63e8c-a4e7-42d3-86c9-3b2dd549a353
+K299,Pascal (computer programming),"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Pascal.",http://data.europa.eu/esco/skill/e8b89eb6-51e8-4c3a-babb-88b2e110376b
+K300,penetration testing tool,"The specialised ICT tools which test security weaknesses of the system for potentially unauthorised access to system information such as Metasploit, Burp suite and Webinspect.",http://data.europa.eu/esco/skill/de586dcf-d7e5-4340-bf5b-d59026f1b436
+K301,Pentaho Data Integration,"The computer program Pentaho Data Integration is a tool for integration of information from multiple applications, created and maintained by organisations, into one consistent and transparent data structure, developed by the software company Pentaho.",http://data.europa.eu/esco/skill/42c3287f-5e50-4559-a2d1-2000c70e0aab
+K302,Perl,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Perl.",http://data.europa.eu/esco/skill/401eb8d8-6daa-4f8b-90ad-60afc71eb4f8
+K303,PHP,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in PHP.",http://data.europa.eu/esco/skill/4350c38d-0fe9-4ca7-bab9-40ed7f72b04f
+K304,PostgreSQL,"The computer program PostgreSQL is a free and open-source software tool for creating, updating and managing databases, developed by the PostgreSQL Global Development Group.",http://data.europa.eu/esco/skill/a8d07b5a-c1a1-42c6-9d53-db9c7a2ca996
+K305,principles of animation,"The principles of 2D and 3D animation, such as body motion, kinematics, overshoot, anticipation, squash and stretch.",http://data.europa.eu/esco/skill/1c00bc98-2713-4c62-82c5-6d86f2e6a4cb
+K306,principles of artificial intelligence,"The artificial intelligence theories, applied principles, architectures and systems, such as intelligent agents, multi-agent systems, expert systems, rule-based systems, neural networks, ontologies and cognition theories.",http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2
+K307,Process-based management,"The process-based management approach is a methodology for planning, managing and overseeing of ICT resources in order to meet specific goals and using project management ICT tools.",http://data.europa.eu/esco/skill/d5a59ca8-2e91-472e-8571-d12ce4478679
+K308,procurement of ICT network equipment,The products available from network equipment providers and methods for selecting and procuring the equipment.,http://data.europa.eu/esco/skill/32428b21-514b-42c2-81b5-244a7804ea74
+K309,product data management,"The use of software to track all information concerning a product such as technical specifications, drawings, design specifications, and production costs.",http://data.europa.eu/esco/skill/e2d0daae-2aa1-40cc-99e2-b340b02f97d3
+K310,product life-cycle,The management of the life-cycle of a product from the development stages to the market entry and market removal.,http://data.europa.eu/esco/skill/21e0cad8-4eef-42be-b18b-0f8e37f0dbd0
+K311,product usage risks analysis,"The methods to analyse product associated risks, in possible customer environment, their magnitude, consequences and likely outcomes in order to mitigate them by warning messages, safety instructions and maintenance support.",http://data.europa.eu/esco/skill/4913d0c0-133a-4c46-aac3-f5d4989a982e
+K312,project configuration management,"The process for the effective management of the key project artefacts and deliverables, ensuring that the correct versions are delivered to the project requestor and allowing project managers to identify the latest state of project artefacts and be able to gather all sources, documents, and other information for the project, prevent unauthorised changes, guarantee artefacts traceability and return to previous versions. It comprises the identification of project configuration items (CIs), their attributes and status codes, the establishment of baselines, the definition of roles and responsibilities for authorised changes to CIs, and the maintenance and control of a project repository.",http://data.europa.eu/esco/skill/ccb2e5f2-4279-48fd-9d85-a1db42ff1e13
+K313,project management,"The discipline of project management, the activities which comprise this area and the variables implied in it, such as time, resources, requirements, deadlines, and responding to unexpected events.",http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388
+K314,Prolog (computer programming),"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Prolog.",http://data.europa.eu/esco/skill/2bde42ae-e776-41c1-9ded-b07b30bfe985
+K315,Prototyping development,The prototyping development model is a methodology to design software systems and applications.,http://data.europa.eu/esco/skill/ed1d8bd4-cd2a-4c64-b665-56d70651026c
+K316,proxy servers,"The proxy tools which act as an intermediary for requests from users searching for resources e.g. files and web pages from other servers such as Burp, WebScarab, Charles or Fiddler.",http://data.europa.eu/esco/skill/553e1d2d-abf1-4b37-8ac4-c5c78a8edbc0
+K317,publishing strategy,"The methods, rules, media and tools of publishing content from content management systems in single sources or cross media.",http://data.europa.eu/esco/skill/d6c29154-9cc1-48a4-a2de-3d1d0d7f0831
+K318,Puppet (tools for software configuration management),"The tool Puppet is a software program to perform configuration identification, control, status accounting and audit.",http://data.europa.eu/esco/skill/6417a4cc-6f61-4459-a114-761a7fa0279d
+K319,Python (computer programming),"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Python.",http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d
+K320,QlikView Expressor,"The computer program QlikView Expressor is a tool for integration of information from multiple applications, created and maintained by organisations, into one consistent and transparent data structure, developed by the software company Qlik.",http://data.europa.eu/esco/skill/97bdd757-29d4-4126-92a6-07608825aa3b
+K321,quality and cycle time optimisation,The most optimal rotation or cycle time and over-all quality of a tool or a machine's processes.,http://data.europa.eu/esco/skill/3b3b7373-220a-4287-87cf-e24a208b63c6
+K322,quality assurance methodologies,"Quality assurance principles, standard requirements, and the set of processes and activities used for measuring, controlling and ensuring the quality of products and processes.",http://data.europa.eu/esco/skill/c7cc6dc5-d56b-4323-8e5c-47c4022f615f
+K323,quality standards,"The national and international requirements, specifications and guidelines to ensure that products, services and processes are of good quality and fit for purpose.",http://data.europa.eu/esco/skill/8d4271ca-c9fd-40b3-875f-15f78332a49e
+K324,quantitative analysis,The technique of employing statistical and mathematical modelling and measurement to represent a specific reality through numbers.,http://data.europa.eu/esco/skill/6360a934-cc87-4954-9656-b32db20592e3
+K325,quantum computing,"The branch of computer science that follows the principles of quantum theory. It uses subatomic particles which are allowed to exist under more than one state thanks to quantum bits, or qubits.",http://data.europa.eu/esco/skill/e79a3803-dd53-46b0-906b-13e6d46ef687
+K326,query languages,The field of standardised computer languages for retrieval of information from a database and of documents containing the needed information.,http://data.europa.eu/esco/skill/9cf681c7-89ec-470c-b651-7fe03786f586
+K327,R,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in R.",http://data.europa.eu/esco/skill/51586df8-1c46-4b47-8583-773cb63bf00b
+K328,Rapid application development,The rapid application development model is a methodology to design software systems and applications.,http://data.europa.eu/esco/skill/96eb286a-58b7-45ff-a916-5578d0b79b8c
+K329,real-time computing,The ICT hardware and software systems which are bound to respond to input within precisely tight constraints of time,http://data.europa.eu/esco/skill/bf6c5ed4-84af-440f-abcc-7fa5ba19c738
+K330,research design,"The set of methods and techniques of research that are used to conduct a study. It includes practical steps in research such as purpose statement, data collection, methodology, and data analysis.",http://data.europa.eu/esco/skill/7159e587-c7cb-4ec0-a662-03e1dee2cccb
+K331,resource description framework query language,The query languages such as SPARQL which are used to retrieve and manipulate data stored in Resource Description Framework format (RDF).,http://data.europa.eu/esco/skill/99207709-d076-4cce-ba38-e90d3bb28806
+K332,resource-efficient technologies,"Sustainable technologies which allow to produce more value using limited resources while reducing the impact on the environment, restraining the risks of scarcity.",http://data.europa.eu/esco/skill/d1f73ae9-d348-4aac-b5d5-9b6d508401d3
+K333,risk management,"The process of identifying, assessing, and prioritising of all types of risks and where they could come from, such as natural causes, legal changes, or uncertainty in any given context, and the methods for dealing with risks effectively.",http://data.europa.eu/esco/skill/6eff134b-e34f-4d6e-a6e8-5e47cf2228d0
+K334,Ruby (computer programming),"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Ruby.",http://data.europa.eu/esco/skill/0ccdfe98-f845-4598-84a1-3dca66e9d9a3
+K335,safety engineering,"The study of the risks associated with engineered designs and systems, accident prevention as well as the safety benefits of reducing deaths and injuries. The discipline focuses on analysing and mitigating potential hazards in engineering processes.",http://data.europa.eu/esco/skill/47d491a9-f7c0-4b13-a10f-983d3aa0113e
+K336,sales strategies,The principles concerning customer behaviour and target markets with the aim of promotion and sales of a product or a service.,http://data.europa.eu/esco/skill/e7219848-a27a-4bf4-8775-d367707be7c9
+K337,Salt (tools for software configuration management),"The tool Salt is a software program to perform configuration identification, control, status accounting and audit.",http://data.europa.eu/esco/skill/c7451027-8249-405a-bb1b-342ff0f3fb3b
+K338,Samurai Web Testing Framework,The linux environment Samurai Web Testing Framework is a specialised penetration testing tool which tests security weaknesses of websites for potentially unauthorised access.,http://data.europa.eu/esco/skill/baf1fadb-975a-42be-9744-d8ba02304d09
+K339,SAP Data Services,"The computer program SAP Data Services is a tool for integration of information from multiple applications, created and maintained by organisations, into one consistent and transparent data structure, developed by the software company SAP.",http://data.europa.eu/esco/skill/f8e3425c-fe44-4ffb-bafe-0e20d91dadf4
+K340,SAP R3,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in SAP R3.",http://data.europa.eu/esco/skill/bb99af26-71ff-4dca-bde7-1eb1f6194426
+K341,SAS Data Management,"The computer program SAS Data Management is a tool for integration of information from multiple applications, created and maintained by organisations, into one consistent and transparent data structure, developed by the software company SAS.",http://data.europa.eu/esco/skill/e5a6e1e0-1b07-4432-83ba-77d593b2cb47
+K342,SAS language,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in SAS language.",http://data.europa.eu/esco/skill/04f1b938-d4d4-4cb1-a863-982af76b9d93
+K343,Sass,"The computer language Sass is a style sheet language that conveys the presentation of structured documents. These documents have to adhere to style sheets, a set of stylistic rules such as font, color and layout.",http://data.europa.eu/esco/skill/1110c92f-3059-445a-9436-0f4200d365f5
+K344,Scala,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Scala.",http://data.europa.eu/esco/skill/ffddfc7c-a9dd-449f-9e96-882dc447c8b6
+K345,scientific computing,"The interdisciplinary field between computer science, mathematics and engineering. It concerns the employment of technical approaches and theoretical frameworks, and the use of computers, to address issues in science and engineering.",http://data.europa.eu/esco/skill/5b26f08b-88bc-45f0-b901-530d7786466b
+K346,scientific literature,"The medium of informing the scientific community, including academic researchers, about the results of scientific research. It constitutes a permanent and cumulative collection of all the findings of scientific research in various fields and at any point in time.",http://data.europa.eu/esco/skill/74e49482-75e8-4637-bdb1-fff868d02f7a
+K347,scientific research methodology,"The theoretical methodology used in scientific research involving doing background research, constructing an hypothesis, testing it, analysing data and concluding the results.",http://data.europa.eu/esco/skill/ed3f3dba-3a35-4ed5-b113-67f4d10ef4c8
+K348,Scratch (computer programming),"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Scratch.",http://data.europa.eu/esco/skill/d56fc2b5-4b0a-4e7e-9bde-a33736f6ff18
+K349,screen reader,"Software program which converts screen elements such as text, images, or buttons, displayed in the computer into Braille or speech. Assistive technology used by visually impaired or blind people to interpret what appears on the computer screen through braille output, audio icons or speech synthesisers.",http://data.europa.eu/esco/skill/1774bd31-8893-44cf-9498-7e3d95508419
+K350,security engineering,"Interdisciplinary field of study that focuses on the realisation of secure systems and the technology to protect individuals or information from malice, errors, or unauthorized access. It involves defining security protection requirements, processes, and methods to ensure the resilience of systems and data. ",http://data.europa.eu/esco/skill/6f1edc19-191f-4ba5-a048-ee69aff05bab
+K351,security threats,"Types of cyber or physical security threats to public and private security such as unauthorised entry, aggressive behaviour, molestation, robbery, theft, hacking, malware, phishing, identity theft, assault, kidnapping, murder and public demonstration.",http://data.europa.eu/esco/skill/5acf6408-e084-4202-9442-ffcf0119811c
+K352,service-oriented modelling,"The principles and fundamentals of service-oriented modelling for business and software systems that allow the design and specification of service-oriented business systems within a variety of architectural styles, such as enterprise architecture and application architecture.",http://data.europa.eu/esco/skill/83218cac-3599-417e-93d2-26013cdccd98
+K353,signal processing,"The algorithms, applications and implementations that deal with the processing and transferring of information through analog or digital frequencies.",http://data.europa.eu/esco/skill/cfa2be0d-96d5-4017-a866-962efb9c5070
+K354,SketchBook Pro,The computer program SketchBook Pro is a graphical ICT tool which enables digital editing and composition of graphics to generate both 2D raster or 2D vector graphics. It is developed by the software company Autodesk.,http://data.europa.eu/esco/skill/85038d57-1fdd-40de-b908-2c005545a8c3
+K355,Smalltalk (computer programming),"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Smalltalk.",http://data.europa.eu/esco/skill/42ed3bfb-1a01-4c8b-9758-fc6438865734
+K356,smart contract,A software program in which the terms of a contract or transaction are directly coded. Smart contracts are executed automatically upon fulfilment of the terms and therefore require no third party to oversee and register the contract or transaction.,http://data.europa.eu/esco/skill/670f8eea-f25b-4c3f-97ef-a4729d4c63d6
+K357,smart contract programming languages,"Essential Smart Contract programming languages include Solidity, Rust, JavaScript, Vyper and Yul.",http://data.europa.eu/esco/skill/495ce586-09d7-4cec-83d7-2821be6590c4
+K358,social media marketing techniques,The marketing methods and strategies used to increase attention and website traffic through social media channels.,http://data.europa.eu/esco/skill/509909a2-4a8f-4ead-8ad0-968df63b77cc
+K359,social network analysis,The research method that is mainly explored in sociology and communication science and focuses on the analysis of the relations between individuals and among organisations and states.,http://data.europa.eu/esco/skill/33e584f9-ff7a-4979-bfc0-5a3a374a145a
+K360,software anomalies,"The deviations of what is standard and exceptional events during software system performance, identification of incidents that can alter the flow and the process of system execution.",http://data.europa.eu/esco/skill/438ff259-d086-4004-acda-1ec3e1631bc6
+K361,software architecture models,"The set of structures and models needed to understand or describe the software system, including the software elements, the relations between them and the properties of both elements and relations.",http://data.europa.eu/esco/skill/2450c3b3-e78e-435b-b84d-e05d984e71dc
+K362,software components libraries,"The software packages, modules, web services and resources that cover a set of related functions and the databases where these reusable components can be found.",http://data.europa.eu/esco/skill/484df271-bb52-49f1-8f50-f19624bf4df2
+K363,software components suppliers,The suppliers who can deliver the required software components.,http://data.europa.eu/esco/skill/e6b8f934-7f35-4dc6-9a64-f6c43acdc00b
+K364,software design methodologies,"The methodologies such as Scrum, V-model and Waterfall to design software systems and applications.",http://data.europa.eu/esco/skill/8ff015a0-98ea-4d80-a23e-1f68110a919e
+K365,software frameworks,The software development environments or tools used to improve the efficiency of new software development by providing specific features that support and guide the development.,http://data.europa.eu/esco/skill/24c200e5-be20-4370-a137-ab53797f3a17
+K366,software interaction design,The methodologies for designing interaction between users and a software product or service to satisfy the needs and preferences of most of the people who will interface with the product and to simplify the communication between product and user such as Goal-oriented design.,http://data.europa.eu/esco/skill/de0be6e8-644c-4cc9-9c8d-925dd98dda56
+K367,software metrics,The metrics that measure a characteristic of the software system in order to determine the development of the software and evaluate it.,http://data.europa.eu/esco/skill/fb7aee4d-f6c6-4a87-8e9d-8e542b3771f8
+K368,software UI design patterns,The reusable solutions and formalised best practices to solve common user interface tasks in software development and design.,http://data.europa.eu/esco/skill/1019423b-3368-4f83-b24f-19e5fa23e816
+K369,Solidity,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Solidity.",http://data.europa.eu/esco/skill/605399ce-4736-4b41-b41e-92ecf2139454
+K370,solution deployment,"The technologies and standards to be used during the installation, deployment and maintenance of software characteristics.",http://data.europa.eu/esco/skill/1d86f05e-e9cc-40ce-99d8-2b21cc71b16b
+K371,SPARK,The Java micro framework software development environment which provide specific features and components that support and guide web applications development.,http://data.europa.eu/esco/skill/af7ae54f-4649-4c16-87c7-59ba41d4d57f
+K372,SPARQL,The computer language SPARQL is a query language for retrieval of information from a database and of documents containing the needed information. It is developed by the international standards organisation World Wide Web Consortium.,http://data.europa.eu/esco/skill/5da8018b-ae85-4cde-ad93-0394369018f3
+K373,Spiral development,The spiral development model is a methodology to design software systems and applications.,http://data.europa.eu/esco/skill/4840338b-ac6c-486a-be1d-9ddfe00b8bdf
+K374,SQL,The computer language SQL is a query language for retrieval of information from a database and of documents containing the needed information. It is developed by the American National Standards Institute and the International Organization for Standardization.,http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742
+K375,SQL Server,"The computer program SQL Server is a tool for creating, updating and managing databases, developed by the software company Microsoft.",http://data.europa.eu/esco/skill/c062bab3-3ea0-4291-9220-a2d8fef4bead
+K376,SQL Server Integration Services,"The computer program SQL Server Integration Services is a tool for integration of information from multiple applications, created and maintained by organisations, into one consistent and transparent data structure, developed by the software company Microsoft.",http://data.europa.eu/esco/skill/6f7512ab-d46d-402a-8c30-a8878d7c1f88
+K377,STAF,"The tool STAF is a software program to perform configuration identification, control, status accounting and audit.",http://data.europa.eu/esco/skill/69f0167e-75d9-46cf-847f-72a592880ebb
+K378,state estimation,The process of fusing input data measurements and a mathematical model to determine the internal state of an energy system,http://data.europa.eu/esco/skill/d38871eb-b988-495e-8fca-345677b597a8
+K379,statistical analysis system software,"Specific software system (SAS) used for advanced analytics, business intelligence, data management, and predictive analytics.",http://data.europa.eu/esco/skill/ad59afe4-6f8a-4bc4-acfd-0f228277508a
+K380,statistical modeling techniques,The approaches for employing statistical analysis to dataset within the data science field. It seeks to elaborate reality predictions through statistical models and explicit assumptions.,http://data.europa.eu/esco/skill/68ef0e4d-5542-4e64-84f4-752cce5a3c22
+K381,statistical process control,Method of quality control that uses statistics to monitor processes.,http://data.europa.eu/esco/skill/0c77bcd5-b94a-475d-98e9-5a4327e4d726
+K382,statistics,"The study of statistical theory, methods and practices such as collection, organisation, analysis, interpretation and presentation of data. It deals with all aspects of data including the planning of data collection in terms of the design of surveys and experiments in order to forecast and plan work-related activities.",http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833
+K383,style sheet languages,"The field of computer language that conveys the presentation of structured documents such as Cascading Style Sheets (CSS). These documents have to adhere to style sheets, a set of stylistic rules such as font, color and layout.",http://data.europa.eu/esco/skill/c2999f0c-eb37-4cdf-b9b0-82107b628794
+K384,sustainability consulting,The consulting approach that is used to help businesses to know more about their sustainability impact and implement strategies to become eco-friendly and efficient.,http://data.europa.eu/esco/skill/d84326c9-a3d3-4e22-a6a1-1ad42a356f10
+K385,sustainable technologies,"Technologies with the aim of reducing environmental and ecological risks, achieving at the same time, a positive economic, social, and environmental impact. They are innovative technologies designed to prevent, reduce and recover from the negative impact of humanity in the planet. ",http://data.europa.eu/esco/skill/103f7814-d262-4df6-a1b6-759bc51f76cb
+K386,Swift (computer programming),"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Swift.",http://data.europa.eu/esco/skill/be80acfc-b6f2-4411-9b8d-b19d9cd2556a
+K387,Synfig,The computer program Synfig is a graphical ICT tool which enables digital editing and composition of graphics to generate both 2D raster or 2D vector graphics. It is developed by Robert Quattlebaum.,http://data.europa.eu/esco/skill/b0ac313d-de44-4344-ada6-76d2177b6d92
+K388,system backup best practice,The procedures related to preparing for recovery or continuation of technology infrastructure vital to an organisation.,http://data.europa.eu/esco/skill/47ca0da1-cae5-4395-ae6b-fd97b9ff48d3
+K389,system design,"The process of defining the architecture for different components and modules of a system, as well as the relevant data, for satisfying specific requirements.",http://data.europa.eu/esco/skill/fae27053-8924-4bfd-b565-c9fe502044c9
+K390,systems development life-cycle,"The sequence of steps, such as planning, creating, testing and deploying and the models for the development and life-cycle management of a system.",http://data.europa.eu/esco/skill/09f2f811-a3fb-4de3-a70f-6420a6935575
+K391,systems theory,"The principles that can be applied to all types of systems at all hierarchical levels, which describe the system's internal organisation, its mechanisms of maintaining identity and stability and achieving adaptation and self-regulation and its dependencies and interaction with the environment.",http://data.europa.eu/esco/skill/cdd8b6b2-2fd9-453c-8d62-8a1dc6efcd49
+K392,task algorithmisation,The techniques to convert unstructured descriptions of a process into step-by-step sequence of actions of a finite number of steps.,http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410
+K393,technical drawings,"Drawing software and the various symbols, perspectives, units of measurement, notation systems, visual styles and page layouts used in technical drawings.",http://data.europa.eu/esco/skill/59ea80e1-463a-4dba-82c6-d0b6d577d532
+K394,telecom regulations,"Code of rules to protect telecommunication consumers, ensuring high standards of communication services such as equivalent and affordable access, connectivity, transparency of contracts or security against malware. The regulation covers web-based and traditional services. ",http://data.europa.eu/esco/skill/7f2afce6-e98b-4bbe-8441-d52b45e28ab8
+K395,Teradata Database,"The computer program Teradata Database is a tool for creating, updating and managing databases, developed by the software company Teradata Corporation.",http://data.europa.eu/esco/skill/d9eaf831-9348-4330-a83e-b7c099cdc8f6
+K396,THC Hydra,The package THC Hydra is a parallelized login cracker which tests security weaknesses of the systems' protocols for potentially unauthorised access to system information. The main features include network logon cracker and passwords reading and printing.,http://data.europa.eu/esco/skill/f2c26cd0-f823-4549-a418-f84d23131308
+K397,tools for ICT test automation,"The specialised software to execute or control tests and compare predicted testing outputs with actual testing results such as Selenium, QTP and LoadRunner",http://data.europa.eu/esco/skill/7557f0f4-b8bc-4ac0-b91e-222ab1ba744f
+K398,tools for software configuration management,"The software programs to perform configuration identification, control, status accounting and audit, such as CVS, ClearCase, Subversion, GIT and TortoiseSVN perform this management.",http://data.europa.eu/esco/skill/9d2e926f-53d9-41f5-98f3-19dfaa687f3f
+K399,trading software,The finance and trading integrated software solutions.,http://data.europa.eu/esco/skill/ba1b0441-a6b8-4e57-8ccc-871012f63e42
+K400,trigonometry,The subdiscipline of mathematics which explores relationships among angles and lengths of triangles.,http://data.europa.eu/esco/skill/8a16add0-6faa-4387-896c-ee641568d89f
+K401,TripleStore,The RDF store or TripleStore is a database used for storage and retrieval of Resource Description Framework triples (subject-predicate-object data entities) which can be accessed by semantic queries.,http://data.europa.eu/esco/skill/4e6d2538-a48e-48a7-8dad-14b067cfcb8b
+K402,TypeScript,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in TypeScript.",http://data.europa.eu/esco/skill/867137fb-ff1b-4ca3-99f3-cb6969aa2c68
+K403,unified modelling language,The general-purpose modelling language used in software development to offer a standard visualisation of system designs.,http://data.europa.eu/esco/skill/7193cb6d-8334-494f-86e5-21e6d03a47c3
+K404,unstructured data,The information that is not arranged in a pre-defined manner or does not have a pre-defined data model and is difficult to understand and find patterns in without using techniques such as data mining.,http://data.europa.eu/esco/skill/c5e8abde-d2ba-4e8e-a65e-720b71180666
+K405,usability engineering,The methods of assessing usability and deriving structured recommendations from the results of an usability test with respect to user needs and behaviours in order to achieve efficient and elegant user interface design.,http://data.europa.eu/esco/skill/95ee5e38-5c1e-4cd2-a21d-6921390025a9
+K406,Vagrant,"The tool Vagrant is a software program to perform configuration identification, control, status accounting and audit.",http://data.europa.eu/esco/skill/6b3afb82-c4ea-4f14-be54-a757fb762663
+K407,VBScript,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in VBScript.",http://data.europa.eu/esco/skill/dcdd5ddf-82a6-4ac3-8edc-d4b23cae9a88
+K408,Visual Basic,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Visual Basic.",http://data.europa.eu/esco/skill/13bdd41a-2a18-441f-96db-41252c519413
+K409,visual presentation techniques,"The visual representation and interaction techniques, such as histograms, scatter plots, surface plots, tree maps and parallel coordinate plots, that can be used to present abstract numerical and non-numerical data, in order to reinforce the human understanding of this information.",http://data.europa.eu/esco/skill/348b74cd-49ce-4844-8bdf-ec188b497213
+K410,Vyper,"The techniques and principles of software development, such as analysis, algorithms, coding, testing and compiling of programming paradigms in Vyper.",http://data.europa.eu/esco/skill/53780150-1581-4ae6-b435-34068c172caf
+K411,Waterfall development,The waterfall development model is a methodology to design software systems and applications.,http://data.europa.eu/esco/skill/6a876489-7ad8-4a13-b09c-c9b8e97a302e
+K412,web analytics,"The characteristics, tools and techniques for measurement, collection, analysis and reporting of web data to get information on the users' behaviour and to improve the performance of a website.",http://data.europa.eu/esco/skill/1605025e-a179-421f-8f35-5b07d182a6b2
+K413,web application security threats,"The attacks, vectors, emergent threats on websites, web applications and web services, the rankings of their severity identified by dedicated communities such as OWASP.",http://data.europa.eu/esco/skill/902fb91c-3113-4004-9b4f-79aa86b638b7
+K414,web based collaborative platforms,Online tools which facilitate communication and collaboration among Internet users in real time. Platforms with a range of functionalities created to facilitate organisational team work or promote productive workflow among other features.  ,http://data.europa.eu/esco/skill/93e65de1-923c-437e-aa5b-e6002967ce71
+K415,web programming,"The programming paradigm that is based on combining markup (which adds context and structure to text) and other web programming code, such as AJAX, javascript and PHP, in order to carry out appropriate actions and visualise the content.",http://data.europa.eu/esco/skill/69bbd53f-fbb0-4476-b4b2-ef7844464e28
+K416,web services,XML-based information systems that allows for direct interactions between applications through Internet. It is a set of protocols for transferring data between applications and systems.,http://data.europa.eu/esco/skill/f84a433f-34f1-4083-b0a3-24802623509c
+K417,WebCMS,"The web-based software systems used for creating, editing, publishing and archiving blogs, articles, web pages or press releases which are mostly managed by users with limited web programming knowledge.",http://data.europa.eu/esco/skill/5c66ce3a-658d-43b1-9d8d-0f39be6c0f2e
+K418,WhiteHat Sentinel,"The computer program WhiteHat Sentinel is a specialised ICT tool which tests security weaknesses of the system for potentially unauthorised access to system information, developed by the software company WhiteHat Security.",http://data.europa.eu/esco/skill/e79dab00-fe87-48f2-b8cc-f48b68bc7f35
+K419,WildFly,The open-source application server JBoss is a Linux based platform which supports Java applications and large websites.,http://data.europa.eu/esco/skill/b16bcbcb-1d3f-42b3-a6a5-b91348a72b70
+K420,Wireshark,"The Wireshark tool is a penetration testing tool which evaluates security weaknesses, analysing network protocols through deep protocol inspection, live capture, display filters, offline analysis, VoIP analysis, protocol decryption.",http://data.europa.eu/esco/skill/8fa510d0-a8a6-4932-a361-00f8442cfe23
+K421,WordPress,"The open-source web-based software systems used for creating, editing, publishing and archiving blogs, articles, web pages or press releases which are mostly managed by users with limited web programming knowledge.",http://data.europa.eu/esco/skill/6d289e8b-2cc1-4eda-ab1f-ad1090ef98f0
+K422,World Wide Web Consortium standards,"The standards, technical specifications and guidelines developed by the international organisation World Wide Web Consortium (W3C) which allow the design and development of web applications.",http://data.europa.eu/esco/skill/8696aff0-18c0-4ba6-a4d0-9a21861b3e5e
+K423,Xcode,"The computer program Xcode is a suite of software development tools for writing programs, such as compiler, debugger, code editor, code highlights, packaged in a unified user interface. It is developed by the software company Apple.",http://data.europa.eu/esco/skill/449d119b-2d66-43a9-9230-7d27f16afbb6
+K424,XQuery,The computer language XQuery is a query language for retrieval of information from a database and of documents containing the needed information. It is developed by the international standards organisation World Wide Web Consortium.,http://data.europa.eu/esco/skill/3f4dab51-572b-4e2c-85ef-3b4c3f7094e1
