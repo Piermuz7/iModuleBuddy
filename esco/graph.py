@@ -1,89 +1,167 @@
 from neo4j import GraphDatabase
 import pandas as pd
-from esco import gather_occupations
+import os
 
 URI_NEO4J = 'URI'
 AUTH = ('USER', 'PASSWORD')
-URI_ESCO_GROUP = 'http://data.europa.eu/esco/isco/C25'
+
+# Constants for CSV paths
+CSV_DIRECTORY = os.path.join(os.getcwd(), 'csv')
+SKILLS_CSV = os.path.join(CSV_DIRECTORY, 'skills.csv')
+KNOWLEDGE_CSV = os.path.join(CSV_DIRECTORY, 'knowledge.csv')
+OCCUPATIONS_CSV = os.path.join(CSV_DIRECTORY, 'occupations.csv')
+LEARNING_OUTCOMES_CSV = os.path.join(CSV_DIRECTORY, 'learning_outcomes_uris.csv')
+MODULES_CSV = os.path.join(CSV_DIRECTORY, 'modules.csv')
 
 
-def add_occupation(driver, occupation):
+def add_module(driver, individual_name, module_link, module_title, module_description, module_type, module_comment,
+               module_competency_to_be_achieved, module_content):
     driver.execute_query(
         '''
-        MERGE (n:Occupation {description: $description, title: $title, uri: $uri})
+        MERGE (n:Module {individual_name: $individual_name, module_link: $module_link, module_title: $module_title, module_description: $module_description, module_type: $module_type, module_comment: $module_comment, module_competency_to_be_achieved: $module_competency_to_be_achieved, module_content: $module_content})
         RETURN n
         ''',
-        description=occupation.description, title=occupation.title, uri=occupation.uri, database_="neo4j"
+        individual_name=individual_name, module_link=module_link, module_title=module_title,
+        module_description=module_description, module_type=module_type, module_comment=module_comment,
+        module_competency_to_be_achieved=module_competency_to_be_achieved, module_content=module_content,
+        database_="neo4j"
     )
 
 
-def add_skill(driver, skill):
+def add_learning_outcome(driver, learning_outcome, module_title):
     driver.execute_query(
         '''
-        MERGE (n:Skill {skillType: $skill_type, title: $title, uri: $uri, description: $description})
+        MERGE (lo:LearningOutcome {learning_outcome: $learning_outcome, module_title: $module_title})
+        RETURN lo
+        ''',
+        learning_outcome=learning_outcome, module_title=module_title, database_='neo4j'
+    )
+
+
+def add_skill(driver, title, skill_type, index, description, uri):
+    driver.execute_query(
+        '''
+        MERGE (n:Skill {title: $title, skill_type: $skill_type, index: $index, description: $description, uri: $uri})
         RETURN n
         ''',
-        skill_type=skill.skill_type, title=skill.title, uri=skill.uri, description=skill.description, database_="neo4j"
+        title=title, skill_type=skill_type, index=index, description=description, uri=uri, database_='neo4j'
+    )
+
+
+def add_occupation(driver, occupation, uri, description):
+    driver.execute_query(
+        '''
+        MERGE (o:Occupation {occupation: $occupation, uri: $uri, description: $description})
+        RETURN o
+        ''',
+        occupation=occupation, uri=uri, description=description, database_='neo4j'
     )
 
 
 def link_occupation_skill(driver, occupation_uri, skill_uri, relation_type):
     driver.execute_query(
         '''
-        MATCH (node1:Occupation {uri: $occupationUri})
-        MATCH (node2:Skill {uri: $skillUri})
-        MERGE (node1)-[r:requiresSkill {relationType: $relationType}]->(node2)
+        MATCH (node1:Occupation {uri: $occupation_uri})
+        MATCH (node2:Skill {uri: $skill_uri})
+        MERGE (node1)-[r:requires_skill {relationType: $relation_type}]->(node2)
         RETURN r
         ''',
-        occupationUri=occupation_uri, skillUri=skill_uri, relationType=relation_type, database_="neo4j"
+        occupation_uri=occupation_uri, skill_uri=skill_uri, relation_type=relation_type, database_="neo4j"
     )
 
 
-def process_occupation(driver, occupation):
-    # Add the occupation node
-    add_occupation(driver, occupation)
-
-    # Add essential skills and create relationships
-    for skill in occupation.skills:
-        add_skill(driver, skill)
-        link_occupation_skill(driver, occupation.uri, skill.uri, 'essential')
-
-    # Add optional skills and create relationships
-    for skill in occupation.optional_skills:
-        add_skill(driver, skill)
-        link_occupation_skill(driver, occupation.uri, skill.uri, 'optional')
-
-
-def add_module(driver, individual_name, course_link, course_title, course_description, course_type, course_comment,
-               course_competency_to_be_achieved, course_content):
+def link_module_learning_outcome(driver, module_name, learning_outcome):
     driver.execute_query(
         '''
-        MERGE (n:Module {individual_name: $individual_name, course_link: $course_link, course_title: $course_title, course_description: $course_description, course_type: $course_type, course_comment: $course_comment, course_competency_to_be_achieved: $course_competency_to_be_achieved, course_content: $course_content})
-        RETURN n
+        MATCH (module:Module {individual_name: $module_name})
+        MATCH (lo:LearningOutcome {learning_outcome: $learning_outcome})
+        MERGE (module)-[r:has_learning_outcome]->(lo)
+        RETURN r
         ''',
-        individual_name=individual_name, course_link=course_link, course_title=course_title,
-        course_description=course_description, course_type=course_type, course_comment=course_comment,
-        course_competency_to_be_achieved=course_competency_to_be_achieved, course_content=course_content,
-        database_="neo4j"
+        module_name=module_name, learning_outcome=learning_outcome, database_="neo4j"
     )
 
-def add_learning_outcome(driver, learning_outcome):
+
+def link_learning_objective_skill(driver, learning_outcome, skill_uri):
     driver.execute_query(
         '''
-        MERGE (n:LearningOutcome {learning_outcome: $learning_outcome})
-        RETURN n
+        MATCH (lo:LearningOutcome {learning_outcome: $learning_outcome})
+        MATCH (skill:Skill {uri: $skill_uri})
+        MERGE (lo)-[r:has_skill]->(skill)
+        RETURN r
         ''',
-        learning_outcome=learning_outcome, database_="neo4j"
+        learning_outcome=learning_outcome, skill_uri=skill_uri, database_="neo4j"
     )
+
+
+def process_occupation_skill_link(driver, df):
+    for _, r in df.iterrows():
+        if pd.notna(r['essential_skills']):
+            essential_skills = r['essential_skills'].split(',')
+            for skill_uri in essential_skills:
+                link_occupation_skill(driver, r['uri'], skill_uri.strip(), 'essential')
+
+        if pd.notna(r['essential_knowledge']):
+            essential_knowledge = r['essential_knowledge'].split(',')
+            for knowledge_uri in essential_knowledge:
+                link_occupation_skill(driver, r['uri'], knowledge_uri.strip(), 'essential')
+
+        if pd.notna(r['optional_skills']):
+            optional_skills = r['optional_skills'].split(',')
+            for skill_uri in optional_skills:
+                link_occupation_skill(driver, r['uri'], skill_uri.strip(), 'optional')
+
+        if pd.notna(r['optional_knowledge']):
+            optional_knowledge = r['optional_knowledge'].split(',')
+            for knowledge_uri in optional_knowledge:
+                link_occupation_skill(driver, r['uri'], knowledge_uri.strip(), 'optional')
+
+
+def process_module_learning_outcome_link(driver, df):
+    for _, r in df.iterrows():
+        module_title = r['Module Title']
+        learning_outcome = r['Learning Outcome']
+        link_module_learning_outcome(driver, module_title, learning_outcome)
+
+
+def process_learning_outcome_skill_link(driver, df):
+    for _, r in df.iterrows():
+        if pd.notna(r['Promoted skill']):
+            skills_uris = r['Promoted skill'].split(',')
+            for uri in skills_uris:
+                link_learning_objective_skill(driver, r['Learning Outcome'], uri.strip())
+        if pd.notna(r['Promoted knowledge']):
+            knowledge_uris = r['Promoted knowledge'].split(',')
+            for uri in knowledge_uris:
+                link_learning_objective_skill(driver, r['Learning Outcome'], uri.strip())
+
 
 with GraphDatabase.driver(URI_NEO4J, auth=AUTH) as d:
-    # read modules.csv and ignore Nan values
-    modules_df = pd.read_csv('./csv/modules.csv').fillna('')
-    for _, module_row in modules_df.iterrows():
-        add_module(d, module_row['Individual Name'], module_row['Course_Link'], module_row['Course_Title'],
-                   module_row['Course_Description'], module_row['Course_Type'], module_row['Course_Comment'],
-                   module_row['Course_Competency_to_be_achieved'], module_row['Course_Content'])
-    # read learning_outcomes.csv and ignore Nan values
-    learning_outcomes_df = pd.read_csv('./csv/learning_outcomes.csv').fillna('')
-    for _, learning_outcome_row in learning_outcomes_df.iterrows():
-        add_learning_outcome(d, learning_outcome_row['Learning Outcome'])
+    skills_df = pd.read_csv(SKILLS_CSV)
+    for _, row in skills_df.iterrows():
+        add_skill(d, row['title'], 'skill', row['index'], row['description'], row['uri'])
+
+    knowledge_df = pd.read_csv(KNOWLEDGE_CSV)
+    for _, row in knowledge_df.iterrows():
+        add_skill(d, row['title'], 'knowledge', row['index'], row['description'], row['uri'])
+
+    occupations_df = pd.read_csv(OCCUPATIONS_CSV)
+    for _, row in occupations_df.iterrows():
+        add_occupation(d, row['occupation'], row['uri'], row['description'])
+
+    learning_outcomes_df = pd.read_csv(LEARNING_OUTCOMES_CSV)
+    for _, row in learning_outcomes_df.iterrows():
+        add_learning_outcome(d, row['Learning Outcome'], row['Module Title'])
+
+    modules_df = pd.read_csv(MODULES_CSV)
+    for _, row in modules_df.iterrows():
+        course_comment = row['Course_Comment']
+        if pd.isna(course_comment):
+            course_comment = ""
+        add_module(d, row['Individual Name'], row['Course_Link'], row['Course_Title'], row['Course_Description'],
+                   row['Course_Type'], course_comment, row['Course_Competency_to_be_achieved'],
+                   row['Course_Content'])
+
+    process_module_learning_outcome_link(d, learning_outcomes_df)
+    process_learning_outcome_skill_link(d, learning_outcomes_df)
+    process_occupation_skill_link(d, occupations_df)
