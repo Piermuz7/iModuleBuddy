@@ -1,4 +1,5 @@
 import requests
+import pandas as pd
 
 API_OCCUPATION_URL = 'https://ec.europa.eu/esco/api/resource/occupation'
 API_SKILL_URL = 'https://ec.europa.eu/esco/api/resource/skill'
@@ -108,6 +109,70 @@ def gather_occupations(uri):
     if 'hasEssentialSkill' in json_data.get('_links', {}):
         occupation = build_occupation(json_data)
         occupations.append(occupation)
-
+        print(occupation.title + ' DONE')
     return occupations
 
+
+def save_to_csv(occupations):
+    # Create two dictionaries to store unique skills and knowledge
+    skills_dict = {}
+    knowledge_dict = {}
+
+    # Iterate over each occupation
+    for occupation in occupations:
+        # Combine essential and optional skills
+        all_skills = occupation.skills + occupation.optional_skills
+
+        for skill in all_skills:
+            if skill.skill_type == 'skill':
+                # Add to skills dictionary if not already present
+                if skill.title not in skills_dict:
+                    skills_dict[skill.title] = skill
+            elif skill.skill_type == 'knowledge':
+                # Add to knowledge dictionary if not already present
+                if skill.title not in knowledge_dict:
+                    knowledge_dict[skill.title] = skill
+
+    # Sort the skills and knowledge alphabetically, case-insensitive
+    sorted_skills = sorted(skills_dict.values(), key=lambda s: s.title.lower())
+    sorted_knowledge = sorted(knowledge_dict.values(), key=lambda k: k.title.lower())
+
+    # Create DataFrames for skills and knowledge with indexing, descriptions, and URIs
+    skills_data = {
+        'index': [f'S{i + 1}' for i in range(len(sorted_skills))],
+        'title': [skill.title for skill in sorted_skills],
+        'description': [skill.description for skill in sorted_skills],
+        'uri': [skill.uri for skill in sorted_skills]
+    }
+    skills_df = pd.DataFrame(skills_data)
+
+    knowledge_data = {
+        'index': [f'K{i + 1}' for i in range(len(sorted_knowledge))],
+        'title': [knowledge.title for knowledge in sorted_knowledge],
+        'description': [knowledge.description for knowledge in sorted_knowledge],
+        'uri': [knowledge.uri for knowledge in sorted_knowledge]
+    }
+    knowledge_df = pd.DataFrame(knowledge_data)
+
+    # Create occupation CSV
+    occupations_data = []
+    for occupation in occupations:
+        essential_skills_uris = [sk.uri for sk in occupation.skills if sk.skill_type == 'skill']
+        essential_knowledge_uris = [kn.uri for kn in occupation.skills if kn.skill_type == 'knowledge']
+        optional_skills_uris = [sk.uri for sk in occupation.optional_skills if sk.skill_type == 'skill']
+        optional_knowledge_uris = [kn.uri for kn in occupation.optional_skills if kn.skill_type == 'knowledge']
+
+        occupations_data.append({
+            'occupation': occupation.title,
+            'uri': occupation.uri,
+            'description': occupation.description,
+            'essential_skills': ','.join(essential_skills_uris),
+            'essential_knowledge': ','.join(essential_knowledge_uris),
+            'optional_skills': ','.join(optional_skills_uris),
+            'optional_knowledge': ','.join(optional_knowledge_uris)
+        })
+
+    occupations_df = pd.DataFrame(occupations_data)
+    skills_df.to_csv('skills.csv', index=False)
+    knowledge_df.to_csv('knowledge.csv', index=False)
+    occupations_df.to_csv('occupations.csv', index=False)
