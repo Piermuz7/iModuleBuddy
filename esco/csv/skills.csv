@@ -1,455 +1,464 @@
-index,skill
-S1,acquire system component
-S2,adapt to changes in technological development plans
-S3,adapt to changing situations
-S4,address problems critically
-S5,adhere to organisational guidelines
-S6,adjust ICT system capacity
-S7,administer ICT system
-S8,advice on security risk management
-S9,advise client on technical possibilities
-S10,advise on environmental remediation
-S11,advise on safety improvements
-S12,advise on strengthening security
-S13,align software with system architectures
-S14,analyse big data
-S15,analyse blockchain use cases
-S16,analyse business processes
-S17,analyse business requirements
-S18,analyse decentralised applications
-S19,analyse ICT system
-S20,analyse network bandwidth requirements
-S21,analyse network configuration and performance
-S22,analyse pipeline database information
-S23,analyse software specifications
-S24,analyse the context of an organisation
-S25,apply 3D imaging techniques
-S26,apply blended learning
-S27,apply business acumen
-S28,apply change management
-S29,apply company policies
-S30,apply conflict management
-S31,apply control process statistical methods
-S32,apply for research funding
-S33,apply ICT system usage policies
-S34,apply ICT systems theory
-S35,apply information security policies
-S36,apply operations for an ITIL-based environment
-S37,apply research ethics and scientific integrity principles in research activities
-S38,apply reverse engineering
-S39,apply risk management processes
-S40,apply social media marketing
-S41,apply statistical analysis techniques
-S42,apply system organisational policies
-S43,apply systemic design thinking
-S44,apply technical communication skills
-S45,apply tools for content development
-S46,assess ICT knowledge
-S47,assess users' interaction with ICT applications
-S48,assist multimedia operator
-S49,attend to detail in preparation for audits
-S50,attend to ICT systems quality
-S51,automate cloud tasks
-S52,balance database resources
-S53,build business relationships
-S54,build predictive models
-S55,build recommender systems
-S56,carry out statistical forecasts
-S57,coach employees
-S58,collaborate with engineers
-S59,collect customer feedback on applications
-S60,collect cyber defence data
-S61,collect ICT data
-S62,communicate analytical insights
-S63,communicate with a non-scientific audience
-S64,communicate with customers
-S65,communicate with stakeholders
-S66,compile content
-S67,comply with legal regulations
-S68,compose description for web elements
-S69,compose digital game story
-S70,conduct content quality assurance
-S71,conduct ICT code review
-S72,conduct impact evaluation of ICT processes on business
-S73,conduct literature research
-S74,conduct qualitative research
-S75,conduct quantitative research
-S76,conduct research across disciplines
-S77,conduct research interview
-S78,conduct scholarly research
-S79,conduct search engine optimisation
-S80,configure ICT system
-S81,consult with business clients
-S82,coordinate engineering teams
-S83,coordinate technological activities
-S84,cope with stress
-S85,create business process models
-S86,create concept of digital game
-S87,create content title
-S88,create data models
-S89,create data sets
-S90,create database diagrams
-S91,create flowchart diagram
-S92,create game testing software
-S93,create incident reports
-S94,create project specifications
-S95,create prototype of user experience solutions
-S96,create semantic trees
-S97,create software design
-S98,create solutions to problems
-S99,create website wireframe
-S100,creatively use digital technologies
-S101,debug software
-S102,define data quality criteria
-S103,define database physical structure
-S104,define firewall rules
-S105,define ICT network design policies
-S106,define integration strategy
-S107,define organisational standards
-S108,define quality standards
-S109,define roadmap for blockchain in applications
-S110,define security policies
-S111,define software architecture
-S112,define technical requirements
-S113,define technology strategy
-S114,deliver visual presentation of data
-S115,demonstrate disciplinary expertise
-S116,demonstrate functionality of video games
-S117,deploy cloud resource
-S118,deploy ICT systems
-S119,design application interfaces
-S120,design cloud architecture
-S121,design cloud networks
-S122,design component interfaces
-S123,design computer network
-S124,design database backup specifications
-S125,design database in the cloud
-S126,design database scheme
-S127,design digital call to action
-S128,design enterprise architecture
-S129,design for organisational complexity
-S130,design graphics
-S131,design ICT hardware placement
-S132,design information system
-S133,design interaction model
-S134,design process
-S135,design process for blockchain-based systems
-S136,design user interface
-S137,develop audit plan
-S138,develop automated migration methods
-S139,develop automated software tests
-S140,develop blockchain innovative architectures
-S141,develop blockchain technology
-S142,develop code exploits
-S143,develop computer vision system
-S144,develop contingency plans for emergencies
-S145,develop creative ideas
-S146,develop data processing applications
-S147,develop digital content
-S148,develop documentation in accordance with legal requirements
-S149,develop financial statistics reports
-S150,develop food scanner devices
-S151,develop ICT device driver
-S152,develop ICT test suite
-S153,develop ICT workflow
-S154,develop information security strategy
-S155,develop information standards
-S156,develop professional network
-S157,develop professional network with researchers and scientists
-S158,develop reporting software
-S159,develop software prototype
-S160,develop statistical software
-S161,develop strategy to solve problems
-S162,develop virtual game engine
-S163,develop with cloud services
-S164,disseminate results to the scientific community
-S165,do cloud refactoring
-S166,draft scientific or academic papers and technical documentation
-S167,draw design sketches
-S168,educate on data confidentiality
-S169,engage with stakeholders
-S170,enhance website visibility
-S171,ensure adherence to organisational ICT standards
-S172,ensure compliance with company regulations
-S173,ensure compliance with environmental legislation
-S174,ensure compliance with legal requirements
-S175,ensure cross-department cooperation
-S176,ensure equipment availability
-S177,ensure information privacy
-S178,ensure information security
-S179,ensure proper document management
-S180,establish an ICT security prevention plan
-S181,establish an Information Security Management System
-S182,establish data processes
-S183,estimate duration of work
-S184,evaluate blockchain architectures
-S185,evaluate research activities
-S186,execute analytical mathematical calculations
-S187,execute email marketing
-S188,execute feasibility study
-S189,execute ICT audits
-S190,execute ICT user research activities
-S191,execute integration testing
-S192,execute social engineering tests
-S193,execute software tests
-S194,explain blockchain implications
-S195,explain distributed ledger technologies principles
-S196,follow company standards
-S197,follow work procedures
-S198,forecast future ICT network needs
-S199,forecast organisational risks
-S200,forecast workload
-S201,gather data for forensic purposes
-S202,give live presentation
-S203,handle cybersecurity incidents
-S204,handle data samples
-S205,identify blockchain innovation opportunities
-S206,identify customer requirements
-S207,identify ICT security risks
-S208,identify ICT system weaknesses
-S209,identify ICT user needs
-S210,identify legal requirements
-S211,identify processes for re-engineering
-S212,identify software for warehouse management
-S213,identify suppliers
-S214,identify technological needs
-S215,implement a firewall
-S216,implement a management system
-S217,implement a virtual private network
-S218,implement anti-virus software
-S219,implement cloud security and compliance
-S220,implement corporate governance
-S221,implement cryptographic constructs
-S222,implement data quality processes
-S223,implement data warehousing techniques
-S224,implement front-end website design
-S225,implement ICT network diagnostic tools
-S226,implement ICT recovery system
-S227,implement ICT risk management
-S228,implement ICT security policies
-S229,implement smart contracts
-S230,implement spam protection
-S231,implement strategic planning
-S232,improve business processes
-S233,increase the impact of science on policy and society
-S234,inform on workplace safety standards
-S235,innovate in ICT
-S236,install electronic communication equipment
-S237,install signal repeaters
-S238,integrate content into output media
-S239,integrate gender dimension in research
-S240,integrate ICT data
-S241,integrate system components
-S242,interact professionally in research and professional environments
-S243,interact with users to gather requirements
-S244,interpret current data
-S245,interpret electronic design specifications
-S246,interpret technical requirements
-S247,interpret technical texts
-S248,keep task records
-S249,keep up with the latest information systems solutions
-S250,lead disaster recovery exercises
-S251,liaise with managers
-S252,maintain database performance
-S253,maintain database security
-S254,maintain ICT identity management
-S255,maintain ICT server
-S256,maintain ICT system
-S257,maintain information network hardware
-S258,maintain internet protocol configuration
-S259,maintain plan for continuity of operations
-S260,maintain relationship with customers
-S261,make data-driven decisions
-S262,make strategic business decisions
-S263,manage a team
-S264,manage budgets
-S265,manage business knowledge
-S266,manage changes in ICT system
-S267,manage cloud data and storage
-S268,manage content development projects
-S269,manage content metadata
-S270,manage contracts
-S271,manage data
-S272,manage data collection systems
-S273,manage data for legal matters
-S274,manage database
-S275,manage digital documents
-S276,manage digital identity
-S277,manage disaster recovery plans
-S278,manage email hosting service
-S279,manage engineering project
-S280,manage environmental impact of operations
-S281,manage findable accessible interoperable and reusable data
-S282,manage ICT change request process
-S283,manage ICT data architecture
-S284,manage ICT data classification
-S285,manage ICT legacy implication
-S286,manage ICT project
-S287,manage ICT semantic integration
-S288,manage ICT virtualisation environments
-S289,manage intellectual property rights
-S290,manage IT security compliances
-S291,manage keys for data protection
-S292,manage localisation
-S293,manage online content
-S294,manage open publications
-S295,manage personal professional development
-S296,manage quantitative data
-S297,manage research data
-S298,manage schedule of tasks
-S299,manage software releases
-S300,manage staff
-S301,manage standard enterprise resource planning system
-S302,manage standards for data exchange
-S303,manage system security
-S304,manage system testing
-S305,measure customer feedback
-S306,measure software usability
-S307,mentor individuals
-S308,migrate existing data
-S309,monitor communication channels' performance
-S310,monitor developments in field of expertise
-S311,monitor ICT research
-S312,monitor system performance
-S313,monitor technology trends
-S314,normalise data
-S315,operate open source software
-S316,operate relational database management system
-S317,optimise choice of ICT solution
-S318,outline blockchain-based identity management
-S319,oversee development of software
-S320,oversee quality control
-S321,perform backups
-S322,perform business analysis
-S323,perform contract compliance audits
-S324,perform copywriting
-S325,perform data analysis
-S326,perform data cleansing
-S327,perform data mining
-S328,perform dimensionality reduction
-S329,perform forensic preservations of digital devices
-S330,perform ICT security testing
-S331,perform ICT troubleshooting
-S332,perform market research
-S333,perform online data analysis
-S334,perform procurement processes
-S335,perform project management
-S336,perform quality audits
-S337,perform resource planning
-S338,perform risk analysis
-S339,perform scientific research
-S340,perform software recovery testing
-S341,perform software unit testing
-S342,plan digital marketing
-S343,plan ICT capacity
-S344,plan migration to cloud
-S345,plan research process
-S346,plan software testing
-S347,prepare financial auditing reports
-S348,prepare licence agreements
-S349,present evidence
-S350,process data
-S351,program a CNC controller
-S352,promote environmental awareness
-S353,promote open innovation in research
-S354,promote the participation of citizens in scientific and research activities
-S355,promote the transfer of knowledge
-S356,proofread text
-S357,propose ICT solutions to business problems
-S358,protect ICT devices
-S359,protect personal data and privacy
-S360,provide connected car solutions
-S361,provide cost benefit analysis reports
-S362,provide guidelines for content development
-S363,provide ICT consulting advice
-S364,provide ICT support
-S365,provide ICT system training
-S366,provide information
-S367,provide multimedia content
-S368,provide software testing documentation
-S369,provide technical training
-S370,provide training on technological business developments
-S371,provide user documentation
-S372,provide written content
-S373,publish academic research
-S374,read standard blueprints
-S375,recognise blockchain application areas
-S376,recognise blockchain risks
-S377,remove computer virus or malware from a computer
-S378,render 3D images
-S379,replicate customer software issues
-S380,report analysis results
-S381,report on environmental issues
-S382,report test findings
-S383,respond to customers' inquiries
-S384,respond to incidents in cloud
-S385,review development process of an organisation
-S386,secure sensitive customer's information
-S387,set quality assurance objectives
-S388,set up cybersecurity training programmes
-S389,set up the controller of a machine
-S390,solve ICT system problems
-S391,speak different languages
-S392,store digital data and systems
-S393,study website behaviour patterns
-S394,support ICT system users
-S395,synthesise information
-S396,synthesise research publications
-S397,teach in academic or vocational contexts
-S398,tend lathe
-S399,test for behavioural patterns
-S400,test for emotional patterns
-S401,test ICT queries
-S402,test system accessibility for users with special needs
-S403,think abstractly
-S404,track key performance indicators
-S405,train employees
-S406,translate requirement concepts into content
-S407,translate requirements into visual design
-S408,troubleshoot
-S409,use access control software
-S410,use an application-specific interface
-S411,use automatic programming
-S412,use back-up and recovery tools
-S413,use CAD software
-S414,use CAM software
-S415,use computer-aided engineering systems
-S416,use concurrent programming
-S417,use content management system software
-S418,use customer relationship management software
-S419,use data processing techniques
-S420,use databases
-S421,use different communication channels
-S422,use e-services
-S423,use experience map
-S424,use functional programming
-S425,use ICT hardware
-S426,use ICT ticketing system
-S427,use interface description language
-S428,use logic programming
-S429,use markup languages
-S430,use measurement instruments
-S431,use methodologies for user-centered design
-S432,use object-oriented programming
-S433,use personal organization software
-S434,use presentation software
-S435,use query languages
-S436,use scripting programming
-S437,use software design patterns
-S438,use software for data preservation
-S439,use software libraries
-S440,use spreadsheets software
-S441,use technical documentation
-S442,use technical drawing software
-S443,use technology for forensics
-S444,use word processing software
-S445,utilise computer-aided software engineering tools
-S446,utilise content types
-S447,utilise decision support system
-S448,utilise machine learning
-S449,utilise regular expressions
-S450,verify formal ICT specifications
-S451,write database documentation
-S452,write research proposals
-S453,write scientific publications
-S454,write work-related reports
+index,title,description,uri
+S1,acquire system component,"Obtain hardware, software or network components which match other system components in order to expand it and perform necessary tasks.",http://data.europa.eu/esco/skill/90be83d9-56f1-46a4-a6bc-96c51f6c9025
+S2,adapt to changes in technological development plans,Modify the current design and development activities of technological projects to meet changes in requests or strategies. Ensure that the organisation's or client's needs are met and that any sudden requests which were not previously planned are implemented.,http://data.europa.eu/esco/skill/f5308e60-d763-4ead-be95-88c96fb3e02b
+S3,adapt to changing situations,"Change approach to situations based on unexpected and sudden changes in people's needs and mood or in trends; shift strategies, improvise and naturally adapt to those circumstances.",http://data.europa.eu/esco/skill/5592ab32-4e7a-4cda-8e64-ca36d5de8a10
+S4,address problems critically,"Identify the strengths and weaknesses of various abstract, rational concepts, such as issues, opinions, and approaches related to a specific problematic situation in order to formulate solutions and alternative methods of tackling the situation.",http://data.europa.eu/esco/skill/b9f16465-56a9-426b-a047-0f9f1f95ec92
+S5,adhere to organisational guidelines,Adhere to organisational or department specific standards and guidelines. Understand the motives of the organisation and the common agreements and act accordingly.,http://data.europa.eu/esco/skill/aa238394-8126-4ada-be2f-9dfe065cf314
+S6,adjust ICT system capacity,"Change the scope of an ICT system by adding or reallocating additional ICT system components, such as network components, servers or storage to meet capacity or volume demands.",http://data.europa.eu/esco/skill/b1604a2d-c26a-427d-bda9-b8073a319fe9
+S7,administer ICT system,"Handle components of ICT system by maintaining configuration, managing users, monitoring resource use, performing backups and installing hardware or software to comply with the set requirements.",http://data.europa.eu/esco/skill/0868eef3-2213-4572-9343-74931345a7d3
+S8,advice on security risk management,"Provide advice on security risk management policies and prevention strategies and their implementation, being aware of the different kinds of security risks a specific organisation faces.",http://data.europa.eu/esco/skill/e71c6cee-7247-49f4-829a-141c880ae938
+S9,advise client on technical possibilities,"Recommend technical solutions, including systems, to the client within the framework of a project.",http://data.europa.eu/esco/skill/7b3abd38-61ae-42a4-88bb-0884784f9ee1
+S10,advise on environmental remediation,Advise on the development and implementation of actions which aim to remove sources of pollution and contamination from the environment.,http://data.europa.eu/esco/skill/b422efe7-b151-4120-86ae-db11a48dd0fa
+S11,advise on safety improvements,Provide relevant recommendations following the conclusion of an investigation; ensure that recommendations are duly considered and where appropriate acted upon.,http://data.europa.eu/esco/skill/37838e04-ac5f-43a5-82d0-35f42351fd60
+S12,advise on strengthening security,Provide information and guidance to clients on how to prevent security threats and incidents.,http://data.europa.eu/esco/skill/370ebe1f-55a5-424f-a44e-f3c19222d63b
+S13,align software with system architectures,Put system design and technical specifications in line with software architecture in order to ensure the integration and interoperability between components of the system.,http://data.europa.eu/esco/skill/2857540c-180b-4208-9127-e94a01871966
+S14,analyse big data,"Collect and evaluate numerical data in large quantities, especially for the purpose of identifying patterns between the data.",http://data.europa.eu/esco/skill/47a49cd6-097d-457a-9f7b-c290c14930d5
+S15,analyse blockchain use cases,"Analyse blockchain use cases in different sectors against their needs in terms of blockchain technology and architecture. Particularly, key blockchain use cases in Business, Finance and Banking such as International Payments, Peer-to-Peer Transactions, Capital Markets, Trade Finance or Regulatory Finance and Audit. ",http://data.europa.eu/esco/skill/41f2f9bf-1440-49f7-bbb1-2c3c3ea93f76
+S16,analyse business processes,Study the contribution of the work processes to the business goals and monitor their efficiency and productivity.,http://data.europa.eu/esco/skill/56042303-972b-41be-9310-58467599ff7e
+S17,analyse business requirements,Study clients' needs and expectations for a product or service in order to identify and resolve inconsistencies and possible disagreements of involved stakeholders.,http://data.europa.eu/esco/skill/b04f377b-ee80-4b38-aca1-19d266a23b17
+S18,analyse decentralised applications,"Analyse decentralized applications for their specific performance requirements in terms of key functions and properties such as identify management, access control, data security, transparency, performance, scalability, and maintainability.",http://data.europa.eu/esco/skill/0e5affa0-705e-4b19-94e8-19e902e0287d
+S19,analyse ICT system,"Analyse the functioning and performance of information systems in order to define their goals, architecture and services and set procedures and operations to meet end users requirements.",http://data.europa.eu/esco/skill/7adb8473-bcc6-4ff8-9850-76d945d40092
+S20,analyse network bandwidth requirements,Study the requirements on the transmission capacity of an ICT network or other telecommunication system.,http://data.europa.eu/esco/skill/da042121-959d-451b-b4d0-3bbf07c1bc67
+S21,analyse network configuration and performance,"Analyse essential network data (e.g., router configuration files, routing protocols), network traffic capacity and performance characteristics of ICT networks, such as wide area network and local area network, that connect computers using cable or wireless connections and allow them to exchange data.",http://data.europa.eu/esco/skill/545c80e8-7ab2-42fe-af64-242211e94709
+S22,analyse pipeline database information,"Retrieve and analyse different types of information extracted from the databases of pipelines companies. Analyse information such as risks, project management KPIs (key performance indicators), goods transportation times, and document back-up processes.",http://data.europa.eu/esco/skill/484d048c-a5d1-46a5-b57f-45b69c0ac552
+S23,analyse software specifications,"Assess the specifications of a software product or system to be developed by identifying functional and non-functional requirements, constraints and possible sets of use cases which illustrate interactions between the software and its users.",http://data.europa.eu/esco/skill/f28617ad-afdd-4041-814c-216153a38998
+S24,analyse the context of an organisation,Study the external and internal environment of an organisation by identifying its strengths and weaknesses in order to provide a base for company strategies and further planning.,http://data.europa.eu/esco/skill/9714735d-6f60-440b-bdbc-aaf45ebcbe78
+S25,apply 3D imaging techniques,"Implement a variety of techniques such as digital sculpting, curve modelling and 3D scanning to create, edit, preserve and use 3D images, such as point clouds, 3D vector graphic and 3D surface shapes.",http://data.europa.eu/esco/skill/1859883d-c047-4fe1-8e74-7bb4385d6ad2
+S26,apply blended learning,"Be familiar with blended learning tools by combining traditional face-to-face and online learning, using digital tools, online technologies,  and e-learning methods.",http://data.europa.eu/esco/skill/b363bb5f-2c79-40af-94da-33e06f9dee9f
+S27,apply business acumen,Take appropriate actions in a business environment in order to maximise possible outcome from each situation.,http://data.europa.eu/esco/skill/4ddf5204-95f5-4be2-ad35-571e2f493ae5
+S28,apply change management,Manage development within an organisation by anticipating changes and making managerial decisions to ensure that the members involved are as less disturbed as possible.,http://data.europa.eu/esco/skill/3c03ee71-4a23-448f-b79e-81fd75d27dca
+S29,apply company policies,Apply the principles and rules that govern the activities and processes of an organisation.,http://data.europa.eu/esco/skill/0a43729f-2a79-4dae-9faa-95520daae79f
+S30,apply conflict management,"Take ownership of the handling of all complaints and disputes showing empathy and understanding to achieve resolution. Be fully aware of all Social Responsibility protocols and procedures, and be able to deal with a problematic gambling situation in a professional manner with maturity and empathy.",http://data.europa.eu/esco/skill/0ee94af1-b445-4973-9c3f-459fab250342
+S31,apply control process statistical methods,Apply statistical methods from Design of Experiments (DOE) and Statistical Process Control (SPC) in order to control manufacturing processes.,http://data.europa.eu/esco/skill/ee8fee1a-75c1-43fb-b08d-779929f99249
+S32,apply for research funding,Identify key relevant funding sources and prepare research grant application in order to obtain funds and grants. Write research proposals.,http://data.europa.eu/esco/skill/5f0082ab-2131-49b5-94d6-a1821daf57d6
+S33,apply ICT system usage policies,Follow written and ethical laws and policies regarding proper ICT system usage and administration.,http://data.europa.eu/esco/skill/9707091a-323b-4240-877a-5999a19286f0
+S34,apply ICT systems theory,Implement principles of ICT systems theory in order to explain and document system characteristics that can be applied universally to other systems,http://data.europa.eu/esco/skill/cbe2c304-1e7d-489a-97d9-a7d3e37a9db6
+S35,apply information security policies,"Implement policies, methods and regulations for data and information security in order to respect confidentiality, integrity and availability principles.",http://data.europa.eu/esco/skill/86d2e2ea-1ba2-4aa6-b465-8a1f9abc81b8
+S36,apply operations for an ITIL-based environment,Properly operate ITIL (Information Technology Infrastructure Library) based service desk procedures.,http://data.europa.eu/esco/skill/d12e9d68-84c5-444e-aa98-d36533bf03f6
+S37,apply research ethics and scientific integrity principles in research activities,"Apply fundamental ethical principles and legislation to scientific research, including issues of research integrity. Perform, review, or report research avoiding misconducts such as fabrication, falsification, and plagiarism.",http://data.europa.eu/esco/skill/833289fa-3646-4010-9d9e-93ba8c9ef2d8
+S38,apply reverse engineering,"Use techniques to extract information or disassemble an ICT component, software or system in order to analyse, correct and reassemble or reproduce it.",http://data.europa.eu/esco/skill/a7a14be2-78b5-4b4a-ba77-2658285e2756
+S39,apply risk management processes,"Identify risks and apply a risk management process, e.g. hazard analysis and critical control points (HACCP).",http://data.europa.eu/esco/skill/96550830-539b-4746-96aa-92aa4959945d
+S40,apply social media marketing,"Employ website traffic of social media such as Facebook and Twitter to generate attention and participation of existing and potential customers through discussion forums, web logs, microblogging and social communities for gaining a quick overview or insight into topics and opinions in the social web and handle inbound leads or inquiries.",http://data.europa.eu/esco/skill/64e09849-a7db-4d6b-a932-66264420eb97
+S41,apply statistical analysis techniques,"Use models (descriptive or inferential statistics) and techniques (data mining or machine learning) for statistical analysis and ICT tools to analyse data, uncover correlations and forecast trends.",http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c
+S42,apply system organisational policies,"Implement internal policies related to the development, internal and external usage of technological systems, such as software systems, network systems and telecommunications systems, in order to achieve a set of goals and targets regarding the efficient operations and growth of an organisation.",http://data.europa.eu/esco/skill/07e47d58-dd0e-4302-9e68-70a188e89065
+S43,apply systemic design thinking,"Apply the process of combining systems thinking methodologies with human-centred design in order to solve complex societal challenges in an innovative and sustainable way. This is most often applied in social innovation practices that focus less on designing stand-alone products and services to designing complex service systems, organizations or policies that bring value to the society as a whole.",http://data.europa.eu/esco/skill/4d30ad07-9e39-4899-81dd-02b280f162f9
+S44,apply technical communication skills,"Explain technical details to non-technical customers, stakeholders, or any other interested parties in a clear and concise manner.",http://data.europa.eu/esco/skill/c32ad607-0c4d-4e34-b73f-668298f7bf13
+S45,apply tools for content development,"Use specialised content development tools such as content and terminology management systems, translation memory systems, language checker and editors to generate, compile and transform content according to specified standards.",http://data.europa.eu/esco/skill/37a438f3-e28c-4e32-83c5-299f047c1dc9
+S46,assess ICT knowledge,Evaluate the implicit mastery of skilled experts in an ICT system to make it explicit for further analysis and usage.,http://data.europa.eu/esco/skill/0dc7aa1b-b5af-4f4b-81ce-ee22ed8b6926
+S47,assess users' interaction with ICT applications,"Evaluate how users interact with ICT applications in order to analyse their behaviour, draw conclusions (for instance about their motives, expectations and goals) and improve applications' functionalities.",http://data.europa.eu/esco/skill/465e7c78-cd26-4503-a5ca-40009e807705
+S48,assist multimedia operator,Take over tasks from the multimedia operator as required. Call cues for the multimedia operator or operate the multimedia equipment yourself.,http://data.europa.eu/esco/skill/af8ca5cf-7fd1-4275-a886-e951c335d497
+S49,attend to detail in preparation for audits,"Ensure constant compliance with standards and requirements, such as keeping certifications up to date and monitoring activities to ensure correct procedures are followed, so that audits can occur smoothly and no negative aspects can be identified.",http://data.europa.eu/esco/skill/26baf34d-6721-4bac-b7eb-add0bc566a82
+S50,attend to ICT systems quality,"Ensure correct operations which comply fully with specific needs and outcomes in terms of the development, integration, security and overall management of ICT systems.",http://data.europa.eu/esco/skill/7f0b1a66-ebaf-4c8a-b606-4c1844eb692e
+S51,automate cloud tasks,Automate manual or repeatable processes to minimize management overhead. Evaluate cloud automation alternatives for network deployments and tool-based alternatives for network operations and management. ,http://data.europa.eu/esco/skill/ce8ae6ca-61d8-4174-b457-641de96cbff4
+S52,balance database resources,"Stabilise the workload and resources of a database, by controlling the demand of transactions, allocating disk spaces and ensuring reliability of the servers in order to optimise cost and risk ratio.",http://data.europa.eu/esco/skill/9ba8fd27-275d-4bad-8c48-f668aa99a578
+S53,build business relationships,"Establish a positive, long-term relationship between organisations and interested third parties such as suppliers, distributors, shareholders and other stakeholders in order to inform them of the organisation and its objectives.",http://data.europa.eu/esco/skill/dc72ad0a-c5dc-4abd-bc0d-ca43e82162e1
+S54,build predictive models,Create models to predict the probability of an outcome.,http://data.europa.eu/esco/skill/38d49d88-9069-467b-b29e-3cae739bdd4d
+S55,build recommender systems,Construct recommendation systems based on large data sets using programming languages or computer tools to create a subclass of information filtering system that seeks to predict the rating or preference a user gives to an item.,http://data.europa.eu/esco/skill/505e4ef3-7ce4-437d-b7b4-5c608f71c258
+S56,carry out statistical forecasts,"Undertake a systematic statistical examination of data representing past observed behaviour of the system to be forecast, including observations of useful predictors outside the system.",http://data.europa.eu/esco/skill/be727774-46d7-43d7-aee9-1a51b5cd8c71
+S57,coach employees,"Maintain and improve employees' performance by coaching individuals or groups how to optimise specific methods, skills or abilities, using adapted coaching styles and methods. Tutor newly recruited employees and assist them in the learning of new business systems.",http://data.europa.eu/esco/skill/0cc9c234-f817-4f4c-908a-4d28fe3b0f4a
+S58,collaborate with engineers,Work closely and communicate with engineers on designs or new products.,http://data.europa.eu/esco/skill/94b2c46e-6338-4a1d-950a-d44eef018c53
+S59,collect customer feedback on applications,Gather a response and analyse data from customers to identify requests or problems in order to improve applications and overall customer satisfaction.,http://data.europa.eu/esco/skill/71746a0b-e58d-4dc4-ad03-bd84082eae21
+S60,collect cyber defence data,"Collect data for cyber defence using various data collection tools. Data may be gathered from a number of internal or external sources such as online trade records, DNS request logs, email servers' logs, digital communications packet capturing, deep web resources, etc.",http://data.europa.eu/esco/skill/fcbb3a90-cdde-49ff-9ecc-8e2c0a6dfca2
+S61,collect ICT data,Gather data by designing and applying search and sampling methods.,http://data.europa.eu/esco/skill/79e29b8b-47d1-470d-b7b1-32506bfe7d9a
+S62,communicate analytical insights,"Obtain analytical insights and share them with relevant teams, in order to enable them to optimise supply chain (SC) operations and planning.",http://data.europa.eu/esco/skill/f263da7f-0708-42c2-b1a9-39083416f632
+S63,communicate with a non-scientific audience,"Communicate about scientific findings to a non-scientific audience, including the general public. Tailor the communication of scientific concepts, debates, findings to the audience, using a variety of methods for different target groups, including visual presentations.
+",http://data.europa.eu/esco/skill/ff64e9fc-36dd-4035-872a-83aa41dc1ad9
+S64,communicate with customers,"Respond to and communicate with customers in the most efficient and appropriate manner to enable them to access the desired products or services, or any other help they may require.",http://data.europa.eu/esco/skill/0da516ee-e70e-4384-be13-f5ff80be8127
+S65,communicate with stakeholders,"Facilitate communication between organisations and interested third parties such as suppliers, distributors, shareholders and other stakeholders in order to inform them of the organisation and its objectives.",http://data.europa.eu/esco/skill/477173ca-5fc2-406b-9122-95d92811f284
+S66,compile content,"Retrieve, select and organise content from specific sources, according to the requirements of the output media such as printed materials, online applications, platforms, websites and video.",http://data.europa.eu/esco/skill/96a67da1-881f-4d09-927e-ac75fcff4d93
+S67,comply with legal regulations,"Ensure you are properly informed of the legal regulations that govern a specific activity and adhere to its rules, policies and laws.",http://data.europa.eu/esco/skill/3d3ee5c3-4286-457f-9f76-1704011f7e11
+S68,compose description for web elements,"Create texts to convey the message of a web element, such as images or frames, even in cases when it cannot be displayed to the user.",http://data.europa.eu/esco/skill/e8d9ce55-7bc3-4f09-8412-0a393d4b5b96
+S69,compose digital game story,Create a digital game story by writing out a detailed plot and storyboard with descriptions and gameplay objectives.,http://data.europa.eu/esco/skill/208b41bd-3b61-4439-b3ca-d39628dd7fe3
+S70,conduct content quality assurance,"Carry out validation of content by reviewing it according to formal and functional quality, usability and applicable standards.",http://data.europa.eu/esco/skill/29154735-107a-4daa-a050-537f7707f34e
+S71,conduct ICT code review,Examine and review systematically computer source code to identify errors in any stage of development and to improve the overall software quality.,http://data.europa.eu/esco/skill/9d1b08b3-ba1e-41f6-a466-1ac1e62eb5f0
+S72,conduct impact evaluation of ICT processes on business,Evaluate the tangible consequences of the implementation of new ICT systems and functions on the current business structure and organisational procedures.,http://data.europa.eu/esco/skill/17c9a790-5664-4673-8237-c4cf3c5a8da5
+S73,conduct literature research,Conduct a comprehensive and systematic research of information and publications on a specific literature topic. Present a comparative evaluative literature summary.,http://data.europa.eu/esco/skill/0d282d6e-8cb9-4339-8e7d-cfafed96b5ed
+S74,conduct qualitative research,"Gather relevant information by applying systematic methods, such as interviews, focus groups, text analysis, observations and case studies.",http://data.europa.eu/esco/skill/fa465db3-56e8-4b5d-a781-e2a313a4ed2d
+S75,conduct quantitative research,"Execute a systematic empirical investigation of observable phenomena via statistical, mathematical or computational techniques.",http://data.europa.eu/esco/skill/8316979b-df5a-4dc7-98ef-61ec6a10df84
+S76,conduct research across disciplines,"Work and use research findings and data across disciplinary and/or functional boundaries.
+",http://data.europa.eu/esco/skill/f7b071bf-4882-4cfc-ae0a-7e0e0ab94c61
+S77,conduct research interview,"Use professional researching and interviewing methods and techniques to gather relevant data, facts or information, to gain new insights and to fully comprehend the message of the interviewee.",http://data.europa.eu/esco/skill/896563fc-6255-4419-89c2-ffed30159ad6
+S78,conduct scholarly research,Plan scholarly research by formulating the research question and conducting empirical or literature research in order to investigate the truth of the research question.,http://data.europa.eu/esco/skill/485cdafb-3c7f-4104-ab1c-773e6131a39a
+S79,conduct search engine optimisation,"Execute optimal marketing research and strategies on search engine processes, also known as search engine marketing (SEM), in order to increase online traffic and website exposure.",http://data.europa.eu/esco/skill/a0bf9b9d-e53f-418c-a839-5d99eff718fe
+S80,configure ICT system,Set up and customise an ICT system to meet requirements during initial implementation as well as when new business needs arise.,http://data.europa.eu/esco/skill/b3c8eada-b0a8-4b61-968b-b354fbfb6874
+S81,consult with business clients,"Communicate with clients of a business or business project in order to introduce new ideas, obtain feedback, and find solutions to problems.",http://data.europa.eu/esco/skill/9531fe02-1e1f-4a36-95f7-a76a77cd4b8d
+S82,coordinate engineering teams,"Plan, coordinate and supervise engineering activities together with engineers and engineering technicians. Ensure clear and effective channels of communication across all departments. Make sure the team is aware of the standards and objectives of the research and development.",http://data.europa.eu/esco/skill/7af6e9e8-1e11-4c0b-b7c6-ac96bbbbc674
+S83,coordinate technological activities,Give instructions to colleagues and other cooperating parties in order to reach the desired outcome of a technological project or achieve set goals within an organisation dealing with technology.,http://data.europa.eu/esco/skill/af607e5e-4ba1-4e5f-a2a6-dc05806567c7
+S84,cope with stress,"Handle challenges, disruption and change and recover from set-backs and adversity.",http://data.europa.eu/esco/skill/7a147904-22b3-498a-b4d9-7bceeb86b45d
+S85,create business process models,"Develop formal and informal descriptions of the business processes and the organisational structure by using business process models, notations and tools.",http://data.europa.eu/esco/skill/6a7792a9-888a-46ad-afc9-2c0d94c8fde6
+S86,create concept of digital game,"Develop and communicate every aspect of overall game vision. Communicate and collaborate with technical crew, artistic and design teams to implement the game vision.",http://data.europa.eu/esco/skill/3140d979-2d6a-4c10-add9-f7091103829f
+S87,create content title,"Come up with an appealing title that draws people's attention to the content of your article, story or publication.",http://data.europa.eu/esco/skill/df996a98-202f-4a9b-b088-38c8db03ef1b
+S88,create data models,"Use specific techniques and methodologies to analyse the data requirements of an organisation's business processes in order to create models for these data, such as conceptual, logical and physical models. These models have a specific structure and format.",http://data.europa.eu/esco/skill/fbafa41f-cd05-4109-a649-8b44d306d779
+S89,create data sets,Generate a collection of new or existing related data sets that are made up out of separate elements but can be manipulated as one unit.,http://data.europa.eu/esco/skill/906323f4-00c4-4c3b-ab5a-8af77be3456e
+S90,create database diagrams,Develop the database design models and diagrams which establish the structure of a database by using modelling software tools to be implemented in further processes.,http://data.europa.eu/esco/skill/84f58e3d-8669-4d83-8c1d-5dd1e73a654f
+S91,create flowchart diagram,Compose a diagram that illustrates systematic progress through a procedure or system using connecting lines and a set of symbols.,http://data.europa.eu/esco/skill/901105f8-3a08-453e-b1dc-23619e317fd3
+S92,create game testing software,"Develop software to test and evaluate online and land-based gambling, betting and lottery games.",http://data.europa.eu/esco/skill/446d29ed-9eaa-4798-bb91-5f196651ad0a
+S93,create incident reports,"Fill in an incident report after an accident has happened at the company or facility, such as an unusual event which caused an occupational injury to a worker.",http://data.europa.eu/esco/skill/24310a7b-5db1-4917-a705-4835630227ca
+S94,create project specifications,"Define the workplan, duration, deliverables, resources and procedures a project has to follow to achieve its goals. Describe project goals, outcomes, results and implementation scenarios.",http://data.europa.eu/esco/skill/21fecc8a-392e-49ce-ac26-fb0696ccfead
+S95,create prototype of user experience solutions,"Design and prepare mock-ups, prototypes and flows in order to test User Experience (UX) solutions or to collect feedback from users, customers, partners or stakeholders.",http://data.europa.eu/esco/skill/07dd856d-6141-48a7-a228-918f88494812
+S96,create semantic trees,Create coherent lists and hierarchies of concepts and terms to ensure consistent indexing in knowledge organisation systems.,http://data.europa.eu/esco/skill/cb89a5c0-b5cb-4c62-8e7e-7714631b66b5
+S97,create software design,Transpose a series of requirements into a clear and organised software design.,http://data.europa.eu/esco/skill/3bddfd7c-ab6d-40c2-883d-5e97fb7640ba
+S98,create solutions to problems,"Solve problems which arise in planning, prioritising, organising, directing/facilitating action and evaluating performance. Use systematic processes of collecting, analysing, and synthesising information to evaluate current practice and generate new understandings about practice.",http://data.europa.eu/esco/skill/03b9b491-fc9b-4868-914a-bf7cd47b5041
+S99,create website wireframe,"Develop an image or set of images that display the functional elements of a website or page, typically used for planning a website's functionality and structure.",http://data.europa.eu/esco/skill/f0f5bb34-71df-4715-9c9e-03567b76ec8f
+S100,creatively use digital technologies,Use digital tools and technologies to create knowledge and to innovate processes and products. Engage individually and collectively in cognitive processing to understand and resolve conceptual problems and problem situations in digital environments.,http://data.europa.eu/esco/skill/1a4cc54f-1e53-442b-a6d2-1682dc8ef8f9
+S101,debug software,"Repair computer code by analysing testing results, locating the defects causing the software to output an incorrect or unexpected result and remove these faults.",http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1
+S102,define data quality criteria,"Specify the criteria by which data quality is measured for business purposes, such as inconsistencies, incompleteness, usability for purpose and accuracy.",http://data.europa.eu/esco/skill/54c9c155-9293-4329-8ed2-2e76e8b519d4
+S103,define database physical structure,"Specify the physical configuration of database files on a given media. This consists of in-detail specifications of indexing options, data types and data elements placed in the data dictionary.",http://data.europa.eu/esco/skill/022dc430-872a-473a-9cf4-fed4895e58ad
+S104,define firewall rules,Specify rules to govern a set of components aiming to limit access between groups of networks or a particular network and the internet.,http://data.europa.eu/esco/skill/054f26ab-cfdc-4077-883c-1c4c9e9b310a
+S105,define ICT network design policies,"Specify policies, principles, rules, processes and criteria for the design, planning and realisation of ICT networks.",http://data.europa.eu/esco/skill/bb562019-5222-45db-a16c-730edbb1d27c
+S106,define integration strategy,"Specify strategies for system integration, incorporating the time schedule, the processes required to combine components into subsystems and systems, the means on how components will interface as well as the risks associated with the integration.",http://data.europa.eu/esco/skill/a4a882a1-0263-4dd2-b29a-f0028cac2393
+S107,define organisational standards,"Write, implement and foster the internal standards of the company as part of the business plans for the operations and levels of performance that the company intends to achieve.",http://data.europa.eu/esco/skill/d53b04fb-1bbb-4a25-92f8-8ceb308d276f
+S108,define quality standards,"Define, in collaboration with managers and quality experts, a set of quality standards to ensure compliance with regulations and help achieve customers' requirements.",http://data.europa.eu/esco/skill/5d9e766b-8f17-4e17-bfab-3bb0e0719791
+S109,define roadmap for blockchain in applications,"Define and follow a roadmap for the introduction of blockchain in a particular application. Identify the key actions and roles required, as well as the essential milestones and deliverables to achieve. ",http://data.europa.eu/esco/skill/8300443c-c793-4102-bff5-aa917a0cb39f
+S110,define security policies,"Design and execute a written set of rules and policies that have the aim of securing an organisation concerning constraints on behaviour between stakeholders, protective mechanical constraints and data-access constraints.",http://data.europa.eu/esco/skill/37bc4dc0-1233-4008-98db-1116d0c1cfcc
+S111,define software architecture,"Create and document the structure of software products including components, coupling and interfaces. Ensure feasibility, functionality and compatibility with existing platforms.",http://data.europa.eu/esco/skill/f7e2eb04-3e50-4561-bce1-7e51a1fec308
+S112,define technical requirements,"Specify technical properties of goods, materials, methods, processes, services, systems, software and functionalities by identifying and responding to the particular needs that are to be satisfied according to customer requirements.",http://data.europa.eu/esco/skill/d9e5349e-8791-49c2-8ba4-839fdd1606c2
+S113,define technology strategy,"Create an overall plan of objectives, practices, principles and tactics related to the use of technologies within an organisation and describe the means to reach the objectives, taking into account analyses and relevant regulations.",http://data.europa.eu/esco/skill/248894d1-42dc-474f-af6e-2da52ac0c679
+S114,deliver visual presentation of data,Create visual representations of data such as charts or diagrams for easier understanding.,http://data.europa.eu/esco/skill/c3e36d05-8ae8-447f-bb2b-6f9409f85389
+S115,demonstrate disciplinary expertise,"Demonstrate deep knowledge and complex understanding of a specific research area, including responsible research, research ethics and scientific integrity principles, privacy and GDPR requirements, related to research activities within a specific discipline.",http://data.europa.eu/esco/skill/4134622c-c3fb-4a41-beb6-6d58ba5107db
+S116,demonstrate functionality of video games,Demonstrate to customers the features and functionalities of video games.,http://data.europa.eu/esco/skill/b6843068-2dd3-43ea-9625-3aaffe9f0112
+S117,deploy cloud resource,"Identify and execute steps required to provision cloud resources, such as networks, servers, storage, applications, GPUs, and services. Define the cloud global infrastructure and remediate deployment issues. ",http://data.europa.eu/esco/skill/6195c5f7-a4fb-425d-a3dd-c4467c4471a3
+S118,deploy ICT systems,"Deliver and instalI computers or ICT systems, ensuring testing and preparation for use.",http://data.europa.eu/esco/skill/71c2f41e-14de-4b23-82ad-5dbcd54ba5b0
+S119,design application interfaces,"Create and program application interfaces, their operations, inputs and outputs and underlying types.",http://data.europa.eu/esco/skill/b0096dc5-2e2d-4bc1-8172-05bf486c3968
+S120,design cloud architecture,"Design a multi-tier cloud architecture solution, which tolerates faults and is fit for the workload and other business needs. Identify elastic and scalable computing solutions, select high-performing and scalable storage solutions, and choose high-performing database solutions. Identify cost-effective storage, computing, and database services in the cloud.",http://data.europa.eu/esco/skill/11430d93-c835-48ed-8e70-285fa69c9ae6
+S121,design cloud networks,"Apply cloud networking concepts and implement connectivity services of cloud. Given customer requirements, define network architectures on cloud, propose optimized designs based on the evaluation of an existing implementation. Evaluate and optimize cost allocations given a network design, its cloud resources, and application data flow.",http://data.europa.eu/esco/skill/4da4587a-fd0b-4ca2-886c-c42a1562d432
+S122,design component interfaces,Use methods and tools to design and program interfaces of software and system components.,http://data.europa.eu/esco/skill/f6868852-9bf6-4899-a5d6-5f9532fb877d
+S123,design computer network,"Develop and plan ICT networks, such as wide area network and local area network, that connect computers using cable or wireless connections and allow them to exchange data and assess their capacity requirements.",http://data.europa.eu/esco/skill/2164e860-7f20-48bc-b98c-5d9f8a561550
+S124,design database backup specifications,Specify procedures to be performed on databases which ensure the copying and archiving of data for possible restoration in case of a data loss event.,http://data.europa.eu/esco/skill/ab67fbfb-0ca7-4345-8bf6-af8f59480212
+S125,design database in the cloud,"Apply design principles for an adaptive, elastic, automated, loosely coupled databases making use of cloud infrastructure. Aim to remove any single point of failure through distributed database design.",http://data.europa.eu/esco/skill/7e796b51-49d7-4e73-95af-2e7323763f15
+S126,design database scheme,"Draft a database scheme by following the Relational Database Management System (RDBMS) rules in order to create a logically arranged group of objects such as tables, columns and processes.",http://data.europa.eu/esco/skill/6c08403c-a5bb-4868-b8c2-b7d039c0e511
+S127,design digital call to action,"Appeal the audience in order to provoke their instant response. Use imperative verb forms in the message such as ""Visit us now!"".",http://data.europa.eu/esco/skill/5233e3f4-904a-4f68-9327-707f11d93374
+S128,design enterprise architecture,"Analyse the business structure and provide a logical organisation of business processes and information infrastructure. Apply principles and practices which help organisations to realise their strategies, respond to disruptions and achieve their goals.",http://data.europa.eu/esco/skill/ee3c1d54-f46a-43c7-a0f9-0ba3648164d0
+S129,design for organisational complexity,"Determine cross-account authentication and access strategy for complex organizations (for example, an organization with varying compliance requirements, multiple business units, and varying scalability requirements). Design networks and multi-account cloud environments for complex organizations. ",http://data.europa.eu/esco/skill/dfff95c6-9758-4c04-a228-7eaa88dec6cd
+S130,design graphics,Apply a variety of visual techniques in order to design graphic material. Combine graphical elements to communicate concepts and ideas.,http://data.europa.eu/esco/skill/f058bf62-70d1-4f5e-be2a-8b26fac24a96
+S131,design ICT hardware placement,Describe and plan how cables and related hardware items will be placed throughout the building.,http://data.europa.eu/esco/skill/3fb8b724-1d52-4d11-b8b8-1776f558d1f0
+S132,design information system,"Define the architecture, composition, components, modules, interfaces and data for integrated information systems (hardware, software and network), based on system requirements and specifications.",http://data.europa.eu/esco/skill/a47d194d-0ffd-4aaa-b695-fbbe0255000e
+S133,design interaction model,"Design and develop an interaction model. Design a multi-turn conversation, use built-in intents and slots, handle unexpected conversational requests or responses, design multi-modal skills using one or more service interfaces (for example, audio, video, and gadgets).",http://data.europa.eu/esco/skill/12274664-b642-4945-b88f-d7787dc3c9dd
+S134,design process,"Identify the workflow and resource requirements for a particular process, using a variety of tools such as process simulation software, flowcharting and scale models.",http://data.europa.eu/esco/skill/2c28fc20-8a60-4311-8899-5ef8729c05b3
+S135,design process for blockchain-based systems,"Design processes for blockchain-based systems which involves the clear identification of problems to be solved through blockchain, specifying the business requirements, identifying a consensus mechanism, choosing the most suitable blockchain platform, designing the blockchain nodes, planning the blockchain configuration, building blockchain APIs, designing user interfaces, and integrating accelerators for optimization. ",http://data.europa.eu/esco/skill/8f32e02a-9290-47ab-ad28-6567bfc2f17a
+S136,design user interface,"Create software or device components which enable interaction between humans and systems or machines, using appropriate techniques, languages and tools so as to streamline interaction while using the system or machine.",http://data.europa.eu/esco/skill/fd33c66c-70c4-40e6-b87c-5495bd3bf26e
+S137,develop audit plan,"Define all organisational tasks (time, place and order) and develop a checklist concerning the topics to be audited.",http://data.europa.eu/esco/skill/ed0718f6-5823-4c74-9749-2936c9c06203
+S138,develop automated migration methods,"Create automated transfer of ICT information between storage types, formats and systems to save human resources from performing the task manually.",http://data.europa.eu/esco/skill/0b0335f3-0aa1-491e-895e-81fc8774a300
+S139,develop automated software tests,"Create software test sets in an automated manner, ​using specialised languages or tools, that can be performed by testing tools in order to save resources, gain efficiency and effectiveness in test execution.",http://data.europa.eu/esco/skill/6a322874-e32f-4cd8-9683-badce67a7f73
+S140,develop blockchain innovative architectures,Develop new blockchain architectures that address properties and priorities as they are needed by specific applications. Argue the advantages and shortcomings of such new architectures with respect to existing ones.,http://data.europa.eu/esco/skill/01d269d9-b058-4d6c-82a0-3779af9a124b
+S141,develop blockchain technology,"Develop and integrate blockchain technology in new or existing ICT infrastructures, and understand the key challenges and solution approaches to this integration.",http://data.europa.eu/esco/skill/93b22bbf-ece1-4e2d-8d47-0c9392c5a4fd
+S142,develop code exploits,Create and test software exploits in a controlled environment to uncover and check system bugs or vulnerabilities.,http://data.europa.eu/esco/skill/af313ba1-a39e-49ac-99ec-94630fbe4f7f
+S143,develop computer vision system,"Apply and combine different computer vision tools and methods such as image acquisition, image processing, image segmentation and classification, detection, etc. in one system to allow computers to extract information from digital images such as photographs or video.",http://data.europa.eu/esco/skill/4754d9fe-dc3a-4f8f-8ea6-5dbcea3a21ca
+S144,develop contingency plans for emergencies,"Compose procedures outlining specific actions to be taken in the event of an emergency, taking into account all the risks and dangers that could be involved, ensuring that the plans comply with safety legislation and represent the safest course of action.",http://data.europa.eu/esco/skill/fa3567c8-a7c1-40de-bac0-a4f5a85b9f1a
+S145,develop creative ideas,Developing new artistic concepts and creative ideas.,http://data.europa.eu/esco/skill/8c4c49d4-9708-433f-8ca7-bf2c5211ee49
+S146,develop data processing applications,Create a customised software for processing data by selecting and using the appropriate computer programming language in order for an ICT system to produce demanded output based on expected input.,http://data.europa.eu/esco/skill/f9670490-8aa4-4540-b121-d440a8294aab
+S147,develop digital content,"Create and edit digital content in different formats, express oneself through digital means.",http://data.europa.eu/esco/skill/5fd5c985-eaaa-47aa-8314-62359c54505a
+S148,develop documentation in accordance with legal requirements,"Create professionally written content describing products, applications, components, functions or services in compliance with legal requirements and internal or external standards.",http://data.europa.eu/esco/skill/695c3249-18e7-4435-bdb8-54a16011159d
+S149,develop financial statistics reports,Create financial and statistical reports based on collected data which are to be presented to managing bodies of an organisation.,http://data.europa.eu/esco/skill/4f060129-8b75-4d58-a8dd-515bd8fef349
+S150,develop food scanner devices,"Design and develop food scanning technologies that provide information on the level of allergens, chemicals, nutrients, calories and on ingredients in food. ",http://data.europa.eu/esco/skill/ae6c1227-dd33-4df0-a64e-439cfdf948ea
+S151,develop ICT device driver,Create a software program that controls the working of an ICT device and its interaction with other applications.,http://data.europa.eu/esco/skill/85616cc4-98bf-4355-9cf1-72ff11752848
+S152,develop ICT test suite,Create a series of test cases to check software behaviour versus specifications. These test cases are then to be used during subsequent testing.,http://data.europa.eu/esco/skill/7253d98c-4a6d-4e37-8b6c-accca9f4b639
+S153,develop ICT workflow,"Create repeatable patterns of ICT activity within an organisation which enhances the systematic transformations of products, informational processes and services through their production.",http://data.europa.eu/esco/skill/751941a0-5645-4f8b-b97e-b252909d5edb
+S154,develop information security strategy,"Create company strategy related to the safety and security of information in order to maximise information integrity, availability and data privacy.",http://data.europa.eu/esco/skill/3579208e-49b3-4ce4-98e7-20e41b1ce8d4
+S155,develop information standards,"Develop norms or requirements that establish uniform technical criteria, methods, processes and practices in the information management based on professional experience.",http://data.europa.eu/esco/skill/1b3fc0e0-c6f9-45fc-9c6e-14bbba662979
+S156,develop professional network,Reach out to and meet up with people in a professional context. Find common ground and use your contacts for mutual benefit. Keep track of the people in your personal professional network and stay up to date on their activities.,http://data.europa.eu/esco/skill/bf5d77ad-e18c-48d8-83f0-bc79c011c74a
+S157,develop professional network with researchers and scientists,"Develop alliances, contacts or partnerships, and exchange information with others. Foster integrated and open collaborations where different stakeholders co-create shared value research and innovations. Develop your personal profile or brand and make yourself visible and available in face-to-face and online networking environments. ",http://data.europa.eu/esco/skill/cc61f9e5-d4fc-470e-8606-1ce865ff8386
+S158,develop reporting software,Create reporting software and applications used for creating reports on data.,http://data.europa.eu/esco/skill/9d2f77af-4307-4ac5-bc50-a9980cec7e83
+S159,develop software prototype,Create a first incomplete or preliminary version of a piece of software application to simulate some specific aspects of the final product.,http://data.europa.eu/esco/skill/797a4416-0b8d-44f3-8fcd-eb10bd0be6b4
+S160,develop statistical software,"Participate in the various development stages of computer programs for econometric and statistical analysis, such as research, new product development, prototyping, and maintenance.",http://data.europa.eu/esco/skill/bb165899-d95f-4433-95f2-173fefd716d2
+S161,develop strategy to solve problems,"Develop specific goals and plans to prioritise, organise, and accomplish work.",http://data.europa.eu/esco/skill/7a8fb784-67fa-41e9-a75c-6b491d91f800
+S162,develop virtual game engine,Create a virtual software framework that abstracts the details of doing common game-related tasks.,http://data.europa.eu/esco/skill/7d5ff73e-7bea-436d-974f-3a51ce24a138
+S163,develop with cloud services,"Write code that interacts with cloud services by using APIs, SDKs, and cloud CLI. Write code for serverless applications, translate functional requirements into application design, implement application design into application code. ",http://data.europa.eu/esco/skill/6b643893-0a1f-4f6c-83a1-e7eef75849b9
+S164,disseminate results to the scientific community,"Publicly disclose scientific results by any appropriate means, including conferences, workshops, colloquia and scientific publications.",http://data.europa.eu/esco/skill/2b1e2927-3542-48da-9063-02925e7562c1
+S165,do cloud refactoring,"Optimise application to best use cloud services and features, migrate existing application code to run on cloud infrastructure.",http://data.europa.eu/esco/skill/38716afc-a93b-44ab-96cc-2ecf67edcf32
+S166,draft scientific or academic papers and technical documentation,"Draft and edit scientific, academic or technical texts on different subjects.",http://data.europa.eu/esco/skill/00b9a3aa-7070-4bb5-8020-f228a97cf42f
+S167,draw design sketches,Create rough pictures to assist in creating and communicating design concepts.,http://data.europa.eu/esco/skill/fc4fcb4b-993f-4f2c-b158-c2171ec18ed8
+S168,educate on data confidentiality,"Share information with and instruct users in the risks involved with data, especially risks to the confidentiality, integrity, or availability of data. Educate them on how to ensure data protection.",http://data.europa.eu/esco/skill/6aef2baa-5fa7-4c16-bd28-3e070ec4e4df
+S169,engage with stakeholders,"Use a variety of processes that result in mutually negotiated agreements, shared understandings and consensus building. Build partnerships within the work context.",http://data.europa.eu/esco/skill/99c4c69a-025c-464f-adda-874c7f107a31
+S170,enhance website visibility,"Promote the website to users, business partners and search engines. Optimise the website exposure to search engines, send out emails, determine pricing and policies and conduct marketing actions.",http://data.europa.eu/esco/skill/ef64005d-75bc-4597-8ed6-717edec5e55e
+S171,ensure adherence to organisational ICT standards,"Guarantee that the state of events is in accordance with the ICT rules and procedures described by an organisation for their products, services and solutions.",http://data.europa.eu/esco/skill/b8271c8a-cba6-4baa-80f5-6361af3f07e3
+S172,ensure compliance with company regulations,"Guarantee that employees' activities follow company regulations, as implemented through client and corporate guidelines, directives, policies and programmes.",http://data.europa.eu/esco/skill/4cb51222-3e2e-417c-9a5c-e9ccf262721d
+S173,ensure compliance with environmental legislation,"Monitor activities and perform tasks ensuring compliance with standards involving environmental protection and sustainability, and amend activities in the case of changes in environmental legislation. Ensure that the processes are compliant with environment regulations and best practices.",http://data.europa.eu/esco/skill/089ee650-297e-4716-87d1-440743b70a0d
+S174,ensure compliance with legal requirements,"Guarantee compliance with established and applicable standards and legal requirements such as specifications, policies, standards or law for the goal that organisations aspire to achieve in their efforts.",http://data.europa.eu/esco/skill/1dae8445-12e5-423a-bb26-824010e299b9
+S175,ensure cross-department cooperation,"Guarantee communication and cooperation with all the entities and teams in a given organisation, according to the company strategy.",http://data.europa.eu/esco/skill/b216d9a2-7d4e-4312-8d05-e375f4ab44d8
+S176,ensure equipment availability,"Ensure that the necessary equipment is provided, ready and available for use before start of procedures.",http://data.europa.eu/esco/skill/69f23426-9279-4fe6-a283-24c2aa4c855d
+S177,ensure information privacy,"Design and implement business processes and technical solutions to guarantee data and information confidentiality in compliance with legal requirements, also considering public expectations and political issues of privacy.",http://data.europa.eu/esco/skill/71717c33-dd63-4acf-b052-a5fd5d9fc490
+S178,ensure information security,"Ensure that the information gathered during surveillance or investigations remains in the hands of those authorised to receive and use it, and does not fall into enemy or otherwise non-authorised individuals' hands.",http://data.europa.eu/esco/skill/6833e58b-eceb-4599-9375-1b7e6ec64087
+S179,ensure proper document management,"Guarantee that the tracking and recording standards and rules for document management are followed, such as ensuring that changes are identified, that documents remain readable and that obsoleted documents are not used.",http://data.europa.eu/esco/skill/c241f5a5-e23f-47bf-ad24-d83ea0010166
+S180,establish an ICT security prevention plan,"Define a comprehensive and proactive strategy for managing information and communication technology (ICT) security risks by establishing a set of measures and responsibilities to ensure the confidentiality, integrity and availability of information. Implement policies to prevent data breaches, detect and respond to unauthorised access to systems and resources, including up-to-date security applications and employee education.",http://data.europa.eu/esco/skill/114c9698-c999-4369-8498-81bf641fe871
+S181,establish an Information Security Management System,"Design, apply, monitor and review an Information Security Management System (ISMS) that preserves the confidentiality, integrity and availability of information by applying a risk management process, and gives confidence to interested parties regarding the adequate management of such cybersecurity-related risks.",http://data.europa.eu/esco/skill/4918ec9a-0204-4935-8b09-b0112370daa8
+S182,establish data processes,"Use ICT tools to apply mathematical, algorithmic or other data manipulation processes in order to create information.",http://data.europa.eu/esco/skill/2daec0e6-f0c1-43e8-8178-aedba99130ec
+S183,estimate duration of work,Produce accurate calculations on time necessary to fulfil future technical tasks based on past and present information and observations or plan the estimated duration of individual tasks in a given project.,http://data.europa.eu/esco/skill/e207163b-7963-4c3e-9494-7a4bb000211b
+S184,evaluate blockchain architectures,"Evaluate blockchain architectures with respect to their suitability for specific applications, given the specific importance and priorities of architecture properties for these applications.",http://data.europa.eu/esco/skill/4ef13dee-380d-4b76-9034-c4995045303f
+S185,evaluate research activities,"Review proposals, progress, impact and outcomes of peer researchers, including through open peer review.
+",http://data.europa.eu/esco/skill/39f67488-cfd3-4370-8d7e-da98163102d9
+S186,execute analytical mathematical calculations,Apply mathematical methods and make use of calculation technologies in order to perform analyses and devise solutions to specific problems.,http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c
+S187,execute email marketing,"Conceptualise and write targeted customer emails, manage customer emails for the brand email marketing programmes in order to ensure enhanced profit and improved customer communication and prospection.",http://data.europa.eu/esco/skill/36931cb7-ca3f-4be1-8428-f38eefc8e1ed
+S188,execute feasibility study,"Perform the evaluation and assessment of the potential of a project, plan, proposition or new idea. Realise a standardised study which is based on extensive investigation and research to support the process of decision making.",http://data.europa.eu/esco/skill/d74df140-eb69-43e2-bac9-1cafc824d702
+S189,execute ICT audits,"Organise and execute audits in order to evaluate ICT systems, compliance of components of systems, information processing systems and information security. Identify and collect potential critical issues and recommend solutions based on required standards and solutions.",http://data.europa.eu/esco/skill/7e1f9657-ab4e-407c-842f-b846197060e3
+S190,execute ICT user research activities,"Perform research tasks such as recruitment of participants, scheduling of tasks, collecting of empirical data, data analysis and production of materials in order to assess the interaction of users with an ICT system, program or application.",http://data.europa.eu/esco/skill/a4c2aa71-086f-4a46-b481-2619673c9dfe
+S191,execute integration testing,"Perform testing of system or software components grouped in multiple ways to evaluate their ability to interconnect, their interface and their ability to provide global functionality.",http://data.europa.eu/esco/skill/ea412de3-9d7a-4943-8d8c-c6d3c7495d0e
+S192,execute social engineering tests,"Perform simulated social engineering attacks to identify vulnerabilities in an organization's security posture. Social engineering tests may involve phishing emails, pretexting, or other forms of manipulation used by attackers to obtain sensitive information or unauthorized access to systems. ",http://data.europa.eu/esco/skill/08a3dcea-12de-447b-a3a5-aa657abc5e97
+S193,execute software tests,"Perform tests to ensure that a software product will perform flawlessly under the specified customer requirements and identify software defects (bugs) and malfunctions, using specialised software tools and testing techniques.",http://data.europa.eu/esco/skill/913e7e83-b8f8-4574-b1ca-1b38f3fd974a
+S194,explain blockchain implications,"Explain the consequences, impact, and implications of using blockchain technology on the business processes they drive, as well as on a larger scale, also including social and ecological aspects.",http://data.europa.eu/esco/skill/3a09d732-08b9-4c90-8fd3-34e2d69ce084
+S195,explain distributed ledger technologies principles,"Explain the principles of the system architecture underlying distributed ledger technologies (DLT), in particular blockchain. Understand the DLT system architecture in terms of functional components in the core and service layers, the application service platform, DLT services, and external services. Understand the interaction of these components to provide DLT-based functions such as consensus mechanism functions, ledger management functions, smart contract mechanism functions, and distributed application management functions.",http://data.europa.eu/esco/skill/ce2dcc4b-d0a4-4aa4-b84a-a08da3c31d7d
+S196,follow company standards,Lead and manage according to the organisation's code of conduct.,http://data.europa.eu/esco/skill/f5f5b244-6cea-4fbc-8a50-8f712791bc09
+S197,follow work procedures,Adhere to procedures at work in a structured and systematic manner.,http://data.europa.eu/esco/skill/a23659b1-a8bc-4331-a58d-eef263ca6a14
+S198,forecast future ICT network needs,Identify current data traffic and estimate how growth will affect the ICT network.,http://data.europa.eu/esco/skill/8fa840f7-e66a-4370-8e6d-7d554260c31c
+S199,forecast organisational risks,"Analyse the operations and actions of a company in order to assess their repercussions, possible risks for the company, and to develop suitable strategies to address these.",http://data.europa.eu/esco/skill/1c08d63d-1c5e-4b9b-ad3e-f7ba7debb2d1
+S200,forecast workload,"Predict and define workload needed to be done in a certain amount of time, and the time it would take to perform these tasks.",http://data.europa.eu/esco/skill/875eeec4-fc70-4e6a-80ef-4d18356976e3
+S201,gather data for forensic purposes,"Collect protected, fragmented or corrupted data and other online communication. Document and present findings from this process.",http://data.europa.eu/esco/skill/0c766ca3-9364-4203-916b-fed16e4814c1
+S202,give live presentation,"Deliver a speech or talk in which a new product, service, idea, or piece of work is demonstrated and explained to an audience.",http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b
+S203,handle cybersecurity incidents,"Detect, identify, analyze, and respond, to cybersecurity incidents in an organization's systems or network. It involves incident response plans such as intrusion detection systems, log analysis, and documenting detailed information about potential incidents.",http://data.europa.eu/esco/skill/8181aa4c-42bc-4036-a3d2-5cb6bbb34239
+S204,handle data samples,Collect and select a set of data from a population by a statistical or other defined procedure.,http://data.europa.eu/esco/skill/4a193795-fa63-414e-9f2e-bfdb3924571e
+S205,identify blockchain innovation opportunities,"Identify blockchain innovation opportunities through the introduction of blockchain-based solutions, within a particular sector, but also across sectors. Understand the consequences of essential blockchain properties such as transparency and security for driving forward innovations.",http://data.europa.eu/esco/skill/1f0fbd17-56b7-45cd-b841-e7d9e2a5a14e
+S206,identify customer requirements,"Apply techniques and tools, such as surveys, questionnaires, ICT applications, for eliciting, defining, analysing, documenting and maintaining user requirements from system, service or product.",http://data.europa.eu/esco/skill/0e0c9c11-b39e-43cf-ba95-2fe646f5de64
+S207,identify ICT security risks,"Apply methods and techniques to identify potential security threats, security breaches and risk factors using ICT tools for surveying ICT systems, analysing risks, vulnerabilities and threats and evaluating contingency plans.",http://data.europa.eu/esco/skill/fe1c2b32-7fe9-4668-affa-07ff658a68cf
+S208,identify ICT system weaknesses,"Analyse the system and network architecture, hardware and software components and data in order to identify weaknesses and vulnerability to intrusions or attacks. Execute diagnostic operations on cyber infrastructure including research, identification, interpretation and categorization of vulnerabilities, associated attacks and malicious code (e.g. malware forensics and malicious network activity). Compare indicators or observables with requirements and review logs to identify evidence of past intrusions.",http://data.europa.eu/esco/skill/dad7e408-162f-46a4-8567-db560e19e2fc
+S209,identify ICT user needs,"Determine the needs and requirements of ICT users of a specific system by applying analytical methods, such as target group analysis.",http://data.europa.eu/esco/skill/ddfe79e2-c2e3-4ba7-9bdf-3820b4f75b54
+S210,identify legal requirements,"Conduct research for applicable legal and normative procedures and standards, analyse and derive legal requirements that apply to the organisation, its policies and products.",http://data.europa.eu/esco/skill/b9bf9e17-ae47-417b-bbb1-e8b7c263ccac
+S211,identify processes for re-engineering,"Identify potential to restructure a company or part of its operations, e.g. by exploiting information technology.",http://data.europa.eu/esco/skill/553ad092-b799-44c9-a94c-65a84fdc7526
+S212,identify software for warehouse management,"Identify relevant software and applications used for warehouse management systems, their characteristics and value added to warehouse management operations.",http://data.europa.eu/esco/skill/772a9c72-abef-4333-9788-f4cb48ad8e08
+S213,identify suppliers,"Determine potential suppliers for further negotiation. Take into consideration aspects such as product quality, sustainability, local sourcing, seasonality and coverage of the area. Evaluate the likelihood of obtaining beneficial contracts and agreements with them.",http://data.europa.eu/esco/skill/11747665-0e98-4f27-bd0d-536862cd5746
+S214,identify technological needs,Assess needs and identify digital tools and possible technological responses to address them. Adjust and customise digital environments to personal needs (e.g. accessibility).,http://data.europa.eu/esco/skill/42fcf80d-7b45-40f3-bd2f-5411c4c0dfa0
+S215,implement a firewall,"Download, install and update a network security system designed to prevent unauthorized access to a private network.",http://data.europa.eu/esco/skill/e5b5053e-0ef6-4c4e-a3f2-42f955f4322c
+S216,implement a management system,Make and monitor the changes in business processes that are needed to create a system that collectively manage different parts of the business of an organisation.,http://data.europa.eu/esco/skill/b1ef509e-f191-405a-8419-51663b08922e
+S217,implement a virtual private network,"Create an encrypted connection between private networks, such as different local networks of a company, over the internet to ensure that only authorized users can access it and that the data cannot be intercepted.",http://data.europa.eu/esco/skill/acf0a78c-f4e3-4bd9-a5cc-9cf4791b3b95
+S218,implement anti-virus software,"Download, install and update software to prevent, detect and remove malicious software, such as computer viruses.",http://data.europa.eu/esco/skill/bb2b4485-2bad-402f-8517-44bf7d9afff4
+S219,implement cloud security and compliance,Implement and manage security policies and access controls on cloud. Differentiate between the roles and responsibilities within the shared responsibility model.,http://data.europa.eu/esco/skill/c13fb093-5ffb-491a-b8b7-fa2d42a57e2e
+S220,implement corporate governance,"Apply a set of principles and mechanisms by which an organisation is managed and directed, set procedures of information, control flow and decision making, distribute rights and responsibilities among departments and individuals, set corporate objectives and monitor and evaluate actions and results.",http://data.europa.eu/esco/skill/f2c63b7a-ed6c-4890-9f8c-7685d172624c
+S221,implement cryptographic constructs,"Implement cryptographic constructs such as hash functions, symmetric-key algorithms, and asymmetric-key algorithms, in the context of specific applications.",http://data.europa.eu/esco/skill/f0163b63-6794-4eb7-b17b-f91d11b2602d
+S222,implement data quality processes,"Apply quality analysis, validation and verification techniques on data to check data quality integrity.",http://data.europa.eu/esco/skill/713fb616-118e-40bc-9366-4a69879a49d5
+S223,implement data warehousing techniques,"Apply models and tools such as online analytical processing (OLAP) and Online transaction processing (OLTP), to integrate structured or unstructured data from sources, in order to create a central depository of historical and current data.",http://data.europa.eu/esco/skill/fd6d2981-3d4a-4ce2-9741-cfc98c5b74bd
+S224,implement front-end website design,Develop website layout and enhance user experience based on provided design concepts.,http://data.europa.eu/esco/skill/c4b1f326-224a-420a-b8b3-814a8f13b6cb
+S225,implement ICT network diagnostic tools,"Use software tools or components that monitor ICT network parameters, such as performance and throughput, provide data and statistics, diagnose errors, failures or bottlenecks and support decision making.",http://data.europa.eu/esco/skill/bf7ea00f-db77-4a95-9b9f-2d12b6d9fcb4
+S226,implement ICT recovery system,"Create, manage and implement ICT system recovery plan in case of crisis in order to retrieve information and reacquire use of the system.",http://data.europa.eu/esco/skill/fc2f1d4f-a46f-471e-a618-cbd4d0496a53
+S227,implement ICT risk management,"Develop and implement procedures for identifying, assessing, treating and mitigating ICT risks, such as hacks or data leaks, according to the company's risk strategy, procedures and policies. Analyse and manage security risks and incidents. Recommend measures to improve digital security strategy.",http://data.europa.eu/esco/skill/69cfc5ed-6569-4aca-a4cc-fd782ba51d9c
+S228,implement ICT security policies,"Implement statements, assertions or rules that specify the appropriate use and protection of the ICT assets and systems from an organisation. These ICT security policies cover topics such as data classification, password management, access control and incident response.",http://data.europa.eu/esco/skill/14d1e367-3efe-4ec5-86ae-eca48710ee4e
+S229,implement smart contracts,"Implement smart contracts for various applications, and in the most important smart contract frameworks such as Bitcoin and Ethereum, and in the most suitable programming languages such as Solidity, Rust, JavaScript, Vyper and Yul.",http://data.europa.eu/esco/skill/89d574b8-f0ea-4ae8-9008-f575e37e9f11
+S230,implement spam protection,Install and configure software that supports email-users to filter messages that contain malware or that are unsolicited.,http://data.europa.eu/esco/skill/c2cbbccf-4ffd-4626-86e7-505b39c872a0
+S231,implement strategic planning,Take action on the goals and procedures defined at a strategic level in order to mobilise resources and pursue the established strategies.,http://data.europa.eu/esco/skill/f7b5d916-52f0-4865-b6a6-e1a3b711cb5e
+S232,improve business processes,Optimise the series of operations of an organisation to achieve efficiency. Analyse and adapt existing business operations in order to set new objectives and meet new goals.,http://data.europa.eu/esco/skill/75b30aeb-34c0-40f4-b77d-271d75a98b14
+S233,increase the impact of science on policy and society,"Influence evidence-informed policy and decision making by providing scientific input to and maintaining professional relationships with policymakers and other stakeholders. 
+",http://data.europa.eu/esco/skill/4d39b27a-b34f-4c89-8d46-df844d42f728
+S234,inform on workplace safety standards,"Inform managers and staff regarding workplace health and safety standards, especially in the case of dangerous environments, such as in the construction or mining industry.",http://data.europa.eu/esco/skill/41437077-2522-49bf-bcb2-083a23d52958
+S235,innovate in ICT,"Create and describe new original research and innovation ideas within the field of information and communication technologies, compare to the emerging technologies and trends and plan the development of new ideas.",http://data.europa.eu/esco/skill/8327754d-3990-4056-b07e-4faa49cfcd26
+S236,install electronic communication equipment,Set up and deploy digital and analogue electronic communications. Understand electronic diagrams and equipment specifications.,http://data.europa.eu/esco/skill/861cc783-6d4c-442e-9081-3a6e389be454
+S237,install signal repeaters,Set up and configure devices which enhance strength of signal of a communication channel to enable proper reception and reproduction in further places.,http://data.europa.eu/esco/skill/f0ff6f10-cbb4-44c0-acd5-ed17046b1396
+S238,integrate content into output media,"Compile and integrate media and text content into online and offline systems, such as websites, platforms, applications and social media, for publishing and distribution.",http://data.europa.eu/esco/skill/c0e2f74c-51f0-4020-9756-d190848cf181
+S239,integrate gender dimension in research,Take into account in the whole research process the biological characteristics and the evolving social and cultural features of women and men (gender). ,http://data.europa.eu/esco/skill/cd50d616-1f8b-481e-983f-68d2674ff82d
+S240,integrate ICT data,Combine data from sources to provide unified view of the set of these data.,http://data.europa.eu/esco/skill/46ec0033-3c71-415e-bcff-b065675ba2dc
+S241,integrate system components,Select and use integration techniques and tools to plan and implement integration of hardware and software modules and components in a system. ,http://data.europa.eu/esco/skill/ed8de897-adbe-4f0e-b4d2-534953e64c72
+S242,interact professionally in research and professional environments,"Show consideration to others as well as collegiality. Listen, give and receive feedback and respond perceptively to others, also involving staff supervision and leadership in a professional setting.",http://data.europa.eu/esco/skill/20a8fe89-d4eb-4698-8521-8881c13377e0
+S243,interact with users to gather requirements,Communicate with users to identify their requirements and collect them. Define all relevant user requirements and document them in an understandable and logical way for further analysis and specification.,http://data.europa.eu/esco/skill/a8797f21-1af0-4c5e-98ca-bf1442929363
+S244,interpret current data,"Analyse data gathered from sources such as market data, scientific papers, customer requirements and questionnaires which are current and up-to-date in order to assess development and innovation in areas of expertise.",http://data.europa.eu/esco/skill/1e77e42a-181f-4b48-8e74-201ce50ffc29
+S245,interpret electronic design specifications,Analyse and understand detailed electronic design specifications.,http://data.europa.eu/esco/skill/e76dd90d-91c4-49c0-bfd0-dfa2c4c90c81
+S246,interpret technical requirements,"Analyse, understand and apply the information provided regarding technical conditions.",http://data.europa.eu/esco/skill/be48353d-25c7-4f86-bea9-7b9e248fbc6e
+S247,interpret technical texts,"Read and understand technical texts that provide information on how to perform a task, usually explained in steps.",http://data.europa.eu/esco/skill/85c11255-469f-41bd-a6d1-382bc4a87783
+S248,keep task records,Organise and classify records of prepared reports and correspondence related to the performed work and progress records of tasks.,http://data.europa.eu/esco/skill/43b13058-68d0-40c6-8031-caf5a7b7d20c
+S249,keep up with the latest information systems solutions,"Gather the latest information on existing information systems solutions which integrate software and hardware, as well as network components.",http://data.europa.eu/esco/skill/20c920d4-7ff7-4676-ba61-3f04490d9416
+S250,lead disaster recovery exercises,"Head exercises which educate people on what to do in case of an unforeseen disastrous event in the functioning or security of ICT systems, such as on recovery of data, protection of identity and information and which steps to take in order to prevent further problems.",http://data.europa.eu/esco/skill/ddb65832-91a7-4157-9488-719a0e2ad87b
+S251,liaise with managers,"Liaise with managers of other departments ensuring effective service and communication, i.e. sales, planning, purchasing, trading, distribution and technical.",http://data.europa.eu/esco/skill/f14ff4b7-be1e-4b55-b39b-520005f8a97e
+S252,maintain database performance,Calculate values for database parameters. Implement new releases and execute regular maintenance tasks such as establishing backup strategies and eliminating index fragmentation. ,http://data.europa.eu/esco/skill/d6cdef49-b669-4507-91d1-3f959cf98e47
+S253,maintain database security,Master a wide variety of information security controls in order to pursue maximal database protection.,http://data.europa.eu/esco/skill/ec85cc63-4e24-4631-bf92-8789db2605c0
+S254,maintain ICT identity management,"Administer identification, authentication and authorisation of individuals within a system and control their access to resources by associating user rights and restrictions with the established identity.",http://data.europa.eu/esco/skill/ab49f767-296b-47d5-af56-0b4a69515b03
+S255,maintain ICT server,"Diagnose and eliminate hardware faults via repair or replacement. Take preventive measures, review performance, update software, review accessibility.",http://data.europa.eu/esco/skill/f5ac9226-0ace-4d34-a1c3-7b3845834a98
+S256,maintain ICT system,Select and apply system and network monitoring techniques. Identify and fix operational problems. Ensure that system's capabilities and efficiency match company specifications.,http://data.europa.eu/esco/skill/fbbcb9ab-4b95-4e57-a756-30d08b7da7a5
+S257,maintain information network hardware,"Assess the functionality and identify faults in the infrastructure of an information network, perform routine maintenance tasks which prevent failure and repair tasks in order to ensure permanent availability to system users.",http://data.europa.eu/esco/skill/19c0e68e-6e6c-4698-85dc-ef66a9de2c37
+S258,maintain internet protocol configuration,Apply Internet Protocol Configuration (ipconfig) to gather data on Transmission Control Protocol/Internet Protocol (TCP/IP) configuration values in order to identify devices and their IP addresses.,http://data.europa.eu/esco/skill/b9aad733-959a-4178-984f-53e4bd05b420
+S259,maintain plan for continuity of operations,"Update methodology which contains steps to ensure that facilities of an organisation are able to continue operating, in case of broad range of unforeseen events.",http://data.europa.eu/esco/skill/909a28ce-d4b6-4567-9b74-d111f1ed9633
+S260,maintain relationship with customers,"Build a lasting and meaningful relationship with customers in order to ensure satisfaction and fidelity by providing accurate and friendly advice and support, by delivering quality products and services and by supplying after-sales information and service.",http://data.europa.eu/esco/skill/2239694b-771a-4586-8b54-2794e361a9ae
+S261,make data-driven decisions,Collect data such as Key Performance Indicators (KPIs) for an organisation and use the information to formulate actions and strategies.,http://data.europa.eu/esco/skill/be20d05c-f6b4-4580-9fcf-f00f4baab562
+S262,make strategic business decisions,"Analyse business information and consult directors for decision making purposes in a varied array of aspects affecting the prospect, productivity and sustainable operation of a company. Consider the options and alternatives to a challenge and make sound rational decisions based on analysis and experience.",http://data.europa.eu/esco/skill/f60c9e52-95fc-4ca1-a73c-18a491153b63
+S263,manage a team,"Ensure clear and effective channels of communication across all departments within the organisation and support functions, both internally and externally ensuring that the team is aware of the standards and objectives of the department/business unit. Implement the disciplinary and grievance procedures as required ensuring that a fair and consistent approach to managing performance is consistently achieved. Assist in the recruitment process and manage, train and motivate employees to achieve/exceed their potential using effective performance management techniques. Encourage and develop a team ethic amongst all employees.",http://data.europa.eu/esco/skill/cb668e89-6ef5-4ff3-ab4a-506010e7e70b
+S264,manage budgets,"Plan, monitor, report on the budget and prepare set production budgets.",http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea
+S265,manage business knowledge,"Set up structures and distribution policies to enable or improve information exploitation using appropriate tools to extract, create and expand business mastery.",http://data.europa.eu/esco/skill/41bf7ede-fc84-4a57-8c89-b548d11b0ba1
+S266,manage changes in ICT system,"Plan, realise and monitor system changes and upgrades. Maintain earlier system versions. Revert, if necessary, to a safe older system version.",http://data.europa.eu/esco/skill/1e7ed56a-6d6b-422f-962e-38543d150755
+S267,manage cloud data and storage,"Create and manage cloud data retention. Identify and implement data protection, encryption, and capacity planning needs.",http://data.europa.eu/esco/skill/d3286405-49f8-4e8a-8046-a4376b4e7963
+S268,manage content development projects,"Plan and implement the creation, delivery and management of digital or printed content, develop a system that describes the entire editorial content development and publishing process and use ICT tools to support the process.",http://data.europa.eu/esco/skill/ac516e9b-8bfa-4b72-8e3e-340b0a3a51d5
+S269,manage content metadata,"Apply content management methods and procedures to define and use metadata concepts, such as the data of creation, in order to describe, organise and archive content such as documents, video and audio files, applications and images.",http://data.europa.eu/esco/skill/9710092c-f174-4e84-95bf-2064d39ad7a0
+S270,manage contracts,"Negotiate the terms, conditions, costs and other specifications of a contract while making sure they comply with legal requirements and are legally enforceable. Oversee the execution of the contract, agree on and document any changes in line with any legal limitations.",http://data.europa.eu/esco/skill/92721092-fe7c-4689-96bd-4f02385bc0e7
+S271,manage data,"Administer all types of data resources through their lifecycle by performing data profiling, parsing, standardisation, identity resolution, cleansing, enhancement and auditing. Ensure the data is fit for purpose, using specialised ICT tools to fulfil the data quality criteria.",http://data.europa.eu/esco/skill/9ff9db9d-d14b-426e-83f3-e7449af6c79f
+S272,manage data collection systems,"Develop and manage methods and strategies used to maximise data quality and statistical efficiency in the collection of data, in order to ensure the gathered data are optimised for further processing.",http://data.europa.eu/esco/skill/a80fb090-63f4-4b05-83a5-2f090deb7757
+S273,manage data for legal matters,"Collect, organise and prepare data for analysis and review during investigation, regulatory filings and other legal processes.",http://data.europa.eu/esco/skill/a89a94fb-c417-49b4-a9a9-9a22e0f12697
+S274,manage database,"Apply database design schemes and models, define data dependencies, use query languages and database management systems (DBMS) to develop and manage databases.",http://data.europa.eu/esco/skill/29fb0fb5-dfc4-4098-ac9b-3a712000f48f
+S275,manage digital documents,"Manage various data formats and files by naming, publishing, transforming and sharing files and documents and transforming file formats.",http://data.europa.eu/esco/skill/b769f524-0f25-44d7-8538-5c46710a040e
+S276,manage digital identity,"Create and manage one or multiple digital identities, be able to protect one's own reputation, deal with the data that one produces through several digital tools, environments and services.",http://data.europa.eu/esco/skill/bc0b0b5d-f6be-405a-b224-b6902a4dbe97
+S277,manage disaster recovery plans,"Prepare, test and execute, when necessary, a plan of action to retrieve or compensate lost information system data.",http://data.europa.eu/esco/skill/64852ade-6ae1-4760-ba4a-976bf07ca255
+S278,manage email hosting service,"Oversee the day-to-day running of a private email platform by maintaining and refining provided services, such as spam and virus protection, blocking advertisement, website redesigns and search engine optimisation.",http://data.europa.eu/esco/skill/f8f1f725-0105-41fa-9887-4df9e7a7af1e
+S279,manage engineering project,"Manage engineering project resources, budget, deadlines, and human resources, and plan schedules as well as any technical activities pertinent to the project.",http://data.europa.eu/esco/skill/6a899482-8bcf-40ca-ae67-579a1cc467ab
+S280,manage environmental impact of operations,"Manage the interaction with and impact on the environment by companies. Identify and assess environmental impacts of the production process and related services, and regulate a reduction of the effects on the environment and on people. Organise action plans and monitor any indicators of improvement.",http://data.europa.eu/esco/skill/d86babea-bf8b-4552-81a8-daf706066ad6
+S281,manage findable accessible interoperable and reusable data,"Produce, describe, store, preserve and (re) use scientific data based on FAIR (Findable, Accessible, Interoperable, and Reusable) principles, making data as open as possible, and as closed as necessary.",http://data.europa.eu/esco/skill/4f5c1208-62fd-4e5a-a51e-306c06947e11
+S282,manage ICT change request process,"Specify the incentive for an ICT change request, stating which adjustment in the system needs to be accomplished and execute or supervise the execution of it.",http://data.europa.eu/esco/skill/0a099c81-6a0c-4f00-bb3b-990d23ec03a5
+S283,manage ICT data architecture,"Oversee regulations and use ICT techniques to define the information systems architecture and to control data gathering, storing, consolidation, arrangement and usage in an organisation.",http://data.europa.eu/esco/skill/4d85b881-e490-4b4c-897a-2faa4ef53956
+S284,manage ICT data classification,Oversee the classification system an organisation uses to organise its data. Assign an owner to each data concept or bulk of concepts and determine the value of each item of data.,http://data.europa.eu/esco/skill/03a74eee-2dc6-4147-8667-5cdeb65f122d
+S285,manage ICT legacy implication,"Oversee the transfer process from a legacy (an outdated system) to a current system by mapping, interfacing, migrating, documenting and transforming data.",http://data.europa.eu/esco/skill/861313ba-3a1a-4d33-842a-1b8e45e2415b
+S286,manage ICT project,"Plan, organize, control and document procedures and resources, such as human capital, equipment and mastery, in order to achieve specific goals and objectives related to ICT systems, services or products, within specific constraints, such as scope, time, quality and budget.",http://data.europa.eu/esco/skill/3c76296d-4bbd-44ba-8eaa-95bf275f79b7
+S287,manage ICT semantic integration,"Oversee integration of public or internal databases and other data, by using semantic technologies to produce structured semantic output.",http://data.europa.eu/esco/skill/fda917eb-0d6a-4371-8c93-2a10bf950966
+S288,manage ICT virtualisation environments,"Oversee tools, such as VMware, kvm, Xen, Docker, Kubernetes, and others, used to enable a virtual environments for different purposes such as hardware virtualization, desktop virtualisation, and operating system level virtualisation.",http://data.europa.eu/esco/skill/ae4f0cc6-e0b9-47f5-bdca-2fc2e6316dce
+S289,manage intellectual property rights,Deal with the private legal rights that protect the products of the intellect from unlawful infringement.,http://data.europa.eu/esco/skill/518dc04d-092d-4fa1-bd82-88b7a9278ef7
+S290,manage IT security compliances,"Guide application and fulfilment of relevant industry standards, best practices and legal requirements for information security.",http://data.europa.eu/esco/skill/06358891-8424-43c5-891e-d40f226bef40
+S291,manage keys for data protection,"Select appropriate authentication and authorization mechanisms. Design, implement and troubleshoot key management and use. Design and implement a data encryption solution for data at rest and data in transit.",http://data.europa.eu/esco/skill/e5beeff8-7c98-490a-ae2c-16fbb6a87305
+S292,manage localisation,Modify content or a product for the transference from one locale to another through the use of content translation or localisation service providers.,http://data.europa.eu/esco/skill/a9bf8565-8a09-4118-9922-932d65a79d69
+S293,manage online content,"Ensure the website content is up to date, organised, attractive and meets the target audience needs, the requirements of the company and international standards by checking the links, setting the publishing time framework and order.",http://data.europa.eu/esco/skill/c1f29568-f2bb-49d2-b6c2-28748bd1629b
+S294,manage open publications,"Be familiar with Open Publication strategies, with the use of information technology to support research, and with the development and management of CRIS (current research information systems) and institutional repositories. Provide licensing and copyright advice, use bibliometric indicators, and measure and report research impact.",http://data.europa.eu/esco/skill/da930e2f-6047-4616-a598-bba8ecef3039
+S295,manage personal professional development,Take responsibility for lifelong learning and continuous professional development. Engage in learning to support and update professional competence. Identify priority areas for professional development based on reflection about own practice and through contact with peers and stakeholders. Pursue a cycle of self-improvement and develop credible career plans. ,http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612
+S296,manage quantitative data,"Gather, process and present quantitative data. Use the appropriate programs and methods for validating, organising and interpreting data.",http://data.europa.eu/esco/skill/57231a22-4da7-49c8-97b8-75672feadf1e
+S297,manage research data,Produce and analyse scientific data originating from qualitative and quantitative research methods. Store and maintain the data in research databases. Support the re-use of scientific data and be familiar with open data management principles.,http://data.europa.eu/esco/skill/08b04e53-ed25-41a2-9f90-0b9cd939ba3d
+S298,manage schedule of tasks,"Maintain an overview of all the incoming tasks in order to prioritise the tasks, plan their execution, and integrate new tasks as they present themselves.",http://data.europa.eu/esco/skill/0e1fe34b-f4e7-4642-8c8b-5a05ac3438e5
+S299,manage software releases,Examine and approve suggested software development releases. Manage further release process.,http://data.europa.eu/esco/skill/978db6a1-7297-4c89-819a-47605f2c3ba8
+S300,manage staff,"Manage employees and subordinates, working in a team or individually, to maximise their performance and contribution. Schedule their work and activities, give instructions, motivate and direct the workers to meet the company objectives. Monitor and measure how an employee undertakes their responsibilities and how well these activities are executed. Identify areas for improvement and make suggestions to achieve this. Lead a group of people to help them achieve goals and maintain an effective working relationship among staff.",http://data.europa.eu/esco/skill/339ac029-066a-4985-9f9d-b3d7c8fea0bb
+S301,manage standard enterprise resource planning system,"Collect, manage and interpret data relevant for companies related to shipping, payment, inventory, resources and manufacturing using specific business management software. Such software as Microsoft Dynamics​, SAP ERP, Oracle ERP.",http://data.europa.eu/esco/skill/f0393af3-bcd9-41af-a36e-0cfb83b60081
+S302,manage standards for data exchange,Set and maintain standards for transforming data from source schemas into the necessary data structure of a result schema.,http://data.europa.eu/esco/skill/cb5cccc9-abe4-4b11-abe6-d27e5cd85fb1
+S303,manage system security,Analyse the critical assets of a company and identify weaknesses and vulnerabilities that lead to intrusion or attack. Apply security detection techniques. Understand cyber attack techniques and implement effective countermeasures.,http://data.europa.eu/esco/skill/2a3a96a3-709e-4d60-81f6-d247d6933f13
+S304,manage system testing,"Select, perform and track testings on software or hardware to detect system defects both within the integrated system units, the inter-assemblages and the system as a whole. Organise testings such as installation testing, security testing and graphical user interface testing.",http://data.europa.eu/esco/skill/ce354460-500e-4eaa-8e95-8f243fcea3db
+S305,measure customer feedback,Evaluate customer's comments in order to find out whether customers feel satisfied or dissatisfied with the product or service.,http://data.europa.eu/esco/skill/89ba58e8-a67e-4d2b-ad42-6acab25c241b
+S306,measure software usability,Check the convenience of the software product for the end user. Identify user problems and make adjustments to improve usability practice. Collect input data on how users evaluate software products.,http://data.europa.eu/esco/skill/be0ff6d8-5e61-4021-9c89-e40cf0b75cc6
+S307,mentor individuals,"Mentor individuals by providing emotional support, sharing experiences and giving advice to the individual to help them in their personal development, as well as adapting the support to the specific needs of the individual and heeding their requests and expectations.",http://data.europa.eu/esco/skill/a584a638-a2c0-4b3c-bdf3-a64f87225be9
+S308,migrate existing data,"Apply migration and conversion methods for existing data, in order to transfer or convert data between formats, storage or computer systems.",http://data.europa.eu/esco/skill/020918ef-4b55-47c1-8430-ab7b8f6a7377
+S309,monitor communication channels' performance,Search for possible faults. Perform visual checks. Analyse system indicators and use diagnostic devices.,http://data.europa.eu/esco/skill/e08821b5-d6dd-4db9-a0f1-43185653c244
+S310,monitor developments in field of expertise,"Keep up with new research, regulations, and other significant changes, labour market related or otherwise, occurring within the field of specialisation.",http://data.europa.eu/esco/skill/23ac233d-84ad-4517-b0f5-8ca19ba2614e
+S311,monitor ICT research,Survey and investigate recent trends and developments in ICT research. Observe and anticipate mastery evolution.,http://data.europa.eu/esco/skill/cc716f65-a0d0-4fba-95d9-64c358f697c0
+S312,monitor system performance,"Measure system reliability and performance before, during and after component integration and during system operation and maintenance. Select and use performance monitoring tools and techniques, such as special software.",http://data.europa.eu/esco/skill/9190d87f-9792-42e0-bb7f-64294a656bcd
+S313,monitor technology trends,"Survey and investigate recent trends and developments in technology. Observe and anticipate their evolution, according to current or future market and business conditions.",http://data.europa.eu/esco/skill/7a17d7ce-01a2-4746-bbcc-22ffe22fa16e
+S314,normalise data,"Reduce data to their accurate core form (normal forms) in order to achieve such results as minimisation of dependency, elimination of redundancy, increase of consistency.",http://data.europa.eu/esco/skill/07889c08-7220-47c8-96f7-6068fbea00dc
+S315,operate open source software,"Operate Open Source software, knowing the main Open Source models, licensing schemes, and the coding practices commonly adopted in the production of Open Source software.
+",http://data.europa.eu/esco/skill/2b34764d-637c-48f5-aa70-31e15c965db6
+S316,operate relational database management system,"Extract, store and verify information using database management systems based on the relational database model, which arranges data into tables of rows and columns, such as Oracle Database, Microsoft SQL Server and MySQL.",http://data.europa.eu/esco/skill/7369f779-4b71-4aab-8836-48b69c676eec
+S317,optimise choice of ICT solution,"Select the appropriate solutions in the field of ICT while taking into account potential risks, benefits and overall impact.",http://data.europa.eu/esco/skill/3cfa46e9-b7da-44ac-b09e-9596dffe0425
+S318,outline blockchain-based identity management,"Outline blockchain-based identity management and access control in terms of how they work, what their benefits are compared to current solutions, and how they can be applied for specific applications.",http://data.europa.eu/esco/skill/af6ea157-8c10-4c5b-8015-0e184946127a
+S319,oversee development of software,"Organise, plan and supervise the development of the applications and frameworks in order to create a software product, from the earliest planning stages to the final product test.",http://data.europa.eu/esco/skill/83b33952-3872-46ec-9a2e-b28f91303a7e
+S320,oversee quality control,Monitor and assure the quality of the provided goods or services by overseeing that all the factors of the production meet quality requirements. Supervise product inspection and testing.,http://data.europa.eu/esco/skill/5d34adde-0b78-42b4-9d3d-69e9388d8398
+S321,perform backups,Implement backup procedures to backup data and systems to ensure permanent and reliable system operation. Execute data backups in order to secure information by copying and archiving to ensure integrity during system integration and after data loss occurrence.,http://data.europa.eu/esco/skill/cf3e976d-2c3e-495c-a874-f9e8a66d3b48
+S322,perform business analysis,"Evaluate the condition of a business on its own and in relation to the competitive business domain, performing research, placing data in context of the business' needs and determining areas of opportunity.",http://data.europa.eu/esco/skill/27ed854c-15b8-4ba2-90e9-ae888a219703
+S323,perform contract compliance audits,"Execute a thorough contract compliance audit, ensuring that goods or services are being delivered in a correct and timely fashion, checking for clerical errors or missed credits and discounts and starting procedures for cash recovery.",http://data.europa.eu/esco/skill/5b8a3dd2-de10-48a0-8ce5-522f1fff8450
+S324,perform copywriting,Write creative texts targeted to a specific audience for marketing and advertising purposes and ensure that the message convinces potential customers to buy a product or a service and facilitates a positive outlook on the organisation.,http://data.europa.eu/esco/skill/ce592b28-4467-4908-b2e6-64bbe18da631
+S325,perform data analysis,"Collect data and statistics to test and evaluate in order to generate assertions and pattern predictions, with the aim of discovering useful information in a decision-making process.",http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f
+S326,perform data cleansing,"Detect and correct corrupt records from data sets, ensure that the data become and remain structured according to guidelines.",http://data.europa.eu/esco/skill/50b100ea-74fd-4706-99db-3e4ca55e51b8
+S327,perform data mining,"Explore large datasets to reveal patterns using statistics, database systems or artificial intelligence and present the information in a comprehensible way.",http://data.europa.eu/esco/skill/4216e465-7baa-4884-a241-54b197bb9278
+S328,perform dimensionality reduction,"Reduce the number of variables or features for a dataset in machine learning algorithms through methods such as principal component analysis, matrix factorization, autoencoder methods, and others.",http://data.europa.eu/esco/skill/3e2ab38a-4519-4bef-b762-a8bf4836a775
+S329,perform forensic preservations of digital devices,"Preserve integrity of ICT devices, such as laptops, desktops and other digital media, by storing them physically and using software such as PTK Forensics and EnCase to retrieve, store and trace digital information in a legal manner so that they can be used as evidence at an appropriate time.",http://data.europa.eu/esco/skill/28a0fe16-4e03-4d5e-8f0e-5198309e77a9
+S330,perform ICT security testing,"Execute types of security testing, such as network penetration testing, wireless testing, code reviews, wireless and/or firewall assessments in accordance with industry-accepted methods and protocols to identify and analyse potential vulnerabilities.",http://data.europa.eu/esco/skill/f4a85869-1855-45d5-a43c-7ee8cd451996
+S331,perform ICT troubleshooting,"Identify problems with servers, desktops, printers, networks, and remote access, and perform actions which solve the problems.",http://data.europa.eu/esco/skill/744442ac-c157-4350-8be0-ce454df4f5c5
+S332,perform market research,"Gather, assess and represent data about target market and customers in order to facilitate strategic development and feasibility studies. Identify market trends.",http://data.europa.eu/esco/skill/fe39d4db-4cb5-4299-bb9f-896c8fd6ab13
+S333,perform online data analysis,"Analyse online experiences and online data for purposes of understanding user behaviour, triggers of online attention, and other factors that could optimise webpage development and exposure.",http://data.europa.eu/esco/skill/062320e5-79d1-45e8-8b7e-5deeb53279a2
+S334,perform procurement processes,"Undertake ordering of services, equipment, goods or ingredients, compare costs and check the quality to ensure optimal payoff for the organisation.",http://data.europa.eu/esco/skill/9e9a4209-c7cf-4f6e-973e-dc2ffadccc74
+S335,perform project management,"Manage and plan various resources, such as human resources, budget, deadline, results, and quality necessary for a specific project, and monitor the project's progress in order to achieve a specific goal within a set time and budget.",http://data.europa.eu/esco/skill/cd5efa8c-e44d-4cbc-91c6-796018dbed68
+S336,perform quality audits,"Execute regular, systematic and documented examinations of a quality system for verifying conformity with a standard based on objective evidence such as the implementation of processes, effectiveness in achieving quality goals and reduction and elimination of quality problems.",http://data.europa.eu/esco/skill/d83cba15-8511-4d07-b89a-9fde0d1d8241
+S337,perform resource planning,"Estimate the expected input in terms of time, human and financial resources necessary to achieve the project objectives.",http://data.europa.eu/esco/skill/f5dd06b8-5d17-4932-9d03-957d0c4f5051
+S338,perform risk analysis,Identify and assess factors that may jeopardise the success of a project or threaten the organisation's functioning. Implement procedures to avoid or minimise their impact.,http://data.europa.eu/esco/skill/1dd23dba-dd00-45ab-abf4-642902538317
+S339,perform scientific research,"Gain, correct or improve knowledge about phenomena by using scientific methods and techniques, based on empirical or measurable observations.
+",http://data.europa.eu/esco/skill/4fabca9a-7435-4f33-b1da-3cdb00340fdc
+S340,perform software recovery testing,Execute testing using specialised software tools to force failure of software in a variety of ways and checking how fast and better the software can recover against any type of crash or failure.,http://data.europa.eu/esco/skill/ff25cbf0-6978-4c4c-887e-d4b185410d74
+S341,perform software unit testing,Test single units of source code to determine whether or not they are suitable for use by creating short code fragments.,http://data.europa.eu/esco/skill/7961413f-61d0-4722-9cd9-20a050a29899
+S342,plan digital marketing,"Develop digital marketing strategies for both leisure and business purposes, create websites and deal with mobile technology and social networking.",http://data.europa.eu/esco/skill/736ef286-fbd3-4e5c-a4b4-d1e2008c9898
+S343,plan ICT capacity,"Schedule the longer-term hardware capacity, ICT infrastructure, computing resources, human resources and other aspects needed to meet changing demands for ICT products and services.",http://data.europa.eu/esco/skill/a2fef437-6719-47c2-8552-73b9fe81df86
+S344,plan migration to cloud,"Select existing workloads and processes for potential migration to the cloud and choose migration tools. Determine a new cloud architecture for an existing solution, plan a strategy for migrating existing workloads to the cloud.",http://data.europa.eu/esco/skill/0a52bed5-fd29-45fb-aba6-e32bccfda1c1
+S345,plan research process,Outline the research methodologies and schedule in order to ensure that the research can be thoroughly and efficiently executed and that the objectives can be met in a timely manner.,http://data.europa.eu/esco/skill/f88cb903-83a2-44a3-98a8-e72180ec37a9
+S346,plan software testing,"Create and supervise tests plans. Decide on allocation of resources, tools and techniques. Set testing criteria for balancing incurred risks in case of remaining defects, adapt budgets and plan additional costs.",http://data.europa.eu/esco/skill/5d74614d-32c8-4ca4-9818-6980e52424b1
+S347,prepare financial auditing reports,"Compile information on audit findings of financial statements and financial management in order to prepare reports, point out improvement possibilities, and confirm governability.",http://data.europa.eu/esco/skill/3e9b580d-811b-48df-a5d1-a7bdd26f901f
+S348,prepare licence agreements,"Make the legal contract ready, granting permission to use equipment, services, components, applications and intellectual property.",http://data.europa.eu/esco/skill/0d4471ae-3820-4c23-8566-f44a7bd159b2
+S349,present evidence,"Present evidence in a criminal or civil case to others, in a convincing and appropriate manner, in order to reach the right or most beneficial solution.",http://data.europa.eu/esco/skill/326686e4-a55f-4eba-9d07-1c86408d5c5e
+S350,process data,"Enter information into a data storage and data retrieval system via processes such as scanning, manual keying or electronic data transfer in order to process large amounts of data.",http://data.europa.eu/esco/skill/f2d57f41-43b4-4f5b-8100-3df5c21eda50
+S351,program a CNC controller,Set up the desired product design in the CNC controller of the CNC machine for product manufacturing.,http://data.europa.eu/esco/skill/bf942c60-8539-4951-83ee-63f770da1cb8
+S352,promote environmental awareness,Promote sustainability and raise awareness about the environmental impact of human and industrial activity based on the carbon footprints of business processes and other practices.,http://data.europa.eu/esco/skill/8abdc43c-2bfd-417c-97c2-27fcdaf53171
+S353,promote open innovation in research,"Apply techniques, models, methods and strategies which contribute to the promotion of steps towards innovation through collaboration with people and organizations outside the organisation.
+",http://data.europa.eu/esco/skill/872a1632-f1db-4feb-bb27-0a6a359b7591
+S354,promote the participation of citizens in scientific and research activities,"Engage citizens in scientific and research activities and promote their contribution in terms of knowledge, time or resources invested.
+",http://data.europa.eu/esco/skill/fa642fc3-5cc5-41cf-8926-6617a8b976a7
+S355,promote the transfer of knowledge,"Deploy broad awareness of processes of knowledge valorisation aimed to maximise the two–way flow of technology, intellectual property, expertise and capability between the research base and industry or the public sector.",http://data.europa.eu/esco/skill/988f4ac3-a37c-4b0a-a40f-4e0e56b5919e
+S356,proofread text,"Read a text thoroughly, search for, review and correct errors to ensure content is valid for publishing.",http://data.europa.eu/esco/skill/637ca2e2-0624-48b1-be6e-9ff4580344ac
+S357,propose ICT solutions to business problems,"Suggest how to solve business issues, using ICT means, so that business processes are improved.",http://data.europa.eu/esco/skill/07e51c60-763a-4335-b4ec-70a15f66d328
+S358,protect ICT devices,"Protect devices and digital content, and understand risks and threats in digital environments. Know about safety and security measures and have due regard to reliability and privacy. Make use of tools and methods which maximise security of ICT devices and information by controlling access, such as passwords, digital signatures, biometry, and protecting systems such as firewall, antivirus, spam filters.",http://data.europa.eu/esco/skill/df329d70-87b0-466b-a214-3431f36e2a5e
+S359,protect personal data and privacy,Protect personal data and privacy in digital environments. Understand how to use and share personally identifiable information while being able to protect oneself and others from damages. Understand that digital services use a “Privacy policy” to inform how personal data is used.,http://data.europa.eu/esco/skill/33a82b83-c838-4889-ae62-fae1317481eb
+S360,provide connected car solutions,"Provide technological applications and services which enable cars to be connected to the internet for data transmission. Connected car solutions involve leveraging technologies such as GPS, sensors, or data analytics to provide connectivity and remote access services to devices.",http://data.europa.eu/esco/skill/1557b114-8222-46d5-acff-d2838909c302
+S361,provide cost benefit analysis reports,"Prepare, compile and communicate reports with broken down cost analysis on the proposal and budget plans of the company. Analyse the financial or social costs and benefits of a project or investment in advance over a given period of time.",http://data.europa.eu/esco/skill/48b68726-0fd6-4e03-a5eb-82236516ee7a
+S362,provide guidelines for content development,"Develop standards and structures for content development such as formats, styles, layout, structures, content types, terminology, XML and DITA. Implement them in document type definitions and apply them during work process and evaluate results in light of established standards.",http://data.europa.eu/esco/skill/b63ba4e4-ebf4-4e17-b0d6-662244022a4f
+S363,provide ICT consulting advice,"Advise on appropriate solutions in the field of ICT by selecting alternatives and optimising decisions while taking into account potential risks, benefits and overall impact to professional customers.",http://data.europa.eu/esco/skill/283cbcd3-7101-4dbb-be37-56f3625515b1
+S364,provide ICT support,"Resolve ICT-related incidents and service requests from customers, clients or colleagues including password resets and updating databases such as Microsoft Exchange email.",http://data.europa.eu/esco/skill/c2296e2e-5fef-4f24-a24f-e5b3792268be
+S365,provide ICT system training,"Plan and conduct training of staff on system and network issues. Utilise training material, evaluate and report on the learning progress of trainees.",http://data.europa.eu/esco/skill/418a56a2-7cfc-4b6d-8cf5-5c2add99a849
+S366,provide information,"Ensure quality and correctness of provided information, depending on the type of audience and context.",http://data.europa.eu/esco/skill/732cb4dd-af91-4c88-9a9f-5fc62144e500
+S367,provide multimedia content,"Develop multimedia materials such as screen shots, graphics, slide shows, animations and videos to be used as content integrated in a broader informational context.",http://data.europa.eu/esco/skill/dfb9cec6-3ae3-408a-9d57-c44361bf7aaf
+S368,provide software testing documentation,Describe software testing procedures to technical team and analysis of test outcomes to users and clients in order to inform them about state and efficiency of software.,http://data.europa.eu/esco/skill/78a74fd1-efc6-49dc-adb1-1b0fbe35c22c
+S369,provide technical training,Explain and demonstrate the use of training equipment and system functions.,http://data.europa.eu/esco/skill/d54a1355-05c8-45eb-9c42-267d2cfcdf44
+S370,provide training on technological business developments,Give training to colleagues on the technological innovation projects and functional implementations in a business which improves the organisation's business efficiency.,http://data.europa.eu/esco/skill/4c216189-4116-4e49-9557-8360378ea717
+S371,provide user documentation,"Develop and organise the distribution of structured documents to assist people using a particular product or system, such as written or visual information about an application system and how to use it.",http://data.europa.eu/esco/skill/385479b7-5da5-4367-9763-0d15b41bb65b
+S372,provide written content,Communicate information in written form via digital or print media according to the needs of the target group. Structure the content according to specifications and standards. Apply grammar and spelling rules.,http://data.europa.eu/esco/skill/be40c4c3-a855-4d67-9ca5-6f4428c34b0d
+S373,publish academic research,"Conduct academic research, in universities and research institutions, or on a personal account, publish it in books or academic journals with the aim of contributing to a field of expertise and achieving personal academic accreditation.
+",http://data.europa.eu/esco/skill/979cf728-896f-4f2c-8fa8-2698ca0d4930
+S374,read standard blueprints,"Read and comprehend standard blueprints, machine, and process drawings.",http://data.europa.eu/esco/skill/68b6ef08-d823-489d-a95c-752ae6f6e6a7
+S375,recognise blockchain application areas,"Recognise opportunities for the introduction of blockchain-based solutions in various application domains (e.g., supply chains, product-service systems, finances, etc.), as well as their transformative potential in the concerned application area in terms of people’s skills, roles they need to fulfill, and processes these roles contribute to. Identify the added value blockchain-based solutions would bring with respect to traditional solutions.",http://data.europa.eu/esco/skill/44847349-e7ff-4bdb-82b9-6a18140efcaf
+S376,recognise blockchain risks,"Recognise risks associated with blockchain and cryptocurrency. Apart from standard risks associated with the business processes they are driving, blockchains bear value-transfer risks linked to the peer-to-peer type of value transfer. Risk are also linked to smart contracts as digital representations of more or less complex business relationships.",http://data.europa.eu/esco/skill/d2309723-3472-46d2-865a-db81db2269b6
+S377,remove computer virus or malware from a computer,Carry out actions to remove computer viruses or other types of malware from a computer.,http://data.europa.eu/esco/skill/8359bd04-d2cb-4757-af1f-39a921df9efe
+S378,render 3D images,Use specialised tools to convert 3D wire frame models into 2D images with 3D photorealistic effects or non-photorealistic rendering on a computer.,http://data.europa.eu/esco/skill/e8171178-9a60-40a6-ad3b-510e10cfebad
+S379,replicate customer software issues,Use specialised tools to replicate and analyse the conditions that caused the set of software states or outputs reported by the customer in order to provide adequate solutions.,http://data.europa.eu/esco/skill/eb3aa8c1-fb14-47b4-a352-b7975abd2480
+S380,report analysis results,"Produce research documents or give presentations to report the results of a conducted research and analysis project, indicating the analysis procedures and methods which led to the results, as well as potential interpretations of the results.",http://data.europa.eu/esco/skill/c544a9f3-5945-4b54-afed-de0697852817
+S381,report on environmental issues,"Compile environmental reports and communicate on issues. Inform the public or any interested parties in a given context on relevant recent developments in the environment, forecasts on the future of the environment, and any problems and possible solutions.",http://data.europa.eu/esco/skill/f3cc52e3-a96c-4549-b841-6e41a846fa99
+S382,report test findings,"Report test results with a focus on findings and recommendations, differentiating results by levels of severity. Include relevant information from the test plan and outline the test methodologies, using metrics, tables, and visual methods to clarify where needed.",http://data.europa.eu/esco/skill/561c2525-5bd8-4d86-8f45-820f4be7db93
+S383,respond to customers' inquiries,"Answer customers' questions about itineraries, rates and reservations in person, by mail, by e-mail and on the phone.",http://data.europa.eu/esco/skill/cace7a77-38b7-4cdf-8171-e17692bef5f6
+S384,respond to incidents in cloud,Troubleshoot issues with the cloud and determine how to restore operations. Design and automate disaster recovery strategies and evaluate a deployment for points of failure.,http://data.europa.eu/esco/skill/440d5784-52a5-4729-8b04-29f978bd896d
+S385,review development process of an organisation,"Judge, review and decide on directions of innovation and development processes in an organisation in order to improve efficiency and reduce costs.",http://data.europa.eu/esco/skill/cb1b0777-0388-4b01-a0cf-7c6bbfbbd61d
+S386,secure sensitive customer's information,Select and apply security measures and regulations related to sensitive customer information with the aim of protecting their privacy.,http://data.europa.eu/esco/skill/f09e70cb-5d8c-4c57-b027-a45127c0bf92
+S387,set quality assurance objectives,"Define quality assurance targets and procedures and see to their maintenance and continued improvement by reviewing targets, protocols, supplies, processes, equipment and technologies for quality standards.",http://data.europa.eu/esco/skill/22b8039c-c890-4610-9228-5527e3b98f12
+S388,set up cybersecurity training programmes,"Design, develop and deliver educational activities (such as lectures and cyber ranges) to cover needs and/or raise awareness on cybersecurity.",http://data.europa.eu/esco/skill/54d774a3-de3b-4425-b0d7-c03bc99a0937
+S389,set up the controller of a machine,Set up and give commands to a machine by dispatching the appropriate data and input into the (computer) controller corresponding with the desired processed product.,http://data.europa.eu/esco/skill/d9818afc-1dec-4944-8c9c-e3ae8fad176d
+S390,solve ICT system problems,"Identify potential component malfunctions. Monitor, document and communicate about incidents. Deploy appropriate resources with minimal outage and deploy appropriate diagnostic tools.",http://data.europa.eu/esco/skill/9e06bac6-6b91-48ca-8b7d-c1f48cdecd7c
+S391,speak different languages,Master foreign languages to be able to communicate in one or more foreign languages.,http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac
+S392,store digital data and systems,"Use software tools to archive data by copying and backing them up, in order to ensure their integrity and to prevent data loss.",http://data.europa.eu/esco/skill/611ed16b-99bf-4840-9cab-f55d1d286e0a
+S393,study website behaviour patterns,"Research, analyse and optimise business results and user experience online through the use of tracking website metric tools.",http://data.europa.eu/esco/skill/6fe76a8b-4d5f-4cea-b76b-5908463fb014
+S394,support ICT system users,"Communicate with end users, instruct them on how to progress with tasks, use ICT support tools and methods to solve problems and identify possible side effects and provide solutions.",http://data.europa.eu/esco/skill/db36f7f1-5900-45bd-9ffb-f2b19c4362ac
+S395,synthesise information,"Critically read, interpret, and summarise new and complex information from diverse sources.",http://data.europa.eu/esco/skill/f715be1d-5fc4-49d3-82a5-0b8090d12849
+S396,synthesise research publications,"Read and interpret scientific publications that present a research problem, the methodology, its solution and hypothesis. Compare them and extract the information needed.",http://data.europa.eu/esco/skill/a8b3957f-08b4-4a76-927d-0b2e3d0dbd39
+S397,teach in academic or vocational contexts,"Instruct students in the theory and practice of academic or vocational subjects, transferring the content of own and others' research activities.",http://data.europa.eu/esco/skill/4cd85845-f31c-4306-994d-e12d45114d83
+S398,tend lathe,"Tend a lathe designed for cutting manufacturing processes on metal, wooden, plastic materials and others, monitor and operate it, according to regulations.",http://data.europa.eu/esco/skill/e4a9ec84-4eb3-494b-8a70-0fcf0d687f03
+S399,test for behavioural patterns,Discern patterns in the behaviour of individuals by using various tests in order to understand the causes of their behaviour.,http://data.europa.eu/esco/skill/7bdcdadb-146c-475f-8cff-921c6fd5f858
+S400,test for emotional patterns,Discern patterns in the emotions of individuals by using various tests in order to understand the causes of these emotions.,http://data.europa.eu/esco/skill/3d3db1e7-b041-495e-8a93-deeacded8a2f
+S401,test ICT queries,Assess that developed queries return and execute correct actions and data.,http://data.europa.eu/esco/skill/e2fb1ee4-fbf9-4690-b677-3e6ff7cfdc48
+S402,test system accessibility for users with special needs,Examine whether software interface complies with standards and regulations so that the system can be used by people with special needs.,http://data.europa.eu/esco/skill/be64bb4c-84ac-4c83-8cc7-fc8593e15136
+S403,think abstractly,"Demonstrate the ability to use concepts in order to make and understand generalisations, and relate or connect them to other items, events, or experiences.",http://data.europa.eu/esco/skill/9a58cd26-58eb-4a1c-b1b6-64037fe9cfa1
+S404,track key performance indicators,"Identify the quantifiable measures that a company or industry uses to gauge or compare performance in terms of meeting their operational and strategic goals, using preset performance indicators.",http://data.europa.eu/esco/skill/8dcbcabe-09f7-4d11-940d-125af57bbc40
+S405,train employees,Lead and guide employees through a process in which they are taught the necessary skills for the perspective job. Organise activities aimed at introducing the work and systems or improving the performance of individuals and groups in organisational settings.,http://data.europa.eu/esco/skill/e54ff029-1ce9-447d-a5b2-eb7283a23e6e
+S406,translate requirement concepts into content,Develop digital content by following given requirements and guidelines.,http://data.europa.eu/esco/skill/0dcbf7c5-bedf-4485-b16b-23df54443864
+S407,translate requirements into visual design,"Develop visual design from given specifications and requirements, based on the analysis of the scope and target audience. Create a visual representation of ideas such as logos, website graphics, digital games and layouts.",http://data.europa.eu/esco/skill/2d6d4784-0992-48e7-b100-22d7229b3f0a
+S408,troubleshoot,"Identify operating problems, decide what to do about it and report accordingly.",http://data.europa.eu/esco/skill/334e3e49-fb02-4051-809a-f06adfdc1c40
+S409,use access control software,"Utilise software to define the roles and manage user authentication, privileges and access rights to ICT systems, data and services.",http://data.europa.eu/esco/skill/5da73370-f6b9-417d-a94c-09bf01f84aa2
+S410,use an application-specific interface,Understand and use interfaces particular to an application or use case.,http://data.europa.eu/esco/skill/04fe962b-4017-4eb7-9139-7d69b6922bc9
+S411,use automatic programming,"Utilise specialised software tools to generate computer code from specifications, such as diagrams, structured informations or other means of describing functionality.",http://data.europa.eu/esco/skill/7d10fcb2-b368-48ab-996b-7c9fafcf68ed
+S412,use back-up and recovery tools,"Use tools which allow users to copy and archive computer software, configurations and data and recover them in case of loss.",http://data.europa.eu/esco/skill/82de2df7-0d6c-42b1-94ac-b3e9a029e917
+S413,use CAD software,"Use computer-aided design (CAD) systems to assist in the creation, modification, analysis, or optimisation of a design.",http://data.europa.eu/esco/skill/b34e2ba1-9080-48c9-9b42-ee9192a4d3f1
+S414,use CAM software,"Use computer-aided manufacturing (CAM) programmes to control machinery and machine tools in the creation, modification, analysis, or optimisation as part of the manufacturing processes of workpieces.",http://data.europa.eu/esco/skill/7a757fa5-9a6f-43ab-9e66-f8f4dba1ffcb
+S415,use computer-aided engineering systems,Use computer-aided engineering software to conduct stress analyses on engineering designs.,http://data.europa.eu/esco/skill/3c6fe585-7d12-4315-b579-e30c042088ce
+S416,use concurrent programming,"Utilise specialised ICT tools to create programs that can execute concurrent operations by splitting programs into parallel processes and, once computed, combining the outcomes together.",http://data.europa.eu/esco/skill/25b291b5-8245-4d9d-b391-86a8a31d7109
+S417,use content management system software,"Use software that allows publishing, editing and modifying content as well as maintenance from a central interface.",http://data.europa.eu/esco/skill/56a10e3e-c9e7-4d39-b6f1-6013398fcb3a
+S418,use customer relationship management software,"Use specialised software to manage company’s interactions with current and future customers. Organise, automate and synchronise sales, marketing, customer service, and technical support, to increase targeted sales.",http://data.europa.eu/esco/skill/9889b795-d755-41b2-8afd-2e3c87a65a38
+S419,use data processing techniques,"Gather, process and analyse relevant data and information, properly store and update data and represent figures and data using charts and statistical diagrams.",http://data.europa.eu/esco/skill/1b70a55d-b8a4-49fc-96c6-15ab4cff2522
+S420,use databases,"Use software tools for managing and organising data in a structured environment which consists of attributes, tables and relationships in order to query and modify the stored data.",http://data.europa.eu/esco/skill/4463a721-69f3-413d-8321-43e3af13a4f1
+S421,use different communication channels,"Make use of various types of communication channels such as verbal, handwritten, digital and telephonic communication with the purpose of constructing and sharing ideas or information.",http://data.europa.eu/esco/skill/415abd43-e8e5-4643-b5da-5f11307af57a
+S422,use e-services,Participate in society through the use of public and private digital services. Seek opportunities for self-empowerment and for participatory citizenship through appropriate digital technologies.,http://data.europa.eu/esco/skill/16a00c69-9c74-4c37-96d7-6301d285e5ce
+S423,use experience map,"Examine all the interactions and touchpoints people have with a product, brand or service. Determine key variables such as duration and frequency of every touchpoint.",http://data.europa.eu/esco/skill/0737ad0a-75ac-4696-988b-565820577ac0
+S424,use functional programming,"Utilise specialised ICT tools to create computer code which treats computation as the evaluation of mathematical functions and seeks to avoid state and mutable data. Use programming languages which support this method such as LISP, PROLOG and Haskell.",http://data.europa.eu/esco/skill/d31fab87-2a7d-485c-b699-2901ca294b15
+S425,use ICT hardware,"Ability to use equipment such as monitor, mouse, keyboard, storage devices, printers, scanners etc to perform operations such as plugging in, starting up, shutting down, rebooting, saving files and other operations.",http://data.europa.eu/esco/skill/6474fc36-67ae-436b-9d39-c14402c6a89b
+S426,use ICT ticketing system,"Utilise a specialised system to track registration, processing and resolution of issues in an organisation by assigning each of these issues a ticket, registering inputs from involved persons, tracking changes and displaying the status of the ticket, until it is completed.",http://data.europa.eu/esco/skill/6430eb0d-c6de-46b7-a7fc-3dd2e8e62a69
+S427,use interface description language,Utilise specification language for describing interface connection among software components or programs in a programming-language-independent way. The languages which support this method are among others CORBA and WSDL.,http://data.europa.eu/esco/skill/0a30e5a8-60a8-4fda-9f89-8e9cee38da5a
+S428,use logic programming,"Utilise specialised ICT tools to create computer code composed of series of sentences in logical form, expressing rules and facts about some problem domain. Use programming languages which support this method such as Prolog, Answer Set Programming and Datalog.",http://data.europa.eu/esco/skill/2c4e11ef-da18-4e19-816b-e6bc19e12424
+S429,use markup languages,"Utilise computer languages that are syntactically distinguishable from the text, to add annotations to a document, specify layout and process types of documents such as HTML.",http://data.europa.eu/esco/skill/0af062de-eb43-41e9-9b96-249e2cd22d26
+S430,use measurement instruments,"Use different measurement instruments depending on the property to be measured. Utilise various instruments to measure length, area, volume, speed, energy, force, and others.",http://data.europa.eu/esco/skill/b92758d4-4591-4df1-9ceb-f907aa71ebd9
+S431,use methodologies for user-centered design,"Use design methodologies in which the needs, wishes and limitations of end users of a product, service or process are given extensive attention at each stage of the design process.",http://data.europa.eu/esco/skill/7364cc39-b9c0-449f-9416-57723e2fd9c4
+S432,use object-oriented programming,"Utilise specialised ICT tools for programming paradigm based on the concept of objects, which can contain data in the form of fields and code in the form of procedures. Use programming languages which support this method such as JAVA and C++.",http://data.europa.eu/esco/skill/5b9cde20-f1b9-4adc-bfb3-dbf70b14138d
+S433,use personal organization software,"Use software tools, such as calendars, to-do lists, time-tracking, contact lists, to help in managing personal efficiency.",http://data.europa.eu/esco/skill/fdf15b35-9028-4acb-bfd2-43f00a015cd9
+S434,use presentation software,"Use software tools to create digital presentations which combine various elements, such as graphs, images, text and other multimedia.",http://data.europa.eu/esco/skill/234aeb8d-56c3-4531-9193-1c5e6a8d16cb
+S435,use query languages,Retrieve information from a database or information system using computer languages designed for the retrieval of data.,http://data.europa.eu/esco/skill/75f839c2-fd9a-4ad3-8921-6e734608568d
+S436,use scripting programming,"Utilise specialised ICT tools to create computer code that is interpreted by the corresponding run-time environments in order to extend applications and automate common computer operations. Use programming languages which support this method such as Unix Shell scripts, JavaScript, Python and Ruby.",http://data.europa.eu/esco/skill/5ef0c719-5bcb-49f8-b8eb-824388225333
+S437,use software design patterns,"Utilise reusable solutions, formalised best practices, to solve common ICT development tasks in software development and design.",http://data.europa.eu/esco/skill/2b7a79e5-84d8-4880-be66-3d9bb05bea17
+S438,use software for data preservation,Utilise specialised applications and software to collect and preserve digital information.,http://data.europa.eu/esco/skill/3c4c3fa1-d638-42df-8e98-2a38021da6f9
+S439,use software libraries,Utilise collections of codes and software packages which capture frequently used routines to help programmers simplify their work.,http://data.europa.eu/esco/skill/8b94aa1e-89c9-459d-b3b4-1dfab8dec2df
+S440,use spreadsheets software,"Use software tools to create and edit tabular data to carry out mathematical calculations, organise data and information, create diagrams based on data and to retrieve them.",http://data.europa.eu/esco/skill/1973c966-f236-40c9-b2d4-5d71a89019be
+S441,use technical documentation,Understand and use technical documentation in the overall technical process.,http://data.europa.eu/esco/skill/cffc3e97-e942-4b13-a2f3-0bf4910c06d3
+S442,use technical drawing software,Create technical designs and technical drawings using specialised software.,http://data.europa.eu/esco/skill/541561bc-510c-4a99-881c-2d8bf5a85462
+S443,use technology for forensics,Operate specialised tools used for forensic investigations.,http://data.europa.eu/esco/skill/45a16833-6666-488d-aadf-e02e569275e8
+S444,use word processing software,"Use computer software applications for composition, editing, formatting, and printing of any sort of written material.",http://data.europa.eu/esco/skill/81633a44-f1db-4a01-a940-804c6905e330
+S445,utilise computer-aided software engineering tools,"Use software tools (CASE) to support the development lifecycle, design and implementation of software and applications of high-quality that can be easily maintained.",http://data.europa.eu/esco/skill/172020d1-e151-445b-8173-e2a5fb16fe51
+S446,utilise content types,"Use MIME types and subtypes as standard identifier to indicate the type of data that a file contains such as the type of link, object, script and style elements and the media type.",http://data.europa.eu/esco/skill/7234e847-451d-499a-9c7b-0050a4e758d6
+S447,utilise decision support system,Use the available ICT systems that can be used to support business or organisational decision making.,http://data.europa.eu/esco/skill/df0612db-366c-4ff5-b106-40b9e385195c
+S448,utilise machine learning,"Use techniques and algorithms that are able to extract mastery out of data, learn from it and make predictions, to be used for program optimisation, application adaptation, pattern recognition, filtering, search engines and computer vision.",http://data.europa.eu/esco/skill/8369c2d6-c100-4cf6-bd83-9668d8678433
+S449,utilise regular expressions,Combine characters from a specific alphabet using well defined rules to generate character strings that can be used to describe a language or a pattern.,http://data.europa.eu/esco/skill/697dcc9f-ae92-4506-b5f2-e770d7589f74
+S450,verify formal ICT specifications,"Check capabilities, correctness and efficiency of intended algorithm or system to match certain formal specifications.",http://data.europa.eu/esco/skill/ee3b1553-2dc5-434b-8dcf-4ae3a40b3a48
+S451,write database documentation,Develop documentation containing information about the database that is relevant to end users.,http://data.europa.eu/esco/skill/64db87c7-2360-4e20-88d3-d222402e477c
+S452,write research proposals,"Synthetise and write proposals aiming to solve research problems. Draft the proposal baseline and objectives, the estimated budget, risks and impact. Document the advances and new developments on the relevant subject and field of study.",http://data.europa.eu/esco/skill/0ee7b0d6-db98-4785-9948-f2ef415d155a
+S453,write scientific publications,"Present the hypothesis, findings, and conclusions of your scientific research in your field of expertise in a professional publication.",http://data.europa.eu/esco/skill/c3c2420c-ce9a-4371-8eed-1db479c3a562
+S454,write work-related reports,Compose work-related reports that support effective relationship management and a high standard of documentation and record keeping. Write and present results and conclusions in a clear and intelligible way so they are comprehensible to a non-expert audience.,http://data.europa.eu/esco/skill/918f5211-b99f-4b29-9a34-6e475583ef55
