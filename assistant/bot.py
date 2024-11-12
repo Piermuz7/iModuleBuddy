@@ -1,5 +1,5 @@
 import streamlit as st
-from agent import generate_response
+from assistant.agent import generate_response
 
 def write_message(role, content, save = True):
     """

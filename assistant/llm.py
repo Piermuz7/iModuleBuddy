@@ -9,7 +9,11 @@ llm = ChatAnthropic(temperature=0,
 
 # tag::embedding[]
 from langchain_community.embeddings import OllamaEmbeddings
-
-
-embeddings = OllamaEmbeddings(model="all-minilm")
+# Configuration instructions:
+#   1: Install ollama locally
+#   2: Run from the command line: ollama pull mxbai-embed-large
+#   3: Run from the command line: ollama serve
+embeddings = OllamaEmbeddings(
+    model='mxbai-embed-large',
+)
 # end::embedding[]

@@ -4,4 +4,4 @@ Esempio:
 ANTHROPIC_KEY = "chiavedianthropic"
 NEO4J_URI = "urldeldb"
 
-Comando da eseguire nel terminale in questa cartella per far partire il chatbot: streamlit run bot.py
+Comando da eseguire nel terminale in questa cartella per far partire il chatbot: streamlit run streamlit_app.py

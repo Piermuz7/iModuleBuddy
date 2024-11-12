@@ -2,23 +2,15 @@
 from langchain.tools import Tool
 # end::importtool[]
 from langchain.agents import AgentExecutor, create_react_agent
-
-from llm import llm
-from tools.modules import cypher_qa
-from tools.jobassistant import job_assistant
+from assistant.tools.modules_by_occupation import find_relevant_modules_for_occupations
+from assistant.llm import llm
 
 # tag::tools[]
 tools = [
     Tool.from_function(
-        name="Modules Assistant",
-        description="Provide information about modules and lecturers questions using Cypher",
-        func = cypher_qa,
-        return_direct=True
-    ),
-    Tool.from_function(
-        name="Job Assistant",
-        description="Provide information about job roles and competencies questions using Cypher",
-        func = job_assistant,
+        name="Suggest Modules based on desired Occupations",
+        description="Provide information about which modules are relevant to some occupations, based on required skills by a occupation and the learning outcomes of the modules which contribute to develop those skills. Ignore the occupations given by the user, the occupations are stored in the database",
+        func = find_relevant_modules_for_occupations,
         return_direct=True
     ),
 ]
@@ -96,7 +88,9 @@ def generate_response(prompt):
     try:
         response = agent_executor.invoke({"input": prompt})
 
-        return response['output']['result']
-    except :
+        return response['output']
+    except Exception as e:
+        print(e)
         return f"An error occured while processing the request. Please try again."
+
 # end::generate_response[]
