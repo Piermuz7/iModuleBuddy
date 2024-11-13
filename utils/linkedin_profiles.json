@@ -1,0 +1,748 @@
+{
+  "profiles":[
+     {
+        "name":"Amoré",
+        "surname":"Rossouw",
+        "birthday":"2000-08-16",
+        "education":[
+           {
+              "school":"University of Pretoria",
+              "degree":"Bachelor's degree, Informatics (Information Systems)",
+              "start-date":"2019-01",
+              "end-date":"2022-01",
+              "description":""
+           },
+           {
+              "school":"University of Pretoria",
+              "degree":"Master's degree, MIT(IS)",
+              "start-date":"2023-01",
+              "end-date":"2024-01",
+              "description":""
+           }
+        ],
+        "experience":[
+           {
+              "title":"Student Intern",
+              "employment-type":"Internship",
+              "company-name":"rain South Africa",
+              "location":"South Africa",
+              "start-date":"2021-01",
+              "end-date":"2021-02",
+              "description":"I was interning as a frontend web developer"
+           },
+           {
+              "title":"Graphic Illustrator",
+              "employment-type":"Contract",
+              "company-name":"University of Johannesburg",
+              "location":"City of Johannesburg, Gauteng, South Africa",
+              "start-date":"2021-10",
+              "end-date":"2022-01",
+              "description":"Creating Illustrations for a Textbook and blog"
+           },
+           {
+              "title":"UX Lab Coordinator",
+              "employment-type":"Full-time",
+              "company-name":"University of Pretoria",
+              "location":"Pretoria, Gauteng, South Africa",
+              "start-date":"2022-03",
+              "end-date":"2022-12",
+              "description":""
+           },
+           {
+              "title":"Assistant Lecturer",
+              "employment-type":"Full-time",
+              "company-name":"University of Pretoria",
+              "location":"Pretoria, Gauteng, South Africa",
+              "start-date":"2022-03",
+              "end-date":"2022-12",
+              "description":""
+           },
+           {
+              "title":"Graduate",
+              "employment-type":"Full-time",
+              "company-name":"BMW IT Hub South Africa",
+              "location":"Pretoria, Gauteng, South Africa",
+              "start-date":"2022-12",
+              "end-date":"2023-12",
+              "description":""
+           },
+           {
+              "title":"Software Engineer",
+              "employment-type":"Full-time",
+              "company-name":"BMW IT Hub South Africa",
+              "location":"Pretoria, Gauteng, South Africa",
+              "start-date":"2022-12",
+              "end-date":"2023-12",
+              "description":"Role: Frontend developer. I am a software engineer specializing in frontend development. My role involves designing, coding, and ensuring user experience excellence."
+           }
+        ]
+     },
+     {
+        "name":"Christine",
+        "surname":"Olckers",
+        "birthday":"1999-03-16",
+        "education":[
+           {
+              "school":"University of Pretoria",
+              "degree":"Bachelor of Commerce - BCom, Informatics",
+              "start-date":"2018-01",
+              "end-date":"2021-01",
+              "description":""
+           },
+           {
+              "school":"University of Pretoria",
+              "degree":"Masters in Information Technology - MIT ICT Management, Information Technology",
+              "start-date":"2022-01",
+              "end-date":"2023-01",
+              "description":""
+           }
+        ],
+        "experience":[
+           {
+              "title":"Assistant Lecturer",
+              "employment-type":"Part-time",
+              "company-name":"University of Pretoria/Universiteit van Pretoria",
+              "location":"Pretoria, Gauteng, South Africa",
+              "start-date":"2021-01",
+              "end-date":"2023-11",
+              "description":"I taught UML Design and Business Analysis on second year level for two years after which I taught it on first year level for one year."
+           },
+           {
+              "title":"Junior Business Analyst",
+              "employment-type":"Full-time",
+              "company-name":"BBD",
+              "location":"Pretoria, Gauteng, South Africa",
+              "start-date":"2024-01",
+              "end-date":"",
+              "description":""
+           }
+        ]
+     },
+     {
+        "name":"Naomi",
+        "surname":"Naidoo",
+        "birthday":"1999-08-30",
+        "education":[
+           {
+              "school":"University of Pretoria",
+              "degree":"Bachelor of Commerce - BCom, Informatics",
+              "start-date":"2018-01",
+              "end-date":"2022-12",
+              "description":""
+           }
+        ],
+        "experience":[
+           {
+              "title":"Assistant Lecturer",
+              "employment-type":"Full-time",
+              "company-name":"University of Pretoria/Universiteit van Pretoria",
+              "location":"Pretoria, Gauteng, South Africa",
+              "start-date":"2022-02",
+              "end-date":"2023-01",
+              "description":""
+           },
+           {
+              "title":"Workforce Management Intern",
+              "employment-type":"Internship",
+              "company-name":"EPI-USE",
+              "location":"",
+              "start-date":"2023-01",
+              "end-date":"2023-03",
+              "description":""
+           },
+           {
+              "title":"Junior Business Analyst",
+              "employment-type":"Full-time",
+              "company-name":"Kindle Insurance Technologies",
+              "location":"",
+              "start-date":"2023-04",
+              "end-date":"",
+              "description":""
+           }
+        ]
+     },
+     {
+        "name":"Johan Josef",
+        "surname":"Langerman",
+        "birthday":"1999-08-31",
+        "education":[
+           {
+              "school":"University of Pretoria",
+              "degree":"Bachelor of Commerce - BCom, Informatics",
+              "start-date":"2019-01",
+              "end-date":"2021-01",
+              "description":""
+           },
+           {
+              "school":"University of Pretoria",
+              "degree":"Informatics",
+              "start-date":"2021-02",
+              "end-date":"2022-12",
+              "description":""
+           }
+        ],
+        "experience":[
+           {
+              "title":"Assistant Lecturer",
+              "employment-type":"Part-time",
+              "company-name":"University of Pretoria/Universiteit van Pretoria",
+              "location":"Pretoria, Gauteng, South Africa",
+              "start-date":"2022-01",
+              "end-date":"2022-12",
+              "description":""
+           },
+           {
+              "title":"Enterprise Architect",
+              "employment-type":"Full-time",
+              "company-name":"DISCON Specialists",
+              "location":"Pretoria, Gauteng, South Africa",
+              "start-date":"2023-03",
+              "end-date":"",
+              "description":""
+           }
+        ]
+     },
+     {
+        "name":"Sumaiya",
+        "surname":"Ismail",
+        "birthday":"2000-11-13",
+        "education":[
+           {
+              "school":"University of Pretoria",
+              "degree":"Bcom Informatics , Information Systems",
+              "start-date":"2019-01",
+              "end-date":"2022-12",
+              "description":""
+           },
+           {
+              "school":"University of Pretoria",
+              "degree":"Master of IT, ICT management",
+              "start-date":"2024-01",
+              "end-date":"2025-12",
+              "description":""
+           }
+        ],
+        "experience":[
+           {
+              "title":"GROW@BCG Consulting Program",
+              "employment-type":"Internship",
+              "company-name":"Boston Consulting Group (BCG)",
+              "location":"Johannesburg, Gauteng, South Africa",
+              "start-date":"2020-08",
+              "end-date":"2020-11",
+              "description":""
+           },
+           {
+              "title":"Assistant Lecturer",
+              "employment-type":"Part-time",
+              "company-name":"University of Pretoria/Universiteit van Pretoria",
+              "location":"Pretoria, Gauteng, South Africa",
+              "start-date":"2022-01",
+              "end-date":"2022-11",
+              "description":"I was an assistant lecturer for the module INF 370 - which handles the department of Informatics capstone final year project. I was in charge of having consultations with students regarding the planning of their projects and help them to iron out aspects of their systems. In addition, I also assisted with the marking of their projects and presented some lectures with tips and advice to assist them in successfully completing their projects."
+           },
+           {
+              "title":"Software Engineer",
+              "employment-type":"Full-time",
+              "company-name":"Investec",
+              "location":"City of Johannesburg, Gauteng, South Africa",
+              "start-date":"2023-01",
+              "end-date":"",
+              "description":""
+           }
+        ]
+     },
+     {
+        "name":"Erik",
+        "surname":"Murtaj",
+        "birthday":"1999-03-19",
+        "education":[
+           {
+              "school":"IIS Enrico Mattei",
+              "degree":"High School",
+              "start-date":"2013-09",
+              "end-date":"2018-07",
+              "description":""
+           },
+           {
+              "school":"University of Camerino",
+              "degree":"Bachelor's Degree",
+              "start-date":"2018-09",
+              "end-date":"2021-07",
+              "description":""
+           },
+           {
+              "school":"Mälardalen University",
+              "degree":"Erasmus semester, Computer Science",
+              "start-date":"2020-08",
+              "end-date":"2021-01",
+              "description":""
+           },
+           {
+              "school":"Technische Universität Wien",
+              "degree":"Erasmus semester, Computer Science",
+              "start-date":"2022-03",
+              "end-date":"2022-09",
+              "description":""
+           },
+           {
+              "school":"University of Camerino",
+              "degree":"Master's degree, Intelligent and Adaptive Systems",
+              "start-date":"2021-10",
+              "end-date":"2024-04",
+              "description":""
+           },
+           {
+              "school":"University of Applied Sciences and Arts Northwestern Switzerland FHNW",
+              "degree":"Master's degree, Business Information Systems",
+              "start-date":"2023-02",
+              "end-date":"2023-12",
+              "description":""
+           }
+        ],
+        "experience":[
+           {
+              "title":"Web Developer",
+              "employment-type":"Internship",
+              "company-name":"Clion S.p.A.",
+              "location":"Potenza Picena, Marche, Italy",
+              "start-date":"2016-04",
+              "end-date":"2016-08",
+              "description":"Development of e-commerces (HTML, CSS, PHP, JavaScript, MySQL); Customer support for the Warehouse Management System"
+           },
+           {
+              "title":"Waiter",
+              "employment-type":"Seasonal",
+              "company-name":"Locanda del Tavolo Matto",
+              "location":"Potenza Picena, Marche, Italy",
+              "start-date":"2017-01",
+              "end-date":"2018-01",
+              "description":""
+           },
+           {
+              "title":"Software Developer",
+              "employment-type":"Internship",
+              "company-name":"Prequality s.r.l.",
+              "location":"Recanati, Marche, Italy",
+              "start-date":"2018-04",
+              "end-date":"2018-05",
+              "description":"Development of a Telegram Chat-Bot with PHP and MySQL for dispatchers"
+           },
+           {
+              "title":"Backend Engineer",
+              "employment-type":"Internship",
+              "company-name":"Runtastic GmbH",
+              "location":"Vienna, Austria",
+              "start-date":"2022-07",
+              "end-date":"2022-10",
+              "description":"Development of a Telegram Chat-Bot with PHP and MySQL for dispatchers"
+           }
+        ]
+     },
+     {
+        "name":"Angélica",
+        "surname":"Erny",
+        "birthday":"1976-12-01",
+        "education":[
+           {
+              "school":"Universidad de las Américas Puebla",
+              "degree":"Bachelor of Business Administration - BBA",
+              "start-date":"1994-09",
+              "end-date":"2000-06",
+              "description":""
+           },
+           {
+              "school":"Lucerne University of Applied Sciences and Arts",
+              "degree":"4 Modulen aus der Studienrichtung Finance & Banking , Finance & Banking",
+              "start-date":"2009-09",
+              "end-date":"2011-01",
+              "description":""
+           },
+           {
+              "school":"University of Applied Sciences and Arts Northwestern Switzerland FHNW",
+              "degree":"MSc Business Information Systems",
+              "start-date":"2023-02",
+              "end-date":"",
+              "description":""
+           }
+        ],
+        "experience":[
+           {
+              "title":"Head of Accounts Receivable Management",
+              "employment-type":"Full-time",
+              "company-name":"Progress Rail Services, Mexiko City",
+              "location":"Mexiko-Stadt, Mexiko",
+              "start-date":"2000-01",
+              "end-date":"2000-10",
+              "description":""
+           },
+           {
+              "title":"Assistant to the management",
+              "employment-type":"Full-time",
+              "company-name":"Lacuna Investment AG, Zürich",
+              "location":"Zürich, Schweiz",
+              "start-date":"2005-03",
+              "end-date":"2008-06",
+              "description":""
+           },
+           {
+              "title":"Employee in her own company",
+              "employment-type":"Part-time",
+              "company-name":"Malitzin Management Services GmbH · ",
+              "location":"Zug, Schweiz",
+              "start-date":"2008-09",
+              "end-date":"",
+              "description":""
+           }
+        ]
+     },
+     {
+        "name":"Zenande",
+        "surname":"Saliwa",
+        "birthday":"1994-07-23",
+        "education":[
+           {
+              "school":"Online Garage Certification",
+              "degree":"Certification, Online Marketing Fundamentals",
+              "start-date":"2017-07",
+              "end-date":"2017-08",
+              "description":""
+           },
+           {
+              "school":"Shaw Academy",
+              "degree":"Certification, Social Media Marketing",
+              "start-date":"2017-08",
+              "end-date":"2017-09",
+              "description":""
+           },
+           {
+              "school":"Shaw Academy",
+              "degree":"Certification, Digital Marketing",
+              "start-date":"2017-08",
+              "end-date":"2017-09",
+              "description":""
+           },
+           {
+              "school":"Cape Peninsula University of Technology",
+              "degree":"National Diploma, Marketing",
+              "start-date":"2014-02",
+              "end-date":"2017-12",
+              "description":""
+           },
+           {
+              "school":"Cape Peninsula University of Technology",
+              "degree":"Bachelor of Technology - BTech, Business Administration, Management and Operations",
+              "start-date":"2018-02",
+              "end-date":"2018-12",
+              "description":""
+           },
+           {
+              "school":"Cape Peninsula University of Technology",
+              "degree":"Master of Technology - MTech, Business Administration, Management and Operations",
+              "start-date":"2019-02",
+              "end-date":"2022-12",
+              "description":""
+           },
+           {
+              "school":"University of Applied Sciences and Arts Northwestern Switzerland FHNW",
+              "degree":"Certification, Model-Based Solution Design",
+              "start-date":"2023-01",
+              "end-date":"2023-02",
+              "description":"International Course Jointly offered by: FNHW University of Applied Sciences and Arts Northwestern Switzerland Cape Peninsula University of Technology University of Pretoria"
+           }
+        ],
+        "experience":[
+           {
+              "title":"Cashier",
+              "employment-type":"Full-time",
+              "company-name":"KFC",
+              "location":"Cape Town Area, South Africa",
+              "start-date":"2011-01",
+              "end-date":"2014-03",
+              "description":""
+           },
+           {
+              "title":"Customer Assistant",
+              "employment-type":"Full-time",
+              "company-name":"Musica",
+              "location":"Cape Town Area, South Africa",
+              "start-date":"2014-04",
+              "end-date":"2016-01",
+              "description":""
+           },
+           {
+              "title":"Sales Assistant",
+              "employment-type":"Full-time",
+              "company-name":"Sportsman's Warehouse",
+              "location":"Cape Town Area, South Africa",
+              "start-date":"2016-03",
+              "end-date":"2017-11",
+              "description":""
+           },
+           {
+              "title":"Marketing Inter",
+              "employment-type":"Intern",
+              "company-name":"Faithful to Nature",
+              "location":"Cape Town Area, South Africa",
+              "start-date":"2017-07",
+              "end-date":"2018-01",
+              "description":""
+           },
+           {
+              "title":"Customer Support Specialist",
+              "employment-type":"Full-time",
+              "company-name":"SweepSouth",
+              "location":"Cape Town, Western Cape, South Africa",
+              "start-date":"2018-04",
+              "end-date":"2020-09",
+              "description":""
+           },
+           {
+              "title":"Operations Coordinator",
+              "employment-type":"Full-time",
+              "company-name":"SweepSouth",
+              "location":"Cape Town, Western Cape, South Africa",
+              "start-date":"2020-09",
+              "end-date":"2022-08",
+              "description":""
+           },
+           {
+              "title":"Supply Experience Specialist",
+              "employment-type":"Full-time",
+              "company-name":"SweepSouth",
+              "location":"Cape Town, Western Cape, South Africa",
+              "start-date":"2022-09",
+              "end-date":"2024-03",
+              "description":""
+           },
+           {
+              "title":"Customer Account Manager",
+              "employment-type":"Full-time",
+              "company-name":"GoSolr",
+              "location":"City of Cape Town, Western Cape, South Africa",
+              "start-date":"2024-03",
+              "end-date":"",
+              "description":""
+           }
+        ]
+     },
+     {
+        "name":"Sayed Abdurra'uf",
+        "surname":"Peters",
+        "birthday":"1999-11-12",
+        "education":[
+           {
+              "school":"Cape Peninsula University of Technology",
+              "degree":"Higher National Diploma, Information Technology",
+              "start-date":"2018-01",
+              "end-date":"2021-01",
+              "description":""
+           },
+           {
+              "school":"Cape Peninsula University of Technology",
+              "degree":"Bachelor's degree, Information Technology",
+              "start-date":"2022-02",
+              "end-date":"2022-12",
+              "description":""
+           }
+        ],
+        "experience":[
+           {
+              "title":"Software Development Intern",
+              "employment-type":"Intership",
+              "company-name":"Principa",
+              "location":"South Africa",
+              "start-date":"2021-08",
+              "end-date":"2022-07",
+              "description":""
+           },
+           {
+              "title":"Junior Software Developer",
+              "employment-type":"Full-time",
+              "company-name":"The Rank Group plc",
+              "location":"Cape Town, Western Cape, South Africa",
+              "start-date":"2023-07",
+              "end-date":"2023-09",
+              "description":""
+           },
+           {
+              "title":"Software Developer",
+              "employment-type":"Full-time",
+              "company-name":"Four Minute Medicine",
+              "location":"Cape Town, Western Cape, South Africa",
+              "start-date":"2024-02",
+              "end-date":"",
+              "description":""
+           }
+        ]
+     },
+     {
+        "name":"Eunice",
+        "surname":"Njani",
+        "birthday":"1996-05-27",
+        "education":[
+           {
+              "school":"Cape Peninsula University of Technology",
+              "degree":"National Diploma: Office Management and Technology, Business/Commerce, General",
+              "start-date":"2015-01-01",
+              "end-date":"2017-01-01",
+              "description":""
+           },
+           {
+              "school":"Cape Peninsula University of Technology",
+              "degree":"Bachelor of Technology - BTech: Business Administration, Business Administration and Management, General, Finance",
+              "start-date":"2018-01-01",
+              "end-date":"2018-12-01",
+              "description":""
+           }
+        ],
+        "experience":[
+           {
+              "title":"Inservice Trainee",
+              "employment-type":"Intership",
+              "company-name":"Western Cape Government",
+              "location":"Cape Town, Western Cape, South Africa",
+              "start-date":"2017-07-01",
+              "end-date":"2017-12-01",
+              "description":""
+           },
+           {
+              "title":"Admin Graduate Intern",
+              "employment-type":"Intership",
+              "company-name":"Western Cape Government",
+              "location":"Cape Town, Western Cape, South Africa",
+              "start-date":"2018-06-01",
+              "end-date":"2019-11-01",
+              "description":""
+           },
+           {
+              "title":"Qualification Quality Assurer (QQA)Graduate Intern",
+              "employment-type":"Full-time",
+              "company-name":"W&RSETA",
+              "location":"Cape Town, Western Cape, South Africa",
+              "start-date":"2019-11-01",
+              "end-date":"2020-02-01",
+              "description":""
+           },
+           {
+              "title":"Administrator",
+              "employment-type":"Full-time",
+              "company-name":"Western Cape Education Deparment",
+              "location":"Cape Town, Western Cape, South Africa",
+              "start-date":"2021-02-01",
+              "end-date":"",
+              "description":""
+           }
+        ]
+     },
+     {
+        "name":"Asive",
+        "surname":"Madladla",
+        "birthday":"1997-09-29",
+        "education":[
+           {
+              "school":"Cape Peninsula University of Technology",
+              "degree":"Diploma, Application development",
+              "start-date":"2019-02-01",
+              "end-date":"2021-11-01",
+              "description":""
+           },
+           {
+              "school":"Cape Peninsula University of Technology",
+              "degree":"Advanced Diploma in ICT in Application Development, Information Technology",
+              "start-date":"2022-02-01",
+              "end-date":"2022-12-01",
+              "description":""
+           }
+        ],
+        "experience":[
+           {
+              "title":"Software Developer",
+              "employment-type":"Intership",
+              "company-name":"RLabs Enterprise Services Ltd. · Internship",
+              "location":"South Africa",
+              "start-date":"2021-06-01",
+              "end-date":"2021-12-01",
+              "description":""
+           },
+           {
+              "title":"Digital Artisan",
+              "employment-type":"Full-time",
+              "company-name":"Youth Employment Service (YES) South Africa",
+              "location":"",
+              "start-date":"2021-06-01",
+              "end-date":"2022-04-01",
+              "description":""
+           },
+           {
+              "title":"Power Platform Developer",
+              "employment-type":"Intership",
+              "company-name":"Sompisi IT Solutions (PTY) Ltd",
+              "location":"South Africa",
+              "start-date":"2022-08-01",
+              "end-date":"2023-03-01",
+              "description":""
+           },
+           {
+              "title":"Junior PowerPlatform Developer",
+              "employment-type":"Full-time",
+              "company-name":"Sompisi IT Solutions (PTY) Ltd",
+              "location":"South Africa",
+              "start-date":"2023-03-01",
+              "end-date":"2023-10-01",
+              "description":""
+           },
+           {
+              "title":"Power Platform Developer",
+              "employment-type":"Full-time",
+              "company-name":"African Ideas Corporation (Pty) Ltd",
+              "location":"Western Cape, South Africa",
+              "start-date":"2024-03-01",
+              "end-date":"",
+              "description":""
+           }
+        ]
+     },
+     {
+        "name":"Yolisa",
+        "surname":"Luwaca",
+        "birthday":"1985-09-21",
+        "education":[
+           {
+              "school":"Cape Peninsula University of Technology",
+              "degree":"Advance Diploma , Information Communication Technology : Application Development",
+              "start-date":"2022-01-01",
+              "end-date":"2022-12-01",
+              "description":""
+           },
+           {
+              "school":"Cape Peninsula University of Technology",
+              "degree":"POSTGRADUATE DIPLOMA IN ICT, Information Technology",
+              "start-date":"2023-01-01",
+              "end-date":"2023-12-01",
+              "description":""
+           }
+        ],
+        "experience":[
+           {
+              "title":"System Engineer",
+              "employment-type":"Full-time",
+              "company-name":"Bytes System Integration",
+              "location":"Cape Town, Western Cape, South Africa",
+              "start-date":"2012-03-01",
+              "end-date":"2021-01-01",
+              "description":""
+           },
+           {
+              "title":"Senior System Engineer",
+              "employment-type":"Full-time",
+              "company-name":"Solvem Consulting (Pty) Ltd",
+              "location":"City of Cape Town, Western Cape, South Africa",
+              "start-date":"2021-02-01",
+              "end-date":"",
+              "description":""
+           }
+        ]
+     }
+  ]
+}
