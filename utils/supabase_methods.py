@@ -16,6 +16,17 @@ def get_student():
     student = Student.from_dict(response.data[0])
     return student
 
+def create_student(student: Student):
+    try:
+        student.id = user.id
+        supabase.table("student").insert(student.to_dict()).execute()
+        success = st.success("Student created successfully!")
+        time.sleep(3)
+        success.empty()
+    except Exception as e:
+        print(e)
+        st.error("Creation failed: " + str(e))
+
 def update_student(student: Student):
     try:
         supabase.table("student").update(student.to_dict()).eq("id", student.id).execute()

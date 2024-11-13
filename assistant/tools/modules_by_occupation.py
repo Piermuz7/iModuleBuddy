@@ -1,8 +1,9 @@
-from assistant.llm import llm
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 import streamlit as st
 from neo4j import GraphDatabase
+
+from assistant.llm import llm
 from utils.supabase_methods import get_student
 
 prompt_template = """
@@ -17,7 +18,9 @@ prompt = PromptTemplate(template=prompt_template, input_variables=["modules_summ
 # Define the function to execute the search and retrieve relevant data
 def find_relevant_modules_for_occupations(boh):
     auth = (st.secrets['NEO4J_USERNAME'], st.secrets['NEO4J_PASSWORD'])
-    occupations = get_student().desired_jobs
+    student = get_student()
+    occupations = student.desired_jobs
+    taken_modules = student.taken_courses if student.taken_courses else []
     if not occupations:
         return 'No relevant modules found for the given occupation.'
     with GraphDatabase.driver(st.secrets['NEO4J_URI'], auth=auth) as driver:
