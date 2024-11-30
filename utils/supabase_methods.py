@@ -38,7 +38,7 @@ def update_student(student: Student):
         st.error("Update failed: " + str(e))
 
 def get_work_experience():
-    response = supabase.from_('work_experience').select('company_name, occupation, start_date, end_date, current_work').eq('user_id', user.id).execute()
+    response = supabase.from_('work_experience').select('company_name, occupation, start_date, end_date, current_work, id').eq('user_id', user.id).order("start_date", desc=True).execute()
     return response.data
 
 def add_work_experience(company_name: str, occupation: str, start_date: date, end_date: date, current_work: bool):
@@ -56,3 +56,26 @@ def add_work_experience(company_name: str, occupation: str, start_date: date, en
     except Exception as e:
         print(e)
         st.error("Insertion failed: " + str(e))
+
+def update_work_experience(company_name: str, occupation: str, start_date: date, end_date: date, current_work: bool, we_id: str):
+    try:
+        we = {
+            'company_name': company_name,
+            'occupation': occupation,
+            'start_date': start_date.strftime('%Y-%m-%d'),
+            'end_date': None if current_work else end_date.strftime('%Y-%m-%d'),
+            'current_work': current_work,
+        }
+        supabase.from_('work_experience').update(we).eq('id', we_id).execute()
+        st.rerun()
+    except Exception as e:
+        print(e)
+        st.error("Update failed: " + str(e))
+
+def delete_work_experience(we_id: str):
+    try:
+        supabase.from_('work_experience').delete().eq('id', we_id).execute()
+        st.rerun()
+    except Exception as e:
+        print(e)
+        st.error("Deletion failed: " + str(e))
