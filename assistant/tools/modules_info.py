@@ -9,7 +9,7 @@ from assistant.llm import llm
 
 
 # tag::prompt[]
-CYPHER_GENERATION_TEMPLATE = """
+CYPHER_GENERATION_TEMPLATE_OLD = """
 You are an expert Neo4j Developer translating user questions into Cypher to answer questions about course modules, lecturers and provide recommendations.
 Convert the user's question based on the schema.
 
@@ -79,6 +79,104 @@ Question:
 
 Cypher Query:
 """
+
+CYPHER_GENERATION_TEMPLATE = """
+You are an expert Neo4j Developer translating user questions into Cypher to answer questions about course modules and provide recommendations.
+Convert the user's question based on the schema.
+
+Use only the provided relationship types and properties in the schema.
+Do not use any other relationship types or properties that are not provided.
+
+Example Cypher Statements:
+
+1. Get general information about a module called 'Data Science':
+```
+MATCH (a:Module {{course_title: ['Data Science']}})-[r]-(b)
+RETURN a, r, b
+```
+
+2. List all modules with their details:
+```
+MATCH (m:Module)
+RETURN m.module_title AS Title, 
+       m.module_description AS Description, 
+       m.module_type AS Type, 
+       m.module_link AS Link
+```
+
+3. Find all modules along with their associated learning outcomes:
+```
+MATCH (m:Module)-[:has_learning_outcome]->(lo:LearningOutcome)
+RETURN m.module_title AS Module, 
+       collect(lo.learning_outcome) AS LearningOutcomes
+```
+
+4. Find modules associated with a specific skill:
+```
+MATCH (m:Module)-[:has_learning_outcome]->(lo:LearningOutcome)-[:has_skill]->(s:Skill)
+WHERE s.title = "Problem-Solving"
+RETURN m.module_title AS ModuleTitle, 
+       s.title AS Skill
+```
+
+5. Count the number of learning outcomes associated with each module:
+```
+MATCH (m:Module)-[:has_learning_outcome]->(lo:LearningOutcome)
+RETURN m.module_title AS ModuleTitle, 
+        COUNT(lo) AS LearningOutcomeCount
+```
+
+6. Find all modules of a specific type (e.g., mandatory or elective)
+MATCH (m:Module)
+WHERE m.module_type = "mandatory"
+RETURN m.module_title AS Title, 
+       m.module_description AS Description, 
+       m.module_link AS Link
+
+7. Find all modules along with their linked skills:
+```
+MATCH (m:Module)-[:has_learning_outcome]->(lo:LearningOutcome)-[:has_skill]->(s:Skill)
+RETURN m.module_title AS ModuleTitle, 
+       COLLECT(DISTINCT s.title) AS Skills
+```
+
+8. Retrieve modules related to a specific keyword in the description
+```
+MATCH (m:Module)
+WHERE m.module_description CONTAINS "data analysis"
+RETURN m.module_title AS Title, 
+       m.module_description AS Description
+```
+
+9. Find modules linked to both a specific skill and occupation
+```
+MATCH (o:Occupation {{occupation: "data scientist"}})-[:requires_skill]->(s:Skill {{title: "Python (computer programming)"}})<-[:has_skill]-(lo:LearningOutcome)<-[:has_learning_outcome]-(m:Module)
+RETURN o.occupation AS Occupation, 
+       s.title AS Skill, 
+       m.module_title AS ModuleTitle
+```
+
+10. Retrieve all modules along with their content and competencies to be achieved
+```
+MATCH (m:Module)
+RETURN m.module_title AS ModuleTitle, 
+       m.module_content AS Content, 
+       m.module_competency_to_be_achieved AS CompetencyToBeAchieved
+```
+
+Your answers should be concise and to the point. Do not include any additional information that is not requested.
+Answer with only the generated Cypher statement.
+
+
+Schema:
+{schema}
+
+Question:
+{question}
+
+Cypher Query:
+"""
+
 # end::prompt[]
 
 # tag::template[]
@@ -95,3 +193,4 @@ cypher_qa = GraphCypherQAChain.from_llm(
     cypher_prompt=cypher_prompt
 )
 # tag::cypher-qa[]
+

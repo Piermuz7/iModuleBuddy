@@ -4,6 +4,7 @@ from langchain.tools import Tool
 from langchain.agents import AgentExecutor, create_react_agent
 from assistant.tools.modules_by_occupation import find_relevant_modules_for_occupations
 from assistant.llm import llm
+from assistant.tools.modules_info import cypher_qa
 
 # tag::tools[]
 tools = [
@@ -12,7 +13,12 @@ tools = [
         description="Provide information about which modules are relevant to some occupations, based on required skills by a occupation and the learning outcomes of the modules which contribute to develop those skills. Ignore the occupations given by the user, the occupations are stored in the database",
         func = find_relevant_modules_for_occupations,
         return_direct=True
-    ),
+    ),Tool.from_function(
+        name="Returns Modules Information",
+        description="Provide a list of information about modules, including their title and description",
+        func = cypher_qa,
+        return_direct=True
+    )
 ]
 # end::tools[]
 
