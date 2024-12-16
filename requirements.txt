@@ -3,3 +3,4 @@ streamlit
 langchain_anthropic
 langchain_community
 neo4j
+supabase

@@ -41,3 +41,8 @@ class Student:
     def __repr__(self) -> str:
         """String representation of the object."""
         return f"Student(id={self.id}, name={self.name}, surname={self.surname})"
+
+    @classmethod
+    def new_student(cls) -> 'Student':
+        """Creates a new student with default values."""
+        return cls([], True, "", "", "", [])

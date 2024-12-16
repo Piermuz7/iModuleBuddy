@@ -10,7 +10,6 @@ def login_user(email: str, password: str):
     try:
         response = supabase.auth.sign_in_with_password({"email": email, "password":password})
         if response.user:
-            st.session_state.role = "User"
             st.rerun()
     except Exception as e:
         print(e)
