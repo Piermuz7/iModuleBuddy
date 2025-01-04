@@ -12,6 +12,7 @@ KNOWLEDGE_CSV = os.path.join(CSV_DIRECTORY, 'knowledge.csv')
 OCCUPATIONS_CSV = os.path.join(CSV_DIRECTORY, 'occupations.csv')
 LEARNING_OUTCOMES_CSV = os.path.join(CSV_DIRECTORY, 'learning_outcomes_uris.csv')
 MODULES_CSV = os.path.join(CSV_DIRECTORY, 'modules.csv')
+SCHEDULING_CSV = os.path.join(CSV_DIRECTORY, 'modules_scheduling.csv')
 
 
 def add_module(driver, individual_name, module_link, module_title, module_description, module_type, module_comment,
@@ -55,6 +56,56 @@ def add_occupation(driver, occupation, uri, description):
         RETURN o
         ''',
         occupation=occupation, uri=uri, description=description, database_='neo4j'
+    )
+
+
+def add_professor(driver, professor_name, professor_surname):
+    records, _, _ = driver.execute_query(
+        '''
+        MERGE (p:Professor {professor_name: $professor_name, professor_surname: $professor_surname})
+        ON CREATE SET p.uuid = randomUUID()
+        RETURN p.uuid AS node_uuid
+        ''',
+        professor_name=professor_name, professor_surname=professor_surname, database_='neo4j'
+    )
+    return records[0]['node_uuid']
+
+
+def add_teaching_session(driver, module, group_name, day, time, periodicity, semester, location, ay):
+    records, _, _ = driver.execute_query(
+        '''
+        MERGE (t:TeachingSession {module:$module, group_name: $group_name, day: $day, time:$time, periodicity: $periodicity, semester: $semester, location:$location, ay:$ay})
+        ON CREATE SET t.uuid = randomUUID()
+        RETURN t.uuid AS node_uuid
+        ''',
+        module=module, group_name=group_name, day=day, time=time, periodicity=periodicity, semester=semester,
+        location=location, ay=ay,
+        database_='neo4j'
+    )
+    return records[0]['node_uuid']
+
+
+def link_module_teachingSession(driver, module_name, teaching_session_uuid):
+    driver.execute_query(
+        '''
+        MATCH (module:Module {individual_name: $module_name})
+        MATCH (t:TeachingSession {uuid: $teaching_session_uuid})
+        MERGE (module)-[r:has_schedule]->(t)
+        RETURN r
+        ''',
+        module_name=module_name, teaching_session_uuid=teaching_session_uuid, database_="neo4j"
+    )
+
+
+def link_teachingSession_professor(driver, teaching_session_uuid, professor_uuid):
+    driver.execute_query(
+        '''
+        MATCH (t:TeachingSession {uuid: $teaching_session_uuid})
+        MATCH (p:Professor {uuid: $professor_uuid})
+        MERGE (t)-[r:taught_by]->(p)
+        RETURN r
+        ''',
+        teaching_session_uuid=teaching_session_uuid, professor_uuid=professor_uuid, database_="neo4j"
     )
 
 
@@ -137,6 +188,7 @@ def process_learning_outcome_skill_link(driver, df):
 
 
 with GraphDatabase.driver(URI_NEO4J, auth=AUTH) as d:
+    # create nodes
     skills_df = pd.read_csv(SKILLS_CSV)
     for _, row in skills_df.iterrows():
         add_skill(d, row['title'], 'skill', row['index'], row['description'], row['uri'])
@@ -162,6 +214,30 @@ with GraphDatabase.driver(URI_NEO4J, auth=AUTH) as d:
                    row['Course_Type'], course_comment, row['Course_Competency_to_be_achieved'],
                    row['Course_Content'])
 
+    # create relationships
     process_module_learning_outcome_link(d, learning_outcomes_df)
     process_learning_outcome_skill_link(d, learning_outcomes_df)
     process_occupation_skill_link(d, occupations_df)
+
+    # add scheduling and professors
+    scheduling_df = pd.read_csv(SCHEDULING_CSV, skipinitialspace=True)
+    for _, row in scheduling_df.iterrows():
+        teaching_session_uuid = add_teaching_session(
+            d,
+            module=row['Individual Name'],
+            group_name=row['Group_Name'],
+            day=row['Day'],
+            time=row['Time'],
+            periodicity=row['Periodicity'],
+            semester=row['Semester'],
+            location=row['Location'],
+            ay=row['AY'])
+
+        link_module_teachingSession(d, module_name=row['Individual Name'],
+                                    teaching_session_uuid=teaching_session_uuid)
+
+        professor_uuid = add_professor(
+            d, professor_name=row['Professor_Name'], professor_surname=row['Professor_Surname'])
+
+        link_teachingSession_professor(d, teaching_session_uuid=teaching_session_uuid,
+                                       professor_uuid=professor_uuid)
