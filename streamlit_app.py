@@ -25,8 +25,12 @@ chatbot = st.Page(
     "assistant/bot.py",
     title="iModuleBuddy Chat",
 )
+study_planner = st.Page(
+    "user_pages/study_planner.py",
+    title="Study Planner",
+)
 account_pages = [logout_page]
-student_pages = [student_career, work_experience, chatbot]
+student_pages = [student_career, work_experience, study_planner]
 not_auth_pages = [login, register]
 if  is_authenticated():
     pg = st.navigation({"Account": account_pages} | {"Student Prefences and Career": student_pages})
