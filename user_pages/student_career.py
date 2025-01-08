@@ -16,6 +16,7 @@ with st.form("my_form"):
     name = st.text_input("Name", value=student.name)
     surname = st.text_input("Surname", value=student.surname)
     part_time = st.checkbox("I am a Part-Time Student", value=not student.full_time)
+    semesters = st.slider("Expected Semesters", 3, 10, value=student.expected_semesters)
     desired_jobs = st.multiselect("Select your career path",
                occupations,
                placeholder='Choose one or more options',

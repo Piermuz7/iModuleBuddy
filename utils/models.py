@@ -6,13 +6,15 @@ class Student:
                  full_time: bool, 
                  id: str, 
                  name: str, 
-                 surname: str, 
+                 surname: str,
+                 expected_semesters: int,
                  taken_courses: Optional[List[str]]):
         self.desired_jobs = desired_jobs or []
         self.full_time = full_time
         self.id = id
         self.name = name
         self.surname = surname
+        self.expected_semesters = expected_semesters
         self.taken_courses = taken_courses or []
 
     def to_dict(self) -> dict:
@@ -23,7 +25,8 @@ class Student:
             'id': self.id,
             'name': self.name,
             'surname': self.surname,
-            'taken_courses': self.taken_courses
+            'taken_courses': self.taken_courses,
+            'expected_semesters': self.expected_semesters
         }
 
     @classmethod
@@ -35,6 +38,7 @@ class Student:
             id=data['id'],
             name=data['name'],
             surname=data['surname'],
+            expected_semesters=data['expected_semesters'],
             taken_courses=data.get('taken_courses', [])
         )
 
@@ -45,4 +49,4 @@ class Student:
     @classmethod
     def new_student(cls) -> 'Student':
         """Creates a new student with default values."""
-        return cls([], True, "", "", "", [])
+        return cls([], True, "", "", "", 3, [])
