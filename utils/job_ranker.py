@@ -1,5 +1,3 @@
-# job_ranker.py
-
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from collections import defaultdict
@@ -74,12 +72,20 @@ class JobRanker:
                 elif start <= current_end + relativedelta(months=1):  # Overlapping or contiguous
                     current_end = max(current_end, end)
                 else:
-                    merged_periods.append({"start": current_start, "end": current_end})
+                    # Append the merged period as strings
+                    merged_periods.append({
+                        "start": current_start.strftime("%Y-%m"),
+                        "end": current_end.strftime("%Y-%m")
+                    })
                     current_start = start
                     current_end = end
 
             if current_start and current_end:
-                merged_periods.append({"start": current_start, "end": current_end})
+                # Append the last merged period as strings
+                merged_periods.append({
+                    "start": current_start.strftime("%Y-%m"),
+                    "end": current_end.strftime("%Y-%m")
+                })
 
             merged_jobs[title]["work_periods"] = merged_periods
 
@@ -149,3 +155,26 @@ ranked_jobs = ranker.rank_jobs(jobs)
 for title, score in ranked_jobs:
     print(f"Job Title: {title}, Score: {score:.2f}")
 """
+
+# Example of using the JobRanker class
+if __name__ == "__main__":
+    # Example jobs list
+    jobs = [
+        {"title": "Software Engineer", "company": "ABC Inc.", "work_period": {"start": "2015-06", "end": "2020-12"}, "time_since_last_work": 24, "job_type": "full-time"},
+        {"title": "Data Analyst", "company": "XYZ Ltd.", "work_period": {"start": "2018-01", "end": "2021-06"}, "time_since_last_work": 12, "job_type": "part-time"},
+        {"title": "Software Engineer", "company": "DEF Corp.", "work_period": {"start": "2021-07", "end": "2023-03"}, "time_since_last_work": 9, "job_type": "full-time"},
+    ]
+
+    # Weights for ranking
+    weights = {"work_period": 0.5, "recency": 0.3, "job_type": 0.2}
+    max_experience_years = 10
+
+    # Initialize JobRanker
+    ranker = JobRanker(weights, max_experience_years)
+
+    # Rank jobs
+    ranked_jobs = ranker.rank_jobs(jobs)
+
+    # Output the ranked jobs
+    for title, score in ranked_jobs:
+        print(f"Job Title: {title}, Score: {score:.2f}")
