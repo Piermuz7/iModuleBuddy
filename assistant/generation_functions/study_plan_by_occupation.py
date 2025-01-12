@@ -1,3 +1,4 @@
+import datetime
 from typing import List
 
 from langchain.chains import LLMChain
@@ -9,12 +10,28 @@ from assistant.llm import llm
 from utils.supabase_methods import get_student
 
 prompt_template = """
-You are given a set of modules that match the required skills for an occupation. Please summarize how each module contributes to the skills required for the occupation. Focus on highlighting how the learning outcomes of each module are relevant to the occupation's required skills.
-The main focus should be on the modules and not on the skills, remove duplicate modules from the summary.
-Occupations,Skills and Relevant Modules:
+You are given a set of modules that match the required skills for an occupation.
+Please:
+1. Summarize how each module contributes to the skills required for the occupation. 
+   Focus on highlighting how the learning outcomes of each module are relevant to the occupation's required skills.
+   Remove duplicate modules from the summary.
+2. Create a study planner by dividing these modules into the number of semesters chosen by the user. 
+   - Ensure that each semester contains **distinct modules**, meaning that no module is repeated in multiple semesters.
+   - Assign modules to semesters based on their availability (spring or autumn).
+   - Start planning from the current date ({current_date}) and account for the semester schedule.
+3. Provide a clear breakdown of modules for each semester, ensuring no duplication across semesters. Indicate each module's availability and relevance to the occupation.
+
+Input Data:
+Occupations, Skills, Relevant Modules, Module Availability (Spring/Autumn):
 {modules_summary}
+
+Number of Semesters Chosen: {num_semesters}
+
+Output:
+1. A summarized relevance of the modules to the occupation's required skills.
+2. A semester-wise study plan with distinct modules assigned to each semester, grouped by their availability and relevance.
 """
-prompt = PromptTemplate(template=prompt_template, input_variables=["modules_summary"])
+prompt = PromptTemplate(template=prompt_template, input_variables=["modules_summary", "num_semesters"])
 
 
 # Define the function to execute the search and retrieve relevant data
@@ -49,7 +66,9 @@ def create_study_plan_by_occupations():
         ])
         # Step 5: Use the LLM to interpret the results
         chain = LLMChain(prompt=prompt, llm=llm)
-        response = chain.invoke({"modules_summary": modules_summary})
+        current_date = datetime.datetime.now().strftime("%Y-%m-%d")
+        num_semesters = student.expected_semesters
+        response = chain.invoke({"modules_summary": modules_summary, "num_semesters": num_semesters, "current_date": current_date})
 
         return response['text']
 

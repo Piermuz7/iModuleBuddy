@@ -18,9 +18,9 @@ with st.form("my_form"):
     part_time = st.checkbox("I am a Part-Time Student", value=not student.full_time)
     semesters = st.slider("Expected Semesters", 3, 10, value=student.expected_semesters)
     desired_jobs = st.multiselect("Select your career path",
-               occupations,
-               placeholder='Choose one or more options',
-               default=filter(lambda i: i in student.desired_jobs, occupations),)
+                                  occupations,
+                                  placeholder='Choose one or more options',
+                                  default=filter(lambda i: i in student.desired_jobs, occupations), )
     taken_courses = st.multiselect("Courses already taken",
                                    courses,
                                    default=filter(lambda i: i in student.taken_courses, courses),
@@ -30,7 +30,7 @@ with st.form("my_form"):
     #                                  placeholder='Choose one or more options', )
     submitted = st.form_submit_button("Submit")
     if submitted:
-        new_s = Student(desired_jobs, not part_time, student.id, name, surname, taken_courses)
+        new_s = Student(desired_jobs, not part_time, student.id, name, surname, semesters, taken_courses)
         data = create_student(new_s) if new_account else update_student(new_s)
         if data is not None:
             new_account = False
