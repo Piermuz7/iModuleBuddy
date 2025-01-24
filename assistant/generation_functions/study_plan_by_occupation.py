@@ -1,6 +1,4 @@
 import datetime
-from typing import List
-
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 import streamlit as st
@@ -11,73 +9,63 @@ from utils.supabase_methods import get_student
 
 prompt_template = """
 You are given a set of modules that match the required skills for an occupation.
-The student has already completed {credits_taken} credits from modules. They need to complete {remaining_credits} more credits to reach the required 66 credits from modules.
+The student has already completed {credits_taken} credits from modules. 
+They need to complete {remaining_credits} more credits to reach the required 66 credits from modules.
 
 Please:
-1. Summarize how each module contributes to the skills required for the occupation. 
-   - Focus on highlighting how the learning outcomes of each module are relevant to the occupation's required skills.
-   - Remove duplicate modules from the summary.
+1. Create a **semester-wise study plan** across the number of semesters chosen by the user ({num_semesters}), ensuring that:
+   - **Every semester includes at least one module whenever possible**. Empty semesters should only occur if there aren’t enough modules to fill all semesters.
+   - The modules are distributed **evenly across all semesters**, with no semester exceeding 6 credits unless unavoidable.
+   - The total credits from the modules is exactly {remaining_credits} (with each module contributing 6 credits).
+   - Modules are assigned to semesters according to their availability (spring or autumn).
+   - Mandatory modules are prioritized and included in the plan.
+   - Duplicate modules are avoided.
 
-2. Create a comprehensive semester-wise study plan based on the number of semesters chosen by the user:
-   - Ensure that each semester contains **distinct modules**, meaning no module is repeated.
-   - Assign modules to semesters according to their availability (spring or autumn).
-   - Include all mandatory modules in the plan. These are required for graduation and must be included in the total of {remaining_credits} credits from modules.
-   - Distribute the workload evenly across the specified number of semesters to avoid overloading any semester with too many exams.
-   - Ensure the total number of credits from modules (excluding thesis-related modules) is exactly {remaining_credits} credits, with each module contributing 6 credits.
+2. For each module in the study plan:
+   - Provide its name.
+   - Specify if it is mandatory or elective.
+   - Indicate its availability (spring or autumn).
+   - Briefly describe how it contributes to the required skills.
 
-3. Provide a clear breakdown of modules for each semester, including:
-   - Module name
-   - Whether the module is mandatory or elective
-   - Availability (spring or autumn)
-   - Brief statement on how it contributes to the required skills
-   - Total credits for the semester
-
-4. Add a summary of the remaining credit requirements:
-   - State that a total of **90 credits** must be achieved to graduate.  
+3. Provide a summary of the total credits and progress:
+   - Confirm that the total number of credits from the modules matches {remaining_credits}.
+   - State that the overall graduation requirement is 90 credits.
    - Include the student’s progress, showing how many credits they have already completed ({credits_taken}) and the total remaining credits ({remaining_credits}).
-   - Provide a simple breakdown of the remaining credits as follows:
-       - **{remaining_credits} credits** from the modules in the semester-wise study plan,  
-       - **6 credits** from the Master Thesis Proposal, and  
+   - Provide a breakdown of the remaining credits as follows:
+       - **{remaining_credits} credits** from the modules in the semester-wise study plan,
+       - **6 credits** from the Master Thesis Proposal, and
        - **18 credits** from the Master Thesis.
 
 ### Response Format
 Please follow this exact structure in your response:
 
-1. **Summarized Relevance of Modules**:
-    - [Module Name 1]:
-        - Contribution 1
-        - Contribution 2
-    - [Module Name 2]:
-        - Contribution 1
-        - Contribution 2
 
-2. **Semester-Wise Study Plan**:
+1. **Semester-Wise Study Plan for {num_semesters} semesters**:
     - **Spring [Year]** (Total Credits: XX):
         - [Module Name 1] (Mandatory/Elective, Spring): Brief relevance
-        - [Module Name 2] (Mandatory/Elective, Spring): Brief relevance
     - **Autumn [Year]** (Total Credits: XX):
-        - [Module Name 3] (Mandatory/Elective, Autumn): Brief relevance
-        - [Module Name 4] (Mandatory/Elective, Autumn): Brief relevance
+        - [Module Name 2] (Mandatory/Elective, Autumn): Brief relevance
 
-3. **Additional Notes**:  
-    - To graduate, a total of **90 credits** must be achieved.  
-    - You have already completed **{credits_taken} credits**, and you need to achieve **{remaining_credits} more credits**, which are divided as follows:  
-        - **{remaining_credits} credits** from the modules in the semester-wise study plan,  
-        - **6 credits** from the Master Thesis Proposal, and  
-        - **18 credits** from the Master Thesis.  
+2. **Additional Notes**:
+    - The total number of credits from the semester-wise study plan is **{remaining_credits} credits**.
+    - To graduate, a total of **90 credits** must be achieved.
+    - You have already completed **{credits_taken} credits**, and you need to achieve **{remaining_credits} more credits**, divided as follows:
+        - **{remaining_credits} credits** from the modules in the semester-wise study plan,
+        - **6 credits** from the Master Thesis Proposal, and
+        - **18 credits** from the Master Thesis.
 
-Input Data:
+### Input Data
 Occupations, Skills, Relevant Modules, Module Availability (Spring/Autumn):
 {modules_summary}
 
 Number of Semesters Chosen: {num_semesters}
 
 ### Important Notes:
-- Use the exact section headers and structure as shown in the **Example Output**.
-- Distribute mandatory and elective modules across semesters to avoid overloading one semester with too many exams or credits.
-- Include all mandatory modules while ensuring the total credits from modules (excluding thesis-related modules) is exactly {remaining_credits}.
-- Each semester should ideally contain 18–24 credits (3–4 modules).
-- Ensure no module is repeated across semesters.
+- **Ensure that every semester includes at least one module whenever possible.**
+- **Strictly enforce an even distribution of credits**, with a maximum of 6 credits (one module) per semester unless unavoidable.
+- Avoid duplicate modules across semesters.
+- Ensure the total number of credits matches {remaining_credits}.
+- Modules should respect their seasonal availability (spring or autumn).
 """
 prompt = PromptTemplate(template=prompt_template, input_variables=["modules_summary", "num_semesters", "credits_taken", "remaining_credits"])
 
