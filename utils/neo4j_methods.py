@@ -31,6 +31,19 @@ class Neo4jMethods:
             modules = [record[0] for record in result.records]
             return modules
 
+    def get_filtered_modules(self):
+        """Fetch all modules excluding specific thesis-related modules."""
+        exclude_modules = {
+            "Research Methods in Information Systems",
+            "Master Thesis Proposal",
+            "Master Thesis"
+        }
+
+        all_modules = self.get_modules()
+        filtered_modules = [module for module in all_modules if module not in exclude_modules]
+
+        return filtered_modules
+
     def get_occupations(self):
         with GraphDatabase.driver(self.uri, auth=self.auth_config) as driver:
             get_occupation_query = """
