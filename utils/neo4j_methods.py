@@ -3,65 +3,100 @@ from neo4j import GraphDatabase
 from langchain_community.vectorstores import Neo4jVector
 from assistant.llm import embeddings
 
-def search_occupation(occupation):
-    auth = (st.secrets['NEO4J_USERNAME'], st.secrets['NEO4J_PASSWORD'])
-    with GraphDatabase.driver(st.secrets['NEO4J_URI'], auth=auth) as driver:
-        search_occupation_query = f"""
-            CALL db.index.fulltext.queryNodes("occupations", '{occupation}') YIELD node, score
-            RETURN node.occupation
-            """
-        result = driver.execute_query(search_occupation_query)
-        occupations = [record[0] for record in result.records]
-        return occupations
 
-def get_modules():
-    auth = (st.secrets['NEO4J_USERNAME'], st.secrets['NEO4J_PASSWORD'])
-    with GraphDatabase.driver(st.secrets['NEO4J_URI'], auth=auth) as driver:
-        get_modules_query = f"""
-            MATCH (n:Module) RETURN n.module_title
-            """
-        result = driver.execute_query(get_modules_query)
-        modules = [record[0] for record in result.records]
-        return modules
-
-def get_occupations():
-    auth = (st.secrets['NEO4J_USERNAME'], st.secrets['NEO4J_PASSWORD'])
-    with GraphDatabase.driver(st.secrets['NEO4J_URI'], auth=auth) as driver:
-        get_occupation_query = f"""
-            MATCH (n:Occupation) RETURN n.occupation
-            """
-        result = driver.execute_query(get_occupation_query)
-        occupations = [record[0] for record in result.records]
-        return occupations
-
-
-def update_vector_indexes():
-    try:
-        Neo4jVector.from_existing_graph(
-            embeddings,
-            url=st.secrets["NEO4J_URI"],
-            username=st.secrets["NEO4J_USERNAME"],
-            password=st.secrets["NEO4J_PASSWORD"],
-            index_name='skillDescription',
-            node_label="Skill",
-            text_node_properties=['description'],
-            embedding_node_property='embeddingDescription',
+class Neo4jMethods:
+    def __init__(self):
+        self.auth_config = (
+            st.secrets["NEO4J_USERNAME"],
+            st.secrets["NEO4J_PASSWORD"],
         )
-    except Exception as e:
-        print('Error updating Skill index: ', e)
+        self.uri = st.secrets["NEO4J_URI"]
 
-    try:
-        Neo4jVector.from_existing_graph(
-            embeddings,
-            url=st.secrets["NEO4J_URI"],
-            username=st.secrets["NEO4J_USERNAME"],
-            password=st.secrets["NEO4J_PASSWORD"],
-            index_name='learningOutcomeIndex',
-            node_label="LearningOutcome",
-            text_node_properties=['learning_outcome'],
-            embedding_node_property='embeddingLearningOutcome',
-        )
-    except Exception as e:
-        print('Error updating Learning Outcome index: ', e)
+    def search_occupation(self, occupation):
+        with GraphDatabase.driver(self.uri, auth=self.auth_config) as driver:
+            search_occupation_query = f"""
+                CALL db.index.fulltext.queryNodes("occupations", '{occupation}') YIELD node, score
+                RETURN node.occupation
+                """
+            result = driver.execute_query(search_occupation_query)
+            occupations = [record[0] for record in result.records]
+            return occupations
 
-    print('Indexes updated')
+    def get_modules(self):
+        with GraphDatabase.driver(self.uri, auth=self.auth_config) as driver:
+            get_modules_query = """
+                MATCH (n:Module) RETURN n.module_title
+                """
+            result = driver.execute_query(get_modules_query)
+            modules = [record[0] for record in result.records]
+            return modules
+
+    def get_occupations(self):
+        with GraphDatabase.driver(self.uri, auth=self.auth_config) as driver:
+            get_occupation_query = """
+                MATCH (n:Occupation) RETURN n.occupation
+                """
+            result = driver.execute_query(get_occupation_query)
+            occupations = [record[0] for record in result.records]
+            return occupations
+
+    def get_teaching_sessions_by_modules(self, modules, taken_modules):
+        with GraphDatabase.driver(self.uri, auth=self.auth_config) as driver:
+            get_occupation_query = f"""
+                MATCH (m:Module)-[:has_schedule]->(ts:TeachingSession)
+                WHERE m.module_title IN {modules}
+                RETURN m{{.module_title, .module_type}} as module, collect (distinct ts{{.ay, .day, .group_name, .location, .periodicity, .semester, .time}}) as teaching_session
+                UNION
+                MATCH (m:Module{{module_type: "mandatory"}})-[:has_schedule]->(ts:TeachingSession)
+                WHERE NOT m.module_title IN {taken_modules}
+                RETURN m{{.module_title, .module_type}} as module, collect (distinct ts{{.ay, .day, .group_name, .location, .periodicity, .semester, .time}}) as teaching_session
+                """
+            result = driver.execute_query(get_occupation_query)
+            return result.records
+
+    def get_modules_by_occupation(self, occupations, taken_modules):
+        with GraphDatabase.driver(self.uri, auth=self.auth_config) as driver:
+            get_modules_by_occupation_query = f"""
+            MATCH (o:Occupation)-[:requires_skill]->(s:Skill)
+            WHERE o.occupation IN {occupations}
+            CALL db.index.vector.queryNodes('learningOutcomeIndex', 3, s.embeddingDescription)
+            YIELD node AS lo, score
+            WHERE score>0.92
+            MATCH (lo)<-[:has_learning_outcome]-(m:Module)
+            WHERE NOT m.module_title IN {taken_modules}
+            RETURN m{{.module_title, .module_type}} as module, collect (DISTINCT lo.learning_outcome) as supporting_learning_outcomes, collect(distinct s{{.title, .description}}) as supported_skills, o{{.occupation, .description}} as occupation
+            ORDER BY size(supported_skills) DESC
+            """
+            result = driver.execute_query(get_modules_by_occupation_query)
+            return result.records
+
+    def update_vector_indexes():
+        try:
+            Neo4jVector.from_existing_graph(
+                embeddings,
+                url=st.secrets["NEO4J_URI"],
+                username=st.secrets["NEO4J_USERNAME"],
+                password=st.secrets["NEO4J_PASSWORD"],
+                index_name="skillDescription",
+                node_label="Skill",
+                text_node_properties=["description"],
+                embedding_node_property="embeddingDescription",
+            )
+        except Exception as e:
+            print("Error updating Skill index: ", e)
+
+        try:
+            Neo4jVector.from_existing_graph(
+                embeddings,
+                url=st.secrets["NEO4J_URI"],
+                username=st.secrets["NEO4J_USERNAME"],
+                password=st.secrets["NEO4J_PASSWORD"],
+                index_name="learningOutcomeIndex",
+                node_label="LearningOutcome",
+                text_node_properties=["learning_outcome"],
+                embedding_node_property="embeddingLearningOutcome",
+            )
+        except Exception as e:
+            print("Error updating Learning Outcome index: ", e)
+
+        print("Indexes updated")
