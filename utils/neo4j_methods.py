@@ -70,6 +70,33 @@ class Neo4jMethods:
             result = driver.execute_query(get_modules_by_occupation_query)
             return result.records
 
+    def get_extra_modules(self):
+        """Fetch the extra modules without teaching session data."""
+        query = """
+            MATCH (m:Module)
+            WHERE m.individual_name IN [
+                'Course_Research_Methods_in_Information_Systems',
+                'Course_Master_Thesis',
+                'Course_Master_Thesis_Proposal'
+            ]
+            RETURN m.individual_name AS module, 
+                   m.module_title AS module_title, 
+                   m.module_type AS module_type, 
+                   m.module_description AS module_description
+        """
+        with GraphDatabase.driver(self.uri, auth=self.auth_config) as driver:
+            result = driver.execute_query(query)
+            return [
+                {
+                    "module": record["module"],
+                    "module_title": record["module_title"],
+                    "module_type": record["module_type"],
+                    "module_description": record["module_description"],
+                    "teaching_session": []  # Include a blank teaching_session field here
+                }
+                for record in result.records
+            ]
+
     def update_vector_indexes():
         try:
             Neo4jVector.from_existing_graph(
