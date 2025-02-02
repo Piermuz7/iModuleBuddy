@@ -65,13 +65,17 @@ async def extract_credits_taken_and_remaining(ctx: Context) -> dict:
 study_planner_agent = FunctionAgent(
     name="StudyPlannerAgent",
     description="This agent creates a study plan for the student based on the extracted modules, number of semesters, and credits taken.",
-system_prompt = (
-    """
+    system_prompt=(
+        """
     You are an AI assistant tasked with creating a precise and balanced study plan for a student.
     Use the tools provided to retrieve:
     1. The modules available for planning.
     2. The number of semesters required for the study plan.
     3. The credits already completed and the credits remaining.
+
+    The modules might be associated with specific occupations or skills, and the student's past experience may influence the module selection.
+    This occupaotions might have a score that represents how relevant it is to the user's past experience. This score is calculated based on the amount of time the user has worked in that occupation and how recent the experience is.
+    Prioritize the modules which are associated with the occupations with the highest scores.
 
     Follow these rules:
 
@@ -142,14 +146,14 @@ system_prompt = (
       3. **Master Thesis**.
     - Ensure credits total exactly **90** (credits taken + remaining = 90).
     - Minimize empty semesters and use them as buffer time for thesis preparation.
+    - Prioritize modules based on occupation scores.
     """
-)
-    ,
+    ),
     llm=llm,
     tools=[
         extract_modules_for_planning,
         extract_number_of_semesters,
         extract_credits_taken_and_remaining,
     ],
-    can_handoff_to=["OccupationAgent"],
+    can_handoff_to=["PastExperienceAgent"],
 )
