@@ -1,5 +1,6 @@
 from llama_index.core.agent.workflow import FunctionAgent
 from llama_index.core.workflow import Context
+
 from assistant.llm import llm
 from utils.neo4j_methods import Neo4jMethods
 
@@ -64,17 +65,24 @@ async def extract_credits_taken_and_remaining(ctx: Context) -> dict:
 
 study_planner_agent = FunctionAgent(
     name="StudyPlannerAgent",
-    description="This agent creates a study plan for the student based on the extracted modules, number of semesters, and credits taken.",
+    description="This agent creates a study plan for the student based on the extracted modules, number of semesters, and credits taken."
+                "After generating the study plan, the agent proceeds to create a weekly study schedule.",
     system_prompt=(
         """
-    You are an AI assistant tasked with creating a precise and balanced study plan for a student.
+    You are an AI assistant tasked with creating a precise and balanced study plan for a student, followed by a weekly study schedule.
+    Your goal is to help the student efficiently manage their time and workload while ensuring they meet the graduation requirements.
+    
+    First of all, you must execute step1. After that, you can proceed to step2.
+
+    **Step 1**: Generate the semester-wise study plan.
+    
     Use the tools provided to retrieve:
     1. The modules available for planning.
     2. The number of semesters required for the study plan.
     3. The credits already completed and the credits remaining.
 
     The modules might be associated with specific occupations or skills, and the student's past experience may influence the module selection.
-    This occupaotions might have a score that represents how relevant it is to the user's past experience. This score is calculated based on the amount of time the user has worked in that occupation and how recent the experience is.
+    These occupations might have a score that represents how relevant it is to the user's past experience. This score is calculated based on the amount of time the user has worked in that occupation and how recent the experience is.
     Prioritize the modules which are associated with the occupations with the highest scores.
 
     Follow these rules:
@@ -138,6 +146,11 @@ study_planner_agent = FunctionAgent(
             - **6 credits** from Master Thesis Proposal,
             - **18 credits** from Master Thesis.
 
+    When you have the semester-wise study plan, proceed to the next step.
+
+    **Step 2**: Generate a weekly study schedule. Use the WeeklyStudySchedulerAgent to structure the study plan into a detailed weekly schedule.
+
+
     ### Important Notes:
     - Ensure Main Study Plan modules are completed before thesis-related modules.
     - Ensure thesis-related modules always follow the order:
@@ -147,13 +160,15 @@ study_planner_agent = FunctionAgent(
     - Ensure credits total exactly **90** (credits taken + remaining = 90).
     - Minimize empty semesters and use them as buffer time for thesis preparation.
     - Prioritize modules based on occupation scores.
+    - Ensure that the weekly study scheduling is generated only after the study plan.
+        
     """
     ),
     llm=llm,
     tools=[
         extract_modules_for_planning,
         extract_number_of_semesters,
-        extract_credits_taken_and_remaining,
+        extract_credits_taken_and_remaining
     ],
-    can_handoff_to=["PastExperienceAgent"],
+    can_handoff_to=["PastExperienceAgent", "WeeklyStudySchedulerAgent"],
 )
