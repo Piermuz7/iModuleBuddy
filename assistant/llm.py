@@ -2,13 +2,14 @@ import streamlit as st
 from llama_index.llms.anthropic import Anthropic
 
 llm = Anthropic(
-    model="claude-3-5-sonnet-20241022",
+    model="claude-3-7-sonnet-20250219",
     api_key=st.secrets["ANTHROPIC_KEY"],
-    max_tokens=8192,
+    temperature=0,
+    max_tokens=64000,
 )
 
 # TODO: Migrate emebedding implementation to llama-index
-from langchain_community.embeddings import OllamaEmbeddings
+from langchain_ollama import OllamaEmbeddings
 
 # Configuration instructions:
 #   1: Install ollama locally

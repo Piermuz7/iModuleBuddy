@@ -1,7 +1,10 @@
-langchain
-streamlit
-langchain_anthropic
-langchain_community
-neo4j
-supabase
-python-dateutil
+langchain~=0.3.14
+streamlit~=1.44.0
+neo4j~=5.28.1
+supabase~=2.15.0
+python-dateutil~=2.9.0.post0
+requests~=2.32.3
+pandas~=2.2.3
+langchain-ollama~=0.3.0
+llama-index-core~=0.12.27
+langchain-community~=0.3.14

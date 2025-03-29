@@ -7,7 +7,6 @@ from llama_index.core.agent.workflow import (
 )
 from assistant.agents.past_experience_agent import past_experience_agent
 from assistant.agents.study_planner_agent import study_planner_agent
-from assistant.agents.weekly_study_scheduler_agent import weekly_study_scheduler_agent
 from utils.supabase_methods import get_student
 
 
@@ -17,7 +16,10 @@ async def execute_agent_workflow(user_msg: str):
     desired_occupations = student.desired_jobs
     expected_semesters = student.expected_semesters
     agent_workflow = AgentWorkflow(
-        agents=[study_planner_agent, past_experience_agent, weekly_study_scheduler_agent],
+        agents=[
+            study_planner_agent,
+            past_experience_agent,
+        ],
         root_agent=past_experience_agent.name,
         initial_state={
             "taken_modules": taken_modules,
@@ -45,7 +47,7 @@ async def execute_agent_workflow(user_msg: str):
             if event.delta:
                 print(event.delta, end="", flush=True)
         # elif isinstance(event, AgentInput):
-        #     print("📥 Input:", event.input)
+        # print("📥 Input:", event.input)
         elif isinstance(event, AgentOutput):
             if event.response.content:
                 print("📤 Output:", event.response.content)
@@ -56,8 +58,8 @@ async def execute_agent_workflow(user_msg: str):
                 )
         elif isinstance(event, ToolCallResult):
             print(f"🔧 Tool Result ({event.tool_name}):")
-            # print(f"  Arguments: {event.tool_kwargs}")
-            # print(f"  Output: {event.tool_output}")
+            print(f"  Arguments: {event.tool_kwargs}")
+            print(f"  Output: {event.tool_output}")
         elif isinstance(event, ToolCall):
             print(f"🔨 Calling Tool: {event.tool_name}")
             # print(f"  With arguments: {event.tool_kwargs}")
