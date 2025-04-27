@@ -1,6 +1,7 @@
 from neo4j import GraphDatabase
 import pandas as pd
 import os
+import json
 
 URI_NEO4J = 'URI'
 AUTH = ('USER', 'PASSWORD')
@@ -13,6 +14,7 @@ OCCUPATIONS_CSV = os.path.join(CSV_DIRECTORY, 'occupations.csv')
 LEARNING_OUTCOMES_CSV = os.path.join(CSV_DIRECTORY, 'learning_outcomes_uris.csv')
 MODULES_CSV = os.path.join(CSV_DIRECTORY, 'modules.csv')
 SCHEDULING_CSV = os.path.join(CSV_DIRECTORY, 'modules_scheduling.csv')
+ASSESSMENTS_JSON = os.path.join(CSV_DIRECTORY, 'modules_assessments.json')
 
 
 def add_module(driver, individual_name, module_link, module_title, module_description, module_type, module_comment,
@@ -187,57 +189,89 @@ def process_learning_outcome_skill_link(driver, df):
                 link_learning_objective_skill(driver, r['Learning Outcome'], uri.strip())
 
 
-with GraphDatabase.driver(URI_NEO4J, auth=AUTH) as d:
-    # create nodes
-    skills_df = pd.read_csv(SKILLS_CSV)
-    for _, row in skills_df.iterrows():
-        add_skill(d, row['title'], 'skill', row['index'], row['description'], row['uri'])
+def update_modules_with_assessment_info():
+    with open(ASSESSMENTS_JSON, 'r', encoding='utf-8') as f:
+        assessment_data = json.load(f)
 
-    knowledge_df = pd.read_csv(KNOWLEDGE_CSV)
-    for _, row in knowledge_df.iterrows():
-        add_skill(d, row['title'], 'knowledge', row['index'], row['description'], row['uri'])
+    with GraphDatabase.driver(URI_NEO4J, auth=AUTH) as driver:
+        for entry in assessment_data:
+            module_name = entry['module_name']
+            project_work = entry['project_work']
+            assessment_type = entry['assessment_type']
+            oral_assessment = entry['oral_assessment']
 
-    occupations_df = pd.read_csv(OCCUPATIONS_CSV)
-    for _, row in occupations_df.iterrows():
-        add_occupation(d, row['occupation'], row['uri'], row['description'])
+            driver.execute_query(
+                '''
+                MATCH (m:Module {module_title: $module_name})
+                SET m.project_work = $project_work,
+                    m.assessment_type = $assessment_type,
+                    m.oral_assessment = $oral_assessment
+                RETURN m
+                ''',
+                module_name=module_name,
+                project_work=project_work,
+                assessment_type=assessment_type,
+                oral_assessment=oral_assessment,
+                database_="neo4j"
+            )
 
-    learning_outcomes_df = pd.read_csv(LEARNING_OUTCOMES_CSV)
-    for _, row in learning_outcomes_df.iterrows():
-        add_learning_outcome(d, row['Learning Outcome'], row['Module Title'])
 
-    modules_df = pd.read_csv(MODULES_CSV)
-    for _, row in modules_df.iterrows():
-        course_comment = row['Course_Comment']
-        if pd.isna(course_comment):
-            course_comment = ""
-        add_module(d, row['Individual Name'], row['Course_Link'], row['Course_Title'], row['Course_Description'],
-                   row['Course_Type'], course_comment, row['Course_Competency_to_be_achieved'],
-                   row['Course_Content'])
 
-    # create relationships
-    process_module_learning_outcome_link(d, learning_outcomes_df)
-    process_learning_outcome_skill_link(d, learning_outcomes_df)
-    process_occupation_skill_link(d, occupations_df)
 
-    # add scheduling and professors
-    scheduling_df = pd.read_csv(SCHEDULING_CSV, skipinitialspace=True)
-    for _, row in scheduling_df.iterrows():
-        teaching_session_uuid = add_teaching_session(
-            d,
-            module=row['Individual Name'],
-            group_name=row['Group_Name'],
-            day=row['Day'],
-            time=row['Time'],
-            periodicity=row['Periodicity'],
-            semester=row['Semester'],
-            location=row['Location'],
-            ay=row['AY'])
+def populate_graph():
+    with GraphDatabase.driver(URI_NEO4J, auth=AUTH) as d:
+        # create nodes
+        skills_df = pd.read_csv(SKILLS_CSV)
+        for _, row in skills_df.iterrows():
+            add_skill(d, row['title'], 'skill', row['index'], row['description'], row['uri'])
 
-        link_module_teachingSession(d, module_name=row['Individual Name'],
-                                    teaching_session_uuid=teaching_session_uuid)
+        knowledge_df = pd.read_csv(KNOWLEDGE_CSV)
+        for _, row in knowledge_df.iterrows():
+            add_skill(d, row['title'], 'knowledge', row['index'], row['description'], row['uri'])
 
-        professor_uuid = add_professor(
-            d, professor_name=row['Professor_Name'], professor_surname=row['Professor_Surname'])
+        occupations_df = pd.read_csv(OCCUPATIONS_CSV)
+        for _, row in occupations_df.iterrows():
+            add_occupation(d, row['occupation'], row['uri'], row['description'])
 
-        link_teachingSession_professor(d, teaching_session_uuid=teaching_session_uuid,
-                                       professor_uuid=professor_uuid)
+        learning_outcomes_df = pd.read_csv(LEARNING_OUTCOMES_CSV)
+        for _, row in learning_outcomes_df.iterrows():
+            add_learning_outcome(d, row['Learning Outcome'], row['Module Title'])
+
+        modules_df = pd.read_csv(MODULES_CSV)
+        for _, row in modules_df.iterrows():
+            course_comment = row['Course_Comment']
+            if pd.isna(course_comment):
+                course_comment = ""
+            add_module(d, row['Individual Name'], row['Course_Link'], row['Course_Title'], row['Course_Description'],
+                    row['Course_Type'], course_comment, row['Course_Competency_to_be_achieved'],
+                    row['Course_Content'])
+
+        # create relationships
+        process_module_learning_outcome_link(d, learning_outcomes_df)
+        process_learning_outcome_skill_link(d, learning_outcomes_df)
+        process_occupation_skill_link(d, occupations_df)
+
+        # add scheduling and professors
+        scheduling_df = pd.read_csv(SCHEDULING_CSV, skipinitialspace=True)
+        for _, row in scheduling_df.iterrows():
+            teaching_session_uuid = add_teaching_session(
+                d,
+                module=row['Individual Name'],
+                group_name=row['Group_Name'],
+                day=row['Day'],
+                time=row['Time'],
+                periodicity=row['Periodicity'],
+                semester=row['Semester'],
+                location=row['Location'],
+                ay=row['AY'])
+
+            link_module_teachingSession(d, module_name=row['Individual Name'],
+                                        teaching_session_uuid=teaching_session_uuid)
+
+            professor_uuid = add_professor(
+                d, professor_name=row['Professor_Name'], professor_surname=row['Professor_Surname'])
+
+            link_teachingSession_professor(d, teaching_session_uuid=teaching_session_uuid,
+                                        professor_uuid=professor_uuid)
+
+

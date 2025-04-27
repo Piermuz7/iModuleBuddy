@@ -1,0 +1,146 @@
+[
+  {
+    "module_name": "Cloud Computing",
+    "project_work": true,
+    "assessment_type": "individual/group",
+    "oral_assessment": true
+  },
+  {
+    "module_name": "Digitalization of Business Processes",
+    "project_work": true,
+    "assessment_type": "individual/group",
+    "oral_assessment": true
+  },
+  {
+    "module_name": "Model-based Design of Cyber-Physical Solutions",
+    "project_work": true,
+    "assessment_type": "group",
+    "oral_assessment": true
+  },
+  {
+    "module_name": "Artificial Intelligence for Business Processes",
+    "project_work": false,
+    "assessment_type": "individual",
+    "oral_assessment": true
+  },
+  {
+    "module_name": "Challenging International Managers and Leaders",
+    "project_work": false,
+    "assessment_type": "individual",
+    "oral_assessment": false
+  },
+  {
+    "module_name": "Data Governance and Information Management",
+    "project_work": false,
+    "assessment_type": "individual",
+    "oral_assessment": false
+  },
+  {
+    "module_name": "Data Science",
+    "project_work": false,
+    "assessment_type": "group",
+    "oral_assessment": false
+  },
+  {
+    "module_name": "Innovation in the Digital Age",
+    "project_work": true,
+    "assessment_type": "group",
+    "oral_assessment": true
+  },
+  {
+    "module_name": "International Field Trip",
+    "project_work": false,
+    "assessment_type": "individual",
+    "oral_assessment": false
+  },
+  {
+    "module_name": "IT Governance, Risk and Compliance",
+    "project_work": false,
+    "assessment_type": "individual/group",
+    "oral_assessment": false
+  },
+  {
+    "module_name": "Lean Entrepreneurship",
+    "project_work": true,
+    "assessment_type": "individual/group",
+    "oral_assessment": true
+  },
+  {
+    "module_name": "Qualitative Decision Making and Knowledge Management",
+    "project_work": false,
+    "assessment_type": "group",
+    "oral_assessment": true
+  },
+  {
+    "module_name": "Supply Chain Management",
+    "project_work": true,
+    "assessment_type": "group",
+    "oral_assessment": false
+  },
+  {
+    "module_name": "Agile Business Analysis",
+    "project_work": true,
+    "assessment_type": "individual/group",
+    "oral_assessment": true
+  },
+  {
+    "module_name": "Alignment of Business and IT",
+    "project_work": true,
+    "assessment_type": "group",
+    "oral_assessment": false
+  },
+  {
+    "module_name": "Applied Computational Intelligence",
+    "project_work": true,
+    "assessment_type": "individual/group",
+    "oral_assessment": false
+  },
+  {
+    "module_name": "Business Analytics: Quantitative Methods",
+    "project_work": false,
+    "assessment_type": "group",
+    "oral_assessment": false
+  },
+  {
+    "module_name": "Business Intelligence",
+    "project_work": true,
+    "assessment_type": "group",
+    "oral_assessment": true
+  },
+  {
+    "module_name": "Business Process Management",
+    "project_work": true,
+    "assessment_type": "group",
+    "oral_assessment": true
+  },
+  {
+    "module_name": "Cyber Security and Cyber Resilience",
+    "project_work": true,
+    "assessment_type": "individual/group",
+    "oral_assessment": true
+  },
+  {
+    "module_name": "E-Business and Mobile Business",
+    "project_work": true,
+    "assessment_type": "group",
+    "oral_assessment": true
+  },
+  {
+    "module_name": "Emerging Topics for Business Information Systems",
+    "project_work": true,
+    "assessment_type": "individual/group",
+    "oral_assessment": true
+  },
+  {
+    "module_name": "Knowledge Processing and Decision Making",
+    "project_work": true,
+    "assessment_type": "individual",
+    "oral_assessment": false
+  },
+  {
+    "module_name": "Strategic Business Innovation",
+    "project_work": true,
+    "assessment_type": "individual",
+    "oral_assessment": true
+  }
+]
