@@ -13,11 +13,41 @@ def generate_study_plan(function: callable):
 
 
 st.title("Get a Study Plan")
-if st.button("Generate Study Plan for Desired Occupations"):
+if st.button("OPTION 1  Generate Study Plan for Desired Occupations"):
     with st.spinner("Generating study plan... please wait..."):
         content = asyncio.run(
             execute_agent_workflow(
                 user_msg="Suggest me some modules based on my desired occupations and then create a study plan based on the suggested modules."
+            )
+        )
+    st.success("Study plan generated successfully!")
+    st.write(content)
+
+elif st.button("OPTION 2"):
+    with st.spinner("Generating study plan... please wait..."):
+        content = asyncio.run(
+            execute_agent_workflow(
+                user_msg="Suggest me some modules based on my preferences."
+            )
+        )
+    st.success("Study plan generated successfully!")
+    st.write(content)
+
+elif st.button("OPTION 3"):
+    with st.spinner("Generating study plan... please wait..."):
+        content = asyncio.run(
+            execute_agent_workflow(
+                user_msg="Suggest me some modules based on my preferences."
+            )
+        )
+    st.success("Study plan generated successfully!")
+    st.write(content)
+
+elif st.button("OPTION 4"):
+    with st.spinner("Generating study plan... please wait..."):
+        content = asyncio.run(
+            execute_agent_workflow(
+                user_msg="Suggest me some modules based on my preferences."
             )
         )
     st.success("Study plan generated successfully!")

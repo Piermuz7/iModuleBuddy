@@ -5,7 +5,8 @@ from llama_index.core.agent.workflow import (
     ToolCall,
     ToolCallResult,
 )
-from assistant.agents.past_experience_agent import past_experience_agent
+
+from assistant.agents.module_retrieval_agent import module_retrieval_agent
 from assistant.agents.study_planner_agent import study_planner_agent
 from utils.supabase_methods import get_student
 
@@ -18,9 +19,9 @@ async def execute_agent_workflow(user_msg: str):
     agent_workflow = AgentWorkflow(
         agents=[
             study_planner_agent,
-            past_experience_agent,
+            module_retrieval_agent,
         ],
-        root_agent=past_experience_agent.name,
+        root_agent=module_retrieval_agent.name,
         initial_state={
             "taken_modules": taken_modules,
             "desired_occupations": desired_occupations,

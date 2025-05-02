@@ -46,8 +46,8 @@ async def suggest_modules_by_past_occupation(ctx: Context) -> str:
         return f"An error occurred: {e}"
 
 
-past_experience_agent = FunctionAgent(
-    name="PastExperienceAgent",
+module_retrieval_agent = FunctionAgent(
+    name="ModuleRetrievalAgent",
     description="This agent suggest the best modules to take based on the occupations stored in the database, these occupations are from the past experience.",
     system_prompt=(
         """
