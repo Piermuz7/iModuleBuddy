@@ -11,7 +11,7 @@ from assistant.agents.study_planner_agent import study_planner_agent
 from utils.supabase_methods import get_student
 
 
-async def execute_agent_workflow(user_msg: str):
+async def execute_agent_workflow(user_msg: str, retrieval_strategy: str):
     student = get_student()
     taken_modules = student.taken_courses if student.taken_courses else []
     desired_occupations = student.desired_jobs
@@ -26,6 +26,7 @@ async def execute_agent_workflow(user_msg: str):
             "taken_modules": taken_modules,
             "desired_occupations": desired_occupations,
             "expected_semesters": expected_semesters,
+            "retrieval_strategy": retrieval_strategy,
         },
     )
     handler = agent_workflow.run(
@@ -36,13 +37,13 @@ async def execute_agent_workflow(user_msg: str):
     current_tool_calls = ""
     async for event in handler.stream_events():
         if (
-            hasattr(event, "current_agent_name")
-            and event.current_agent_name != current_agent
+                hasattr(event, "current_agent_name")
+                and event.current_agent_name != current_agent
         ):
             current_agent = event.current_agent_name
-            print(f"\n{'='*50}")
+            print(f"\n{'=' * 50}")
             print(f"🤖 Agent: {current_agent}")
-            print(f"{'='*50}\n")
+            print(f"{'=' * 50}\n")
 
         if isinstance(event, AgentStream):
             if event.delta:

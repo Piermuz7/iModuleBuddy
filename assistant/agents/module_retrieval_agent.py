@@ -24,7 +24,7 @@ async def suggest_modules_by_past_occupation(ctx: Context) -> str:
         for item in modules_data_with_scores:
             if item["occupation"]["occupation"] in lookup_dict:
                 item["occupation_score"] = lookup_dict[item["occupation"]["occupation"]]
-        current_state["modules_by_past_occupations"] = sorted(
+        current_state["modules_retrieved"] = sorted(
             modules_data_with_scores,
             key=lambda x: x["occupation_score"],
             reverse=True,
@@ -34,10 +34,10 @@ async def suggest_modules_by_past_occupation(ctx: Context) -> str:
             [
                 f"- Module: {m['module']}\n Occupation: {m['occupation']}\n Occupation Score: {m['occupation_score']:.2f}\n  Supporting Learning Outcomes: {m['supporting_learning_outcomes']}\n  Supported Skills: {m['supported_skills']}"
                 for m in sorted(
-                    modules_data_with_scores,
-                    key=lambda x: x["occupation_score"],
-                    reverse=True,
-                )
+                modules_data_with_scores,
+                key=lambda x: x["occupation_score"],
+                reverse=True,
+            )
             ]
         )
         return modules_summary
@@ -46,31 +46,70 @@ async def suggest_modules_by_past_occupation(ctx: Context) -> str:
         return f"An error occurred: {e}"
 
 
+async def suggest_modules_by_future_occupation(ctx: Context) -> str:
+    """Suggest modules based only on the user's desired future occupation."""
+    pass
+
+
+
+
+
+async def suggest_modules_by_preferences(ctx: Context) -> str:
+    """Suggest modules based on user preferences (schedule, teachers, etc.) and desired occupation."""
+    pass
+
+
+async def suggest_modules_balanced(ctx: Context) -> str:
+    """Suggest modules based on a balanced mix of past experience, future goals, and user preferences."""
+    pass
+
+
+async def dispatch_module_suggestion(ctx: Context) -> str:
+    """
+    Dispatch to the correct module suggestion function based on the retrieval strategy in context.
+    """
+    state = await ctx.get("state")
+    strategy = state.get("retrieval_strategy")
+
+    if strategy == "past_experience":
+        return await suggest_modules_by_past_occupation(ctx)
+    elif strategy == "future_goals":
+        return await suggest_modules_by_future_occupation(ctx)
+    elif strategy == "preferences":
+        return await suggest_modules_by_preferences(ctx)
+    elif strategy == "balanced":
+        return await suggest_modules_balanced(ctx)
+    else:
+        return f"Unknown retrieval strategy: {strategy}"
+
+
 module_retrieval_agent = FunctionAgent(
     name="ModuleRetrievalAgent",
-    description="This agent suggest the best modules to take based on the occupations stored in the database, these occupations are from the past experience.",
+    description="This agent suggests the best modules to take based on a selected strategy: past experience, future goals, preferences, or a balanced mix.",
     system_prompt=(
         """
-        You are an AI assistant tasked with suggesting the best modules for a set of occupations and explaining how these modules contribute to the skills required for that occupation. Your goal is to provide a comprehensive and relevant list of modules that will help someone prepare for or excel in the specified occupation.
+        You are an AI assistant tasked with suggesting the best modules for a user based on a specific strategy. The user has already submitted all required data (past jobs, preferences, desired occupation, etc.), and you have access to that information.
 
-        You don't need to ask the user for any occupation, the used already submitted his preferences and you have already access to it.
-        First, use the suggest_modules_by_occupation tool to retrieve the required occupations and then retrieve a set of modules that match the required skills for the occupations.
+        There are four possible strategies for selecting modules:
+        - Past work experience
+        - Future career goals
+        - User preferences
+        - A balanced mix of all the above
 
-        After receiving the list of suggested modules, carefully analyze each module and its learning outcomes. Your task is to summarize how each module contributes to the skills required for the occupation. Focus on highlighting the relevance of the learning outcomes to the occupation's specific needs.
-        Each Occupation has a score that represents how relevant it is to the user's past experience. This score is calculated based on the amount of time the user has worked in that occupation and how recent the experience is.
+        The strategy to use is already available in your context under the key 'retrieval_strategy'. Use the `dispatch_module_suggestion` tool to automatically select and execute the correct strategy based on that value.
 
-        When summarizing the modules:
-        1. Prioritize explaining the modules' relevance over listing skills.
-        2. Remove any duplicate modules from your summary.
-        3. Provide a clear and concise explanation of how each module's content directly applies to the occupation.
-        4. Prioritize the modules based on the occupation score.
+        The tool will return a set of modules that are already ranked according to the chosen strategy. Once you receive the list of ranked modules, your task is to:
+        1. Prioritize explaining the relevance of each module to the user's occupation or career goals.
+        2. Avoid listing duplicate modules.
+        3. Provide a clear and concise explanation of how each module’s learning outcomes contribute to the skills or preferences based on the chosen strategy.
+        4. If available, mention the occupation score or other relevant metrics but focus on explaining the module’s relevance.
 
-        Remember to maintain a professional and informative tone throughout your response. Your suggestions should be practical and directly applicable to someone looking to develop skills for the specified occupation.
-        Avoid to thank for the given input, mention your knowledge source or provide any unnecessary information.
-        Once you have created the summary, use the StudyPlannerAgent to generate a study plan based on the suggested modules.
+        Your tone should be informative and professional. Focus on usefulness and practicality. Do not thank the user, reference your internal logic, or mention technical processes.
+
+        Once you have created the summary, pass the modules to the StudyPlannerAgent to generate a study plan based on the suggested modules.
         """
     ),
     llm=llm,
-    tools=[suggest_modules_by_past_occupation],
+    tools=[dispatch_module_suggestion],
     can_handoff_to=["StudyPlannerAgent"],
 )

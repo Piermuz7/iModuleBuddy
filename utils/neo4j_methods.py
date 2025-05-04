@@ -84,7 +84,7 @@ class Neo4jMethods:
             return result.records
 
     def get_extra_modules(self):
-        """Fetch the extra modules without teaching session data."""
+        """Fetch the thesis-related modules, including teaching sessions for Research Methods."""
         query = """
             MATCH (m:Module)
             WHERE m.individual_name IN [
@@ -92,10 +92,12 @@ class Neo4jMethods:
                 'Course_Master_Thesis',
                 'Course_Master_Thesis_Proposal'
             ]
+            OPTIONAL MATCH (m)-[:has_schedule]->(ts:TeachingSession)
             RETURN m.individual_name AS module, 
                    m.module_title AS module_title, 
                    m.module_type AS module_type, 
-                   m.module_description AS module_description
+                   m.module_description AS module_description,
+                   collect(DISTINCT ts{.ay, .day, .group_name, .location, .periodicity, .semester, .time}) AS teaching_session
         """
         with GraphDatabase.driver(self.uri, auth=self.auth_config) as driver:
             result = driver.execute_query(query)
@@ -105,7 +107,7 @@ class Neo4jMethods:
                     "module_title": record["module_title"],
                     "module_type": record["module_type"],
                     "module_description": record["module_description"],
-                    "teaching_session": []  # Include a blank teaching_session field here
+                    "teaching_session": record["teaching_session"] or []  # fallback to empty list
                 }
                 for record in result.records
             ]

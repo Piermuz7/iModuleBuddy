@@ -10,7 +10,7 @@ async def extract_modules_for_planning(ctx: Context) -> str:
 
     current_state = await ctx.get("state")
     taken_modules = current_state["taken_modules"]
-    modules_summary = current_state["modules_by_past_occupations"]
+    modules_summary = current_state["modules_retrieved"]
     modules = []
     for record in modules_summary:
         modules.append(record["module"]["module_title"])
@@ -35,7 +35,7 @@ async def extract_modules_for_planning(ctx: Context) -> str:
             prompt += f"Teaching Sessions:\n"
             for ts in module["teaching_session"]:
                 # Handle teaching session fields with 'N/A'
-                prompt += f"- Year:{ts.get('ay', 'N/A')} Semester:{ts.get('semester', 'N/A')} {ts.get('group_name', 'N/A')} Day:{ts.get('day', 'N/A')} Time:{ts.get('time', 'N/A')} Location:{ts.get('location', 'N/A')}\n"
+                prompt += f"- Year:{ts.get('ay', 'N/A')} Semester:{ts.get('semester', 'N/A')} Group Name: {ts.get('group_name', 'N/A')} Day:{ts.get('day', 'N/A')} Time:{ts.get('time', 'N/A')} Location:{ts.get('location', 'N/A')}\n"
             prompt += "\n"
         return prompt
     except Exception as e:
@@ -63,10 +63,10 @@ async def extract_credits_taken_and_remaining(ctx: Context) -> dict:
 study_planner_agent = FunctionAgent(
     name="StudyPlannerAgent",
     description="This agent creates a study plan for the student based on the extracted modules, number of semesters, and credits taken."
-    "After generating the study plan, the agent proceeds to create a weekly study schedule.",
+                "After generating the study plan, the agent proceeds to create a weekly study schedule.",
     system_prompt=(
         """
-You are an AI assistant tasked with creating a precise and balanced study plan for a student, followed by a weekly study schedule.
+        You are an AI assistant tasked with creating a precise and balanced study plan for a student, followed by a weekly study schedule.
 Your goal is to help the student efficiently manage their time and workload while ensuring they meet the graduation requirements.
 
 First of all, you must execute step1. After that, you can proceed to step2.
@@ -158,16 +158,18 @@ Given the semester-wise study plan generated in Step 1, create a week plan *only
 - Only include the pre-defined teaching sessions from the input data. Do not add extra study blocks or infer additional activities.
 - The schedule must strictly follow the week, day, and time information provided for each session.
 
-**Output Format:**
-- Use the following Markdown structure precisely.
-- Do not include any introductory text, explanations, or confirmations before or after the schedule.
+**Output Rules:**
+- Your response **must start directly** with the semester-wise study plan.
+- **DO NOT** include any introductory, explanatory, or transitional text such as “Now I'll create...” or “Based on your inputs...”.
+- Output must **only** contain the formatted study plan and weekly schedule as specified. Any text outside that format is strictly forbidden.
+- This is critical: **No other text should be generated** under any circumstances.
 
 ```markdown
 ## 📆 Weekly Lecture Schedule
 
 ### Week Semester 1
-- 📌 [Module Name]: [Day] at [Time] in [Location]
-- 📌 [Module Name]: [Day] at [Time] in [Location]
+- 📌 [Module Name]: [Day] at [Time] in [Location] ([Group Name])
+- 📌 [Module Name]: [Day] at [Time] in [Location] ([Group Name])
 ```
 *   *(Repeat the line `- 📌 [Module Name]: [Day] at [Time] in [Location]` for each teaching session in the first semester).*
 
