@@ -78,9 +78,9 @@ Use the tools provided to retrieve:
 2. The number of semesters required for the study plan.
 3. The credits already completed and the credits remaining.
 
-The modules might be associated with specific occupations or skills, and the student's past experience may influence the module selection.
-These occupations might have a score that represents how relevant it is to the user's past experience. This score is calculated based on the amount of time the user has worked in that occupation and how recent the experience is.
-Prioritize the modules which are associated with the occupations with the highest scores.
+The modules have already been ranked by importance based on the selected retrieval strategy (e.g., past experience, future goals, or user preferences).  
+**Always prioritize modules in the exact order they are received — earlier modules are more important.** Do not reorder them or deprioritize any unless needed for constraint satisfaction.
+
 
 Follow these rules:
 

@@ -48,14 +48,30 @@ async def suggest_modules_by_past_occupation(ctx: Context) -> str:
 
 async def suggest_modules_by_future_occupation(ctx: Context) -> str:
     """Suggest modules based only on the user's desired future occupation."""
-    pass
-
-
-
+    current_state = await ctx.get("state")
+    taken_modules = current_state["taken_modules"]
+    desired_occupation = current_state["desired_occupations"]
+    try:
+        neo4j_methods = Neo4jMethods()
+        modules_data = neo4j_methods.get_modules_by_occupation(
+            desired_occupation, taken_modules)
+        modules_data = [rec.data() for rec in modules_data]
+        current_state["modules_retrieved"] = modules_data
+        await ctx.set("state", current_state)
+        modules_summary = "\n".join(
+            [
+                f"- Module: {m['module']}\n  Occupation: {m['occupation']}\n  Supporting Learning Outcomes: {m['supporting_learning_outcomes']}\n  Supported Skills: {m['supported_skills']}"
+                for m in modules_data
+            ]
+        )
+        return modules_summary
+    except Exception as e:
+        return f"An error occurred: {e}"
 
 
 async def suggest_modules_by_preferences(ctx: Context) -> str:
     """Suggest modules based on user preferences (schedule, teachers, etc.) and desired occupation."""
+
     pass
 
 
@@ -70,7 +86,6 @@ async def dispatch_module_suggestion(ctx: Context) -> str:
     """
     state = await ctx.get("state")
     strategy = state.get("retrieval_strategy")
-
     if strategy == "past_experience":
         return await suggest_modules_by_past_occupation(ctx)
     elif strategy == "future_goals":
