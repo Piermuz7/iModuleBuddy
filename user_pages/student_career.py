@@ -12,7 +12,11 @@ MANDATORY_MODULES = [
 MAX_MODULES = 10  # Maximum allowed modules
 MAX_FREE_MODULES = 6  # Maximum free modules (36 credits)
 
-st.title("Student Career Details")
+INDIVIDUAL = "INDIVIDUAL"
+GROUP = "GROUP"
+INDIVIDUAL_AND_GROUP = "INDIVIDUAL_AND_GROUP"
+
+st.title("Student Career and Preferences Details")
 student = get_student()
 new_account = False
 if student is None:
@@ -21,6 +25,15 @@ if student is None:
 neo4j_methods = Neo4jMethods()
 courses = neo4j_methods.get_filtered_modules()
 occupations = neo4j_methods.get_occupations()
+professors = neo4j_methods.get_professors()
+
+project_type_labels = {
+    "Individual Project": INDIVIDUAL,
+    "Group Project": GROUP,
+    "Both": INDIVIDUAL_AND_GROUP
+}
+
+# student -> desired_lecturers, available_days, individual_or_group_exam, oral_exam_or_not, project_work
 
 with st.form("my_form"):
     name = st.text_input("Name", value=student.name)
@@ -42,6 +55,44 @@ with st.form("my_form"):
     # to_take_courses = st.multiselect("Courses you'd like to take",
     #                                  filter(lambda i: i not in taken_courses, courses),
     #                                  placeholder='Choose one or more options', )
+    desired_lecturers = st.multiselect(
+        "Select your desired lecturers",
+        professors,
+        placeholder="Choose zero or more options",
+        default=filter(lambda i: i in student.desired_lecturers, professors),
+    )
+
+    # Day of week selection
+    days_of_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    available_days = st.multiselect(
+        "Select your available days",
+        options=days_of_week,
+        placeholder="Choose one or more days"
+    )
+
+    # Individual or group exam
+    project_type_label = st.radio(
+        "Select the type of project you are interested in:",
+        options=list(project_type_labels.keys())
+    )
+    assessment_type = project_type_labels[project_type_label]
+
+    # Oral exam
+    oral_exam_label = st.radio(
+        "Select if you want an oral assessment or not:",
+        options=["Oral Exam", "No Oral Exam"]
+    )
+    # Map to boolean
+    oral_assessment = oral_exam_label == "Oral Exam"
+
+    # Project Work
+    project_work_label = st.radio(
+        "Select if you want a project work or not:",
+        options=["Project Work", "No Project Work"]
+    )
+    # Map to boolean
+    project_work = project_work_label == "Project Work"
+
     submitted = st.form_submit_button("Submit")
     if submitted:
         # Perform validation
@@ -69,6 +120,11 @@ with st.form("my_form"):
                 surname,
                 semesters,
                 taken_courses,
+                desired_lecturers,
+                available_days,
+                assessment_type,
+                oral_assessment,
+                project_work
             )
             data = create_student(new_s) if new_account else update_student(new_s)
             if data is not None:

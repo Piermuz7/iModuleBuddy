@@ -142,3 +142,12 @@ class Neo4jMethods:
             print("Error updating Learning Outcome index: ", e)
 
         print("Indexes updated")
+
+    def get_professors(self):
+        with GraphDatabase.driver(self.uri, auth=self.auth_config) as driver:
+            get_modules_query = """
+                MATCH (n:Professor) RETURN n.professor_name + ' ' + n.professor_surname AS professor_full_name
+                """
+            result = driver.execute_query(get_modules_query)
+            modules = [record[0] for record in result.records]
+            return modules
