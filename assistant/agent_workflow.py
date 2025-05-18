@@ -8,6 +8,7 @@ from llama_index.core.agent.workflow import (
 
 from assistant.agents.module_retrieval_agent import module_retrieval_agent
 from assistant.agents.study_planner_agent import study_planner_agent
+from user_pages.student_career import available_days, oral_assessment, project_work
 from utils.supabase_methods import get_student
 
 
@@ -16,6 +17,11 @@ async def execute_agent_workflow(user_msg: str, retrieval_strategy: str):
     taken_modules = student.taken_courses if student.taken_courses else []
     desired_occupations = student.desired_jobs
     expected_semesters = student.expected_semesters
+    desired_lecturers = student.desired_lecturers
+    available_days = student.available_days
+    assessment_type = student.assessment_type
+    oral_assessment = student.oral_assessment
+    project_work = student.project_work
     agent_workflow = AgentWorkflow(
         agents=[
             study_planner_agent,
@@ -27,6 +33,11 @@ async def execute_agent_workflow(user_msg: str, retrieval_strategy: str):
             "desired_occupations": desired_occupations,
             "expected_semesters": expected_semesters,
             "retrieval_strategy": retrieval_strategy,
+            "desired_lecturers": desired_lecturers,
+            "available_days": available_days,
+            "assessment_type": assessment_type,
+            "oral_assessment": oral_assessment,
+            "project_work": project_work
         },
     )
     handler = agent_workflow.run(

@@ -5,33 +5,29 @@ from assistant.llm import llm
 from utils.neo4j_methods import Neo4jMethods
 
 
-async def extract_modules_for_planning(ctx: Context) -> str:
+async def extract_teaching_sessions(ctx: Context) -> str:
     """Extract the modules needed in the study plan."""
 
     current_state = await ctx.get("state")
     taken_modules = current_state["taken_modules"]
-    modules_summary = current_state["modules_retrieved"]
+    modules_retrieved = current_state["modules_retrieved"]
     modules = []
-    for record in modules_summary:
-        modules.append(record["module"]["module_title"])
+    for record in modules_retrieved:
+        if record["module"]["module_type"] != "mandatory":
+            modules.append(record["module"]["module_title"])
     try:
         neo4j_methods = Neo4jMethods()
         modules_data = neo4j_methods.get_teaching_sessions_by_modules(
             modules=modules, taken_modules=taken_modules
         )
-
-        # get extra modules and append it
-        extra_modules = neo4j_methods.get_extra_modules()
-        modules_data.extend(extra_modules)
-
         # Update the state with the retrieved data
         current_state["teaching_sessions_modules"] = modules_data
         await ctx.set("state", current_state)
-
         # Generate the prompt content
         prompt = ""
         for module in modules_data:
-            prompt += f"Module: {module['module']}\n"
+            prompt += f"Module: {module['module_title']} ({module['module_type']})\n"
+            prompt += f"Description: {module['module_description']}\n"
             prompt += f"Teaching Sessions:\n"
             for ts in module["teaching_session"]:
                 # Handle teaching session fields with 'N/A'
@@ -73,10 +69,12 @@ First of all, you must execute step1. After that, you can proceed to step2.
 
 **Step 1**: Generate the semester-wise study plan.
 
-Use the tools provided to retrieve:
-1. The modules available for planning.
-2. The number of semesters required for the study plan.
-3. The credits already completed and the credits remaining.
+- The list of modules available for planning is already in your context under the key 'modules_retrieved'.    
+- Use the tools provided to retrieve the following additional information:  
+  1. The tool 'extract_number_of_semesters' to extract total number of semesters required for the study plan.  
+  2. The tool 'extract_credits_taken_and_remaining' to extract credits already completed and the credits remaining.
+  3. The tool 'extract_teaching_sessions' to extract module teaching sessions and description about modules.
+- Note: The **Master Thesis** and **Master Thesis Proposal** modules do **not** have scheduled teaching sessions and can be started in **any semester**, as long as the prescribed sequence and graduation rules are respected.
 
 The modules have already been ranked by importance based on the selected retrieval strategy (e.g., past experience, future goals, or user preferences).  
 **Always prioritize modules in the exact order they are received — earlier modules are more important.** Do not reorder them or deprioritize any unless needed for constraint satisfaction.
@@ -104,12 +102,12 @@ Follow these rules:
     *   Place empty semesters only at the **end of the plan** and allow them as buffer time for the thesis.
 
 3.  **Module Priorities**:
-    *   Include the following mandatory modules (if not already completed):
+    *Thesis-related modules, along with the following modules, are mandatory (if not already completed):
         *   Alignment of Business and IT,
         *   Business Intelligence,
         *   Business Process Management,
         *   Strategic Business Innovation.
-    *   Use elective modules to complete the remaining credits in the Main Study Plan.
+    *   All other modules are elective and can be used to complete the remaining credits in the Main Study Plan.
     *   Each module is worth **6 credits** and must respect its seasonal availability (Spring or Autumn).
 
 4.  **Thesis-Related Modules**:
@@ -190,7 +188,7 @@ Given the semester-wise study plan generated in Step 1, create a week plan *only
     ),
     llm=llm,
     tools=[
-        extract_modules_for_planning,
+        extract_teaching_sessions,
         extract_number_of_semesters,
         extract_credits_taken_and_remaining,
     ],
