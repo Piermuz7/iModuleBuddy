@@ -41,6 +41,10 @@ def get_work_experience():
     response = supabase.from_('work_experience').select('company_name, occupation, start_date, end_date, current_work, id, part_time').eq('user_id', user.id).order("start_date", desc=True).execute()
     return response.data
 
+def has_work_experience():
+    experiences = get_work_experience()
+    return experiences is not None and len(experiences) > 0
+
 def add_work_experience(company_name: str, occupation: str, start_date: date, end_date: date, current_work: bool, part_time: bool):
     try:
         we = {

@@ -8,7 +8,6 @@ from llama_index.core.agent.workflow import (
 
 from assistant.agents.module_retrieval_agent import module_retrieval_agent
 from assistant.agents.study_planner_agent import study_planner_agent
-from user_pages.student_career import available_days, oral_assessment, project_work
 from utils.supabase_methods import get_student
 
 

@@ -3,6 +3,7 @@ from llama_index.core.workflow import Context
 from assistant.llm import llm
 from utils.job_ranker import JobRanker
 from utils.neo4j_methods import Neo4jMethods
+from utils.supabase_methods import has_work_experience
 
 
 async def suggest_modules_by_past_occupation(ctx: Context) -> str:
@@ -124,14 +125,15 @@ async def suggest_modules_balanced(ctx: Context) -> str:
         modules = neo4j_methods.get_module_overview()
 
         # Add scores from past occupations
-        past_occupations_scored_modules = get_modules_scored_by_past_occupation(current_state)
-        for m in past_occupations_scored_modules:
-            title = m["module"]["module_title"]
-            score = m["occupation_score"]
-            for module in modules:
-                if module["module"]["module_title"] == title:
-                    module["score"] += score
-                    break
+        if has_work_experience(): # skip if student does not have work experience
+            past_occupations_scored_modules = get_modules_scored_by_past_occupation(current_state)
+            for m in past_occupations_scored_modules:
+                title = m["module"]["module_title"]
+                score = m["occupation_score"]
+                for module in modules:
+                    if module["module"]["module_title"] == title:
+                        module["score"] += score
+                        break
 
         # Add scores from future occupations
         future_occupations_scored_modules = get_modules_scored_by_future_occupation(current_state)

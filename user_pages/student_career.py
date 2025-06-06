@@ -38,12 +38,11 @@ project_type_labels = {
 with st.form("my_form"):
     name = st.text_input("Name", value=student.name)
     surname = st.text_input("Surname", value=student.surname)
-    part_time = st.checkbox("I am a Part-Time Student", value=not student.full_time)
     semesters = st.slider("Expected Semesters", 3, 10, value=student.expected_semesters)
     desired_jobs = st.multiselect(
         "Select your career path",
         occupations,
-        placeholder="Choose zero or more options",
+        placeholder="Choose one or more options",
         default=filter(lambda i: i in student.desired_jobs, occupations),
     )
     taken_courses = st.multiselect(
@@ -100,10 +99,10 @@ with st.form("my_form"):
         mandatory_modules_selected = [module for module in taken_courses if module in MANDATORY_MODULES]
         missing_mandatory = [module for module in MANDATORY_MODULES if module not in taken_courses]
 
-        # Case 1: Exceeding total module limit
-        if len(taken_courses) > MAX_MODULES:
+        if not desired_jobs:
+            st.error("Submission failed: Please select at least one career path.")
+        elif len(taken_courses) > MAX_MODULES:
             st.error("Submission failed: You cannot select more than 10 modules (60 credits).")
-        # Case 2: Not enough space for mandatory modules
         elif len(free_modules_selected) > MAX_FREE_MODULES:
             st.error(
                 f"Submission failed: You have selected {len(free_modules_selected)} free modules. "
@@ -114,7 +113,6 @@ with st.form("my_form"):
             # Create or update the student record
             new_s = Student(
                 desired_jobs,
-                not part_time,
                 student.id,
                 name,
                 surname,

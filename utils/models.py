@@ -4,7 +4,6 @@ from typing import List, Optional
 class Student:
     def __init__(self,
                  desired_jobs: Optional[List[str]],
-                 full_time: bool,
                  id: str,
                  name: str,
                  surname: str,
@@ -16,7 +15,6 @@ class Student:
                  oral_assessment: bool,
                  project_work: bool):
         self.desired_jobs = desired_jobs or []
-        self.full_time = full_time
         self.id = id
         self.name = name
         self.surname = surname
@@ -50,7 +48,6 @@ class Student:
         """Creates a Student object from a dictionary."""
         return cls(
             desired_jobs=data.get('desired_jobs', []),
-            full_time=data['full_time'],
             id=data['id'],
             name=data['name'],
             surname=data['surname'],
